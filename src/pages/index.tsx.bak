@@ -1,0 +1,200 @@
+import type {ReactNode} from 'react';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import Translate, {translate} from '@docusaurus/Translate';
+import styles from './index.module.css';
+import {
+  BarChart3,
+  Coins,
+  TrendingUp,
+  Target,
+  Handshake,
+  Brain,
+  LineChart,
+  Scale,
+  ShieldCheck,
+  ClipboardList,
+  Award,
+  Lock,
+  Globe,
+  Calendar,
+  Monitor,
+  BookOpen,
+  Rocket,
+  ArrowRight,
+} from 'lucide-react';
+
+const ICON_SIZE = 22;
+const ICON_STYLE = {color: 'rgba(255,255,255,0.55)', strokeWidth: 1.5};
+const CAT_ICON_SIZE = 24;
+
+const QUICK_LINKS = [
+  {
+    labelDefault: 'Executive Summary',
+    href: '/docs/01_EXECUTIVE_SUMMARY',
+    descDefault: 'Ключевые тезисы платформы Wellex',
+    icon: <BarChart3 size={ICON_SIZE} style={ICON_STYLE} />,
+  },
+  {
+    labelDefault: 'Whitepaper',
+    href: '/docs/19_WHITEPAPER',
+    descDefault: 'Полная техническая документация',
+    icon: <BookOpen size={ICON_SIZE} style={ICON_STYLE} />,
+  },
+  {
+    labelDefault: 'Yield Protocol',
+    href: '/docs/06_YIELD_PROTOCOL',
+    descDefault: 'Target Yield 0–20%/мес по WVI-шкале',
+    icon: <TrendingUp size={ICON_SIZE} style={ICON_STYLE} />,
+  },
+  {
+    labelDefault: 'Партнёрская программа',
+    href: '/docs/09_PARTNER_PROGRAM',
+    descDefault: '10 рангов, 8 потоков дохода',
+    icon: <Handshake size={ICON_SIZE} style={ICON_STYLE} />,
+  },
+  {
+    labelDefault: 'Платформа v4.7',
+    href: '/docs/19_WHITEPAPER',
+    descDefault: 'Dashboard, Admin Panel, API-контракты',
+    icon: <Monitor size={ICON_SIZE} style={ICON_STYLE} />,
+  },
+  {
+    labelDefault: 'Roadmap 2026–2029',
+    href: '/docs/12_ROADMAP',
+    descDefault: 'Стратегический план развития',
+    icon: <Rocket size={ICON_SIZE} style={ICON_STYLE} />,
+  },
+];
+
+const CAT_ICON_STYLE = {color: 'rgba(255,255,255,0.5)', strokeWidth: 1.5};
+
+const CATEGORIES = [
+  {icon: <BookOpen    size={CAT_ICON_SIZE} style={CAT_ICON_STYLE} />, labelDefault: 'Введение',          count: 3,  href: '/docs/01_EXECUTIVE_SUMMARY'},
+  {icon: <Target      size={CAT_ICON_SIZE} style={CAT_ICON_STYLE} />, labelDefault: 'Продукт',           count: 7,  href: '/docs/03_WELLNESS_SCORE'},
+  {icon: <Coins       size={CAT_ICON_SIZE} style={CAT_ICON_STYLE} />, labelDefault: 'Доходность',        count: 3,  href: '/docs/06_YIELD_PROTOCOL'},
+  {icon: <Handshake   size={CAT_ICON_SIZE} style={CAT_ICON_STYLE} />, labelDefault: 'Партнёры & B2B',   count: 6,  href: '/docs/09_PARTNER_PROGRAM'},
+  {icon: <Brain       size={CAT_ICON_SIZE} style={CAT_ICON_STYLE} />, labelDefault: 'Технологии',        count: 3,  href: '/docs/07_AI_SYSTEM'},
+  {icon: <LineChart   size={CAT_ICON_SIZE} style={CAT_ICON_STYLE} />, labelDefault: 'Стратегия & Рост',  count: 6,  href: '/docs/11_GO_TO_MARKET'},
+  {icon: <ShieldCheck size={CAT_ICON_SIZE} style={CAT_ICON_STYLE} />, labelDefault: 'Соответствие',      count: 1,  href: '/docs/15_RISKS'},
+  {icon: <Scale       size={CAT_ICON_SIZE} style={CAT_ICON_STYLE} />, labelDefault: 'Будущее',           count: 1,  href: '/docs/18_FUTURE_FEATURES'},
+];
+
+export default function Home(): ReactNode {
+  const {siteConfig} = useDocusaurusContext();
+
+  return (
+    <Layout
+      title={siteConfig.title}
+      description="Wellex Public Documentation v4.7 — Web3 Wellness Protocol"
+    >
+      {/* ── Hero ── */}
+      <section className={styles.hero}>
+        <div className={styles.heroBg} />
+        <div className={styles.heroInner}>
+          <div className={styles.heroBadge}>
+            Documentation · v4.7 · 2026
+          </div>
+
+          <h1 className={styles.heroTitle}>
+            <span className={styles.heroTitleAccent}>WELLEX</span>
+          </h1>
+
+          <p className={styles.heroSubtitle}>
+            Web3 Wellness Protocol — смарт-браслет, DeFi yield,
+            партнёрская сеть
+          </p>
+
+          <div className={styles.heroStats}>
+            <div className={styles.stat}>
+              <span className={styles.statNum}>31</span>
+              <span className={styles.statLabel}>
+                <Translate id="home.stats.documents">документов</Translate>
+              </span>
+            </div>
+            <div className={styles.statDivider} />
+            <div className={styles.stat}>
+              <span className={styles.statNum}>8</span>
+              <span className={styles.statLabel}>
+                <Translate id="home.stats.categories">разделов</Translate>
+              </span>
+            </div>
+            <div className={styles.statDivider} />
+            <div className={styles.stat}>
+              <span className={styles.statNum}>v4.7</span>
+              <span className={styles.statLabel}>
+                <Translate id="home.stats.version">canon</Translate>
+              </span>
+            </div>
+          </div>
+
+          <div className={styles.heroButtons}>
+            <Link className={styles.btnPrimary} to="docs/00_INDEX">
+              <Translate id="home.btn.contents">📋 Содержание</Translate>
+              <ArrowRight size={15} />
+            </Link>
+            <Link className={styles.btnSecondary} to="docs/01_EXECUTIVE_SUMMARY">
+              Executive Summary
+              <ArrowRight size={15} />
+            </Link>
+          </div>
+        </div>
+
+        {/* Scroll indicator */}
+        <div className={styles.scrollHint}>
+          <div className={styles.scrollLine} />
+        </div>
+      </section>
+
+      <main className={styles.main}>
+        <div className={styles.divider} />
+
+        {/* Quick links */}
+        <section className={styles.section}>
+          <div className={styles.sectionLabel}>Ключевые разделы</div>
+          <h2 className={styles.sectionTitle}>
+            <Translate id="home.sections.keyDocs">Документация</Translate>
+          </h2>
+          <div className={styles.quickGrid}>
+            {QUICK_LINKS.map((item) => (
+              <Link key={item.href} to={item.href} className={styles.quickCard}>
+                <span className={styles.quickIconWrap}>{item.icon}</span>
+                <div>
+                  <div className={styles.quickLabel}>{item.labelDefault}</div>
+                  <div className={styles.quickDesc}>{item.descDefault}</div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Categories */}
+        <section className={styles.section}>
+          <div className={styles.sectionLabel}>Разделы</div>
+          <h2 className={styles.sectionTitle}>
+            <Translate id="home.sections.docSections">Все материалы</Translate>
+          </h2>
+          <div className={styles.catGrid}>
+            {CATEGORIES.map((cat) => (
+              <Link key={cat.href} to={cat.href} className={styles.catCard}>
+                <span className={styles.catIconWrap}>{cat.icon}</span>
+                <span className={styles.catLabel}>{cat.labelDefault}</span>
+                <span className={styles.catCount}>{cat.count} doc</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Badge strip */}
+        <div className={styles.badgeStrip}>
+          <span className={styles.badge}><ClipboardList size={13} style={{color:'rgba(255,255,255,0.4)',strokeWidth:1.5}} /> SSOT v4.7</span>
+          <span className={styles.badge}><Award size={13} style={{color:'rgba(255,255,255,0.4)',strokeWidth:1.5}} /> Web3 Wellness Protocol</span>
+          <span className={styles.badge}><Lock size={13} style={{color:'rgba(255,255,255,0.4)',strokeWidth:1.5}} /> Public Corpus</span>
+          <span className={styles.badge}><Globe size={13} style={{color:'rgba(255,255,255,0.4)',strokeWidth:1.5}} /> RU / EN</span>
+          <span className={styles.badge}><Calendar size={13} style={{color:'rgba(255,255,255,0.4)',strokeWidth:1.5}} /> 2026</span>
+        </div>
+      </main>
+    </Layout>
+  );
+}

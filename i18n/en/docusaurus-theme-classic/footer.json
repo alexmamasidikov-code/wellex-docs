@@ -1,0 +1,54 @@
+{
+  "link.label.Введение": {
+    "message": "Introduction",
+    "description": "Footer link label: Введение"
+  },
+  "link.label.Вайтпейпер": {
+    "message": "Whitepaper",
+    "description": "Footer link label: Вайтпейпер"
+  },
+  "link.label.Дорожная карта": {
+    "message": "Roadmap",
+    "description": "Footer link label: Дорожная карта"
+  },
+  "link.label.Браслет Wellex": {
+    "message": "Wellex Band",
+    "description": "Footer link label: Браслет Wellex"
+  },
+  "link.label.Протокол доходности": {
+    "message": "Yield Protocol",
+    "description": "Footer link label: Протокол доходности"
+  },
+  "link.label.AI-система": {
+    "message": "AI System",
+    "description": "Footer link label: AI-система"
+  },
+  "link.label.Партнёрская программа": {
+    "message": "Partner Program",
+    "description": "Footer link label: Партнёрская программа"
+  },
+  "link.label.B2B Playbook": {
+    "message": "B2B Playbook",
+    "description": "Footer link label: B2B Playbook"
+  },
+  "link.label.Программа продаж": {
+    "message": "Sales Program",
+    "description": "Footer link label: Программа продаж"
+  },
+  "link.title.Документация": {
+    "message": "Documentation",
+    "description": "Footer column title: Документация"
+  },
+  "link.title.Продукт": {
+    "message": "Product",
+    "description": "Footer column title: Продукт"
+  },
+  "link.title.Партнёрам": {
+    "message": "Partners",
+    "description": "Footer column title: Партнёрам"
+  },
+  "copyright": {
+    "message": "Wellex © 2026 · Web3 Wellness Protocol · v5.0",
+    "description": "The footer copyright"
+  }
+}

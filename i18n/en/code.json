@@ -1,0 +1,186 @@
+{
+  "home.meta.desc": {
+    "message": "Wellex v5.0 Public Documentation — Web3 Wellness Protocol",
+    "description": "Home page meta description"
+  },
+  "home.hero.badge": {
+    "message": "Documentation · v5.0 · Launch March 2026",
+    "description": "Hero badge text"
+  },
+  "home.hero.subtitle": {
+    "message": "Web3 Wellness Protocol — smart bracelet, DeFi yield, partner network",
+    "description": "Hero subtitle"
+  },
+  "home.stats.documents": {
+    "message": "documents",
+    "description": "Stats label: documents"
+  },
+  "home.stats.categories": {
+    "message": "sections",
+    "description": "Stats label: sections"
+  },
+  "home.stats.version": {
+    "message": "canon",
+    "description": "Stats label: version"
+  },
+  "home.btn.contents": {
+    "message": "📋 Contents",
+    "description": "Button: Contents"
+  },
+  "home.btn.summary": {
+    "message": "Executive Summary",
+    "description": "Button: Summary"
+  },
+  "home.metric.yield": {
+    "message": "yield / month",
+    "description": "Metric: yield per month"
+  },
+  "home.metric.ranks": {
+    "message": "partner ranks",
+    "description": "Metric: partner ranks"
+  },
+  "home.metric.streams": {
+    "message": "income streams",
+    "description": "Metric: income streams"
+  },
+  "home.feature.mining": {
+    "message": "Wellex trademark. Earn by taking care of your health — the world's first wellness-to-earn protocol",
+    "description": "Feature: Emotional Mining"
+  },
+  "home.feature.defi": {
+    "message": "0–20% / month based on WVI index. AI Yield Agent manages 800+ strategies automatically",
+    "description": "Feature: DeFi Yield"
+  },
+  "home.feature.network.title": {
+    "message": "Partner Network",
+    "description": "Feature title: Partner Network"
+  },
+  "home.feature.network": {
+    "message": "10 ranks, 8 income streams, global partner network with automated on-chain payouts",
+    "description": "Feature: Partner Network"
+  },
+  "home.sections.keyDocsLabel": {
+    "message": "Key Sections",
+    "description": "Section label: key docs"
+  },
+  "home.sections.keyDocs": {
+    "message": "Documentation",
+    "description": "Section title: key docs"
+  },
+  "home.sections.docSectionsLabel": {
+    "message": "Sections",
+    "description": "Section label: doc sections"
+  },
+  "home.sections.docSections": {
+    "message": "All Materials",
+    "description": "Section title: all materials"
+  },
+  "home.cat.intro": {
+    "message": "Introduction",
+    "description": "Category: Introduction"
+  },
+  "home.cat.product": {
+    "message": "Product",
+    "description": "Category: Product"
+  },
+  "home.cat.yield": {
+    "message": "Yield",
+    "description": "Category: Yield"
+  },
+  "home.cat.partners": {
+    "message": "Partners & B2B",
+    "description": "Category: Partners"
+  },
+  "home.cat.tech": {
+    "message": "Technology",
+    "description": "Category: Technology"
+  },
+  "home.cat.strategy": {
+    "message": "Strategy & Growth",
+    "description": "Category: Strategy"
+  },
+  "home.cat.compliance": {
+    "message": "Compliance",
+    "description": "Category: Compliance"
+  },
+  "home.cat.future": {
+    "message": "Future",
+    "description": "Category: Future"
+  },
+  "home.quick.summary.label": {
+    "message": "Executive Summary",
+    "description": "Quick link: Summary label"
+  },
+  "home.quick.summary.desc": {
+    "message": "Key theses of the Wellex platform",
+    "description": "Quick link: Summary desc"
+  },
+  "home.quick.whitepaper.label": {
+    "message": "Whitepaper v5.0",
+    "description": "Quick link: Whitepaper label"
+  },
+  "home.quick.whitepaper.desc": {
+    "message": "Full technical documentation",
+    "description": "Quick link: Whitepaper desc"
+  },
+  "home.quick.yield.label": {
+    "message": "Yield Protocol",
+    "description": "Quick link: Yield label"
+  },
+  "home.quick.yield.desc": {
+    "message": "Target Yield 0–20%/month on WVI scale",
+    "description": "Quick link: Yield desc"
+  },
+  "home.quick.partner.label": {
+    "message": "Partner Program",
+    "description": "Quick link: Partner label"
+  },
+  "home.quick.partner.desc": {
+    "message": "10 ranks, 8 income streams",
+    "description": "Quick link: Partner desc"
+  },
+  "home.quick.platform.label": {
+    "message": "Platform v5.0",
+    "description": "Quick link: Platform label"
+  },
+  "home.quick.platform.desc": {
+    "message": "Dashboard, Admin Panel, API contracts",
+    "description": "Quick link: Platform desc"
+  },
+  "home.quick.roadmap.label": {
+    "message": "Roadmap 2026–2029",
+    "description": "Quick link: Roadmap label"
+  },
+  "home.quick.roadmap.desc": {
+    "message": "Strategic development plan",
+    "description": "Quick link: Roadmap desc"
+  },
+  "home.cta.title": {
+    "message": "Ready to join?",
+    "description": "CTA title"
+  },
+  "home.cta.subtitle": {
+    "message": "Explore the full Wellex v5.0 documentation — from whitepaper to B2B Playbook",
+    "description": "CTA subtitle"
+  },
+  "home.cta.btn.whitepaper": {
+    "message": "Whitepaper",
+    "description": "CTA button: Whitepaper"
+  },
+  "home.cta.btn.summary": {
+    "message": "Executive Summary",
+    "description": "CTA button: Summary"
+  },
+  "home.cta.btn.partner": {
+    "message": "Partner Program",
+    "description": "CTA button: Partner"
+  },
+  "home.badge.public": {
+    "message": "Public Corpus",
+    "description": "Badge: Public"
+  },
+  "home.badge.launch": {
+    "message": "Launch March 2026",
+    "description": "Badge: Launch"
+  }
+}

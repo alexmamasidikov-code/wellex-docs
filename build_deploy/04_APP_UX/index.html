@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="ru" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-04_APP_UX" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">04 · WELLNESS APP (iOS / Android) | Wellex</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://buffer.terymarius.com/wellex-docs/04_APP_UX"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="04 · WELLNESS APP (iOS / Android) | Wellex"><meta data-rh="true" name="description" content="Wellex v5.0 · 05.03.2026"><meta data-rh="true" property="og:description" content="Wellex v5.0 · 05.03.2026"><link data-rh="true" rel="icon" href="/wellex-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://buffer.terymarius.com/wellex-docs/04_APP_UX"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/04_APP_UX" hreflang="ru"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/en/04_APP_UX" hreflang="en"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/04_APP_UX" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"04 · WELLNESS APP (iOS / Android)","item":"https://buffer.terymarius.com/wellex-docs/04_APP_UX"}]}</script><link rel="stylesheet" href="/wellex-docs/assets/css/styles.6eb3a0fa.css">
+<script src="/wellex-docs/assets/js/runtime~main.935a43e7.js" defer="defer"></script>
+<script src="/wellex-docs/assets/js/main.f7525e97.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/wellex-docs/img/logo.svg"><div role="region" aria-label="Перейти к основному содержимому"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Перейти к основному содержимому</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#0d1927;color:rgba(212,168,67,0.9)" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">✦ Wellex v5.0 — Platform Specification &nbsp;·&nbsp; Updated March 2026</div><button type="button" aria-label="Закрыть" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Переключить навигационную панель" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wellex-docs/"><div class="navbar__logo"><img src="/wellex-docs/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/wellex-docs/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">WELLEX</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/00_INDEX">Документация</a><a class="navbar__item navbar__link" href="/wellex-docs/19_WHITEPAPER_v3">Whitepaper</a><a class="navbar__item navbar__link" href="/wellex-docs/01_EXECUTIVE_SUMMARY">Executive Summary</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>🇷🇺 Русский</a><ul class="dropdown__menu"><li><a href="/wellex-docs/04_APP_UX" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="ru">🇷🇺 Русский</a></li><li><a href="/wellex-docs/en/04_APP_UX" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en">🇬🇧 English</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Переключение между темным и светлым режимом (сейчас используется system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Прокрутка к началу" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wellex-docs/00_INDEX"><span title="WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0" class="linkLabel_WmDU">WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wellex-docs/00_INTRO"><span title="📖 Введение" class="categoryLinkLabel_W154">📖 Введение</span></a><button aria-label="Collapse sidebar category &#x27;📖 Введение&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/00_INTRO"><span title="Введение" class="linkLabel_WmDU">Введение</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/01_EXECUTIVE_SUMMARY"><span title="01 · WELLEX — EXECUTIVE SUMMARY" class="linkLabel_WmDU">01 · WELLEX — EXECUTIVE SUMMARY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/02_PRODUCT_VISION"><span title="02 · PRODUCT VISION" class="linkLabel_WmDU">02 · PRODUCT VISION</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/19_WHITEPAPER_v3"><span title="📄 Whitepaper" class="categoryLinkLabel_W154">📄 Whitepaper</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/19_WHITEPAPER_v3"><span title="WELLEX — Whitepaper" class="linkLabel_WmDU">WELLEX — Whitepaper</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/wellex-docs/03_WELLNESS_SCORE"><span title="💎 Продукт" class="categoryLinkLabel_W154">💎 Продукт</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/03_WELLNESS_SCORE"><span title="03 · WELLEX VITALITY INDEX (WVI)" class="linkLabel_WmDU">03 · WELLEX VITALITY INDEX (WVI)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/wellex-docs/04_APP_UX"><span title="04 · WELLNESS APP (iOS / Android)" class="linkLabel_WmDU">04 · WELLNESS APP (iOS / Android)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/05_DASHBOARD"><span title="05 · WEB DASHBOARD" class="linkLabel_WmDU">05 · WEB DASHBOARD</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/08_HARDWARE"><span title="08 · WELLEX BAND — Hardware Platform" class="linkLabel_WmDU">08 · WELLEX BAND — Hardware Platform</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/21_GAMIFICATION"><span title="21 · GAMIFICATION" class="linkLabel_WmDU">21 · GAMIFICATION</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/27_EMOTIONAL_MINING"><span title="27 · EMOTIONAL MINING" class="linkLabel_WmDU">27 · EMOTIONAL MINING</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/32_DAY_IN_THE_LIFE"><span title="32 · «ДЕНЬ ИЗ ЖИЗНИ» — USER JOURNEY DOCUMENT" class="linkLabel_WmDU">32 · «ДЕНЬ ИЗ ЖИЗНИ» — USER JOURNEY DOCUMENT</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/06_YIELD_PROTOCOL"><span title="💰 Доходность" class="categoryLinkLabel_W154">💰 Доходность</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/09_PARTNER_PROGRAM"><span title="🤝 Партнёрам &amp; B2B" class="categoryLinkLabel_W154">🤝 Партнёрам &amp; B2B</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/07_AI_SYSTEM"><span title="🔬 Технологии" class="categoryLinkLabel_W154">🔬 Технологии</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/11_GO_TO_MARKET"><span title="📈 Стратегия &amp; Рост" class="categoryLinkLabel_W154">📈 Стратегия &amp; Рост</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/15_RISKS"><span title="🛡️ Compliance &amp; Риски" class="categoryLinkLabel_W154">🛡️ Compliance &amp; Риски</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/18_FUTURE_FEATURES"><span title="🔮 Будущее" class="categoryLinkLabel_W154">🔮 Будущее</span></a></div></li></ul></nav><button type="button" title="Свернуть сайдбар" aria-label="Свернуть сайдбар" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Навигационная цепочка текущей страницы"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Главная страница" class="breadcrumbs__link" href="/wellex-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">💎 Продукт</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">04 · WELLNESS APP (iOS / Android)</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Содержание этой страницы</button></div><div class="theme-doc-markdown markdown"><header><h1>04 · WELLNESS APP (iOS / Android)</h1></header>
+<blockquote>
+<p><strong>Версия:</strong> 5.0 | <strong>Дата:</strong> 05.03.2026 | <strong>Статус:</strong> Public</p>
+</blockquote>
+<blockquote>
+<p>Мобильное приложение Wellex: чистый wellness, комьюнити WHOOP-модели, Monthly Yield-отображение. Без стейкинга, без MLM, без финансовых операций.</p>
+<p>⚠️ Wellex App — <strong>не криптокошелёк.</strong> Это wellness-приложение. Все финансовые операции выполняются исключительно в WEB-версии.
+⚠️ Target Yield is not a guarantee. APP displays yield % only — no dollar amounts. Actual yield depends on DeFi market conditions.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-философия-ux">1. Философия UX<a href="#1-философия-ux" class="hash-link" aria-label="Прямая ссылка на 1. Философия UX" title="Прямая ссылка на 1. Философия UX" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ключевой-принцип-app--wellness--community">Ключевой принцип: APP = Wellness + Community<a href="#ключевой-принцип-app--wellness--community" class="hash-link" aria-label="Прямая ссылка на Ключевой принцип: APP = Wellness + Community" title="Прямая ссылка на Ключевой принцип: APP = Wellness + Community" translate="no">​</a></h3>
+<p><strong>В приложении нет (и не будет):</strong></p>
+<ul>
+<li class="">Стейкинга и любого стейкинг-интерфейса</li>
+<li class="">Депозитов, выводов, финансовых транзакций</li>
+<li class="">MLM-структуры и партнёрского дерева</li>
+<li class="">Отображения сумм в долларах</li>
+<li class="">Кошельков и балансов</li>
+<li class="">Любых финансовых операций</li>
+</ul>
+<blockquote>
+<p><strong>Важно:</strong> Wellex App <strong>не является криптокошельком.</strong> Пользователи, использующие только браслет без стейкинга, видят статистику WVI и потенциал доходности. Для активации стейкинга и начала получения дохода — переход в WEB-версию.</p>
+</blockquote>
+<p><strong>В приложении есть:</strong></p>
+<ul>
+<li class="">WVI (Wellex Vitality Index) — единая шкала здоровья 0–100</li>
+<li class="">Биометрия: эмоции, сон, активность</li>
+<li class="">AI-коуч (видео / аудио / текст)</li>
+<li class="">Community WHOOP-модели: discovery владельцев, группы, челленджи, лидерборды</li>
+<li class="">Monthly Yield-отображение (только %, без сумм)</li>
+<li class="">Кнопка перехода в WEB-версию</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="monthly-yield--правила-отображения">Monthly Yield — правила отображения<a href="#monthly-yield--правила-отображения" class="hash-link" aria-label="Прямая ссылка на Monthly Yield — правила отображения" title="Прямая ссылка на Monthly Yield — правила отображения" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Статус пользователя</th><th>Отображение в APP</th><th>Действие при тапе</th></tr></thead><tbody><tr><td><strong>С активным стейкингом</strong></td><td>Текущий Monthly Yield в процентах (напр. «15.8%»). Зелёный акцент, крупный шрифт. Без суммы в $.</td><td>Информационный блок</td></tr><tr><td><strong>Без стейкинга</strong></td><td>Дэш «—». Мелкий текст «Узнать больше →»</td><td>Popup: «Узнать больше о доходности» → deep link в WEB-версию</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lazy-factor">Lazy Factor<a href="#lazy-factor" class="hash-link" aria-label="Прямая ссылка на Lazy Factor" title="Прямая ссылка на Lazy Factor" translate="no">​</a></h3>
+<blockquote>
+<p><strong>Открыл приложение → увидел шкалу → получил рекомендацию → закрыл. Среднее время сессии: 30 секунд.</strong></p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="design-principles">Design Principles<a href="#design-principles" class="hash-link" aria-label="Прямая ссылка на Design Principles" title="Прямая ссылка на Design Principles" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Принцип</th><th>Реализация</th></tr></thead><tbody><tr><td><strong>Glanceable</strong></td><td>WVI + Monthly Yield видны без скролла</td></tr><tr><td><strong>Zero-config</strong></td><td>Браслет подключается автоматически</td></tr><tr><td><strong>Proactive</strong></td><td>AI push-уведомления в нужный момент</td></tr><tr><td><strong>Community-first</strong></td><td>Комьюнити — полноценная секция, не дополнение (WHOOP-модель)</td></tr><tr><td><strong>Inclusive</strong></td><td>WCAG 2.1 AA; VoiceOver / TalkBack</td></tr><tr><td><strong>Offline-first</strong></td><td>Полный функционал без интернета; синхронизация при подключении</td></tr><tr><td><strong>No Finance</strong></td><td>Никаких финансовых элементов. Чистый wellness.</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-навигация-нижний-tab-bar">2. Навигация (нижний Tab Bar)<a href="#2-навигация-нижний-tab-bar" class="hash-link" aria-label="Прямая ссылка на 2. Навигация (нижний Tab Bar)" title="Прямая ссылка на 2. Навигация (нижний Tab Bar)" translate="no">​</a></h2>
+<p>5 основных экранов:</p>
+<p><code>Главный · Показатели · Комьюнити · Ассистент · Настройки</code></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-экран-1-главный-home">3. Экран 1: Главный (Home)<a href="#3-экран-1-главный-home" class="hash-link" aria-label="Прямая ссылка на 3. Экран 1: Главный (Home)" title="Прямая ссылка на 3. Экран 1: Главный (Home)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wireframe">Wireframe<a href="#wireframe" class="hash-link" aria-label="Прямая ссылка на Wireframe" title="Прямая ссылка на Wireframe" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Status Bar │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Доброе утро │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Streak: 14 дней │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌──────────┐ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ 72 │ ← WVI │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ /100 │ круговая │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ ↑ +5 │ диаграмма │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └──────────┘ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Monthly Yield: 15.8% │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ─────── или ─────── │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Monthly Yield: — [Узнать больше]│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Эмоции: 62 Сон: 78 Физ.: 75 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ AI-рекомендация │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ «Вечерняя прогулка 20 мин │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ поднимет WVI до 78» │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ [Смотреть 1:30] │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Мини-график WVI (7 дней) │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Главный · Показатели · │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Комьюнити · Ассистент · │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Настройки │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────┘</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="элементы-экрана">Элементы экрана<a href="#элементы-экрана" class="hash-link" aria-label="Прямая ссылка на Элементы экрана" title="Прямая ссылка на Элементы экрана" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Блок</th><th>Описание</th><th>Обновление</th></tr></thead><tbody><tr><td><strong>WVI-шкала</strong></td><td>Круговая диаграмма 0–100, цвет: красный → жёлтый → зелёный</td><td>Каждые 15 мин</td></tr><tr><td><strong>Тренд WVI</strong></td><td>Стрелка вверх/вниз + дельта за неделю</td><td>Ежедневно</td></tr><tr><td><strong>Monthly Yield Display</strong></td><td>% для стейкеров, «—» + «Узнать больше» для остальных</td><td>Real-time</td></tr><tr><td><strong>AI-рекомендация</strong></td><td>Карточка с советом (видео / аудио / текст)</td><td>Каждые 4 часа</td></tr><tr><td><strong>Быстрые метрики</strong></td><td>3 компонента WVI в мини-карточках</td><td>Каждые 15 мин</td></tr><tr><td><strong>Streak</strong></td><td>Дней подряд с ношением браслета</td><td>Ежедневно</td></tr><tr><td><strong>Мини-график</strong></td><td>Sparkline WVI за 7 дней</td><td>Ежедневно</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-экран-2-показатели-metrics">4. Экран 2: Показатели (Metrics)<a href="#4-экран-2-показатели-metrics" class="hash-link" aria-label="Прямая ссылка на 4. Экран 2: Показатели (Metrics)" title="Прямая ссылка на 4. Экран 2: Показатели (Metrics)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wireframe-1">Wireframe<a href="#wireframe-1" class="hash-link" aria-label="Прямая ссылка на Wireframe" title="Прямая ссылка на Wireframe" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Показатели [7д][30д][90д]│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Эмоциональное — 62/100 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ████████████░░░░░░░░ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Line chart (7 дней) │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ HRV: 48 мс · Стресс: 42 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Текущая эмоция: Спокойствие │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Совет: Дыхание 5 мин → +8 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Восстановление — 78/100 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ██████████████████░░ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Сон: 7ч 20м · Deep: 22% │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Recovery: 74 · REM: 24% │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Совет: Ложиться до 23:00 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Физическая — 75/100 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ █████████████████░░░ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Шаги: 9 240 · Кал.: 420 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ MVPA: 35 мин · Int: 68% │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Совет: +2 000 шагов сегодня │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Tab Bar │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────┘</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="графики-и-тренды">Графики и тренды<a href="#графики-и-тренды" class="hash-link" aria-label="Прямая ссылка на Графики и тренды" title="Прямая ссылка на Графики и тренды" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Период</th><th>Тип графика</th><th>Данные</th></tr></thead><tbody><tr><td>7 дней</td><td>Line chart</td><td>Ежедневные sub-scores</td></tr><tr><td>30 дней</td><td>Line chart + trend line</td><td>Среднее + прогноз</td></tr><tr><td>90 дней</td><td>Bar chart (grouped)</td><td>Еженедельные средние</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="drill-down-при-тапе-на-компонент">Drill-down при тапе на компонент<a href="#drill-down-при-тапе-на-компонент" class="hash-link" aria-label="Прямая ссылка на Drill-down при тапе на компонент" title="Прямая ссылка на Drill-down при тапе на компонент" translate="no">​</a></h3>
+<p>Каждый компонент раскрывается в полноэкранный вид с:</p>
+<ul>
+<li class="">Детальными метриками</li>
+<li class="">Гистограммами по дням</li>
+<li class="">AI-инсайтами</li>
+<li class="">Персональными рекомендациями</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-экран-3-комьюнити-community--whoop-модель">5. Экран 3: Комьюнити (Community) — WHOOP-модель<a href="#5-экран-3-комьюнити-community--whoop-модель" class="hash-link" aria-label="Прямая ссылка на 5. Экран 3: Комьюнити (Community) — WHOOP-модель" title="Прямая ссылка на 5. Экран 3: Комьюнити (Community) — WHOOP-модель" translate="no">​</a></h2>
+<blockquote>
+<p>Полноценный community-раздел, вдохновлённый WHOOP Teams + Strava Clubs + Oura Community. Центральный элемент — <strong>discovery владельцев браслетов</strong> и объединение по wellness-целям, включая эмоциональное благополучие.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wireframe-2">Wireframe<a href="#wireframe-2" class="hash-link" aria-label="Прямая ссылка на Wireframe" title="Прямая ссылка на Wireframe" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Комьюнити │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ [Поиск групп и людей] │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Люди рядом с Wellex │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌─────────────────────────┐ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ @sofia · WVI 85 · 1.2 км│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ @ethan_fit · WVI 78 · 3 км│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ [Найти ещё →] │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─────────────────────────┘ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Мои группы │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌─────────────────────────┐ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Утренняя йога (23) │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Avg WVI: 71 · Вы: 72 │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─────────────────────────┘ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌─────────────────────────┐ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ London Runners (156) │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Avg WVI: 68 · Вы: 72 │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─────────────────────────┘ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ [+ Создать группу] │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Активные челленджи │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌─────────────────────────┐ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Командный WVI ≥ 70 │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ 5 дней · 68/70 │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ ████████████████░░ │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─────────────────────────┘ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Лидерборды │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ 1. @health_pro WVI: 94 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ 2. @yoga_daily WVI: 91 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ 3. @run_master WVI: 89 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ...47. @you WVI: 72 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ [Все лидерборды →] │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Social Feed │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ @sofia достигла WVI 85! │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ @ethan_fit: streak 100 дней │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Team «London Runners» — топ-3 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Tab Bar │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────┘</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="функции-community-whoop-модель">Функции Community (WHOOP-модель)<a href="#функции-community-whoop-модель" class="hash-link" aria-label="Прямая ссылка на Функции Community (WHOOP-модель)" title="Прямая ссылка на Функции Community (WHOOP-модель)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Блок</th><th>Описание</th></tr></thead><tbody><tr><td><strong>Discovery: Люди рядом</strong></td><td>Поиск владельцев браслетов Wellex по геолокации и интересам. Карточки: аватар, WVI, дистанция, интересы. Возможность добавить в друзья. Фильтры: радиус, уровень WVI, интересы.</td></tr><tr><td><strong>Wellness Groups</strong></td><td>Группы по интересам: йога, бег, медитация, биохакинг, дыхательные практики, стресс-менеджмент, emotional wellness. Открытые и закрытые. До 500 участников.</td></tr><tr><td><strong>Team Challenges</strong></td><td>Командные соревнования: «Командный WVI ≥ 70 за неделю», «100K шагов на команду за 3 дня», «7 дней медитации». Награды: бейджи, NFT-ачивки.</td></tr><tr><td><strong>Leaderboards</strong></td><td>Глобальный, региональный, среди друзей, внутри группы — рейтинг по WVI.</td></tr><tr><td><strong>Social Feed</strong></td><td>Достижения, рекорды, milestone&#x27;ы участников. Реакции: поддержка, мотивация.</td></tr><tr><td><strong>Friend Challenges</strong></td><td>1-на-1 дуэли по WVI на 7 дней.</td></tr><tr><td><strong>Wellness Teams</strong></td><td>Команды 5–50 человек с общим WVI и совместными целями.</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="community-vs-whoop--oura--strava">Community vs WHOOP / Oura / Strava<a href="#community-vs-whoop--oura--strava" class="hash-link" aria-label="Прямая ссылка на Community vs WHOOP / Oura / Strava" title="Прямая ссылка на Community vs WHOOP / Oura / Strava" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Функция</th><th>Wellex</th><th>WHOOP Teams</th><th>Oura</th><th>Strava</th></tr></thead><tbody><tr><td>Discovery владельцев</td><td>Геолокация + интересы</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Группы по интересам</td><td>Wellness + emotional</td><td>Только Teams</td><td>—</td><td>Clubs</td></tr><tr><td>Командные челленджи</td><td>По WVI</td><td>По Strain</td><td>—</td><td>По активности</td></tr><tr><td>Лидерборды</td><td>WVI (здоровье + эмоции)</td><td>Strain</td><td>Readiness</td><td>Активность</td></tr><tr><td>Social feed</td><td>Да</td><td>—</td><td>—</td><td>Да</td></tr><tr><td>1v1 Challenges</td><td>Да</td><td>—</td><td>—</td><td>Частично</td></tr><tr><td>Emotional wellness фокус</td><td>Центральный</td><td>—</td><td>—</td><td>—</td></tr></tbody></table>
+<p><strong>Уникальное преимущество Wellex Community:</strong> участники объединены не только по физической активности, но и по <strong>эмоциональному благополучию</strong> — группы медитации, стресс-менеджмента, emotional wellness. Первое wellness-комьюнити, где ментальное здоровье является центральным элементом.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-экран-4-ai-ассистент-assistant">6. Экран 4: AI-ассистент (Assistant)<a href="#6-экран-4-ai-ассистент-assistant" class="hash-link" aria-label="Прямая ссылка на 6. Экран 4: AI-ассистент (Assistant)" title="Прямая ссылка на 6. Экран 4: AI-ассистент (Assistant)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wireframe-3">Wireframe<a href="#wireframe-3" class="hash-link" aria-label="Прямая ссылка на Wireframe" title="Прямая ссылка на Wireframe" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ AI-ассистент │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌─────────────────────────┐ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Утренняя рекомендация │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ HRV упал на 15%. │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Дыхание 4-7-8 за 5 мин. │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ [Видео 1:30] [Аудио] │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ [Текст] │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─────────────────────────┘ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌─────────────────────────┐ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Вечерний план │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ 1. Прогулка 20 мин │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ 2. Нет экранов после 22 │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ 3. Сон до 23:00 │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Прогноз: WVI +5 завтра │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─────────────────────────┘ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌─────────────────────────┐ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Недельный отчёт │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Сон +12%, стресс +8% │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ [Смотреть отчёт 3:00] │ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─────────────────────────┘ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Спросить AI... │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Tab Bar │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────┘</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="форматы-контента">Форматы контента<a href="#форматы-контента" class="hash-link" aria-label="Прямая ссылка на Форматы контента" title="Прямая ссылка на Форматы контента" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Формат</th><th>Описание</th><th>Длительность</th><th>Когда</th></tr></thead><tbody><tr><td>Видео</td><td>Короткие инструкции (дыхание, разминка, растяжка)</td><td>1–3 мин</td><td>Утро, вечер</td></tr><tr><td>Аудио</td><td>Голосовые рекомендации, медитации</td><td>1–5 мин</td><td>В любое время</td></tr><tr><td>Текст</td><td>Чек-листы, планы, советы</td><td>—</td><td>Всегда</td></tr><tr><td>Отчёт</td><td>Аналитика за неделю / месяц</td><td>2–5 мин</td><td>Еженедельно</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="типы-рекомендаций">Типы рекомендаций<a href="#типы-рекомендаций" class="hash-link" aria-label="Прямая ссылка на Типы рекомендаций" title="Прямая ссылка на Типы рекомендаций" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тип</th><th>Пример</th><th>Триггер</th></tr></thead><tbody><tr><td>Превентивная</td><td>«Стресс растёт — дыхание 5 мин»</td><td>Снижение HRV &gt; 15%</td></tr><tr><td>Коррекция</td><td>«Вчера мало сна — ложитесь раньше»</td><td>Сон &lt; 6 ч</td></tr><tr><td>Мотивация</td><td>«До Monthly Yield 18% осталось +8 WVI!»</td><td>WVI близок к порогу</td></tr><tr><td>Обучение</td><td>«Как работает Emotional Mining»</td><td>Первая неделя</td></tr><tr><td>Поздравление</td><td>«Streak 30 дней!»</td><td>Milestone</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-экран-5-настройки-settings">7. Экран 5: Настройки (Settings)<a href="#7-экран-5-настройки-settings" class="hash-link" aria-label="Прямая ссылка на 7. Экран 5: Настройки (Settings)" title="Прямая ссылка на 7. Экран 5: Настройки (Settings)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="функции">Функции<a href="#функции" class="hash-link" aria-label="Прямая ссылка на Функции" title="Прямая ссылка на Функции" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Блок</th><th>Детали</th></tr></thead><tbody><tr><td><strong>Браслет</strong></td><td>Подключение / отключение BLE, статус батареи, OTA-обновление</td></tr><tr><td><strong>Подписка</strong></td><td>Статус подписки $19/мес, управление</td></tr><tr><td><strong>Профиль</strong></td><td>Аккаунт, уведомления, язык, тема (dark / light)</td></tr><tr><td><strong>Приватность</strong></td><td>Управление данными, экспорт, удаление аккаунта (GDPR)</td></tr><tr><td><strong>WEB-версия</strong></td><td>Кнопка «Перейти в WEB-версию WELLEX» → deep link на веб-приложение</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="кнопка-перехода-в-web">Кнопка перехода в WEB<a href="#кнопка-перехода-в-web" class="hash-link" aria-label="Прямая ссылка на Кнопка перехода в WEB" title="Прямая ссылка на Кнопка перехода в WEB" translate="no">​</a></h3>
+<p>Заметная кнопка в настройках и на главном экране (при тапе на Monthly Yield «—»):</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Перейти в WEB-версию WELLEX │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Стейкинг · Доход · Партнёры │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ [Открыть →] │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────┘</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-user-flows">8. User Flows<a href="#8-user-flows" class="hash-link" aria-label="Прямая ссылка на 8. User Flows" title="Прямая ссылка на 8. User Flows" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="81-onboarding-новый-пользователь">8.1 Onboarding (новый пользователь)<a href="#81-onboarding-новый-пользователь" class="hash-link" aria-label="Прямая ссылка на 8.1 Onboarding (новый пользователь)" title="Прямая ссылка на 8.1 Onboarding (новый пользователь)" translate="no">​</a></h3>
+<ol>
+<li class="">Скачать приложение → Splash screen</li>
+<li class=""><strong>Регистрация:</strong> Email / Apple ID / Google (1 tap)</li>
+<li class=""><strong>Некастодиальный кошелёк:</strong> при регистрации через email система автоматически генерирует некастодиальный кошелёк. Приватные ключи <strong>принадлежат пользователю</strong> и могут быть экспортированы в любое совместимое внешнее приложение. Пользователь сохраняет полный контроль над кошельком вне зависимости от платформы.
+<ul>
+<li class="">При регистрации через внешний Web3-кошелёк (WalletConnect / MetaMask) — собственный кошелёк пользователя.</li>
+</ul>
+</li>
+<li class="">Экран: «Подключите Wellex Band» → NFC tap или BLE scan → сопряжение (15 сек)</li>
+<li class="">Краткий тур (3 экрана swipe): WVI · Community · AI-коуч</li>
+<li class="">Начало калибровки (7 дней, WVI = 50)</li>
+<li class="">Push: «Носите браслет 24/7 для точной калибровки»</li>
+<li class="">Главный экран</li>
+</ol>
+<blockquote>
+<p><strong>Некастодиальный кошелёк:</strong> создаётся автоматически при email-регистрации. Скрыт в APP — полная функциональность в WEB. Экспорт ключей доступен через WEB → Settings → Security → Export Private Key.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="82-ежедневный-цикл-активный-пользователь">8.2 Ежедневный цикл (активный пользователь)<a href="#82-ежедневный-цикл-активный-пользователь" class="hash-link" aria-label="Прямая ссылка на 8.2 Ежедневный цикл (активный пользователь)" title="Прямая ссылка на 8.2 Ежедневный цикл (активный пользователь)" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">07:00 Push: «Доброе утро! Recovery 82. Отличный день для тренировки»</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → Действие: прочитать (5 сек)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">12:00 Push: «WVI сегодня 74. Прогулка 20 мин → +5»</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → Действие: по желанию</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">19:00 Push: «Ваш WVI за сегодня: 76 (+3 от вчера)»</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → Действие: ничего</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">22:00 Push: «План сна: ложитесь до 23:00, нет экранов»</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → Действие: ничего или следовать</span><br></span></code></pre></div></div>
+<p><strong>Итого: 0–2 действия в день, 30 секунд в приложении.</strong></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="83-переход-в-web-финансовые-операции">8.3 Переход в WEB (финансовые операции)<a href="#83-переход-в-web-финансовые-операции" class="hash-link" aria-label="Прямая ссылка на 8.3 Переход в WEB (финансовые операции)" title="Прямая ссылка на 8.3 Переход в WEB (финансовые операции)" translate="no">​</a></h3>
+<p><strong>Сценарий A: пользователь только с браслетом (без стейкинга)</strong></p>
+<p>Пользователи, использующие только Wellex Band и не имеющие средств в стейкинге, видят:</p>
+<ul>
+<li class="">Статистику WVI и три компонента (эмоции, восстановление, физическая активность)</li>
+<li class="">Monthly Yield: «—» с подсказкой «Узнайте о доходности»</li>
+<li class="">Потенциал дохода при их текущем WVI: «Ваш WVI 72 → потенциал 12%/мес»</li>
+</ul>
+<p>Механизм мотивации к переходу:</p>
+<ol>
+<li class="">На главном экране — Monthly Yield «—», мелкий текст «Узнать больше →»</li>
+<li class="">Тап → <strong>Мотивационный popup:</strong>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ 💰 Ваш WVI 72 = 12%/мес        │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ При вашем уровне здоровья вы    │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ можете получать до 12% в месяц  │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ на ваши средства.               │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ [Активировать доходность →]     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Открыть WEB-версию Wellex       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────┘</span><br></span></code></pre></div></div>
+</li>
+<li class="">Кнопка «Активировать доходность» → deep link в WEB</li>
+<li class="">В WEB: авторизация (тот же аккаунт) → прямо на экран Staking</li>
+<li class="">Полная финансовая функциональность: депозит, стейкинг, партнёрка</li>
+</ol>
+<p><strong>Сценарий B: активный стейкер</strong></p>
+<ol>
+<li class="">Пользователь видит Monthly Yield «15.8%» на главном экране</li>
+<li class="">Тап → информационный блок с breakdown и переходом в WEB для управления</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="84-discovery-найти-владельцев-браслетов-рядом">8.4 Discovery: найти владельцев браслетов рядом<a href="#84-discovery-найти-владельцев-браслетов-рядом" class="hash-link" aria-label="Прямая ссылка на 8.4 Discovery: найти владельцев браслетов рядом" title="Прямая ссылка на 8.4 Discovery: найти владельцев браслетов рядом" translate="no">​</a></h3>
+<ol>
+<li class="">Комьюнити → «Люди рядом с Wellex»</li>
+<li class="">Карта / список владельцев с WVI, дистанцией, интересами</li>
+<li class="">Тап на профиль → общие группы, WVI-график, интересы</li>
+<li class="">[Добавить в друзья] → приглашение в команду или челлендж</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="85-вступление-в-группу-комьюнити">8.5 Вступление в группу комьюнити<a href="#85-вступление-в-группу-комьюнити" class="hash-link" aria-label="Прямая ссылка на 8.5 Вступление в группу комьюнити" title="Прямая ссылка на 8.5 Вступление в группу комьюнити" translate="no">​</a></h3>
+<ol>
+<li class="">Комьюнити → Поиск → «Йога»</li>
+<li class="">Список групп с описанием, количеством участников, avg WVI</li>
+<li class="">Тап на группу → Preview → [Вступить]</li>
+<li class="">Группа добавлена в «Мои группы» → доступны челленджи и feed группы</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="86-участие-в-командном-челлендже">8.6 Участие в командном челлендже<a href="#86-участие-в-командном-челлендже" class="hash-link" aria-label="Прямая ссылка на 8.6 Участие в командном челлендже" title="Прямая ссылка на 8.6 Участие в командном челлендже" translate="no">​</a></h3>
+<ol>
+<li class="">Комьюнити → Активные челленджи → «Командный WVI ≥ 70»</li>
+<li class="">Просмотр деталей: правила, сроки, участники, прогресс</li>
+<li class="">[Присоединиться] → выбор команды или создание своей</li>
+<li class="">Ежедневный прогресс + push-уведомления → итоговый результат</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-dark--light-theme">9. Dark / Light Theme<a href="#9-dark--light-theme" class="hash-link" aria-label="Прямая ссылка на 9. Dark / Light Theme" title="Прямая ссылка на 9. Dark / Light Theme" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Элемент</th><th>Light</th><th>Dark</th></tr></thead><tbody><tr><td>Background</td><td>#FFFFFF</td><td>#0D0D0D</td></tr><tr><td>Surface (cards)</td><td>#F5F5F5</td><td>#1A1A2E</td></tr><tr><td>Primary accent</td><td>#4CAF50 (green)</td><td>#66BB6A</td></tr><tr><td>Text primary</td><td>#1A1A1A</td><td>#F0F0F0</td></tr><tr><td>Text secondary</td><td>#666666</td><td>#AAAAAA</td></tr><tr><td>WVI ring</td><td>Gradient green → yellow → red</td><td>То же, +10% brightness</td></tr></tbody></table>
+<p><strong>Auto mode:</strong> следует системной теме устройства.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-accessibility-wcag-21-aa">10. Accessibility (WCAG 2.1 AA)<a href="#10-accessibility-wcag-21-aa" class="hash-link" aria-label="Прямая ссылка на 10. Accessibility (WCAG 2.1 AA)" title="Прямая ссылка на 10. Accessibility (WCAG 2.1 AA)" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Требование</th><th>Реализация</th></tr></thead><tbody><tr><td>VoiceOver / TalkBack</td><td>Все элементы с accessibility labels</td></tr><tr><td>Контрастность</td><td>Минимум 4.5:1 для основного текста</td></tr><tr><td>Dynamic Type</td><td>Поддержка системного масштабирования шрифта</td></tr><tr><td>Motion sensitivity</td><td>«Reduce Motion» → отключение анимаций</td></tr><tr><td>Touch targets</td><td>Минимум 44×44 pt</td></tr><tr><td>Screen reader order</td><td>WVI → Monthly Yield → рекомендация → метрики</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-offline-mode">11. Offline Mode<a href="#11-offline-mode" class="hash-link" aria-label="Прямая ссылка на 11. Offline Mode" title="Прямая ссылка на 11. Offline Mode" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Функция</th><th>Offline</th><th>Синхронизация</th></tr></thead><tbody><tr><td>Сбор данных с браслета</td><td>Да</td><td>При подключении</td></tr><tr><td>WVI расчёт (приблизительный)</td><td>On-device</td><td>Server-side пересчёт</td></tr><tr><td>AI-рекомендации</td><td>Кэшированные</td><td>Обновляются при подключении</td></tr><tr><td>История и графики</td><td>Локальная БД</td><td>Синхронизация дельт</td></tr><tr><td>Комьюнити / Лидерборд</td><td>Требует интернет</td><td>—</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-push-уведомления">12. Push-уведомления<a href="#12-push-уведомления" class="hash-link" aria-label="Прямая ссылка на 12. Push-уведомления" title="Прямая ссылка на 12. Push-уведомления" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Категория</th><th>Частота</th><th>Пример</th><th>Отключаемое</th></tr></thead><tbody><tr><td>Здоровье (AI)</td><td>2–4/день</td><td>«HRV упал — дыхание 5 мин»</td><td>Да</td></tr><tr><td>WVI прогресс</td><td>1/день</td><td>«WVI сегодня: 76 (+3)»</td><td>Да</td></tr><tr><td>Комьюнити</td><td>1–2/день</td><td>«Ваша команда на 2-м месте!»</td><td>Да</td></tr><tr><td>Мотивация (streaks)</td><td>1/день</td><td>«14 дней подряд!»</td><td>Да</td></tr><tr><td>Браслет</td><td>По событию</td><td>«Батарея 10%»</td><td>Нет</td></tr><tr><td>Безопасность</td><td>По событию</td><td>«Новый вход в аккаунт»</td><td>Нет</td></tr></tbody></table>
+<p><strong>Smart scheduling:</strong> уведомления не отправляются в ночное время; часовой пояс учитывается автоматически.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="13-технические-требования">13. Технические требования<a href="#13-технические-требования" class="hash-link" aria-label="Прямая ссылка на 13. Технические требования" title="Прямая ссылка на 13. Технические требования" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>iOS</th><th>Android</th></tr></thead><tbody><tr><td>Минимальная версия</td><td>iOS 16+</td><td>Android 11+</td></tr><tr><td>BLE</td><td>5.3</td><td>5.3</td></tr><tr><td>Размер приложения</td><td>~85 MB</td><td>~65 MB</td></tr><tr><td>Фреймворк</td><td>SwiftUI</td><td>Kotlin / Jetpack Compose</td></tr><tr><td>Авторизация</td><td>Email, Apple ID, Google</td><td>Email, Google, Apple ID</td></tr><tr><td>Web3</td><td>Скрыт (ERC-4337)</td><td>Скрыт (ERC-4337)</td></tr><tr><td>Локальная БД</td><td>Core Data / SQLite</td><td>Room / SQLite</td></tr><tr><td>Analytics</td><td>Mixpanel</td><td>Mixpanel</td></tr><tr><td>Crash reporting</td><td>Sentry</td><td>Sentry</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="14-сводная-таблица-app-vs-web">14. Сводная таблица: APP vs WEB<a href="#14-сводная-таблица-app-vs-web" class="hash-link" aria-label="Прямая ссылка на 14. Сводная таблица: APP vs WEB" title="Прямая ссылка на 14. Сводная таблица: APP vs WEB" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Функция</th><th style="text-align:center">APP</th><th style="text-align:center">WEB</th></tr></thead><tbody><tr><td>WVI (0–100)</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>Биометрия (3 компонента)</td><td style="text-align:center">✅</td><td style="text-align:center">Виджет</td></tr><tr><td>AI-коуч</td><td style="text-align:center">✅</td><td style="text-align:center">—</td></tr><tr><td>Комьюнити (WHOOP-модель)</td><td style="text-align:center">✅</td><td style="text-align:center">—</td></tr><tr><td>Discovery владельцев</td><td style="text-align:center">✅</td><td style="text-align:center">—</td></tr><tr><td>Monthly Yield % отображение</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>Monthly Yield $ суммы</td><td style="text-align:center">—</td><td style="text-align:center">✅</td></tr><tr><td>Стейкинг / Депозит / Вывод</td><td style="text-align:center">—</td><td style="text-align:center">✅</td></tr><tr><td>MLM / Партнёрская сеть</td><td style="text-align:center">—</td><td style="text-align:center">✅</td></tr><tr><td>Кошелёк</td><td style="text-align:center">—</td><td style="text-align:center">✅</td></tr><tr><td>Промо-материалы</td><td style="text-align:center">—</td><td style="text-align:center">✅</td></tr><tr><td>Подключение браслета</td><td style="text-align:center">✅</td><td style="text-align:center">—</td></tr><tr><td>Push-уведомления</td><td style="text-align:center">✅</td><td style="text-align:center">—</td></tr></tbody></table>
+<hr>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="15-help-center--support">15. Help Center &amp; Support<a href="#15-help-center--support" class="hash-link" aria-label="Прямая ссылка на 15. Help Center &amp; Support" title="Прямая ссылка на 15. Help Center &amp; Support" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="151-in-app-support-flow">15.1 In-App Support Flow<a href="#151-in-app-support-flow" class="hash-link" aria-label="Прямая ссылка на 15.1 In-App Support Flow" title="Прямая ссылка на 15.1 In-App Support Flow" translate="no">​</a></h3>
+<p>Пользователь обращается за помощью не выходя из приложения:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Канал</th><th>Описание</th><th>Время ответа</th></tr></thead><tbody><tr><td>AI Help Bot</td><td>Первая линия — отвечает на 80%+ запросов мгновенно</td><td>&lt; 5 сек</td></tr><tr><td>In-App Chat</td><td>Живой агент поддержки (текст)</td><td>&lt; 2 часа</td></tr><tr><td>Email</td><td><a href="mailto:support@wellex.ai" target="_blank" rel="noopener noreferrer" class="">support@wellex.ai</a> — для сложных случаев</td><td>&lt; 24 часа</td></tr><tr><td>FAQ</td><td>Встроенная база знаний с поиском</td><td>Мгновенно</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="152-help-center--категории">15.2 Help Center — категории<a href="#152-help-center--категории" class="hash-link" aria-label="Прямая ссылка на 15.2 Help Center — категории" title="Прямая ссылка на 15.2 Help Center — категории" translate="no">​</a></h3>
+<p>▸ Браслет — подключение, синхронизация, батарея, OTA, возврат
+▸ WVI — как считается, почему упал, калибровка
+▸ Yield — как начисляется, когда выплачивается, почему изменился %
+▸ Стейкинг — депозит, вывод, lock-up сроки (в WEB)
+▸ Аккаунт — пароль, 2FA, удаление, GDPR
+▸ Кошелёк — экспорт ключей, мультичейн, транзакции
+▸ Партнёрская программа — ранги, бонусы, выплаты
+▸ Комьюнити — группы, челленджи, модерация</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="153-escalation-path">15.3 Escalation Path<a href="#153-escalation-path" class="hash-link" aria-label="Прямая ссылка на 15.3 Escalation Path" title="Прямая ссылка на 15.3 Escalation Path" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">Пользователь → AI Help Bot (авто, мгновенно)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> ↓ если не решено (&lt; 5% случаев)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">In-App Chat → Live Agent</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> ↓ если технический вопрос</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Tier 2 Support (blockchain, wallet)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> ↓ если критично (потеря средств)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">War Room Protocol → CTO + Head of Support</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="154-проактивная-поддержка-ai-driven">15.4 Проактивная поддержка (AI-driven)<a href="#154-проактивная-поддержка-ai-driven" class="hash-link" aria-label="Прямая ссылка на 15.4 Проактивная поддержка (AI-driven)" title="Прямая ссылка на 15.4 Проактивная поддержка (AI-driven)" translate="no">​</a></h3>
+<p>▸ WVI упал &gt;15 за день → автоматическая подсказка от AI Coach
+▸ Браслет не синхронизировался &gt;24 часа → push-уведомление с инструкцией
+▸ Yield не начислялся →  проактивное уведомление + объяснение причины
+▸ Lock-up истекает через 3 дня → напоминание с опциями (вывод / реинвест)</p>
+<hr>
+<p><em>→ Смежные документы: <a class="" href="/wellex-docs/03_WELLNESS_SCORE">03_WELLNESS_SCORE.md</a> (WVI) · <a class="" href="/wellex-docs/05_DASHBOARD">05_DASHBOARD.md</a> (WEB Dashboard) · <a class="" href="/wellex-docs/26_COMMUNITY">26_COMMUNITY.md</a> (Community spec) · <a class="" href="/wellex-docs/07_AI_SYSTEM">07_AI_SYSTEM.md</a> (AI-ассистент)</em></p>
+<p><em>Wellex © 2026 · Confidential</em></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Страница документа"><a class="pagination-nav__link pagination-nav__link--prev" href="/wellex-docs/03_WELLNESS_SCORE"><div class="pagination-nav__sublabel">Предыдущая страница</div><div class="pagination-nav__label">03 · WELLEX VITALITY INDEX (WVI)</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wellex-docs/05_DASHBOARD"><div class="pagination-nav__sublabel">Следующая страница</div><div class="pagination-nav__label">05 · WEB DASHBOARD</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-философия-ux" class="table-of-contents__link toc-highlight">1. Философия UX</a><ul><li><a href="#ключевой-принцип-app--wellness--community" class="table-of-contents__link toc-highlight">Ключевой принцип: APP = Wellness + Community</a></li><li><a href="#monthly-yield--правила-отображения" class="table-of-contents__link toc-highlight">Monthly Yield — правила отображения</a></li><li><a href="#lazy-factor" class="table-of-contents__link toc-highlight">Lazy Factor</a></li><li><a href="#design-principles" class="table-of-contents__link toc-highlight">Design Principles</a></li></ul></li><li><a href="#2-навигация-нижний-tab-bar" class="table-of-contents__link toc-highlight">2. Навигация (нижний Tab Bar)</a></li><li><a href="#3-экран-1-главный-home" class="table-of-contents__link toc-highlight">3. Экран 1: Главный (Home)</a><ul><li><a href="#wireframe" class="table-of-contents__link toc-highlight">Wireframe</a></li><li><a href="#элементы-экрана" class="table-of-contents__link toc-highlight">Элементы экрана</a></li></ul></li><li><a href="#4-экран-2-показатели-metrics" class="table-of-contents__link toc-highlight">4. Экран 2: Показатели (Metrics)</a><ul><li><a href="#wireframe-1" class="table-of-contents__link toc-highlight">Wireframe</a></li><li><a href="#графики-и-тренды" class="table-of-contents__link toc-highlight">Графики и тренды</a></li><li><a href="#drill-down-при-тапе-на-компонент" class="table-of-contents__link toc-highlight">Drill-down при тапе на компонент</a></li></ul></li><li><a href="#5-экран-3-комьюнити-community--whoop-модель" class="table-of-contents__link toc-highlight">5. Экран 3: Комьюнити (Community) — WHOOP-модель</a><ul><li><a href="#wireframe-2" class="table-of-contents__link toc-highlight">Wireframe</a></li><li><a href="#функции-community-whoop-модель" class="table-of-contents__link toc-highlight">Функции Community (WHOOP-модель)</a></li><li><a href="#community-vs-whoop--oura--strava" class="table-of-contents__link toc-highlight">Community vs WHOOP / Oura / Strava</a></li></ul></li><li><a href="#6-экран-4-ai-ассистент-assistant" class="table-of-contents__link toc-highlight">6. Экран 4: AI-ассистент (Assistant)</a><ul><li><a href="#wireframe-3" class="table-of-contents__link toc-highlight">Wireframe</a></li><li><a href="#форматы-контента" class="table-of-contents__link toc-highlight">Форматы контента</a></li><li><a href="#типы-рекомендаций" class="table-of-contents__link toc-highlight">Типы рекомендаций</a></li></ul></li><li><a href="#7-экран-5-настройки-settings" class="table-of-contents__link toc-highlight">7. Экран 5: Настройки (Settings)</a><ul><li><a href="#функции" class="table-of-contents__link toc-highlight">Функции</a></li><li><a href="#кнопка-перехода-в-web" class="table-of-contents__link toc-highlight">Кнопка перехода в WEB</a></li></ul></li><li><a href="#8-user-flows" class="table-of-contents__link toc-highlight">8. User Flows</a><ul><li><a href="#81-onboarding-новый-пользователь" class="table-of-contents__link toc-highlight">8.1 Onboarding (новый пользователь)</a></li><li><a href="#82-ежедневный-цикл-активный-пользователь" class="table-of-contents__link toc-highlight">8.2 Ежедневный цикл (активный пользователь)</a></li><li><a href="#83-переход-в-web-финансовые-операции" class="table-of-contents__link toc-highlight">8.3 Переход в WEB (финансовые операции)</a></li><li><a href="#84-discovery-найти-владельцев-браслетов-рядом" class="table-of-contents__link toc-highlight">8.4 Discovery: найти владельцев браслетов рядом</a></li><li><a href="#85-вступление-в-группу-комьюнити" class="table-of-contents__link toc-highlight">8.5 Вступление в группу комьюнити</a></li><li><a href="#86-участие-в-командном-челлендже" class="table-of-contents__link toc-highlight">8.6 Участие в командном челлендже</a></li></ul></li><li><a href="#9-dark--light-theme" class="table-of-contents__link toc-highlight">9. Dark / Light Theme</a></li><li><a href="#10-accessibility-wcag-21-aa" class="table-of-contents__link toc-highlight">10. Accessibility (WCAG 2.1 AA)</a></li><li><a href="#11-offline-mode" class="table-of-contents__link toc-highlight">11. Offline Mode</a></li><li><a href="#12-push-уведомления" class="table-of-contents__link toc-highlight">12. Push-уведомления</a></li><li><a href="#13-технические-требования" class="table-of-contents__link toc-highlight">13. Технические требования</a></li><li><a href="#14-сводная-таблица-app-vs-web" class="table-of-contents__link toc-highlight">14. Сводная таблица: APP vs WEB</a></li><li><a href="#15-help-center--support" class="table-of-contents__link toc-highlight">15. Help Center &amp; Support</a><ul><li><a href="#151-in-app-support-flow" class="table-of-contents__link toc-highlight">15.1 In-App Support Flow</a></li><li><a href="#152-help-center--категории" class="table-of-contents__link toc-highlight">15.2 Help Center — категории</a></li><li><a href="#153-escalation-path" class="table-of-contents__link toc-highlight">15.3 Escalation Path</a></li><li><a href="#154-проактивная-поддержка-ai-driven" class="table-of-contents__link toc-highlight">15.4 Проактивная поддержка (AI-driven)</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Документация</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/00_INTRO">Введение</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/19_WHITEPAPER_v3">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/12_ROADMAP">Roadmap</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Продукт</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/08_HARDWARE">Wellex Band</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/06_YIELD_PROTOCOL">Yield Protocol</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/07_AI_SYSTEM">AI System</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Партнёрам</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/09_PARTNER_PROGRAM">Partner Program</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/31_B2B_PLAYBOOK">B2B Playbook</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/23_SALES_PROGRAM">Sales Program</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Wellex © 2026 · Web3 Wellness Protocol · v5.0</div></div></div></footer></div>
+</body>
+</html>

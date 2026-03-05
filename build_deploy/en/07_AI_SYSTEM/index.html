@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-07_AI_SYSTEM" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">07 · AI SYSTEM | Wellex</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://buffer.terymarius.com/wellex-docs/en/07_AI_SYSTEM"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="ru"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="07 · AI SYSTEM | Wellex"><meta data-rh="true" name="description" content="Wellex v5.0 · 05.03.2026"><meta data-rh="true" property="og:description" content="Wellex v5.0 · 05.03.2026"><link data-rh="true" rel="icon" href="/wellex-docs/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://buffer.terymarius.com/wellex-docs/en/07_AI_SYSTEM"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/07_AI_SYSTEM" hreflang="ru"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/en/07_AI_SYSTEM" hreflang="en"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/07_AI_SYSTEM" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"07 · AI SYSTEM","item":"https://buffer.terymarius.com/wellex-docs/en/07_AI_SYSTEM"}]}</script><link rel="stylesheet" href="/wellex-docs/en/assets/css/styles.6eb3a0fa.css">
+<script src="/wellex-docs/en/assets/js/runtime~main.cf77969d.js" defer="defer"></script>
+<script src="/wellex-docs/en/assets/js/main.1cbe59be.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/wellex-docs/en/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#0d1927;color:rgba(212,168,67,0.9)" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">✦ Wellex v5.0 — Platform Specification &nbsp;·&nbsp; Updated March 2026</div><button type="button" aria-label="Close" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wellex-docs/en/"><div class="navbar__logo"><img src="/wellex-docs/en/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/wellex-docs/en/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">WELLEX</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/en/00_INDEX">Documentation</a><a class="navbar__item navbar__link" href="/wellex-docs/en/19_WHITEPAPER_v3">Whitepaper</a><a class="navbar__item navbar__link" href="/wellex-docs/en/01_EXECUTIVE_SUMMARY">Executive Summary</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>🇬🇧 English</a><ul class="dropdown__menu"><li><a href="/wellex-docs/07_AI_SYSTEM" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="ru">🇷🇺 Русский</a></li><li><a href="/wellex-docs/en/07_AI_SYSTEM" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">🇬🇧 English</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wellex-docs/en/00_INDEX"><span title="WELLEX — PUBLIC DOCUMENTATION v5.0" class="linkLabel_WmDU">WELLEX — PUBLIC DOCUMENTATION v5.0</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wellex-docs/en/00_INTRO"><span title="📖 Введение" class="categoryLinkLabel_W154">📖 Введение</span></a><button aria-label="Collapse sidebar category &#x27;📖 Введение&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/00_INTRO"><span title="Introduction" class="linkLabel_WmDU">Introduction</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/01_EXECUTIVE_SUMMARY"><span title="01 · WELLEX — EXECUTIVE SUMMARY" class="linkLabel_WmDU">01 · WELLEX — EXECUTIVE SUMMARY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/02_PRODUCT_VISION"><span title="02 · PRODUCT VISION" class="linkLabel_WmDU">02 · PRODUCT VISION</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/en/19_WHITEPAPER_v3"><span title="📄 Whitepaper" class="categoryLinkLabel_W154">📄 Whitepaper</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/19_WHITEPAPER_v3"><span title="WELLEX — Whitepaper" class="linkLabel_WmDU">WELLEX — Whitepaper</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/en/03_WELLNESS_SCORE"><span title="💎 Продукт" class="categoryLinkLabel_W154">💎 Продукт</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/03_WELLNESS_SCORE"><span title="03 · WELLEX VITALITY INDEX (WVI)" class="linkLabel_WmDU">03 · WELLEX VITALITY INDEX (WVI)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/04_APP_UX"><span title="04 · WELLNESS APP (iOS / Android)" class="linkLabel_WmDU">04 · WELLNESS APP (iOS / Android)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/05_DASHBOARD"><span title="05 · WEB DASHBOARD" class="linkLabel_WmDU">05 · WEB DASHBOARD</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/08_HARDWARE"><span title="08 · WELLEX BAND — Hardware Platform" class="linkLabel_WmDU">08 · WELLEX BAND — Hardware Platform</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/21_GAMIFICATION"><span title="21 · GAMIFICATION" class="linkLabel_WmDU">21 · GAMIFICATION</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/27_EMOTIONAL_MINING"><span title="27 · EMOTIONAL MINING" class="linkLabel_WmDU">27 · EMOTIONAL MINING</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/32_DAY_IN_THE_LIFE"><span title="32 · &quot;DAY IN THE LIFE&quot; — USER JOURNEY DOCUMENT" class="linkLabel_WmDU">32 · &quot;DAY IN THE LIFE&quot; — USER JOURNEY DOCUMENT</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/06_YIELD_PROTOCOL"><span title="💰 Доходность" class="categoryLinkLabel_W154">💰 Доходность</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/09_PARTNER_PROGRAM"><span title="🤝 Партнёрам &amp; B2B" class="categoryLinkLabel_W154">🤝 Партнёрам &amp; B2B</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/wellex-docs/en/07_AI_SYSTEM"><span title="🔬 Технологии" class="categoryLinkLabel_W154">🔬 Технологии</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/wellex-docs/en/07_AI_SYSTEM"><span title="07 · AI SYSTEM" class="linkLabel_WmDU">07 · AI SYSTEM</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/17_TECH_ARCHITECTURE"><span title="17 · TECHNICAL ARCHITECTURE" class="linkLabel_WmDU">17 · TECHNICAL ARCHITECTURE</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/25_TECH_REQUIREMENTS"><span title="25 · TECHNICAL REQUIREMENTS" class="linkLabel_WmDU">25 · TECHNICAL REQUIREMENTS</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/11_GO_TO_MARKET"><span title="📈 Стратегия &amp; Рост" class="categoryLinkLabel_W154">📈 Стратегия &amp; Рост</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/15_RISKS"><span title="🛡️ Compliance &amp; Риски" class="categoryLinkLabel_W154">🛡️ Compliance &amp; Риски</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/18_FUTURE_FEATURES"><span title="🔮 Будущее" class="categoryLinkLabel_W154">🔮 Будущее</span></a></div></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/wellex-docs/en/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">🔬 Технологии</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">07 · AI SYSTEM</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>07 · AI SYSTEM</h1></header>
+<blockquote>
+<p><strong>Version:</strong> 5.0 | <strong>Date:</strong> 05.03.2026 | <strong>Status:</strong> Public</p>
+</blockquote>
+<blockquote>
+<p>ML architecture · Training pipeline · AI Coach · AI Wallet Agent · AI Insurance Agent · Predictive analytics</p>
+<p>⚠️ AI Yield Engine optimizes allocation but does not guarantee returns. Target Yield depends on DeFi market conditions.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-overview">1. Overview<a href="#1-overview" class="hash-link" aria-label="Direct link to 1. Overview" title="Direct link to 1. Overview" translate="no">​</a></h2>
+<p>Wellex&#x27;s AI system consists of five interconnected components unified by the principle of <strong>Lazy Factor</strong>: user does the minimum — AI handles everything else.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Component</th><th>Purpose</th><th>Deployment</th></tr></thead><tbody><tr><td>1</td><td><strong>AI Coach</strong></td><td>Wellness recommendations (video / audio / text)</td><td>On-device + Cloud</td></tr><tr><td>2</td><td><strong>AI Wallet Agent</strong></td><td>Auto-compound, rebalancing, risk management</td><td>Cloud (server-side)</td></tr><tr><td>3</td><td><strong>AI Insurance Agent</strong></td><td>Risk assessment, personalized insurance recommendations</td><td>Cloud</td></tr><tr><td>4</td><td><strong>AI Dashboard Agents</strong></td><td>Growth, content, analytics, mentoring</td><td>Cloud</td></tr><tr><td>5</td><td><strong>Predictive Analytics Engine</strong></td><td>Health forecasting, churn, revenue prediction</td><td>Cloud</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-ai-coach">2. AI Coach<a href="#2-ai-coach" class="hash-link" aria-label="Direct link to 2. AI Coach" title="Direct link to 2. AI Coach" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-pipeline-architecture">2.1 Pipeline Architecture<a href="#21-pipeline-architecture" class="hash-link" aria-label="Direct link to 2.1 Pipeline Architecture" title="Direct link to 2.1 Pipeline Architecture" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">Wellex Band → BLE → Raw Biometrics</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Feature Engine (on-device)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  HRV, sleep stages, activity, emotions, stress index</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Context Builder</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  WVI, 7-day trend, weak spots, time of day,</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  user profile, recommendation history</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Fine-tuned LLM</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  Llama 3.1 8B (on-device) / GPT-4o (cloud, complex queries)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Output: 🎥 Video · 🎧 Audio · 📝 Text + Personalized action plan</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="22-ml-models">2.2 ML Models<a href="#22-ml-models" class="hash-link" aria-label="Direct link to 2.2 ML Models" title="Direct link to 2.2 ML Models" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Model</th><th>Architecture</th><th>Input</th><th>Output</th><th>Accuracy</th></tr></thead><tbody><tr><td>Emotion Classifier</td><td>XGBoost ensemble</td><td>HRV + EDA (12 features)</td><td>11 emotions + confidence</td><td>78.2% (11-class)</td></tr><tr><td>Sleep Staging</td><td>1D-CNN + BiLSTM</td><td>PPG + Accel (30s epochs)</td><td>Wake / N1 / N2 / N3 / REM</td><td>κ = 0.72</td></tr><tr><td>Activity Classifier</td><td>LightGBM</td><td>Accel + Gyro + HR</td><td>12 workout types</td><td>91.3%</td></tr><tr><td>Stress Predictor</td><td>LSTM (seq2seq)</td><td>HRV time series (5 min)</td><td>Stress score + 1h forecast</td><td>MAE = 6.2</td></tr><tr><td>Recommendation LLM</td><td>Fine-tuned Llama 3.1 8B</td><td>Context vector + user profile</td><td>Text recommendation</td><td>Human eval: 4.3/5</td></tr><tr><td>Content Generator</td><td>GPT-4o (API)</td><td>Recommendation + format</td><td>Video script / audio text</td><td>Human eval: 4.5/5</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="23-training-pipeline">2.3 Training Pipeline<a href="#23-training-pipeline" class="hash-link" aria-label="Direct link to 2.3 Training Pipeline" title="Direct link to 2.3 Training Pipeline" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">1. Data Collection</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── WESAD (PPG + EDA, N = 15)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── AMIGOS (multimodal, N = 40)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Sleep-EDF (PSG-verified, N = 197)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Wellex proprietary (N = 3,200+)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    └── Continuous collection from users (opt-in)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">2. Preprocessing</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Artifact removal (PPG motion artifacts)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Band-pass filtering (0.5–40 Hz for PPG)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── RR interval extraction (Pan-Tompkins)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Feature extraction (time + frequency domain)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    └── Normalization (per-user z-score)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">3. Training</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── 80/10/10 split (train / val / test)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── 5-fold cross-validation</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Hyperparameter tuning (Optuna)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Class balancing (SMOTE + class weights)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    └── Early stopping (patience = 10)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">4. Validation</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Hold-out test set</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Cross-dataset validation</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── A/B testing of recommendations</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    └── Expert review (clinical advisory board)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">5. Deployment</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── ONNX export → CoreML / TFLite</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── On-device inference (&lt; 50 ms)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Cloud fallback for complex queries</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Model versioning (MLflow)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    └── Gradual rollout (5% → 25% → 100%)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">6. Continuous Learning</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Federated learning (no raw data transmission)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Monthly retraining</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ├── Drift detection (PSI &gt; 0.2 → retrain)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    └── User feedback loop</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="24-personalized-recommendations">2.4 Personalized Recommendations<a href="#24-personalized-recommendations" class="hash-link" aria-label="Direct link to 2.4 Personalized Recommendations" title="Direct link to 2.4 Personalized Recommendations" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Type</th><th>Trigger</th><th>Example</th><th>Format</th></tr></thead><tbody><tr><td>Morning</td><td>Every morning</td><td>&quot;Recovery 74. Good day for moderate intensity.&quot;</td><td>Push + Text</td></tr><tr><td>Preventive</td><td>HRV drop &gt; 15%</td><td>&quot;Stress rising — try 4-7-8 breathing for 5 min&quot;</td><td>Push + Video</td></tr><tr><td>Sleep correction</td><td>Sleep &lt; 6h</td><td>&quot;Yesterday 5h 20min — go to bed by 22:30&quot;</td><td>Push + Text</td></tr><tr><td>Motivation</td><td>WVI near yield threshold</td><td>&quot;8 WVI points to next Monthly Yield level! A walk helps.&quot;</td><td>Push + Audio</td></tr><tr><td>Evening</td><td>21:00–22:00</td><td>&quot;Skip caffeine and screens after 22:00, sleep by 23:00&quot;</td><td>Push + Text</td></tr><tr><td>Weekly</td><td>Sunday</td><td>Video report: trends, achievements, week plan</td><td>Video (3 min)</td></tr><tr><td>Milestone</td><td>Streak / level up</td><td>&quot;30-day streak! +0.5% Monthly Yield bonus&quot;</td><td>Push + Animation</td></tr></tbody></table>
+<p><strong>Personalization factors:</strong> age, gender, fitness level, chronotype, recommendation history (no repeats), past advice effectiveness (CTR, follow-through rate), preferred format (video / text).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="25-ai-coach-tiers">2.5 AI Coach Tiers<a href="#25-ai-coach-tiers" class="hash-link" aria-label="Direct link to 2.5 AI Coach Tiers" title="Direct link to 2.5 AI Coach Tiers" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tier</th><th>Cost</th><th>Features</th></tr></thead><tbody><tr><td>Basic</td><td>$0/mo</td><td>Basic text recommendations, WVI display</td></tr><tr><td><strong>Wellex Subscription</strong></td><td><strong>$19/mo</strong></td><td><strong>Full AI Coach: video / audio, detailed analytics, free bracelet</strong></td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-ai-wallet-agent">3. AI Wallet Agent<a href="#3-ai-wallet-agent" class="hash-link" aria-label="Direct link to 3. AI Wallet Agent" title="Direct link to 3. AI Wallet Agent" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="31-architecture">3.1 Architecture<a href="#31-architecture" class="hash-link" aria-label="Direct link to 3.1 Architecture" title="Direct link to 3.1 Architecture" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">Data Sources</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── The Graph (protocol TVL, Monthly Yield)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── DeFiLlama API (cross-protocol)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Chainlink (price feeds)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└── Internal analytics (user behavior)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  Gauntlet-style simulation · 10,000 scenarios per decision</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Decision Engine (PPO agent)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  State: market conditions + portfolio</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  Action: rebalancing / compound</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  Reward: risk-adjusted return</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">TX Builder</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  Ethers.js + Tenderly Simulation → Gelato Keeper execution</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="32-autonomous-ai-actions">3.2 Autonomous AI Actions<a href="#32-autonomous-ai-actions" class="hash-link" aria-label="Direct link to 3.2 Autonomous AI Actions" title="Direct link to 3.2 Autonomous AI Actions" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Action</th><th>Condition</th><th>Example</th></tr></thead><tbody><tr><td>Auto-compound yield</td><td>When activated ($129)</td><td>Reinvest yield → WellexVault</td></tr><tr><td>Harvest rewards</td><td>Always</td><td>CRV, COMP → convert to USDC → vault</td></tr><tr><td>DeFi rebalancing</td><td>Deviation &gt; 5% from target</td><td>Lending/AMM/RWA → rebalance to optimal</td></tr><tr><td>Cross-chain movement</td><td>Yield differential &gt; 2%</td><td>Move USDC from BSC to Ethereum via LayerZero</td></tr><tr><td>Gas optimization</td><td>Always</td><td>UserOps batching, low-gas windows</td></tr><tr><td>Emergency withdrawal</td><td>Depeg &gt; 2%, exploit detected</td><td>Instant withdrawal to stablecoins</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-actions-requiring-user-confirmation">3.3 Actions Requiring User Confirmation<a href="#33-actions-requiring-user-confirmation" class="hash-link" aria-label="Direct link to 3.3 Actions Requiring User Confirmation" title="Direct link to 3.3 Actions Requiring User Confirmation" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Action</th><th>Reason</th></tr></thead><tbody><tr><td>Withdraw to external address</td><td>Security</td></tr><tr><td>Change strategy</td><td>Risk profile change</td></tr><tr><td>Deploy outside whitelist</td><td>Smart contract risk</td></tr><tr><td>Operations &gt; 25% portfolio in 24h</td><td>Large movement protection</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="34-ai-wallet-agent-allocation-single-wellexvault">3.4 AI Wallet Agent Allocation (Single WellexVault)<a href="#34-ai-wallet-agent-allocation-single-wellexvault" class="hash-link" aria-label="Direct link to 3.4 AI Wallet Agent Allocation (Single WellexVault)" title="Direct link to 3.4 AI Wallet Agent Allocation (Single WellexVault)" translate="no">​</a></h3>
+<p>AI Wallet Agent manages a single <strong>WellexVault (ERC-4626)</strong>. Manual user strategy selection is unavailable — AI automatically optimizes DeFi allocations based on market conditions and user&#x27;s WVI.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>DeFi category</th><th style="text-align:center">Target allocation</th><th>Protocols</th></tr></thead><tbody><tr><td>Lending</td><td style="text-align:center">35–55%</td><td>Aave v3, Compound III, Morpho</td></tr><tr><td>AMM fees / LP</td><td style="text-align:center">10–20%</td><td>Uniswap v3, Curve</td></tr><tr><td>RWA / Treasuries</td><td style="text-align:center">10–25%</td><td>Ondo USDY, Mountain USDM</td></tr><tr><td>Liquidity incentives</td><td style="text-align:center">5–15%</td><td>CRV/CVX incentives, LM programs</td></tr><tr><td>Rate/basis arbitrage</td><td style="text-align:center">0–10%</td><td>Funding/basis, cross-protocol spreads</td></tr><tr><td>Structured strategies</td><td style="text-align:center">0–15%</td><td>Delta-neutral, covered/hedged structures</td></tr><tr><td><strong>Cash buffer</strong></td><td style="text-align:center"><strong>5–10%</strong></td><td><strong>USDC — for gas and rebalancing</strong></td></tr></tbody></table>
+<p><strong>Auto AI Principles:</strong></p>
+<ul>
+<li class="">Allocation reviewed daily (reacts to market conditions)</li>
+<li class="">High WVI (≥70) → AI permits more complex strategies (higher expected yield)</li>
+<li class="">Low WVI (&lt;40) → AI reduces incentives/structured share → conservative allocation</li>
+<li class="">Tenderly simulation before every transaction execution</li>
+</ul>
+<p><strong>Expected Monthly Yield</strong> (from WellexVault) is strictly determined by user&#x27;s WVI per the unified table in REBUILD_PLAN.md. Actual yield depends on DeFi market conditions.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="35-ai-yield-agent--800-strategies">3.5 AI Yield Agent — 800+ Strategies<a href="#35-ai-yield-agent--800-strategies" class="hash-link" aria-label="Direct link to 3.5 AI Yield Agent — 800+ Strategies" title="Direct link to 3.5 AI Yield Agent — 800+ Strategies" translate="no">​</a></h3>
+<p>The AI Yield Agent operates a library of <strong>800+ strategies</strong> across 8 DeFi yield streams:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Stream</th><th>Example strategies</th></tr></thead><tbody><tr><td>1</td><td>DeFi Lending</td><td>Aave v3 supply optimization, Morpho rate arbitrage</td></tr><tr><td>2</td><td>RWA (Real World Assets)</td><td>Ondo USDY, Mountain USDM, tokenized treasuries</td></tr><tr><td>3</td><td>Liquidity Mining</td><td>CRV/CVX boosting, concentrated LP positions</td></tr><tr><td>4</td><td>Options Strategies</td><td>Covered calls, protective puts via DeFi options vaults</td></tr><tr><td>5</td><td>Basis Trading</td><td>Futures vs spot basis capture, funding rate arbitrage</td></tr><tr><td>6</td><td>Delta-Neutral</td><td>Market-neutral hedged positions, basis + hedge combos</td></tr><tr><td>7</td><td>Cross-Chain Arbitrage</td><td>Multi-chain rate differentials via LayerZero</td></tr><tr><td>8</td><td>Emerging Protocols</td><td>New vetted protocols with boosted incentives</td></tr></tbody></table>
+<p><strong>Strategy selection:</strong> ML-driven, rebalanced every 15 minutes based on market conditions, TVL shifts, and risk parameters.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-ai-insurance-agent">4. AI Insurance Agent<a href="#4-ai-insurance-agent" class="hash-link" aria-label="Direct link to 4. AI Insurance Agent" title="Direct link to 4. AI Insurance Agent" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-concept">4.1 Concept<a href="#41-concept" class="hash-link" aria-label="Direct link to 4.1 Concept" title="Direct link to 4.1 Concept" translate="no">​</a></h3>
+<p>AI Insurance Agent analyzes biometric data and financial profile to generate personalized insurance recommendations.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-architecture">4.2 Architecture<a href="#42-architecture" class="hash-link" aria-label="Direct link to 4.2 Architecture" title="Direct link to 4.2 Architecture" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">Input data:</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── WVI history (30 / 90 / 365 days)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Biometric trends (HRV, sleep, activity)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Age, gender, BMI, lifestyle factors</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Deposit history and yield</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└── Regional factors (medical costs)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Risk Scoring Engine</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  Actuarial model + ML (Gradient Boosting / XGBoost)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  Trained on insurance datasets</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Results:</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Personal Health Risk Score (0–100)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Recommended coverage type and amount</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Premium calculation (insurance partners)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Preventive recommendations (lower premium)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└── &quot;Saved $X thanks to your WVI&quot;</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="43-functions">4.3 Functions<a href="#43-functions" class="hash-link" aria-label="Direct link to 4.3 Functions" title="Direct link to 4.3 Functions" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function</th><th>Description</th></tr></thead><tbody><tr><td>Health Risk Score</td><td>ML-based risk assessment from 90+ days of biometrics</td></tr><tr><td>Coverage Recommendations</td><td>Coverage type and amount by user profile</td></tr><tr><td>Premium Optimization</td><td>&quot;Your WVI 80 → 15% discount with partner X&quot;</td></tr><tr><td>Preventive Actions</td><td>&quot;Add 1h sleep → risk score drops 8%&quot;</td></tr><tr><td>Claims Assistant</td><td>AI help with insurance claim filing</td></tr><tr><td>Partner Marketplace</td><td>Offers from insurance company partners</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="44-monetization">4.4 Monetization<a href="#44-monetization" class="hash-link" aria-label="Direct link to 4.4 Monetization" title="Direct link to 4.4 Monetization" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Source</th><th>Rate</th></tr></thead><tbody><tr><td>Insurance partner commission</td><td>5–15% of premium</td></tr><tr><td>Lead generation</td><td>$20–50 per qualified lead</td></tr><tr><td>Detailed Health Risk Report</td><td>Included in $19/mo subscription</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-ai-dashboard-agents">5. AI Dashboard Agents<a href="#5-ai-dashboard-agents" class="hash-link" aria-label="Direct link to 5. AI Dashboard Agents" title="Direct link to 5. AI Dashboard Agents" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51-growth-agent">5.1 Growth Agent<a href="#51-growth-agent" class="hash-link" aria-label="Direct link to 5.1 Growth Agent" title="Direct link to 5.1 Growth Agent" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function</th><th>Description</th></tr></thead><tbody><tr><td>Reactivation</td><td>Detect inactive partners → personalized re-engagement scripts</td></tr><tr><td>Audience analysis</td><td>Partner profile → channel recommendations</td></tr><tr><td>Forecasting</td><td>&quot;+3 referrals/mo → rank Master in 6 months, ~$1,700 income&quot;</td></tr><tr><td>Weekly plan</td><td>Step-by-step action plan with priorities</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="52-content-agent">5.2 Content Agent<a href="#52-content-agent" class="hash-link" aria-label="Direct link to 5.2 Content Agent" title="Direct link to 5.2 Content Agent" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function</th><th>Description</th></tr></thead><tbody><tr><td>Post generation</td><td>Instagram, Telegram, Facebook — by prompt or automatically</td></tr><tr><td>Video scripts</td><td>Scenarios for Reels, TikTok, YouTube Shorts</td></tr><tr><td>Stories</td><td>Ready visuals + text</td></tr><tr><td>Prompt training</td><td>Help writing effective content prompts</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="53-analytics-agent-guardian">5.3 Analytics Agent (Guardian+)<a href="#53-analytics-agent-guardian" class="hash-link" aria-label="Direct link to 5.3 Analytics Agent (Guardian+)" title="Direct link to 5.3 Analytics Agent (Guardian+)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function</th><th>Description</th></tr></thead><tbody><tr><td>Funnel</td><td>Invites → Registrations → Active → Paying</td></tr><tr><td>Bottlenecks</td><td>&quot;80% drop at bracelet setup — help the team&quot;</td></tr><tr><td>Cohort analysis</td><td>Retention by onboarding month</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="54-mentoring-agent-master">5.4 Mentoring Agent (Master+)<a href="#54-mentoring-agent-master" class="hash-link" aria-label="Direct link to 5.4 Mentoring Agent (Master+)" title="Direct link to 5.4 Mentoring Agent (Master+)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function</th><th>Description</th></tr></thead><tbody><tr><td>Team training</td><td>Webinar templates, call scripts</td></tr><tr><td>Delegation</td><td>&quot;@user1 ready for Guardian rank — help close 3 referrals&quot;</td></tr><tr><td>Team WVI</td><td>Recommendations to grow avg team WVI</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-predictive-analytics-engine">6. Predictive Analytics Engine<a href="#6-predictive-analytics-engine" class="hash-link" aria-label="Direct link to 6. Predictive Analytics Engine" title="Direct link to 6. Predictive Analytics Engine" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="61-models">6.1 Models<a href="#61-models" class="hash-link" aria-label="Direct link to 6.1 Models" title="Direct link to 6.1 Models" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Model</th><th>Task</th><th>Architecture</th><th>Horizon</th><th>Metric</th></tr></thead><tbody><tr><td>WVI Forecast</td><td>Predict WVI 7/30 days</td><td>LSTM (seq2seq)</td><td>7–30 days</td><td>MAE = 4.1</td></tr><tr><td>Churn Predictor</td><td>Probability of churn</td><td>Gradient Boosting</td><td>30 days</td><td>AUC = 0.87</td></tr><tr><td>Monthly Yield Optimizer</td><td>Optimal strategy</td><td>RL (PPO)</td><td>Real-time</td><td>Sharpe &gt; 1.8</td></tr><tr><td>Health Alert</td><td>Early warning system</td><td>Anomaly detection (Isolation Forest)</td><td>24–72h</td><td>Precision = 0.82</td></tr><tr><td>Revenue Forecast</td><td>MRR / ARR forecast</td><td>Prophet + XGBoost</td><td>3–12 months</td><td>MAPE = 8%</td></tr><tr><td>Network Growth</td><td>Partner network growth</td><td>Graph Neural Network</td><td>1–6 months</td><td>MAE = 12%</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="62-predictive-insight-examples">6.2 Predictive Insight Examples<a href="#62-predictive-insight-examples" class="hash-link" aria-label="Direct link to 6.2 Predictive Insight Examples" title="Direct link to 6.2 Predictive Insight Examples" translate="no">​</a></h3>
+<p><strong>For users:</strong></p>
+<ul>
+<li class="">&quot;HRV dropping 3 days in a row. 72% probability WVI falls below 60 tomorrow. Recommendation: walk + sleep by 22:00&quot;</li>
+<li class="">&quot;At current pace, March Monthly Yield = 14.2%. To reach 16% need +4 to avg WVI&quot;</li>
+</ul>
+<p><strong>For admin:</strong></p>
+<ul>
+<li class="">&quot;February cohort: 30d retention = 78%, 90d forecast = 62%. Bottleneck: 23% didn&#x27;t connect bracelet&quot;</li>
+<li class="">&quot;TVL forecast Q2: $8.2M (+95% current). Risk if market corrects: $5.1M&quot;</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-technology-stack">7. Technology Stack<a href="#7-technology-stack" class="hash-link" aria-label="Direct link to 7. Technology Stack" title="Direct link to 7. Technology Stack" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Component</th><th>Technology</th><th>Purpose</th></tr></thead><tbody><tr><td>On-device LLM</td><td>Llama 3.1 8B (ONNX → CoreML / TFLite)</td><td>Wellness recommendations (&lt; 50 ms)</td></tr><tr><td>Cloud LLM</td><td>GPT-4o / Claude API</td><td>Complex queries, content generation</td></tr><tr><td>ML Framework</td><td>PyTorch 2.x + Lightning</td><td>Model training</td></tr><tr><td>ML Serving</td><td>ONNX Runtime (device), TorchServe (cloud)</td><td>Inference</td></tr><tr><td>Experiment Tracking</td><td>MLflow + Weights &amp; Biases</td><td>Metrics, artifacts</td></tr><tr><td>Hyperparameter Tuning</td><td>Optuna</td><td>Automated HPO</td></tr><tr><td>Feature Store</td><td>Feast (on Redis)</td><td>Real-time + batch features</td></tr><tr><td>Data Pipeline</td><td>Apache Airflow</td><td>ETL, retraining schedules</td></tr><tr><td>Vector DB</td><td>Qdrant</td><td>Similarity search for recommendations</td></tr><tr><td>RL Environment</td><td>Gymnasium + Stable Baselines3</td><td>Wallet Agent training</td></tr><tr><td>Market Data</td><td>The Graph + DeFiLlama API</td><td>Monthly Yield, TVL, utilization</td></tr><tr><td>TX Builder</td><td>Ethers.js + Tenderly Simulation</td><td>Build and verify transactions</td></tr><tr><td>Keeper</td><td>Gelato Web3 Functions</td><td>On-chain execution</td></tr><tr><td>Monitoring</td><td>Forta + custom alerts</td><td>Anomaly detection</td></tr><tr><td>Notifications</td><td>Firebase + Telegram Bot API</td><td>Push notifications</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-ai-security">8. AI Security<a href="#8-ai-security" class="hash-link" aria-label="Direct link to 8. AI Security" title="Direct link to 8. AI Security" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="three-layer-defense">Three-Layer Defense<a href="#three-layer-defense" class="hash-link" aria-label="Direct link to Three-Layer Defense" title="Direct link to Three-Layer Defense" translate="no">​</a></h3>
+<p><strong>Layer 1 — Smart Contract Limits (on-chain)</strong></p>
+<ul>
+<li class="">Protocol whitelist (governance-updated)</li>
+<li class="">Max transaction size per action</li>
+<li class="">Daily volume limit (25% of portfolio)</li>
+<li class="">Emergency pause (multisig 2-of-3)</li>
+<li class="">Rate limits (5% TVL/hour)</li>
+</ul>
+<p><strong>Layer 2 — AI Guardrails (off-chain)</strong></p>
+<ul>
+<li class="">Risk score for each transaction (1–100 scale)</li>
+<li class="">Anomaly detection (Isolation Forest)</li>
+<li class="">Tenderly simulation before execution</li>
+<li class="">Auto-reject if risk score &gt; 70 without user confirmation</li>
+<li class="">Human-in-the-loop for operations &gt; $50,000</li>
+</ul>
+<p><strong>Layer 3 — User Controls</strong></p>
+<ul>
+<li class="">Instant AI pause (Pause Agent)</li>
+<li class="">Override any AI decision</li>
+<li class="">Custom limits (max per tx, daily cap)</li>
+<li class="">Full manual mode (AI disabled)</li>
+<li class="">Activity log (all AI actions transparent)</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-data-privacy">9. Data Privacy<a href="#9-data-privacy" class="hash-link" aria-label="Direct link to 9. Data Privacy" title="Direct link to 9. Data Privacy" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Principle</th><th>Implementation</th></tr></thead><tbody><tr><td>On-device first</td><td>Basic inference on device; raw data never leaves phone</td></tr><tr><td>E2E encryption</td><td>Biometrics encrypted AES-256 before cloud transmission</td></tr><tr><td>Federated learning</td><td>Models improve without raw data on server</td></tr><tr><td>Data minimization</td><td>Server receives only WVI score + aggregated features</td></tr><tr><td>User control</td><td>Export / delete all data (GDPR Art. 17)</td></tr><tr><td>Anonymization</td><td>Research uses only de-identified data</td></tr></tbody></table>
+<hr>
+<p><em>→ Related documents: <a class="" href="/wellex-docs/en/04_APP_UX">04_APP_UX.md</a> (AI assistant screen) · <a class="" href="/wellex-docs/en/05_DASHBOARD">05_DASHBOARD.md</a> (AI Dashboard Agents) · <a class="" href="/wellex-docs/en/06_YIELD_PROTOCOL">06_YIELD_PROTOCOL.md</a> (yield mechanics) · <a class="" href="/wellex-docs/en/08_HARDWARE">08_HARDWARE.md</a> (band data)</em></p>
+<p><em>Wellex © 2026 · Confidential</em></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/wellex-docs/en/35_INSURANCE_PARTNERSHIP_LOI"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">35 · INSURANCE PARTNERSHIP — LETTER OF INTENT (TEMPLATE)</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wellex-docs/en/17_TECH_ARCHITECTURE"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">17 · TECHNICAL ARCHITECTURE</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-overview" class="table-of-contents__link toc-highlight">1. Overview</a></li><li><a href="#2-ai-coach" class="table-of-contents__link toc-highlight">2. AI Coach</a><ul><li><a href="#21-pipeline-architecture" class="table-of-contents__link toc-highlight">2.1 Pipeline Architecture</a></li><li><a href="#22-ml-models" class="table-of-contents__link toc-highlight">2.2 ML Models</a></li><li><a href="#23-training-pipeline" class="table-of-contents__link toc-highlight">2.3 Training Pipeline</a></li><li><a href="#24-personalized-recommendations" class="table-of-contents__link toc-highlight">2.4 Personalized Recommendations</a></li><li><a href="#25-ai-coach-tiers" class="table-of-contents__link toc-highlight">2.5 AI Coach Tiers</a></li></ul></li><li><a href="#3-ai-wallet-agent" class="table-of-contents__link toc-highlight">3. AI Wallet Agent</a><ul><li><a href="#31-architecture" class="table-of-contents__link toc-highlight">3.1 Architecture</a></li><li><a href="#32-autonomous-ai-actions" class="table-of-contents__link toc-highlight">3.2 Autonomous AI Actions</a></li><li><a href="#33-actions-requiring-user-confirmation" class="table-of-contents__link toc-highlight">3.3 Actions Requiring User Confirmation</a></li><li><a href="#34-ai-wallet-agent-allocation-single-wellexvault" class="table-of-contents__link toc-highlight">3.4 AI Wallet Agent Allocation (Single WellexVault)</a></li><li><a href="#35-ai-yield-agent--800-strategies" class="table-of-contents__link toc-highlight">3.5 AI Yield Agent — 800+ Strategies</a></li></ul></li><li><a href="#4-ai-insurance-agent" class="table-of-contents__link toc-highlight">4. AI Insurance Agent</a><ul><li><a href="#41-concept" class="table-of-contents__link toc-highlight">4.1 Concept</a></li><li><a href="#42-architecture" class="table-of-contents__link toc-highlight">4.2 Architecture</a></li><li><a href="#43-functions" class="table-of-contents__link toc-highlight">4.3 Functions</a></li><li><a href="#44-monetization" class="table-of-contents__link toc-highlight">4.4 Monetization</a></li></ul></li><li><a href="#5-ai-dashboard-agents" class="table-of-contents__link toc-highlight">5. AI Dashboard Agents</a><ul><li><a href="#51-growth-agent" class="table-of-contents__link toc-highlight">5.1 Growth Agent</a></li><li><a href="#52-content-agent" class="table-of-contents__link toc-highlight">5.2 Content Agent</a></li><li><a href="#53-analytics-agent-guardian" class="table-of-contents__link toc-highlight">5.3 Analytics Agent (Guardian+)</a></li><li><a href="#54-mentoring-agent-master" class="table-of-contents__link toc-highlight">5.4 Mentoring Agent (Master+)</a></li></ul></li><li><a href="#6-predictive-analytics-engine" class="table-of-contents__link toc-highlight">6. Predictive Analytics Engine</a><ul><li><a href="#61-models" class="table-of-contents__link toc-highlight">6.1 Models</a></li><li><a href="#62-predictive-insight-examples" class="table-of-contents__link toc-highlight">6.2 Predictive Insight Examples</a></li></ul></li><li><a href="#7-technology-stack" class="table-of-contents__link toc-highlight">7. Technology Stack</a></li><li><a href="#8-ai-security" class="table-of-contents__link toc-highlight">8. AI Security</a><ul><li><a href="#three-layer-defense" class="table-of-contents__link toc-highlight">Three-Layer Defense</a></li></ul></li><li><a href="#9-data-privacy" class="table-of-contents__link toc-highlight">9. Data Privacy</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Документация</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/00_INTRO">Введение</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/19_WHITEPAPER_v3">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/12_ROADMAP">Roadmap</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Продукт</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/08_HARDWARE">Wellex Band</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/06_YIELD_PROTOCOL">Yield Protocol</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/07_AI_SYSTEM">AI System</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Партнёрам</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/09_PARTNER_PROGRAM">Partner Program</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/31_B2B_PLAYBOOK">B2B Playbook</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/23_SALES_PROGRAM">Sales Program</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Wellex © 2026 · Confidential · Tier-0 Big4 Standard</div></div></div></footer></div>
+</body>
+</html>

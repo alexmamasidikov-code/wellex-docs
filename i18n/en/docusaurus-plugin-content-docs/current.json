@@ -1,0 +1,38 @@
+{
+  "sidebar.wellexSidebar.category.📖 Введение": {
+    "message": "📖 Introduction",
+    "description": "Sidebar category: Введение"
+  },
+  "sidebar.wellexSidebar.category.📄 Whitepaper": {
+    "message": "📄 Whitepaper",
+    "description": "Sidebar category: Whitepaper"
+  },
+  "sidebar.wellexSidebar.category.💎 Продукт": {
+    "message": "💎 Product",
+    "description": "Sidebar category: Продукт"
+  },
+  "sidebar.wellexSidebar.category.💰 Доходность": {
+    "message": "💰 Yield & Finance",
+    "description": "Sidebar category: Доходность"
+  },
+  "sidebar.wellexSidebar.category.🤝 Партнёрам & B2B": {
+    "message": "🤝 Partners & B2B",
+    "description": "Sidebar category: Партнёрам & B2B"
+  },
+  "sidebar.wellexSidebar.category.🔬 Технологии": {
+    "message": "🔬 Technology",
+    "description": "Sidebar category: Технологии"
+  },
+  "sidebar.wellexSidebar.category.📈 Стратегия & Рост": {
+    "message": "📈 Strategy & Growth",
+    "description": "Sidebar category: Стратегия & Рост"
+  },
+  "sidebar.wellexSidebar.category.🛡️ Compliance & Риски": {
+    "message": "🛡️ Compliance & Risks",
+    "description": "Sidebar category: Compliance & Риски"
+  },
+  "sidebar.wellexSidebar.category.🔮 Будущее": {
+    "message": "🔮 Future",
+    "description": "Sidebar category: Будущее"
+  }
+}

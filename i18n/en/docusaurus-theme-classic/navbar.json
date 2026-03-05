@@ -1,0 +1,50 @@
+{
+  "title": {
+    "message": "",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Wellex",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Документы": {
+    "message": "Docs",
+    "description": "Navbar item with label Документы"
+  },
+  "item.label.Вайтпейпер": {
+    "message": "Whitepaper",
+    "description": "Navbar item with label Вайтпейпер"
+  },
+  "item.label.Роадмап": {
+    "message": "Roadmap",
+    "description": "Navbar item with label Роадмап"
+  },
+  "item.label.Введение": {
+    "message": "Introduction",
+    "description": "Navbar item with label Введение"
+  },
+  "item.label.Продукт": {
+    "message": "Product",
+    "description": "Navbar item with label Продукт"
+  },
+  "item.label.Доходность": {
+    "message": "Yield",
+    "description": "Navbar item with label Доходность"
+  },
+  "item.label.Партнёрам": {
+    "message": "Partners",
+    "description": "Navbar item with label Партнёрам"
+  },
+  "item.label.Технологии": {
+    "message": "Technology",
+    "description": "Navbar item with label Технологии"
+  },
+  "item.label.Стратегия": {
+    "message": "Strategy",
+    "description": "Navbar item with label Стратегия"
+  },
+  "item.label.Compliance": {
+    "message": "Compliance",
+    "description": "Navbar item with label Compliance"
+  }
+}

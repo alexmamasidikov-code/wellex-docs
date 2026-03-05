@@ -1,0 +1,735 @@
+<!doctype html>
+<html lang="ru" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-17_TECH_ARCHITECTURE" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">17 · TECHNICAL ARCHITECTURE | Wellex</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://buffer.terymarius.com/wellex-docs/17_TECH_ARCHITECTURE"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="17 · TECHNICAL ARCHITECTURE | Wellex"><meta data-rh="true" name="description" content="Wellex v5.0 · 05.03.2026"><meta data-rh="true" property="og:description" content="Wellex v5.0 · 05.03.2026"><link data-rh="true" rel="icon" href="/wellex-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://buffer.terymarius.com/wellex-docs/17_TECH_ARCHITECTURE"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/17_TECH_ARCHITECTURE" hreflang="ru"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/en/17_TECH_ARCHITECTURE" hreflang="en"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/17_TECH_ARCHITECTURE" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"17 · TECHNICAL ARCHITECTURE","item":"https://buffer.terymarius.com/wellex-docs/17_TECH_ARCHITECTURE"}]}</script><link rel="stylesheet" href="/wellex-docs/assets/css/styles.6eb3a0fa.css">
+<script src="/wellex-docs/assets/js/runtime~main.935a43e7.js" defer="defer"></script>
+<script src="/wellex-docs/assets/js/main.f7525e97.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/wellex-docs/img/logo.svg"><div role="region" aria-label="Перейти к основному содержимому"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Перейти к основному содержимому</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#0d1927;color:rgba(212,168,67,0.9)" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">✦ Wellex v5.0 — Platform Specification &nbsp;·&nbsp; Updated March 2026</div><button type="button" aria-label="Закрыть" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Переключить навигационную панель" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wellex-docs/"><div class="navbar__logo"><img src="/wellex-docs/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/wellex-docs/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">WELLEX</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/00_INDEX">Документация</a><a class="navbar__item navbar__link" href="/wellex-docs/19_WHITEPAPER_v3">Whitepaper</a><a class="navbar__item navbar__link" href="/wellex-docs/01_EXECUTIVE_SUMMARY">Executive Summary</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>🇷🇺 Русский</a><ul class="dropdown__menu"><li><a href="/wellex-docs/17_TECH_ARCHITECTURE" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="ru">🇷🇺 Русский</a></li><li><a href="/wellex-docs/en/17_TECH_ARCHITECTURE" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en">🇬🇧 English</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Переключение между темным и светлым режимом (сейчас используется system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Прокрутка к началу" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wellex-docs/00_INDEX"><span title="WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0" class="linkLabel_WmDU">WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wellex-docs/00_INTRO"><span title="📖 Введение" class="categoryLinkLabel_W154">📖 Введение</span></a><button aria-label="Collapse sidebar category &#x27;📖 Введение&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/00_INTRO"><span title="Введение" class="linkLabel_WmDU">Введение</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/01_EXECUTIVE_SUMMARY"><span title="01 · WELLEX — EXECUTIVE SUMMARY" class="linkLabel_WmDU">01 · WELLEX — EXECUTIVE SUMMARY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/02_PRODUCT_VISION"><span title="02 · PRODUCT VISION" class="linkLabel_WmDU">02 · PRODUCT VISION</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/19_WHITEPAPER_v3"><span title="📄 Whitepaper" class="categoryLinkLabel_W154">📄 Whitepaper</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/19_WHITEPAPER_v3"><span title="WELLEX — Whitepaper" class="linkLabel_WmDU">WELLEX — Whitepaper</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/03_WELLNESS_SCORE"><span title="💎 Продукт" class="categoryLinkLabel_W154">💎 Продукт</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/03_WELLNESS_SCORE"><span title="03 · WELLEX VITALITY INDEX (WVI)" class="linkLabel_WmDU">03 · WELLEX VITALITY INDEX (WVI)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/04_APP_UX"><span title="04 · WELLNESS APP (iOS / Android)" class="linkLabel_WmDU">04 · WELLNESS APP (iOS / Android)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/05_DASHBOARD"><span title="05 · WEB DASHBOARD" class="linkLabel_WmDU">05 · WEB DASHBOARD</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/08_HARDWARE"><span title="08 · WELLEX BAND — Hardware Platform" class="linkLabel_WmDU">08 · WELLEX BAND — Hardware Platform</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/21_GAMIFICATION"><span title="21 · GAMIFICATION" class="linkLabel_WmDU">21 · GAMIFICATION</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/27_EMOTIONAL_MINING"><span title="27 · EMOTIONAL MINING" class="linkLabel_WmDU">27 · EMOTIONAL MINING</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/32_DAY_IN_THE_LIFE"><span title="32 · «ДЕНЬ ИЗ ЖИЗНИ» — USER JOURNEY DOCUMENT" class="linkLabel_WmDU">32 · «ДЕНЬ ИЗ ЖИЗНИ» — USER JOURNEY DOCUMENT</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/06_YIELD_PROTOCOL"><span title="💰 Доходность" class="categoryLinkLabel_W154">💰 Доходность</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/09_PARTNER_PROGRAM"><span title="🤝 Партнёрам &amp; B2B" class="categoryLinkLabel_W154">🤝 Партнёрам &amp; B2B</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/wellex-docs/07_AI_SYSTEM"><span title="🔬 Технологии" class="categoryLinkLabel_W154">🔬 Технологии</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/07_AI_SYSTEM"><span title="07 · AI SYSTEM" class="linkLabel_WmDU">07 · AI SYSTEM</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/wellex-docs/17_TECH_ARCHITECTURE"><span title="17 · TECHNICAL ARCHITECTURE" class="linkLabel_WmDU">17 · TECHNICAL ARCHITECTURE</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/25_TECH_REQUIREMENTS"><span title="25 · TECHNICAL REQUIREMENTS" class="linkLabel_WmDU">25 · TECHNICAL REQUIREMENTS</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/11_GO_TO_MARKET"><span title="📈 Стратегия &amp; Рост" class="categoryLinkLabel_W154">📈 Стратегия &amp; Рост</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/15_RISKS"><span title="🛡️ Compliance &amp; Риски" class="categoryLinkLabel_W154">🛡️ Compliance &amp; Риски</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/18_FUTURE_FEATURES"><span title="🔮 Будущее" class="categoryLinkLabel_W154">🔮 Будущее</span></a></div></li></ul></nav><button type="button" title="Свернуть сайдбар" aria-label="Свернуть сайдбар" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Навигационная цепочка текущей страницы"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Главная страница" class="breadcrumbs__link" href="/wellex-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">🔬 Технологии</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">17 · TECHNICAL ARCHITECTURE</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Содержание этой страницы</button></div><div class="theme-doc-markdown markdown"><header><h1>17 · TECHNICAL ARCHITECTURE</h1></header>
+<blockquote>
+<p><strong>Версия:</strong> 5.0 | <strong>Дата:</strong> 05.03.2026 | <strong>Статус:</strong> Public</p>
+</blockquote>
+<blockquote>
+<p>Multi-EVM · Microservices · AWS Cloud · Card On-Ramp · Single Vault · Bridges · DEX Aggregator · Safe{Wallet} · CI/CD · Monitoring
+Масштабируемость до 10M пользователей</p>
+<p>⚠️ Architecture supports yield distribution infrastructure. Target Yield is not a guarantee — actual yield depends on DeFi market conditions.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-архитектурный-обзор">1. Архитектурный обзор<a href="#1-архитектурный-обзор" class="hash-link" aria-label="Прямая ссылка на 1. Архитектурный обзор" title="Прямая ссылка на 1. Архитектурный обзор" translate="no">​</a></h2>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌──────────────────────────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ CLIENT LAYER                                                      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌────────────────┐ ┌──────────────────┐ ┌───────────────┐       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Mobile App     │ │ Web Dashboard    │ │ Admin Panel   │       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ (RN / Swift /  │ │ (React 18 + TS)  │ │ (React 18)    │       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Kotlin)        │ │                  │ │               │       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └───────┬────────┘ └────────┬─────────┘ └───────┬───────┘       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│         └───────────────────┬┴───────────────────┘               │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                             │ HTTPS / WSS                        │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├─────────────────────────────┼────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                             ▼                                     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│              API GATEWAY (Kong)                                   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│    Rate limiting · Auth · Routing                                 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├──────────────────────────────────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ MICROSERVICES LAYER                                               │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Auth     │◄─gRPC─►│ WVI      │◄─gRPC─►│ Yield    │◄─gRPC─►│ Partner  │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Service  │ │ Service  │ │ Service  │ │ Service  │            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └──────────┘ └──────────┘ └──────────┘ └──────────┘            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ AI       │ │ Notif.   │ │Bracelet  │ │ Bridge   │            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Service  │ │ Service  │ │ Service  │ │ Service  │            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └──────────┘ └──────────┘ └──────────┘ └──────────┘            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌──────────┐ ┌──────────┐                                       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ On-Ramp  │ │ Content  │                                       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ Service  │ │ Service  │                                       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └──────────┘ └──────────┘                                       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  *** Все inter-service вызовы — gRPC/Protobuf ***                │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  *** REST/JSON — только на уровне API Gateway ***                │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├──────────────────────────────────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ BLOCKCHAIN LAYER (MULTI-EVM)                                      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ EVM: Ethereum · Polygon · BSC · Arbitrum · Optimism · Base · Av.│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ + Tron (TRC-20 USDT/USDC) + Solana (SPL USDC)                   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Safe{Wallet} + ERC-4337 · WellexVault (ERC-4626) · Chainlink    │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ LayerZero / Across (bridges) · 1inch / 0x / ParaSwap (DEX agg.) │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├──────────────────────────────────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ON-RAMP / OFF-RAMP LAYER                                          │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Fiat on-ramp (bank card, local methods) → USDC/USDT              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Off-ramp / Payout to card (local methods by region)              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├──────────────────────────────────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ AI LAYER                                                          │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ AI Coach (on-device + cloud) · Wallet Agent · Insurance Agent     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├──────────────────────────────────────────────────────────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ DATA LAYER                                                        │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ PostgreSQL · Redis · S3 · IPFS · TimescaleDB                      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└──────────────────────────────────────────────────────────────────┘</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-multi-evm-blockchain-architecture">2. Multi-EVM Blockchain Architecture<a href="#2-multi-evm-blockchain-architecture" class="hash-link" aria-label="Прямая ссылка на 2. Multi-EVM Blockchain Architecture" title="Прямая ссылка на 2. Multi-EVM Blockchain Architecture" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-поддерживаемые-сети">2.1 Поддерживаемые сети<a href="#21-поддерживаемые-сети" class="hash-link" aria-label="Прямая ссылка на 2.1 Поддерживаемые сети" title="Прямая ссылка на 2.1 Поддерживаемые сети" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Сеть</th><th>Chain ID</th><th>Приоритет</th><th>Назначение</th></tr></thead><tbody><tr><td><strong>Ethereum</strong></td><td>1</td><td>🔴 Primary</td><td>Основной vault, максимальная ликвидность DeFi</td></tr><tr><td><strong>Polygon PoS</strong></td><td>137</td><td>🔴 Primary</td><td>Низкие газ-комиссии, массовые транзакции</td></tr><tr><td><strong>Arbitrum One</strong></td><td>42161</td><td>🟡 Secondary</td><td>L2 с высокой DeFi-ликвидностью</td></tr><tr><td><strong>Optimism</strong></td><td>10</td><td>🟡 Secondary</td><td>L2, экосистема Superchain</td></tr><tr><td><strong>Base</strong></td><td>8453</td><td>🟡 Secondary</td><td>Coinbase L2, fiat on-ramp</td></tr><tr><td><strong>BSC</strong></td><td>56</td><td>🟡 Secondary</td><td>Азиатские рынки, низкий газ</td></tr><tr><td><strong>Avalanche C-Chain</strong></td><td>43114</td><td>🟢 Tertiary</td><td>DeFi ecosystem, институциональные инструменты</td></tr><tr><td><strong>Tron</strong></td><td>—</td><td>🟡 Secondary</td><td>TRC-20 USDT/USDC, широкое использование в Азии</td></tr><tr><td><strong>Solana</strong></td><td>—</td><td>🟡 Secondary</td><td>SPL USDC, низкие комиссии, быстрые транзакции</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="22-единый-wellexvault-на-каждой-сети">2.2 Единый WellexVault на каждой сети<a href="#22-единый-wellexvault-на-каждой-сети" class="hash-link" aria-label="Прямая ссылка на 2.2 Единый WellexVault на каждой сети" title="Прямая ссылка на 2.2 Единый WellexVault на каждой сети" translate="no">​</a></h3>
+<p>На каждой поддерживаемой EVM-сети разворачивается <strong>один WellexVault (ERC-4626)</strong>. Никаких трёх траншей (Conservative/Balanced/Aggressive) — единый vault с WVI-based yield.</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">User Deposit (USDC/USDT)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> ├── [On-Ramp] → Fiat → USDC on target chain</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> ├── [DEX Swap] → 1inch/0x/ParaSwap → USDC (if other token)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> └── [Direct] → USDC/USDT transfer</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">      ▼</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> ┌─────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> │ WellexVault (ERC-4626)  │  ← один vault на каждой сети</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> │ Deposit → shares (wUSDC)│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> │ WVI → Monthly Yield     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> └───────────┬─────────────┘</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">   ┌─────────┴─────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">   ▼                   ▼</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> DeFi Strategies    Cross-chain</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> (Aave, Compound,   Liquidity</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  Curve, Ondo)      (LayerZero/Across)</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="23-smart-contract-architecture">2.3 Smart Contract Architecture<a href="#23-smart-contract-architecture" class="hash-link" aria-label="Прямая ссылка на 2.3 Smart Contract Architecture" title="Прямая ссылка на 2.3 Smart Contract Architecture" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Контракт</th><th>Стандарт</th><th>Назначение</th><th>Деплой</th></tr></thead><tbody><tr><td><code>WellexVault</code></td><td>ERC-4626 + UUPS Proxy</td><td>Единый vault — депозит, shares, yield</td><td>Каждая сеть</td></tr><tr><td><code>StrategyManager</code></td><td>Ownable2Step</td><td>Управление DeFi-аллокациями, timelock 6ч</td><td>Каждая сеть</td></tr><tr><td><code>YieldDistributor</code></td><td>Custom</td><td>Еженедельное распределение yield по WVI</td><td>Каждая сеть</td></tr><tr><td><code>WellnessOracle</code></td><td>Chainlink-style</td><td>WVI on-chain (месячный)</td><td>Каждая сеть</td></tr><tr><td><code>ProtectionReserve</code></td><td>Custom</td><td>Страховой пул</td><td>Ethereum (primary)</td></tr><tr><td><code>WithdrawalQueue</code></td><td>Custom</td><td>Очередь при низкой ликвидности</td><td>Каждая сеть</td></tr><tr><td><code>BridgeRouter</code></td><td>Custom</td><td>Маршрутизация кросс-чейн</td><td>Каждая сеть</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="24-safewallet--erc-4337-account-abstraction">2.4 Safe{Wallet} + ERC-4337 (Account Abstraction)<a href="#24-safewallet--erc-4337-account-abstraction" class="hash-link" aria-label="Прямая ссылка на 2.4 Safe{Wallet} + ERC-4337 (Account Abstraction)" title="Прямая ссылка на 2.4 Safe{Wallet} + ERC-4337 (Account Abstraction)" translate="no">​</a></h3>
+<p>Каждый пользователь получает <strong>Smart Account</strong> на базе Safe{Wallet} с поддержкой ERC-4337:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Компонент</th><th>Технология</th><th>Назначение</th></tr></thead><tbody><tr><td>Smart Account</td><td>Safe{Wallet} (ERC-4337)</td><td>Пользовательский кошелёк, gasless tx</td></tr><tr><td>Paymaster</td><td>Wellex Paymaster</td><td>Оплата газа за пользователя (USDC)</td></tr><tr><td>Recovery</td><td>Safe Social Recovery Module</td><td>Восстановление через email + guardian</td></tr></tbody></table>
+<p><strong>Преимущества:</strong></p>
+<ul>
+<li class="">Пользователь не видит blockchain — gasless, no seed phrase</li>
+<li class="">Батчинг транзакций (deposit + stake = 1 UserOp)</li>
+<li class="">Social recovery (email + guardian) вместо seed phrase</li>
+<li class="">Multi-chain: один Safe на каждой сети, единый UI</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-on-ramp--off-ramp-architecture">3. On-Ramp / Off-Ramp Architecture<a href="#3-on-ramp--off-ramp-architecture" class="hash-link" aria-label="Прямая ссылка на 3. On-Ramp / Off-Ramp Architecture" title="Прямая ссылка на 3. On-Ramp / Off-Ramp Architecture" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="31-провайдеры-internal--не-раскрывать-публично">3.1 Провайдеры (Internal — не раскрывать публично)<a href="#31-провайдеры-internal--не-раскрывать-публично" class="hash-link" aria-label="Прямая ссылка на 3.1 Провайдеры (Internal — не раскрывать публично)" title="Прямая ссылка на 3.1 Провайдеры (Internal — не раскрывать публично)" translate="no">​</a></h3>
+<blockquote>
+<p>⚠️ Провайдеры — внутренняя информация. В публичных материалах использовать только «on-ramp», «off-ramp».</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Провайдер</th><th>Регионы</th><th>Методы</th><th>Комиссия</th><th>Приоритет</th></tr></thead><tbody><tr><td>Провайдер A</td><td>160+ стран</td><td>Карта, Apple Pay, SEPA, PIX</td><td>1–3.5%</td><td>Primary</td></tr><tr><td>Провайдер B</td><td>170+ стран</td><td>Карта, Apple Pay, SEPA, банк. перевод</td><td>1–5%</td><td>Secondary</td></tr><tr><td>Провайдер C</td><td>EU, UK, US</td><td>Карта, Apple Pay, Open Banking</td><td>0.5–2.9%</td><td>Tertiary</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="32-on-ramp-flow">3.2 On-Ramp Flow<a href="#32-on-ramp-flow" class="hash-link" aria-label="Прямая ссылка на 3.2 On-Ramp Flow" title="Прямая ссылка на 3.2 On-Ramp Flow" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">1. Пользователь нажимает «Пополнить» в WEB Dashboard</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">2. Выбирает метод: 💳 Карта / 🍎 Apple Pay / 🏦 SEPA / 📱 PIX</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">3. Агрегатор выбирает лучшего провайдера (цена + доступность по региону)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">4. KYC проверка (если нужна):</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">   - Tier 1: до $500/мес — без KYC (или минимальный)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">   - Tier 2: до $5K/мес — полный KYC (ID + selfie)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">   - Tier 3: $5K+ — enhanced due diligence</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">5. On-ramp провайдер конвертирует fiat → USDC на выбранной сети</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">6. USDC поступает на Safe{Wallet} пользователя</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">7. Auto-deposit в WellexVault (если включен)</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-fallback-logic">3.3 Fallback Logic<a href="#33-fallback-logic" class="hash-link" aria-label="Прямая ссылка на 3.3 Fallback Logic" title="Прямая ссылка на 3.3 Fallback Logic" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">if (provider_A.available &amp;&amp; provider_A.fee &lt; threshold):</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  use provider_A</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">elif (provider_B.available):</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  use provider_B</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">else:</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  use provider_C</span><br></span></code></pre></div></div>
+<p>Агрегация: best-rate routing между провайдерами в зависимости от региона, валюты и суммы.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-dex-aggregator-integration">4. DEX Aggregator Integration<a href="#4-dex-aggregator-integration" class="hash-link" aria-label="Прямая ссылка на 4. DEX Aggregator Integration" title="Прямая ссылка на 4. DEX Aggregator Integration" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-провайдеры">4.1 Провайдеры<a href="#41-провайдеры" class="hash-link" aria-label="Прямая ссылка на 4.1 Провайдеры" title="Прямая ссылка на 4.1 Провайдеры" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Агрегатор</th><th>API</th><th>Назначение</th></tr></thead><tbody><tr><td><strong>1inch</strong></td><td>Fusion API v2</td><td>Основной swap router — лучшие маршруты</td></tr><tr><td><strong>0x</strong></td><td>Swap API v2</td><td>Fallback + RFQ ликвидность</td></tr><tr><td><strong>ParaSwap</strong></td><td>Augustus v6</td><td>Tertiary, multi-path routing</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-swap-flow">4.2 Swap Flow<a href="#42-swap-flow" class="hash-link" aria-label="Прямая ссылка на 4.2 Swap Flow" title="Прямая ссылка на 4.2 Swap Flow" translate="no">​</a></h3>
+<p>Если пользователь вносит токен, отличный от USDC/USDT:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">User deposits ETH/WBTC/DAI/etc.</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → DEX Aggregator (1inch → 0x → ParaSwap fallback)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → Auto-swap to USDC</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → Deposit to WellexVault</span><br></span></code></pre></div></div>
+<p>Slippage protection: max 0.5% для стейблкоинов, max 1% для волатильных.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-cross-chain-bridge-architecture">5. Cross-Chain Bridge Architecture<a href="#5-cross-chain-bridge-architecture" class="hash-link" aria-label="Прямая ссылка на 5. Cross-Chain Bridge Architecture" title="Прямая ссылка на 5. Cross-Chain Bridge Architecture" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51-провайдеры-мостов">5.1 Провайдеры мостов<a href="#51-провайдеры-мостов" class="hash-link" aria-label="Прямая ссылка на 5.1 Провайдеры мостов" title="Прямая ссылка на 5.1 Провайдеры мостов" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Мост</th><th>Модель</th><th>Скорость</th><th>Безопасность</th></tr></thead><tbody><tr><td><strong>LayerZero</strong></td><td>Message passing (OApp v2)</td><td>1–10 мин</td><td>ULN + DVN validation</td></tr><tr><td><strong>Across</strong></td><td>Optimistic + Relayer</td><td>2–15 мин</td><td>UMA optimistic oracle</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="52-cross-chain-deposit-flow">5.2 Cross-Chain Deposit Flow<a href="#52-cross-chain-deposit-flow" class="hash-link" aria-label="Прямая ссылка на 5.2 Cross-Chain Deposit Flow" title="Прямая ссылка на 5.2 Cross-Chain Deposit Flow" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">User has USDC on Arbitrum</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → wants to deposit to Ethereum WellexVault</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → BridgeRouter selects best route:</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">   - LayerZero: if amount &lt; $50K (faster)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">   - Across: if amount ≥ $50K (deeper liquidity)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → USDC arrives on Ethereum</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → Auto-deposit to WellexVault</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="53-cross-chain-liquidity-rebalancing">5.3 Cross-Chain Liquidity Rebalancing<a href="#53-cross-chain-liquidity-rebalancing" class="hash-link" aria-label="Прямая ссылка на 5.3 Cross-Chain Liquidity Rebalancing" title="Прямая ссылка на 5.3 Cross-Chain Liquidity Rebalancing" translate="no">​</a></h3>
+<p>AI Wallet Agent может перемещать ликвидность между сетями для оптимизации yield:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">If Ethereum Aave yield &gt; Polygon Aave yield by &gt;2%:</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  → Move X% of Polygon TVL to Ethereum via LayerZero</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  → Rebalance daily (batch, gas-optimized)</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-microservices-architecture">6. Microservices Architecture<a href="#6-microservices-architecture" class="hash-link" aria-label="Прямая ссылка на 6. Microservices Architecture" title="Прямая ссылка на 6. Microservices Architecture" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="61-каталог-сервисов">6.1 Каталог сервисов<a href="#61-каталог-сервисов" class="hash-link" aria-label="Прямая ссылка на 6.1 Каталог сервисов" title="Прямая ссылка на 6.1 Каталог сервисов" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Сервис</th><th>Язык</th><th>Framework</th><th>Ответственность</th><th>Replicas</th></tr></thead><tbody><tr><td><strong>auth-service</strong></td><td>Python 3.12</td><td>FastAPI</td><td>Регистрация, JWT, OAuth, 2FA, Safe{Wallet}</td><td>3</td></tr><tr><td><strong>wvi-service</strong></td><td>Python 3.12</td><td>FastAPI</td><td>WVI calculation, history, forecast</td><td>5</td></tr><tr><td><strong>yield-service</strong></td><td>Python 3.12</td><td>FastAPI</td><td>Deposit, withdraw, yield distribution</td><td>3</td></tr><tr><td><strong>partner-service</strong></td><td>Python 3.12</td><td>FastAPI</td><td>Referrals, tree, earnings, levels</td><td>3</td></tr><tr><td><strong>ai-service</strong></td><td>Python 3.12</td><td>FastAPI + TorchServe</td><td>ML inference, recommendations</td><td>4 (GPU)</td></tr><tr><td><strong>notification-service</strong></td><td>Node.js 20</td><td>NestJS</td><td>Push (Firebase), email, in-app</td><td>2</td></tr><tr><td><strong>bracelet-service</strong></td><td>Python 3.12</td><td>FastAPI</td><td>BLE sync, firmware OTA, data ingestion</td><td>3</td></tr><tr><td><strong>blockchain-service</strong></td><td>TypeScript</td><td>NestJS + Ethers.js v6</td><td>Multi-chain operations, vault mgmt</td><td>3</td></tr><tr><td><strong>bridge-service</strong></td><td>TypeScript</td><td>NestJS</td><td>LayerZero/Across bridge operations</td><td>2</td></tr><tr><td><strong>onramp-service</strong></td><td>Python 3.12</td><td>FastAPI</td><td>On-ramp/off-ramp provider aggregation</td><td>2</td></tr><tr><td><strong>content-service</strong></td><td>Python 3.12</td><td>FastAPI</td><td>AI content gen, promo materials</td><td>2</td></tr><tr><td><strong>admin-service</strong></td><td>Python 3.12</td><td>FastAPI</td><td>User mgmt, stats, fraud, config</td><td>2</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="62-принцип-межсервисной-коммуникации">6.2 Принцип межсервисной коммуникации<a href="#62-принцип-межсервисной-коммуникации" class="hash-link" aria-label="Прямая ссылка на 6.2 Принцип межсервисной коммуникации" title="Прямая ссылка на 6.2 Принцип межсервисной коммуникации" translate="no">​</a></h3>
+<p>Все внутренние вызовы — <strong>gRPC с Protocol Buffers</strong>. REST/JSON — <strong>только</strong> на уровне API Gateway для внешних клиентов.</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain"> EXTERNAL CLIENTS</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Mobile App · Web Dashboard · Admin Panel</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">         │            │            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">         └────────────┼────────────┘</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">                      │ REST/JSON + WebSocket (HTTPS/WSS)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">                      ▼</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">            ┌──────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">            │ API Gateway      │ ← единственная точка REST</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">            │ (Kong)           │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">            └────────┬─────────┘</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">                     │ gRPC (Protobuf)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">         ┌───────────┼──────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">         ▼           ▼              ▼</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    ┌────────┐  ┌────────┐   ┌────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    │ Auth   │  │ WVI    │   │ Yield  │  ...</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    │Service │◄─gRPC──►│Service │◄─gRPC──►│Service │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">    └────────┘  └────────┘   └────────┘</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-data-layer">7. Data Layer<a href="#7-data-layer" class="hash-link" aria-label="Прямая ссылка на 7. Data Layer" title="Прямая ссылка на 7. Data Layer" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="71-хранилища">7.1 Хранилища<a href="#71-хранилища" class="hash-link" aria-label="Прямая ссылка на 7.1 Хранилища" title="Прямая ссылка на 7.1 Хранилища" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Хранилище</th><th>Назначение</th><th>Масштабирование</th></tr></thead><tbody><tr><td><strong>PostgreSQL 16</strong></td><td>Users, accounts, subscriptions, partner tree</td><td>Read replicas + pgBouncer</td></tr><tr><td><strong>TimescaleDB</strong></td><td>Биометрия, WVI time series, yield history</td><td>Hypertables, compression</td></tr><tr><td><strong>Redis 7</strong></td><td>Sessions, cache, feature store, rate limiting</td><td>Cluster mode</td></tr><tr><td><strong>S3</strong></td><td>Медиа, AI-модели, backups</td><td>CDN + lifecycle</td></tr><tr><td><strong>IPFS</strong></td><td>NFT metadata, insurance policies</td><td>Pinning service</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="72-blockchain-data-indexing">7.2 Blockchain Data Indexing<a href="#72-blockchain-data-indexing" class="hash-link" aria-label="Прямая ссылка на 7.2 Blockchain Data Indexing" title="Прямая ссылка на 7.2 Blockchain Data Indexing" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Сеть</th><th>Индексатор</th><th>Данные</th></tr></thead><tbody><tr><td>All EVM chains</td><td><strong>The Graph</strong> (subgraphs)</td><td>Deposits, withdrawals, vault shares, yield events</td></tr><tr><td>All EVM chains</td><td><strong>Custom indexer</strong> (Rust)</td><td>Real-time TVL, user balances, bridge events</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-security-architecture">8. Security Architecture<a href="#8-security-architecture" class="hash-link" aria-label="Прямая ссылка на 8. Security Architecture" title="Прямая ссылка на 8. Security Architecture" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="81-smart-contract-security">8.1 Smart Contract Security<a href="#81-smart-contract-security" class="hash-link" aria-label="Прямая ссылка на 8.1 Smart Contract Security" title="Прямая ссылка на 8.1 Smart Contract Security" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Уровень</th><th>Механизм</th></tr></thead><tbody><tr><td><strong>Аудит</strong></td><td>Trail of Bits + OpenZeppelin (перед запуском + каждый upgrade)</td></tr><tr><td><strong>Bug Bounty</strong></td><td>Immunefi — $250K+ max payout</td></tr><tr><td><strong>Monitoring</strong></td><td>Forta Agent Network (real-time)</td></tr><tr><td><strong>Multisig</strong></td><td>Safe 3-of-5 для upgrades + timelock 48ч</td></tr><tr><td><strong>Circuit Breaker</strong></td><td>Auto-pause при TVL drop &gt;20% за 24ч</td></tr><tr><td><strong>Rate Limits</strong></td><td>Max 5% TVL/ч, 15%/день, 40%/неделя withdrawals</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="82-bridge-security">8.2 Bridge Security<a href="#82-bridge-security" class="hash-link" aria-label="Прямая ссылка на 8.2 Bridge Security" title="Прямая ссылка на 8.2 Bridge Security" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Механизм</th><th>Описание</th></tr></thead><tbody><tr><td><strong>Amount limits</strong></td><td>Max $100K per bridge tx, daily cap per user</td></tr><tr><td><strong>Dual validation</strong></td><td>LayerZero DVN + internal verification</td></tr><tr><td><strong>Monitoring</strong></td><td>Real-time bridge monitoring (Forta + custom)</td></tr><tr><td><strong>Emergency pause</strong></td><td>Bridge pause multisig (2-of-3, instant)</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="83-on-ramp-security">8.3 On-Ramp Security<a href="#83-on-ramp-security" class="hash-link" aria-label="Прямая ссылка на 8.3 On-Ramp Security" title="Прямая ссылка на 8.3 On-Ramp Security" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Механизм</th><th>Описание</th></tr></thead><tbody><tr><td><strong>Provider KYC</strong></td><td>On-ramp провайдер выполняет KYC</td></tr><tr><td><strong>Fraud detection</strong></td><td>Провайдеры + internal fraud scoring</td></tr><tr><td><strong>Transaction limits</strong></td><td>Tier-based limits ($500 / $5K / custom)</td></tr><tr><td><strong>Chargeback protection</strong></td><td>7-day hold для card payments &gt;$1K</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-infrastructure--devops">9. Infrastructure &amp; DevOps<a href="#9-infrastructure--devops" class="hash-link" aria-label="Прямая ссылка на 9. Infrastructure &amp; DevOps" title="Прямая ссылка на 9. Infrastructure &amp; DevOps" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="91-cloud-architecture-aws">9.1 Cloud Architecture (AWS)<a href="#91-cloud-architecture-aws" class="hash-link" aria-label="Прямая ссылка на 9.1 Cloud Architecture (AWS)" title="Прямая ссылка на 9.1 Cloud Architecture (AWS)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Компонент</th><th>Сервис</th><th>Регион</th></tr></thead><tbody><tr><td>Compute</td><td>EKS (Kubernetes)</td><td>eu-west-1 + me-south-1</td></tr><tr><td>Database</td><td>RDS PostgreSQL + ElastiCache Redis</td><td>Multi-AZ</td></tr><tr><td>Storage</td><td>S3 + CloudFront</td><td>Global CDN</td></tr><tr><td>Monitoring</td><td>CloudWatch + Grafana + Prometheus</td><td>Central</td></tr><tr><td>CI/CD</td><td>GitHub Actions → ECR → EKS</td><td>Automated</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="92-multi-region">9.2 Multi-Region<a href="#92-multi-region" class="hash-link" aria-label="Прямая ссылка на 9.2 Multi-Region" title="Прямая ссылка на 9.2 Multi-Region" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Регион</th><th>Назначение</th></tr></thead><tbody><tr><td><strong>eu-west-1</strong> (Ireland)</td><td>Primary — EU users, MiCA compliance</td></tr><tr><td><strong>me-south-1</strong> (Bahrain)</td><td>Secondary — MENA, Dubai users</td></tr><tr><td><strong>ap-southeast-1</strong> (Singapore)</td><td>Phase 2 — SEA expansion</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-monitoring--observability">10. Monitoring &amp; Observability<a href="#10-monitoring--observability" class="hash-link" aria-label="Прямая ссылка на 10. Monitoring &amp; Observability" title="Прямая ссылка на 10. Monitoring &amp; Observability" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Инструмент</th><th>Назначение</th></tr></thead><tbody><tr><td><strong>Grafana + Prometheus</strong></td><td>Метрики сервисов, SLA dashboards</td></tr><tr><td><strong>Forta</strong></td><td>On-chain monitoring (vault, bridge, exploit detection)</td></tr><tr><td><strong>Sentry</strong></td><td>Error tracking (frontend + backend)</td></tr><tr><td><strong>PagerDuty</strong></td><td>Alerting + incident management</td></tr><tr><td><strong>Tenderly</strong></td><td>Transaction simulation + debugging</td></tr><tr><td><strong>Dune Analytics</strong></td><td>Public on-chain dashboards</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-технологический-стек--сводная">11. Технологический стек — сводная<a href="#11-технологический-стек--сводная" class="hash-link" aria-label="Прямая ссылка на 11. Технологический стек — сводная" title="Прямая ссылка на 11. Технологический стек — сводная" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Компонент</th><th>Технология</th></tr></thead><tbody><tr><td>Mobile (APP)</td><td>SwiftUI (iOS) + Kotlin/Jetpack Compose (Android)</td></tr><tr><td>Web (WEB)</td><td>React 18 + TypeScript + Vite</td></tr><tr><td>Backend</td><td>FastAPI (Python 3.12) + NestJS (TypeScript)</td></tr><tr><td>Database</td><td>PostgreSQL 16 + TimescaleDB + Redis 7</td></tr><tr><td>Blockchain</td><td>Solidity 0.8.x, Ethers.js v6, ERC-4626, ERC-4337</td></tr><tr><td>Smart Wallet</td><td>Safe{Wallet} + Safe Protocol Kit</td></tr><tr><td>DEX Aggregator</td><td>1inch Fusion API + 0x Swap API + ParaSwap Augustus</td></tr><tr><td>Bridges</td><td>LayerZero OApp v2 + Across Bridge SDK</td></tr><tr><td>On-Ramp/Off-Ramp</td><td>Provider SDK (агрегатор, внутренняя деталь)</td></tr><tr><td>Keeper</td><td>Gelato Web3 Functions (auto-compound, rebalance)</td></tr><tr><td>Oracle</td><td>Chainlink (price feeds, PoR) + custom WVI Oracle</td></tr><tr><td>Auth</td><td>JWT + OAuth 2.0 + EIP-4361 (SIWE) + ERC-4337</td></tr><tr><td>KYC</td><td>Sumsub SDK</td></tr><tr><td>Push</td><td>FCM + APNs</td></tr><tr><td>Email</td><td>SendGrid</td></tr><tr><td>CI/CD</td><td>GitHub Actions + Docker + Kubernetes (EKS)</td></tr><tr><td>Monitoring</td><td>Grafana + Prometheus + Forta + Sentry + Tenderly</td></tr></tbody></table>
+<hr>
+<p><em>→ Смежные документы: <a class="" href="/wellex-docs/06_YIELD_PROTOCOL">06_YIELD_PROTOCOL.md</a> (механика vault) · <a class="" href="/wellex-docs/22_PLATFORM_PROTECTION.md">22_PLATFORM_PROTECTION.md</a> (страхование) · <a class="" href="/wellex-docs/25_TECH_REQUIREMENTS">25_TECH_REQUIREMENTS.md</a> (спецификация)</em></p>
+<p><em>Wellex © 2026 · Confidential</em></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Страница документа"><a class="pagination-nav__link pagination-nav__link--prev" href="/wellex-docs/07_AI_SYSTEM"><div class="pagination-nav__sublabel">Предыдущая страница</div><div class="pagination-nav__label">07 · AI SYSTEM</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wellex-docs/25_TECH_REQUIREMENTS"><div class="pagination-nav__sublabel">Следующая страница</div><div class="pagination-nav__label">25 · TECHNICAL REQUIREMENTS</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-архитектурный-обзор" class="table-of-contents__link toc-highlight">1. Архитектурный обзор</a></li><li><a href="#2-multi-evm-blockchain-architecture" class="table-of-contents__link toc-highlight">2. Multi-EVM Blockchain Architecture</a><ul><li><a href="#21-поддерживаемые-сети" class="table-of-contents__link toc-highlight">2.1 Поддерживаемые сети</a></li><li><a href="#22-единый-wellexvault-на-каждой-сети" class="table-of-contents__link toc-highlight">2.2 Единый WellexVault на каждой сети</a></li><li><a href="#23-smart-contract-architecture" class="table-of-contents__link toc-highlight">2.3 Smart Contract Architecture</a></li><li><a href="#24-safewallet--erc-4337-account-abstraction" class="table-of-contents__link toc-highlight">2.4 Safe{Wallet} + ERC-4337 (Account Abstraction)</a></li></ul></li><li><a href="#3-on-ramp--off-ramp-architecture" class="table-of-contents__link toc-highlight">3. On-Ramp / Off-Ramp Architecture</a><ul><li><a href="#31-провайдеры-internal--не-раскрывать-публично" class="table-of-contents__link toc-highlight">3.1 Провайдеры (Internal — не раскрывать публично)</a></li><li><a href="#32-on-ramp-flow" class="table-of-contents__link toc-highlight">3.2 On-Ramp Flow</a></li><li><a href="#33-fallback-logic" class="table-of-contents__link toc-highlight">3.3 Fallback Logic</a></li></ul></li><li><a href="#4-dex-aggregator-integration" class="table-of-contents__link toc-highlight">4. DEX Aggregator Integration</a><ul><li><a href="#41-провайдеры" class="table-of-contents__link toc-highlight">4.1 Провайдеры</a></li><li><a href="#42-swap-flow" class="table-of-contents__link toc-highlight">4.2 Swap Flow</a></li></ul></li><li><a href="#5-cross-chain-bridge-architecture" class="table-of-contents__link toc-highlight">5. Cross-Chain Bridge Architecture</a><ul><li><a href="#51-провайдеры-мостов" class="table-of-contents__link toc-highlight">5.1 Провайдеры мостов</a></li><li><a href="#52-cross-chain-deposit-flow" class="table-of-contents__link toc-highlight">5.2 Cross-Chain Deposit Flow</a></li><li><a href="#53-cross-chain-liquidity-rebalancing" class="table-of-contents__link toc-highlight">5.3 Cross-Chain Liquidity Rebalancing</a></li></ul></li><li><a href="#6-microservices-architecture" class="table-of-contents__link toc-highlight">6. Microservices Architecture</a><ul><li><a href="#61-каталог-сервисов" class="table-of-contents__link toc-highlight">6.1 Каталог сервисов</a></li><li><a href="#62-принцип-межсервисной-коммуникации" class="table-of-contents__link toc-highlight">6.2 Принцип межсервисной коммуникации</a></li></ul></li><li><a href="#7-data-layer" class="table-of-contents__link toc-highlight">7. Data Layer</a><ul><li><a href="#71-хранилища" class="table-of-contents__link toc-highlight">7.1 Хранилища</a></li><li><a href="#72-blockchain-data-indexing" class="table-of-contents__link toc-highlight">7.2 Blockchain Data Indexing</a></li></ul></li><li><a href="#8-security-architecture" class="table-of-contents__link toc-highlight">8. Security Architecture</a><ul><li><a href="#81-smart-contract-security" class="table-of-contents__link toc-highlight">8.1 Smart Contract Security</a></li><li><a href="#82-bridge-security" class="table-of-contents__link toc-highlight">8.2 Bridge Security</a></li><li><a href="#83-on-ramp-security" class="table-of-contents__link toc-highlight">8.3 On-Ramp Security</a></li></ul></li><li><a href="#9-infrastructure--devops" class="table-of-contents__link toc-highlight">9. Infrastructure &amp; DevOps</a><ul><li><a href="#91-cloud-architecture-aws" class="table-of-contents__link toc-highlight">9.1 Cloud Architecture (AWS)</a></li><li><a href="#92-multi-region" class="table-of-contents__link toc-highlight">9.2 Multi-Region</a></li></ul></li><li><a href="#10-monitoring--observability" class="table-of-contents__link toc-highlight">10. Monitoring &amp; Observability</a></li><li><a href="#11-технологический-стек--сводная" class="table-of-contents__link toc-highlight">11. Технологический стек — сводная</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Документация</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/00_INTRO">Введение</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/19_WHITEPAPER_v3">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/12_ROADMAP">Roadmap</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Продукт</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/08_HARDWARE">Wellex Band</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/06_YIELD_PROTOCOL">Yield Protocol</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/07_AI_SYSTEM">AI System</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Партнёрам</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/09_PARTNER_PROGRAM">Partner Program</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/31_B2B_PLAYBOOK">B2B Playbook</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/23_SALES_PROGRAM">Sales Program</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Wellex © 2026 · Web3 Wellness Protocol · v5.0</div></div></div></footer></div>
+</body>
+</html>

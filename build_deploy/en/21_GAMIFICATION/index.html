@@ -1,0 +1,746 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-21_GAMIFICATION" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">21 · GAMIFICATION | Wellex</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://buffer.terymarius.com/wellex-docs/en/21_GAMIFICATION"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="ru"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="21 · GAMIFICATION | Wellex"><meta data-rh="true" name="description" content="Wellex v5.0 · 05.03.2026"><meta data-rh="true" property="og:description" content="Wellex v5.0 · 05.03.2026"><link data-rh="true" rel="icon" href="/wellex-docs/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://buffer.terymarius.com/wellex-docs/en/21_GAMIFICATION"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/21_GAMIFICATION" hreflang="ru"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/en/21_GAMIFICATION" hreflang="en"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/21_GAMIFICATION" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"21 · GAMIFICATION","item":"https://buffer.terymarius.com/wellex-docs/en/21_GAMIFICATION"}]}</script><link rel="stylesheet" href="/wellex-docs/en/assets/css/styles.6eb3a0fa.css">
+<script src="/wellex-docs/en/assets/js/runtime~main.cf77969d.js" defer="defer"></script>
+<script src="/wellex-docs/en/assets/js/main.1cbe59be.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/wellex-docs/en/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#0d1927;color:rgba(212,168,67,0.9)" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">✦ Wellex v5.0 — Platform Specification &nbsp;·&nbsp; Updated March 2026</div><button type="button" aria-label="Close" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wellex-docs/en/"><div class="navbar__logo"><img src="/wellex-docs/en/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/wellex-docs/en/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">WELLEX</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/en/00_INDEX">Documentation</a><a class="navbar__item navbar__link" href="/wellex-docs/en/19_WHITEPAPER_v3">Whitepaper</a><a class="navbar__item navbar__link" href="/wellex-docs/en/01_EXECUTIVE_SUMMARY">Executive Summary</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>🇬🇧 English</a><ul class="dropdown__menu"><li><a href="/wellex-docs/21_GAMIFICATION" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="ru">🇷🇺 Русский</a></li><li><a href="/wellex-docs/en/21_GAMIFICATION" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">🇬🇧 English</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wellex-docs/en/00_INDEX"><span title="WELLEX — PUBLIC DOCUMENTATION v5.0" class="linkLabel_WmDU">WELLEX — PUBLIC DOCUMENTATION v5.0</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wellex-docs/en/00_INTRO"><span title="📖 Введение" class="categoryLinkLabel_W154">📖 Введение</span></a><button aria-label="Collapse sidebar category &#x27;📖 Введение&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/00_INTRO"><span title="Introduction" class="linkLabel_WmDU">Introduction</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/01_EXECUTIVE_SUMMARY"><span title="01 · WELLEX — EXECUTIVE SUMMARY" class="linkLabel_WmDU">01 · WELLEX — EXECUTIVE SUMMARY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/02_PRODUCT_VISION"><span title="02 · PRODUCT VISION" class="linkLabel_WmDU">02 · PRODUCT VISION</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/en/19_WHITEPAPER_v3"><span title="📄 Whitepaper" class="categoryLinkLabel_W154">📄 Whitepaper</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/19_WHITEPAPER_v3"><span title="WELLEX — Whitepaper" class="linkLabel_WmDU">WELLEX — Whitepaper</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/wellex-docs/en/03_WELLNESS_SCORE"><span title="💎 Продукт" class="categoryLinkLabel_W154">💎 Продукт</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/03_WELLNESS_SCORE"><span title="03 · WELLEX VITALITY INDEX (WVI)" class="linkLabel_WmDU">03 · WELLEX VITALITY INDEX (WVI)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/04_APP_UX"><span title="04 · WELLNESS APP (iOS / Android)" class="linkLabel_WmDU">04 · WELLNESS APP (iOS / Android)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/05_DASHBOARD"><span title="05 · WEB DASHBOARD" class="linkLabel_WmDU">05 · WEB DASHBOARD</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/08_HARDWARE"><span title="08 · WELLEX BAND — Hardware Platform" class="linkLabel_WmDU">08 · WELLEX BAND — Hardware Platform</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/wellex-docs/en/21_GAMIFICATION"><span title="21 · GAMIFICATION" class="linkLabel_WmDU">21 · GAMIFICATION</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/27_EMOTIONAL_MINING"><span title="27 · EMOTIONAL MINING" class="linkLabel_WmDU">27 · EMOTIONAL MINING</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/32_DAY_IN_THE_LIFE"><span title="32 · &quot;DAY IN THE LIFE&quot; — USER JOURNEY DOCUMENT" class="linkLabel_WmDU">32 · &quot;DAY IN THE LIFE&quot; — USER JOURNEY DOCUMENT</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/06_YIELD_PROTOCOL"><span title="💰 Доходность" class="categoryLinkLabel_W154">💰 Доходность</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/09_PARTNER_PROGRAM"><span title="🤝 Партнёрам &amp; B2B" class="categoryLinkLabel_W154">🤝 Партнёрам &amp; B2B</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/07_AI_SYSTEM"><span title="🔬 Технологии" class="categoryLinkLabel_W154">🔬 Технологии</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/11_GO_TO_MARKET"><span title="📈 Стратегия &amp; Рост" class="categoryLinkLabel_W154">📈 Стратегия &amp; Рост</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/15_RISKS"><span title="🛡️ Compliance &amp; Риски" class="categoryLinkLabel_W154">🛡️ Compliance &amp; Риски</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/18_FUTURE_FEATURES"><span title="🔮 Будущее" class="categoryLinkLabel_W154">🔮 Будущее</span></a></div></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/wellex-docs/en/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">💎 Продукт</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">21 · GAMIFICATION</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>21 · GAMIFICATION</h1></header>
+<blockquote>
+<p><strong>Version:</strong> 5.0 | <strong>Date:</strong> 05.03.2026 | <strong>Status:</strong> Canonical
+<strong>Category:</strong> Product
+<strong>SSOT for:</strong> Achievement system, gamification mechanics, Living NFT
+<strong>Dependencies:</strong> 04_APP_UX (display), 26_COMMUNITY (community layer), 03_WELLNESS_SCORE (WVI)</p>
+</blockquote>
+<blockquote>
+<p>Achievements · Leaderboards · Streaks · Challenges · Seasons · NFT Rewards · Community Gamification
+All rewards in USDC · No fungible token · Integrated with Community (APP) and Yield (WEB)</p>
+<p>⚠️ Yield-linked rewards are based on Target Yield — not guaranteed returns. Actual yield depends on DeFi market conditions.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tldr">TL;DR<a href="#tldr" class="hash-link" aria-label="Direct link to TL;DR" title="Direct link to TL;DR" translate="no">​</a></h2>
+<ul>
+<li class="">26 achievements across 6 categories · soulbound NFT badges · no trading value</li>
+<li class="">First 24h Achievement Chain: 6 badges in first 24h = dopamine loop = retention +40%</li>
+<li class="">Living NFT changes appearance in real time based on WVI</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architectural-split">Architectural Split<a href="#architectural-split" class="hash-link" aria-label="Direct link to Architectural Split" title="Direct link to Architectural Split" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Element</th><th style="text-align:center">APP</th><th style="text-align:center">WEB</th></tr></thead><tbody><tr><td>Achievements &amp; Badges</td><td style="text-align:center">✅ Display</td><td style="text-align:center">✅ Yield impact</td></tr><tr><td>Streaks</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>Challenges (wellness)</td><td style="text-align:center">✅</td><td style="text-align:center">❌</td></tr><tr><td>Community challenges</td><td style="text-align:center">✅</td><td style="text-align:center">❌</td></tr><tr><td>Leaderboards</td><td style="text-align:center">✅</td><td style="text-align:center">✅ (widget)</td></tr><tr><td>NFT Gallery</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>Yield boost from achievements</td><td style="text-align:center">❌ (% only)</td><td style="text-align:center">✅ (in $)</td></tr><tr><td>Seasons</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="executive-summary">Executive Summary<a href="#executive-summary" class="hash-link" aria-label="Direct link to Executive Summary" title="Direct link to Executive Summary" translate="no">​</a></h2>
+<p>The Wellex gamification system is an engagement engine that increases DAU/MAU by 60%, retention by 63%, and average bracelet wearing time by 44%. Integrated with the Community section of the APP.</p>
+<p><strong>Principle:</strong> Wellex has no proprietary fungible token. All rewards are paid in USDC/USDT. NFTs = soulbound (ERC-5192) achievement badges (non-transferable, no tradeable value).</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-achievements-26-total">1. Achievements (26 Total)<a href="#1-achievements-26-total" class="hash-link" aria-label="Direct link to 1. Achievements (26 Total)" title="Direct link to 1. Achievements (26 Total)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="categories">Categories<a href="#categories" class="hash-link" aria-label="Direct link to Categories" title="Direct link to Categories" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Category</th><th style="text-align:center">Count</th><th>Description</th></tr></thead><tbody><tr><td>🏃 Activity</td><td style="text-align:center">5</td><td>Steps, workouts, calories</td></tr><tr><td>😴 Sleep</td><td style="text-align:center">4</td><td>Sleep quality and duration</td></tr><tr><td>🧠 Mindfulness</td><td style="text-align:center">4</td><td>HRV, stress, meditation (Emotional Mining)</td></tr><tr><td>🔥 Streaks</td><td style="text-align:center">4</td><td>Consecutive wearing days</td></tr><tr><td>👥 Community</td><td style="text-align:center">5</td><td>Groups, challenges, duels</td></tr><tr><td>🏆 Prestige</td><td style="text-align:center">4</td><td>Leaderboards, seasons</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="full-list">Full List<a href="#full-list" class="hash-link" aria-label="Direct link to Full List" title="Direct link to Full List" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Name</th><th style="text-align:center">Category</th><th>Condition</th><th style="text-align:center">Yield Bonus</th></tr></thead><tbody><tr><td>1</td><td>First Steps</td><td style="text-align:center">🏃</td><td>10,000 steps in 1 day</td><td style="text-align:center">—</td></tr><tr><td>2</td><td>Marathon Week</td><td style="text-align:center">🏃</td><td>70,000 steps in a week</td><td style="text-align:center">—</td></tr><tr><td>3</td><td>Million Miler</td><td style="text-align:center">🏃</td><td>1,000,000 total steps</td><td style="text-align:center">+0.5%</td></tr><tr><td>4</td><td>Iron Will</td><td style="text-align:center">🏃</td><td>30 workouts in a month</td><td style="text-align:center">+0.5%</td></tr><tr><td>5</td><td>Cardio King</td><td style="text-align:center">🏃</td><td>100 workouts of 30+ min</td><td style="text-align:center">+0.5%</td></tr><tr><td>6</td><td>Dream Weaver</td><td style="text-align:center">😴</td><td>7 days of 7+ hours sleep</td><td style="text-align:center">—</td></tr><tr><td>7</td><td>Sleep Master</td><td style="text-align:center">😴</td><td>30 days of 7+ hours</td><td style="text-align:center">+0.5%</td></tr><tr><td>8</td><td>Deep Sleeper</td><td style="text-align:center">😴</td><td>25%+ deep sleep, 14 days</td><td style="text-align:center">—</td></tr><tr><td>9</td><td>Year of Rest</td><td style="text-align:center">😴</td><td>365 nights of healthy sleep</td><td style="text-align:center">+0.5%</td></tr><tr><td>10</td><td>Zen Mind</td><td style="text-align:center">🧠</td><td>HRV ≥60, 7 consecutive days</td><td style="text-align:center">—</td></tr><tr><td>11</td><td>Stress Slayer</td><td style="text-align:center">🧠</td><td>Stress &lt;30, 14 days</td><td style="text-align:center">+0.5%</td></tr><tr><td>12</td><td>Inner Peace</td><td style="text-align:center">🧠</td><td>HRV ≥70 + stress &lt;20, 30 days</td><td style="text-align:center">+0.5%</td></tr><tr><td>13</td><td>Emotional Miner</td><td style="text-align:center">🧠</td><td>Predominantly positive emotions 30 days</td><td style="text-align:center">+0.5%</td></tr><tr><td>14</td><td>Week Warrior</td><td style="text-align:center">🔥</td><td>7-day streak (WVI ≥50)</td><td style="text-align:center">—</td></tr><tr><td>15</td><td>Monthly Champion</td><td style="text-align:center">🔥</td><td>30-day streak</td><td style="text-align:center">Badge</td></tr><tr><td>16</td><td>Century Club</td><td style="text-align:center">🔥</td><td>100-day streak</td><td style="text-align:center">NFT + yield +0.5%</td></tr><tr><td>17</td><td>Year-Long Legend</td><td style="text-align:center">🔥</td><td>365-day streak</td><td style="text-align:center">NFT + yield +0.5%</td></tr><tr><td>18</td><td>Social Butterfly</td><td style="text-align:center">👥</td><td>Join 5 groups</td><td style="text-align:center">—</td></tr><tr><td>19</td><td>Team Player</td><td style="text-align:center">👥</td><td>Participate in 5 team challenges</td><td style="text-align:center">+0.5%</td></tr><tr><td>20</td><td>Duel Master</td><td style="text-align:center">👥</td><td>Win 10 duels</td><td style="text-align:center">—</td></tr><tr><td>21</td><td>Community Leader</td><td style="text-align:center">👥</td><td>Create a group with 50+ members</td><td style="text-align:center">NFT</td></tr><tr><td>22</td><td>Challenge King</td><td style="text-align:center">👥</td><td>Complete 20 challenges</td><td style="text-align:center">+0.5%</td></tr><tr><td>23</td><td>Leaderboard Star</td><td style="text-align:center">🏆</td><td>Top 10 in any leaderboard</td><td style="text-align:center">+0.5%</td></tr><tr><td>24</td><td>Season Champion</td><td style="text-align:center">🏆</td><td>Top 3 in a season</td><td style="text-align:center">+1.0%</td></tr><tr><td>25</td><td>Emotional Pioneer</td><td style="text-align:center">🏆</td><td>WVI ≥90, 30 days</td><td style="text-align:center">+1.0%</td></tr><tr><td>26</td><td>Founding Miner</td><td style="text-align:center">🏆</td><td>First 1,000 users</td><td style="text-align:center">+1.0% (lifetime)</td></tr></tbody></table>
+<p><strong>Maximum yield boost from achievements: +5.0%</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-streaks">2. Streaks<a href="#2-streaks" class="hash-link" aria-label="Direct link to 2. Streaks" title="Direct link to 2. Streaks" translate="no">​</a></h2>
+<p><strong>Streak</strong> = consecutive series of days with WVI ≥ 50. Displayed on the APP home screen.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">Streak</th><th>Reward</th></tr></thead><tbody><tr><td style="text-align:center">7 days</td><td>&quot;Week Warrior&quot; badge 🔥</td></tr><tr><td style="text-align:center">14 days</td><td>Badge</td></tr><tr><td style="text-align:center">30 days</td><td>&quot;Monthly Champion&quot; NFT</td></tr><tr><td style="text-align:center">100 days</td><td>&quot;Century Club&quot; NFT + yield +0.5%</td></tr><tr><td style="text-align:center">365 days</td><td>&quot;Year-Long Legend&quot; NFT + yield +0.5%</td></tr></tbody></table>
+<p><strong>Streak Protection:</strong> 1 freeze/month (illness, travel).</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-challenges">3. Challenges<a href="#3-challenges" class="hash-link" aria-label="Direct link to 3. Challenges" title="Direct link to 3. Challenges" translate="no">​</a></h2>
+<p><em>(Integrated with Community — see <a class="" href="/wellex-docs/en/26_COMMUNITY">26_COMMUNITY.md</a>)</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wellness-challenges-individual">Wellness Challenges (Individual)<a href="#wellness-challenges-individual" class="hash-link" aria-label="Direct link to Wellness Challenges (Individual)" title="Direct link to Wellness Challenges (Individual)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Challenge</th><th>Condition</th><th>Reward</th></tr></thead><tbody><tr><td>💤 Sleep Marathon</td><td>7 days of 7+ hours</td><td>Badge</td></tr><tr><td>🚶 10K Every Day</td><td>10,000 steps × 7 days</td><td>Badge</td></tr><tr><td>🧘 Zen Week</td><td>HRV ≥60 every day</td><td>Badge</td></tr><tr><td>🔥 Cardio Blast</td><td>5 workouts ≥30 min</td><td>Badge</td></tr><tr><td>🧠 Emotional Week</td><td>Predominantly positive emotions 7 days</td><td>Badge</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="community-challenges-team">Community Challenges (Team)<a href="#community-challenges-team" class="hash-link" aria-label="Direct link to Community Challenges (Team)" title="Direct link to Community Challenges (Team)" translate="no">​</a></h3>
+<p>Managed through the APP Community section:</p>
+<ul>
+<li class="">Team WVI Challenge</li>
+<li class="">Group Step Challenge</li>
+<li class="">1v1 Duels</li>
+<li class="">Seasonal Tournaments</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-seasons-3-months-each">4. Seasons (3 Months Each)<a href="#4-seasons-3-months-each" class="hash-link" aria-label="Direct link to 4. Seasons (3 Months Each)" title="Direct link to 4. Seasons (3 Months Each)" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Season</th><th>Period</th><th>Theme</th><th>Main Challenge</th><th style="text-align:center">Prize Pool</th></tr></thead><tbody><tr><td><strong>S1</strong></td><td>Apr–Jun 2026</td><td>☀️ &quot;Solar Energy&quot;</td><td>300 hours of activity</td><td style="text-align:center">$15,000 USDT</td></tr><tr><td><strong>S2</strong></td><td>Jul–Sep 2026</td><td>🧠 &quot;Inner Balance&quot;</td><td>Avg WVI ≥70 (Emotional Mining focus)</td><td style="text-align:center">$20,000 USDT</td></tr><tr><td><strong>S3</strong></td><td>Oct–Dec 2026</td><td>❄️ &quot;Steel Will&quot;</td><td>0 missed days + WVI ≥60</td><td style="text-align:center">$25,000 USDT</td></tr><tr><td><strong>S4</strong></td><td>Jan–Mar 2027</td><td>🌸 &quot;Rebirth&quot;</td><td>Improve WVI by 20+ from start</td><td style="text-align:center">$20,000 USDT</td></tr></tbody></table>
+<p><strong>Season 2 — &quot;Inner Balance&quot;:</strong> the first season entirely dedicated to Emotional Mining. Focus on the emotional component of WVI.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-nft-rewards-soulbound">5. NFT Rewards (Soulbound)<a href="#5-nft-rewards-soulbound" class="hash-link" aria-label="Direct link to 5. NFT Rewards (Soulbound)" title="Direct link to 5. NFT Rewards (Soulbound)" translate="no">​</a></h2>
+<p>All NFTs are <strong>soulbound (ERC-5192)</strong>: non-transferable, bound to the wallet.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Category</th><th>Examples</th><th style="text-align:center">Yield Bonus</th></tr></thead><tbody><tr><td>Achievement NFT</td><td>Century Club, Community Leader</td><td style="text-align:center">+0.5% each</td></tr><tr><td>Season NFT</td><td>S1 Gold, S2 Silver</td><td style="text-align:center">+0.5–1.0% per season</td></tr><tr><td>Special NFT</td><td>Founding Miner, Emotional Pioneer</td><td style="text-align:center">+1.0% (lifetime)</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="nft-gallery-in-app-profile">NFT Gallery (in APP profile)<a href="#nft-gallery-in-app-profile" class="hash-link" aria-label="Direct link to NFT Gallery (in APP profile)" title="Direct link to NFT Gallery (in APP profile)" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">🏅 Collection: 12 of 26</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">🏃 Activity: ███░░ 3/5</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">😴 Sleep: ██░░ 2/4</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">🧠 Mind: ██░░ 2/4</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">🔥 Streaks: ██░░ 2/4</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">👥 Community: █░░░░ 1/5</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">🏆 Prestige: ██░░ 2/4</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Total yield boost: +3.5%</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-leaderboards">6. Leaderboards<a href="#6-leaderboards" class="hash-link" aria-label="Direct link to 6. Leaderboards" title="Direct link to 6. Leaderboards" translate="no">​</a></h2>
+<p><em>(Integrated with Community — see <a class="" href="/wellex-docs/en/26_COMMUNITY">26_COMMUNITY.md</a>)</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Leaderboard</th><th>Period</th><th>Access</th></tr></thead><tbody><tr><td>🌍 Global</td><td>Monthly</td><td>APP + WEB</td></tr><tr><td>📍 Regional</td><td>Monthly</td><td>APP</td></tr><tr><td>📈 Improvement</td><td>Monthly</td><td>APP</td></tr><tr><td>👥 Team</td><td>Monthly</td><td>APP</td></tr><tr><td>🔥 Streak</td><td>Ongoing</td><td>APP</td></tr><tr><td>👫 Friends</td><td>Ongoing</td><td>APP</td></tr><tr><td>🧘 Group</td><td>Per group</td><td>APP</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-gamification-economics">7. Gamification Economics<a href="#7-gamification-economics" class="hash-link" aria-label="Direct link to 7. Gamification Economics" title="Direct link to 7. Gamification Economics" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="monthly-budget-at-10k-users">Monthly Budget (at 10K users)<a href="#monthly-budget-at-10k-users" class="hash-link" aria-label="Direct link to Monthly Budget (at 10K users)" title="Direct link to Monthly Budget (at 10K users)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Item</th><th style="text-align:center">Amount/month</th></tr></thead><tbody><tr><td>Challenge rewards</td><td style="text-align:center">$10,000</td></tr><tr><td>Leaderboards</td><td style="text-align:center">$5,000</td></tr><tr><td>Team competitions</td><td style="text-align:center">$5,000</td></tr><tr><td>Streak rewards</td><td style="text-align:center">$3,000</td></tr><tr><td>NFT minting (gas)</td><td style="text-align:center">$500</td></tr><tr><td><strong>Total/month</strong></td><td style="text-align:center"><strong>$23,500</strong></td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="roi">ROI<a href="#roi" class="hash-link" aria-label="Direct link to ROI" title="Direct link to ROI" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Metric</th><th style="text-align:center">Without Gamification</th><th style="text-align:center">With Gamification</th><th style="text-align:center">Improvement</th></tr></thead><tbody><tr><td>DAU/MAU</td><td style="text-align:center">45%</td><td style="text-align:center">72%</td><td style="text-align:center">+60%</td></tr><tr><td>Wearing time</td><td style="text-align:center">18 days/month</td><td style="text-align:center">26 days/month</td><td style="text-align:center">+44%</td></tr><tr><td>Retention (6 months)</td><td style="text-align:center">40%</td><td style="text-align:center">65%</td><td style="text-align:center">+63%</td></tr><tr><td>NPS</td><td style="text-align:center">35</td><td style="text-align:center">58</td><td style="text-align:center">+66%</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-first-24h-achievement-chain--critical-retention-mechanic">8. First 24h Achievement Chain — Critical Retention Mechanic<a href="#8-first-24h-achievement-chain--critical-retention-mechanic" class="hash-link" aria-label="Direct link to 8. First 24h Achievement Chain — Critical Retention Mechanic" title="Direct link to 8. First 24h Achievement Chain — Critical Retention Mechanic" translate="no">​</a></h2>
+<p>Research shows: 80% of long-term retention forms in the first 24 hours. Wellex turns the first day into a series of dopamine loops.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">#</th><th>Time</th><th>Achievement</th><th>Trigger</th><th>Reward</th></tr></thead><tbody><tr><td style="text-align:center">1</td><td>Registration</td><td>🎉 <strong>&quot;Welcome to Wellex&quot;</strong></td><td>Account creation</td><td>Badge + CEO Welcome Video</td></tr><tr><td style="text-align:center">2</td><td>~5 min</td><td>📱 <strong>&quot;Band Connected&quot;</strong></td><td>First BLE bracelet connection</td><td>Badge + animation + push celebration</td></tr><tr><td style="text-align:center">3</td><td>~2 hours</td><td>👣 <strong>&quot;First Steps&quot;</strong></td><td>First 1,000 steps</td><td>Badge + first WVI snapshot</td></tr><tr><td style="text-align:center">4</td><td>Next morning</td><td>🌙 <strong>&quot;First Night&quot;</strong></td><td>First recorded night of sleep</td><td>Badge + sleep insight (&quot;Your first night: 6.8h&quot;)</td></tr><tr><td style="text-align:center">5</td><td>Day 1–2</td><td>✨ <strong>&quot;Awakening&quot;</strong></td><td>First WVI &gt; 30</td><td>Badge + WVI explanation</td></tr><tr><td style="text-align:center">6</td><td>Day 1–2</td><td>🤝 <strong>&quot;Social Start&quot;</strong></td><td>Add 1 friend / join a group</td><td>Badge + community access</td></tr></tbody></table>
+<p><strong>6 badges within ≤48 hours = powerful dopamine loop = retention +40% based on comparable products (WHOOP, Strava).</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-living-nft--viral-social-asset">9. Living NFT — Viral Social Asset<a href="#9-living-nft--viral-social-asset" class="hash-link" aria-label="Direct link to 9. Living NFT — Viral Social Asset" title="Direct link to 9. Living NFT — Viral Social Asset" translate="no">​</a></h2>
+<p><strong>Concept:</strong> A user&#x27;s soulbound NFT whose visual appearance changes in real time based on WVI.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">WVI</th><th>Visual</th><th>State</th></tr></thead><tbody><tr><td style="text-align:center">90–100</td><td>🔥 Golden glow, pulsing ornament</td><td>&quot;Apex Wellness&quot;</td></tr><tr><td style="text-align:center">70–89</td><td>💎 Blue glow, active animation</td><td>&quot;High Performance&quot;</td></tr><tr><td style="text-align:center">50–69</td><td>🌿 Green, calm animation</td><td>&quot;Balanced&quot;</td></tr><tr><td style="text-align:center">30–49</td><td>⚪ Silver, minimal animation</td><td>&quot;Building&quot;</td></tr><tr><td style="text-align:center">0–29</td><td>🌑 Dimmed, static</td><td>&quot;Rest Mode&quot;</td></tr></tbody></table>
+<p><strong>Key properties:</strong></p>
+<ul>
+<li class="">Soulbound (non-transferable) — cannot be sold or transferred</li>
+<li class="">Updates automatically when WVI changes</li>
+<li class="">Visible in APP profile, WEB wallet, and as a public link</li>
+<li class="">Social media format: generates animated PNG/GIF for stories</li>
+</ul>
+<p><strong>Viral mechanic:</strong> &quot;Look, my NFT is glowing gold today — I&#x27;m at WVI 94!&quot; → organic content → awareness growth.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-wvi-story--sharing-biometrics-on-social-media">10. WVI Story — Sharing Biometrics on Social Media<a href="#10-wvi-story--sharing-biometrics-on-social-media" class="hash-link" aria-label="Direct link to 10. WVI Story — Sharing Biometrics on Social Media" title="Direct link to 10. WVI Story — Sharing Biometrics on Social Media" translate="no">​</a></h2>
+<p><strong>What it is:</strong> An automatically generated visual card with personal WVI data.</p>
+<p><strong>Formats:</strong> Instagram Story (9:16), Telegram post (4:3), Twitter/X card (16:9).</p>
+<p><strong>Card content:</strong></p>
+<ul>
+<li class="">WVI for day / week / month (large, visual)</li>
+<li class="">Streak (🔥 Day 47)</li>
+<li class="">Partner programme rank</li>
+<li class="">Living NFT (minimal animation)</li>
+<li class="">Watermark: wellex.ai</li>
+</ul>
+<p><strong>Mechanic:</strong> APP button &quot;Share WVI&quot; → select format → export → repost. Watermark creates organic marketing.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-duo-challenges--social-competition">11. Duo Challenges — Social Competition<a href="#11-duo-challenges--social-competition" class="hash-link" aria-label="Direct link to 11. Duo Challenges — Social Competition" title="Direct link to 11. Duo Challenges — Social Competition" translate="no">​</a></h2>
+<p><strong>Concept:</strong> 1v1 competitions between APP users based on WVI.</p>
+<p><strong>Mechanic:</strong></p>
+<ul>
+<li class="">User A challenges User B: &quot;Who gets the higher WVI over 7 days?&quot;</li>
+<li class="">Invitation via APP, Telegram, WhatsApp (deep link)</li>
+<li class="">Both agree → starts at midnight → real-time tracking</li>
+<li class="">Winner (higher WVI on Day 7) receives: badge + USDC micro-reward $1–$5 (from Gamification Budget)</li>
+<li class="">Loser receives: consolation badge + motivational message from AI Coach</li>
+</ul>
+<p><strong>Virality:</strong> &quot;I challenge you to a WVI duel! 🤺&quot; + link → built-in referral mechanic.</p>
+<hr>
+<p><em>→ Related: <a class="" href="/wellex-docs/en/26_COMMUNITY">26_COMMUNITY.md</a> (Community) · <a class="" href="/wellex-docs/en/03_WELLNESS_SCORE">03_WELLNESS_SCORE.md</a> (WVI) · <a class="" href="/wellex-docs/en/06_YIELD_PROTOCOL">06_YIELD_PROTOCOL.md</a> (yield boost)</em></p>
+<p><em>Wellex © 2026 · Confidential</em></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/wellex-docs/en/08_HARDWARE"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">08 · WELLEX BAND — Hardware Platform</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wellex-docs/en/27_EMOTIONAL_MINING"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">27 · EMOTIONAL MINING</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#tldr" class="table-of-contents__link toc-highlight">TL;DR</a></li><li><a href="#architectural-split" class="table-of-contents__link toc-highlight">Architectural Split</a></li><li><a href="#executive-summary" class="table-of-contents__link toc-highlight">Executive Summary</a></li><li><a href="#1-achievements-26-total" class="table-of-contents__link toc-highlight">1. Achievements (26 Total)</a><ul><li><a href="#categories" class="table-of-contents__link toc-highlight">Categories</a></li><li><a href="#full-list" class="table-of-contents__link toc-highlight">Full List</a></li></ul></li><li><a href="#2-streaks" class="table-of-contents__link toc-highlight">2. Streaks</a></li><li><a href="#3-challenges" class="table-of-contents__link toc-highlight">3. Challenges</a><ul><li><a href="#wellness-challenges-individual" class="table-of-contents__link toc-highlight">Wellness Challenges (Individual)</a></li><li><a href="#community-challenges-team" class="table-of-contents__link toc-highlight">Community Challenges (Team)</a></li></ul></li><li><a href="#4-seasons-3-months-each" class="table-of-contents__link toc-highlight">4. Seasons (3 Months Each)</a></li><li><a href="#5-nft-rewards-soulbound" class="table-of-contents__link toc-highlight">5. NFT Rewards (Soulbound)</a><ul><li><a href="#nft-gallery-in-app-profile" class="table-of-contents__link toc-highlight">NFT Gallery (in APP profile)</a></li></ul></li><li><a href="#6-leaderboards" class="table-of-contents__link toc-highlight">6. Leaderboards</a></li><li><a href="#7-gamification-economics" class="table-of-contents__link toc-highlight">7. Gamification Economics</a><ul><li><a href="#monthly-budget-at-10k-users" class="table-of-contents__link toc-highlight">Monthly Budget (at 10K users)</a></li><li><a href="#roi" class="table-of-contents__link toc-highlight">ROI</a></li></ul></li><li><a href="#8-first-24h-achievement-chain--critical-retention-mechanic" class="table-of-contents__link toc-highlight">8. First 24h Achievement Chain — Critical Retention Mechanic</a></li><li><a href="#9-living-nft--viral-social-asset" class="table-of-contents__link toc-highlight">9. Living NFT — Viral Social Asset</a></li><li><a href="#10-wvi-story--sharing-biometrics-on-social-media" class="table-of-contents__link toc-highlight">10. WVI Story — Sharing Biometrics on Social Media</a></li><li><a href="#11-duo-challenges--social-competition" class="table-of-contents__link toc-highlight">11. Duo Challenges — Social Competition</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Документация</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/00_INTRO">Введение</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/19_WHITEPAPER_v3">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/12_ROADMAP">Roadmap</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Продукт</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/08_HARDWARE">Wellex Band</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/06_YIELD_PROTOCOL">Yield Protocol</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/07_AI_SYSTEM">AI System</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Партнёрам</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/09_PARTNER_PROGRAM">Partner Program</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/31_B2B_PLAYBOOK">B2B Playbook</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/23_SALES_PROGRAM">Sales Program</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Wellex © 2026 · Confidential · Tier-0 Big4 Standard</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,1111 @@
+<!doctype html>
+<html lang="ru" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-05_DASHBOARD" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">05 · WEB DASHBOARD | Wellex</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://buffer.terymarius.com/wellex-docs/05_DASHBOARD"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="05 · WEB DASHBOARD | Wellex"><meta data-rh="true" name="description" content="Wellex v5.0 · 05.03.2026"><meta data-rh="true" property="og:description" content="Wellex v5.0 · 05.03.2026"><link data-rh="true" rel="icon" href="/wellex-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://buffer.terymarius.com/wellex-docs/05_DASHBOARD"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/05_DASHBOARD" hreflang="ru"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/en/05_DASHBOARD" hreflang="en"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/05_DASHBOARD" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"05 · WEB DASHBOARD","item":"https://buffer.terymarius.com/wellex-docs/05_DASHBOARD"}]}</script><link rel="stylesheet" href="/wellex-docs/assets/css/styles.6eb3a0fa.css">
+<script src="/wellex-docs/assets/js/runtime~main.935a43e7.js" defer="defer"></script>
+<script src="/wellex-docs/assets/js/main.f7525e97.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/wellex-docs/img/logo.svg"><div role="region" aria-label="Перейти к основному содержимому"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Перейти к основному содержимому</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#0d1927;color:rgba(212,168,67,0.9)" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">✦ Wellex v5.0 — Platform Specification &nbsp;·&nbsp; Updated March 2026</div><button type="button" aria-label="Закрыть" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Переключить навигационную панель" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wellex-docs/"><div class="navbar__logo"><img src="/wellex-docs/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/wellex-docs/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">WELLEX</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/00_INDEX">Документация</a><a class="navbar__item navbar__link" href="/wellex-docs/19_WHITEPAPER_v3">Whitepaper</a><a class="navbar__item navbar__link" href="/wellex-docs/01_EXECUTIVE_SUMMARY">Executive Summary</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>🇷🇺 Русский</a><ul class="dropdown__menu"><li><a href="/wellex-docs/05_DASHBOARD" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="ru">🇷🇺 Русский</a></li><li><a href="/wellex-docs/en/05_DASHBOARD" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en">🇬🇧 English</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Переключение между темным и светлым режимом (сейчас используется system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Прокрутка к началу" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wellex-docs/00_INDEX"><span title="WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0" class="linkLabel_WmDU">WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wellex-docs/00_INTRO"><span title="📖 Введение" class="categoryLinkLabel_W154">📖 Введение</span></a><button aria-label="Collapse sidebar category &#x27;📖 Введение&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/00_INTRO"><span title="Введение" class="linkLabel_WmDU">Введение</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/01_EXECUTIVE_SUMMARY"><span title="01 · WELLEX — EXECUTIVE SUMMARY" class="linkLabel_WmDU">01 · WELLEX — EXECUTIVE SUMMARY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/02_PRODUCT_VISION"><span title="02 · PRODUCT VISION" class="linkLabel_WmDU">02 · PRODUCT VISION</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/19_WHITEPAPER_v3"><span title="📄 Whitepaper" class="categoryLinkLabel_W154">📄 Whitepaper</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/19_WHITEPAPER_v3"><span title="WELLEX — Whitepaper" class="linkLabel_WmDU">WELLEX — Whitepaper</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/wellex-docs/03_WELLNESS_SCORE"><span title="💎 Продукт" class="categoryLinkLabel_W154">💎 Продукт</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/03_WELLNESS_SCORE"><span title="03 · WELLEX VITALITY INDEX (WVI)" class="linkLabel_WmDU">03 · WELLEX VITALITY INDEX (WVI)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/04_APP_UX"><span title="04 · WELLNESS APP (iOS / Android)" class="linkLabel_WmDU">04 · WELLNESS APP (iOS / Android)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/wellex-docs/05_DASHBOARD"><span title="05 · WEB DASHBOARD" class="linkLabel_WmDU">05 · WEB DASHBOARD</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/08_HARDWARE"><span title="08 · WELLEX BAND — Hardware Platform" class="linkLabel_WmDU">08 · WELLEX BAND — Hardware Platform</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/21_GAMIFICATION"><span title="21 · GAMIFICATION" class="linkLabel_WmDU">21 · GAMIFICATION</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/27_EMOTIONAL_MINING"><span title="27 · EMOTIONAL MINING" class="linkLabel_WmDU">27 · EMOTIONAL MINING</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/32_DAY_IN_THE_LIFE"><span title="32 · «ДЕНЬ ИЗ ЖИЗНИ» — USER JOURNEY DOCUMENT" class="linkLabel_WmDU">32 · «ДЕНЬ ИЗ ЖИЗНИ» — USER JOURNEY DOCUMENT</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/06_YIELD_PROTOCOL"><span title="💰 Доходность" class="categoryLinkLabel_W154">💰 Доходность</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/09_PARTNER_PROGRAM"><span title="🤝 Партнёрам &amp; B2B" class="categoryLinkLabel_W154">🤝 Партнёрам &amp; B2B</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/07_AI_SYSTEM"><span title="🔬 Технологии" class="categoryLinkLabel_W154">🔬 Технологии</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/11_GO_TO_MARKET"><span title="📈 Стратегия &amp; Рост" class="categoryLinkLabel_W154">📈 Стратегия &amp; Рост</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/15_RISKS"><span title="🛡️ Compliance &amp; Риски" class="categoryLinkLabel_W154">🛡️ Compliance &amp; Риски</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/18_FUTURE_FEATURES"><span title="🔮 Будущее" class="categoryLinkLabel_W154">🔮 Будущее</span></a></div></li></ul></nav><button type="button" title="Свернуть сайдбар" aria-label="Свернуть сайдбар" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Навигационная цепочка текущей страницы"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Главная страница" class="breadcrumbs__link" href="/wellex-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">💎 Продукт</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">05 · WEB DASHBOARD</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Содержание этой страницы</button></div><div class="theme-doc-markdown markdown"><header><h1>05 · WEB DASHBOARD</h1></header>
+<blockquote>
+<p><strong>Версия:</strong> 5.0 | <strong>Дата:</strong> 05.03.2026 | <strong>Статус:</strong> Public</p>
+</blockquote>
+<blockquote>
+<p>Веб-платформа Wellex: управление участием, партнёрской сетью, AI-агенты, аналитика</p>
+<p>⚠️ Wellex App (iOS/Android) не является криптокошельком — это wellness-приложение. Все финансовые операции (стейкинг, депозит, вывод, MLM) выполняются исключительно в WEB-версии.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-обзор">1. Обзор<a href="#1-обзор" class="hash-link" aria-label="Прямая ссылка на 1. Обзор" title="Прямая ссылка на 1. Обзор" translate="no">​</a></h2>
+<p>Web Dashboard (веб-приложение Wellex) — центр управления финансами и партнёрской сетью. Мобильное приложение покрывает wellness и community; <strong>WEB</strong> — все финансовые операции.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="архитектурное-разделение-app--web">Архитектурное разделение APP ↔ WEB<a href="#архитектурное-разделение-app--web" class="hash-link" aria-label="Прямая ссылка на Архитектурное разделение APP ↔ WEB" title="Прямая ссылка на Архитектурное разделение APP ↔ WEB" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Аспект</th><th>APP (iOS/Android)</th><th>WEB-платформа</th></tr></thead><tbody><tr><td>Фокус</td><td>Wellness, Community</td><td>Финансы, Партнёрство</td></tr><tr><td>WVI</td><td>✅ Полный</td><td>✅ Виджет</td></tr><tr><td>Monthly Yield</td><td>Только %</td><td>Полная детализация в $</td></tr><tr><td>Стейкинг</td><td>❌</td><td>✅</td></tr><tr><td>Депозит / Вывод</td><td>❌</td><td>✅</td></tr><tr><td>MLM / Партнёрка</td><td>❌</td><td>✅</td></tr><tr><td>AI Coach</td><td>✅</td><td>❌</td></tr><tr><td>Community</td><td>✅</td><td>❌</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="модули-web-дашборда">Модули WEB-дашборда<a href="#модули-web-дашборда" class="hash-link" aria-label="Прямая ссылка на Модули WEB-дашборда" title="Прямая ссылка на Модули WEB-дашборда" translate="no">​</a></h3>
+<p><code>💰 Кошелёк · 📈 Стейкинг · 🌐 Партнёрская сеть · 🤖 AI-Агенты · 📊 Аналитика · 🛡️ Админ-панель</code></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-регистрация--вход-в-web">2. Регистрация / Вход в WEB<a href="#2-регистрация--вход-в-web" class="hash-link" aria-label="Прямая ссылка на 2. Регистрация / Вход в WEB" title="Прямая ссылка на 2. Регистрация / Вход в WEB" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="способ-1-email-вход-из-app-или-напрямую">Способ 1: Email-вход (из APP или напрямую)<a href="#способ-1-email-вход-из-app-или-напрямую" class="hash-link" aria-label="Прямая ссылка на Способ 1: Email-вход (из APP или напрямую)" title="Прямая ссылка на Способ 1: Email-вход (из APP или напрямую)" translate="no">​</a></h3>
+<ol>
+<li class="">Email + пароль → вход</li>
+<li class="">Если пришёл из APP — аккаунт уже существует, WEB3-кошелёк создан автоматически</li>
+<li class="">Полный доступ к финансовым функциям</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="способ-2-web3-wallet">Способ 2: WEB3 Wallet<a href="#способ-2-web3-wallet" class="hash-link" aria-label="Прямая ссылка на Способ 2: WEB3 Wallet" title="Прямая ссылка на Способ 2: WEB3 Wallet" translate="no">​</a></h3>
+<ol>
+<li class="">Кнопка «Подключить кошелёк» → WalletConnect / MetaMask / Trust Wallet</li>
+<li class="">Подпись сообщения (EIP-4361 — Sign-In with Ethereum)</li>
+<li class="">Ввод email для создания / привязки аккаунта Wellex</li>
+<li class="">Полный доступ к финансовым функциям</li>
+</ol>
+<p><strong>Единый аккаунт:</strong> один аккаунт работает и в APP, и в WEB.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-модуль-кошелёк--wallet">3. Модуль: Кошелёк (💰 Wallet)<a href="#3-модуль-кошелёк--wallet" class="hash-link" aria-label="Прямая ссылка на 3. Модуль: Кошелёк (💰 Wallet)" title="Прямая ссылка на 3. Модуль: Кошелёк (💰 Wallet)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="31-виджеты">3.1 Виджеты<a href="#31-виджеты" class="hash-link" aria-label="Прямая ссылка на 3.1 Виджеты" title="Прямая ссылка на 3.1 Виджеты" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Виджет</th><th>Описание</th><th>Обновление</th></tr></thead><tbody><tr><td><strong>Общий баланс</strong></td><td>Депозит + накопленный yield + реинвест — итоговый баланс в $</td><td>Real-time</td></tr><tr><td><strong>Yield Dashboard</strong></td><td>WVI → Monthly Yield → yield за день / неделю / месяц / всё время</td><td>Ежедневно</td></tr><tr><td><strong>Monthly Yield Gauge</strong></td><td>Визуальная шкала Monthly Yield с breakdown (base + wellness boost)</td><td>Real-time</td></tr><tr><td><strong>WellexVault</strong></td><td>Статус единого vault&#x27;а: сумма, WVI, текущий yield, lock-up</td><td>Real-time</td></tr><tr><td><strong>История транзакций</strong></td><td>Таблица: дата, тип, сумма, статус, hash, сеть</td><td>Real-time</td></tr><tr><td><strong>Прогноз дохода</strong></td><td>AI-прогноз yield на 3 / 6 / 12 мес</td><td>Ежедневно</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="32-функции">3.2 Функции<a href="#32-функции" class="hash-link" aria-label="Прямая ссылка на 3.2 Функции" title="Прямая ссылка на 3.2 Функции" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Функция</th><th>Описание</th></tr></thead><tbody><tr><td><strong>Пополнение (Crypto)</strong></td><td>Любая криптовалюта с любой сети (EVM + Tron + Solana) → авто-конверт в USDT/USDC</td></tr><tr><td><strong>On-Ramp</strong></td><td>Пополнение фиатом (банковская карта, локальные методы) → авто-конверт в USDC/USDT</td></tr><tr><td><strong>Вывод (Crypto)</strong></td><td>USDC / USDT на внешний кошелёк в любой поддерживаемой сети</td></tr><tr><td><strong>Off-Ramp (Карта)</strong></td><td>Payout на банковскую карту / локальные платёжные методы</td></tr><tr><td><strong>Реинвест</strong></td><td>Автореинвест yield (активация за $129)</td></tr><tr><td><strong>AI Auto-Optimize</strong></td><td>WellexVault управляется AI-агентом автоматически — ручная смена стратегий недоступна</td></tr><tr><td><strong>Экспорт данных</strong></td><td>CSV / PDF: транзакции, yield history, налоговый отчёт</td></tr><tr><td><strong>Экспорт приватных ключей</strong></td><td>Settings → Security → Export Private Key. Некастодиальный кошелёк принадлежит пользователю — полный экспорт приватных ключей для переноса в любое совместимое приложение (MetaMask, Trust Wallet и др.)</td></tr></tbody></table>
+<blockquote>
+<p><strong>Некастодиальный кошелёк:</strong> каждый пользователь при email-регистрации получает автоматически сгенерированный некастодиальный кошелёк. Приватные ключи доступны для экспорта только пользователю. Пользователь сохраняет полный контроль независимо от платформы. → <em>[04_APP_UX.md §8.1 Onboarding]</em></p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-multi-chain-wallet-ui">3.3 Multi-Chain Wallet UI<a href="#33-multi-chain-wallet-ui" class="hash-link" aria-label="Прямая ссылка на 3.3 Multi-Chain Wallet UI" title="Прямая ссылка на 3.3 Multi-Chain Wallet UI" translate="no">​</a></h3>
+<p>Кошелёк отображает балансы по всем поддерживаемым сетям. Пользователь видит единый агрегированный баланс и может переключить отображение по сети:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">🌐 Сеть: [Все сети ▾]</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  ┌──────────────┬──────────────┬──────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  │ Ethereum     │ Polygon      │ BSC          │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  │ $4 200.00    │ $3 100.00    │ $1 800.00    │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  ├──────────────┼──────────────┼──────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  │ Arbitrum     │ Optimism     │ Base         │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  │ $1 200.00    │ $900.00      │ $750.00      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  ├──────────────┴──────────────┴──────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  │ Avalanche                  │ $500.00       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  ├──────────────┬──────────────┬──────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  │ Tron         │ Solana       │              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  │ $350.00      │ $450.00      │              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  └──────────────┴──────────────┴──────────────┘</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">💰 Совокупный баланс: $12 450.00</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="34-on-ramp--off-ramp-ui">3.4 On-Ramp / Off-Ramp UI<a href="#34-on-ramp--off-ramp-ui" class="hash-link" aria-label="Прямая ссылка на 3.4 On-Ramp / Off-Ramp UI" title="Прямая ссылка на 3.4 On-Ramp / Off-Ramp UI" translate="no">​</a></h3>
+<p><strong>On-Ramp</strong> (пополнение фиатом) — <code>[+ Пополнить]</code>:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  💳 On-Ramp                                 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Сумма: [$500]  [USD ▾]                     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Способ: [Банковская карта ▾]               │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Локальные методы доступны по региону       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Конвертация: USD → USDC                    │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Вы получите: ≈ $487.50 USDC               │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Комиссия: ~2.5%                            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  [Продолжить →]                             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────────────────┘</span><br></span></code></pre></div></div>
+<p><strong>Off-Ramp</strong> (payout на карту) — <code>[Вывести на карту]</code>:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  💳 Off-Ramp — Payout на карту              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Сумма: [$200]  USDC                        │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Карта: **** **** **** 4242                 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Локальный метод: [выбрать ▾]              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Вы получите: ≈ $194 USD                    │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Комиссия: ~3%                              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  [Подтвердить →]                            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────────────────┘</span><br></span></code></pre></div></div>
+<p>После on-ramp USDC автоматически зачисляется в WellexVault.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="35-пример-содержимого">3.5 Пример содержимого<a href="#35-пример-содержимого" class="hash-link" aria-label="Прямая ссылка на 3.5 Пример содержимого" title="Прямая ссылка на 3.5 Пример содержимого" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">💰 Общий баланс: $12 450.00</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Депозит (WellexVault): $10 000.00</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Накопленный yield: $1 950.00</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Реинвестировано: $500.00</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">📈 Yield Dashboard</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> WVI: 72 → Monthly Yield: 12% (Target)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Yield/мес: ~$1,200 (на $10K депозите)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">🏦 WellexVault · AI Auto-Optimize ✅</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Lock-up: 30 дней (сумма $10 000)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Страховка: 100% покрытие</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">[💸 Вывести] [🔄 Реинвест] [➕ Пополнить] [📥 Export]</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-модуль-стейкинг--staking">4. Модуль: Стейкинг (📈 Staking)<a href="#4-модуль-стейкинг--staking" class="hash-link" aria-label="Прямая ссылка на 4. Модуль: Стейкинг (📈 Staking)" title="Прямая ссылка на 4. Модуль: Стейкинг (📈 Staking)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-wellexvault--единый-vault">4.1 WellexVault — единый vault<a href="#41-wellexvault--единый-vault" class="hash-link" aria-label="Прямая ссылка на 4.1 WellexVault — единый vault" title="Прямая ссылка на 4.1 WellexVault — единый vault" translate="no">​</a></h3>
+<p>Wellex использует <strong>один унифицированный vault — WellexVault</strong>. В экосистеме Wellex <strong>отсутствуют отдельные пакеты или уровни подписки</strong> — единый формат стейкинга для всех участников. AI-агент автоматически распределяет средства по DeFi-протоколам для максимизации yield с учётом WVI пользователя.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Vault</strong></td><td>WellexVault (единый для всех)</td></tr><tr><td><strong>Пакеты / уровни</strong></td><td><strong>Нет</strong> — единый формат стейкинга</td></tr><tr><td><strong>Управление</strong></td><td>AI Auto-Optimize (ручная смена стратегий недоступна)</td></tr><tr><td><strong>Страховое покрытие</strong></td><td>100%</td></tr><tr><td><strong>Минимальная сумма</strong></td><td>$50 (Micro-Starter)</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-yield-в-зависимости-от-wvi">4.2 Yield в зависимости от WVI<a href="#42-yield-в-зависимости-от-wvi" class="hash-link" aria-label="Прямая ссылка на 4.2 Yield в зависимости от WVI" title="Прямая ссылка на 4.2 Yield в зависимости от WVI" translate="no">​</a></h3>
+<p>Yield пользователя определяется его <strong>Wellex Vitality Index (WVI)</strong>:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>WVI</th><th style="text-align:center">Monthly Yield</th><th style="text-align:right">Annual</th></tr></thead><tbody><tr><td>0–39</td><td style="text-align:center">0%</td><td style="text-align:right">0%</td></tr><tr><td>40–49</td><td style="text-align:center">2%</td><td style="text-align:right">~24%</td></tr><tr><td>50–59</td><td style="text-align:center">5%</td><td style="text-align:right">~60%</td></tr><tr><td>60–69</td><td style="text-align:center">8%</td><td style="text-align:right">~96%</td></tr><tr><td>70–79</td><td style="text-align:center">12%</td><td style="text-align:right">~144%</td></tr><tr><td>80–89</td><td style="text-align:center">16%</td><td style="text-align:right">~192%</td></tr><tr><td>90–100</td><td style="text-align:center">20%</td><td style="text-align:right">~240%</td></tr></tbody></table>
+<blockquote>
+<p>⚠️ <strong>Дисклеймер:</strong> Фактический yield зависит от рыночных условий DeFi и распределяется пропорционально WVI из общего Yield Pool. Цифры — теоретический максимум при благоприятных условиях.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="43-lock-up-по-сумме-депозита">4.3 Lock-up по сумме депозита<a href="#43-lock-up-по-сумме-депозита" class="hash-link" aria-label="Прямая ссылка на 4.3 Lock-up по сумме депозита" title="Прямая ссылка на 4.3 Lock-up по сумме депозита" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Сумма депозита</th><th>Lock-up период</th></tr></thead><tbody><tr><td>$0 – $999</td><td>0 дней (без блокировки)</td></tr><tr><td>$1 000 – $9 999</td><td>30 дней</td></tr><tr><td>$10 000+</td><td>90 дней</td></tr></tbody></table>
+<p>Lock-up применяется к каждому депозиту отдельно с момента его внесения.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="44-интерфейс">4.4 Интерфейс<a href="#44-интерфейс" class="hash-link" aria-label="Прямая ссылка на 4.4 Интерфейс" title="Прямая ссылка на 4.4 Интерфейс" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">📈 WellexVault</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌──────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  🏦 WellexVault                              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Ваш депозит: $10 000.00                     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Текущий WVI: 72 → Monthly Yield: 12%        │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Годовой прогноз: ~$14 400                   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Lock-up: 30 дней (истекает 31.03.2026)      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Страховка: ✅ 100% покрытие                 │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Управление: 🤖 AI Auto-Optimize             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  [➕ Довнести] [💸 Вывести после lock-up]   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└──────────────────────────────────────────────┘</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">📊 Влияние WVI на Monthly Yield</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Текущий WVI: 72 → Monthly Yield: 12%</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Если WVI = 80 → Monthly Yield: 16% (+4%)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Если WVI = 60 → Monthly Yield: 8%  (−4%)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">📋 Калькулятор</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> Сумма: [$10 000] Lock: [90 дней] WVI: [72]</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> → Прогноз: $1 200/мес · ~$14 400/год</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-модуль-партнёрская-сеть--network">5. Модуль: Партнёрская сеть (🌐 Network)<a href="#5-модуль-партнёрская-сеть--network" class="hash-link" aria-label="Прямая ссылка на 5. Модуль: Партнёрская сеть (🌐 Network)" title="Прямая ссылка на 5. Модуль: Партнёрская сеть (🌐 Network)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51-виджеты">5.1 Виджеты<a href="#51-виджеты" class="hash-link" aria-label="Прямая ссылка на 5.1 Виджеты" title="Прямая ссылка на 5.1 Виджеты" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Виджет</th><th>Описание</th></tr></thead><tbody><tr><td><strong>Дерево команды</strong></td><td>Интерактивное дерево (D3.js): WVI, статус, ранг каждого участника</td></tr><tr><td><strong>KPI карточки</strong></td><td>Рефералы, активные, доход/мес</td></tr><tr><td><strong>Доходы breakdown</strong></td><td>Личные продажи, командные бонусы, matching</td></tr><tr><td><strong>Прогресс ранга</strong></td><td>Progress bar до следующего ранга</td></tr><tr><td><strong>Воронка</strong></td><td>Приглашения → Регистрации → Активные → Платящие</td></tr><tr><td><strong>Промо-материалы</strong></td><td>Баннеры, видео, шаблоны постов</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51a-партнёрский-профиль-popup-при-клике-на-партнёра">5.1a Партнёрский профиль (popup при клике на партнёра)<a href="#51a-партнёрский-профиль-popup-при-клике-на-партнёра" class="hash-link" aria-label="Прямая ссылка на 5.1a Партнёрский профиль (popup при клике на партнёра)" title="Прямая ссылка на 5.1a Партнёрский профиль (popup при клике на партнёра)" translate="no">​</a></h3>
+<p><strong>Обязательные данные при тапе/клике на любого партнёра в дереве:</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  👤 @partner_name  🔷 Leader                │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  WVI: 74  ×1.15 бонус-множитель             │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│─────────────────────────────────────────────│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  💰 Личный стейкинг:    $5 000.00           │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  📊 Оборот структуры:   $127 400/мес        │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  👥 Активных партнёров: 23                  │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│─────────────────────────────────────────────│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  ⬆️  До следующего ранга (Elite):           │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Нужно ещё $72 600 товарооборота            │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Прогресс: ████████░░░░  64%               │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│─────────────────────────────────────────────│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  [📩 Написать]  [📊 Детальная аналитика]    │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────────────────┘</span><br></span></code></pre></div></div>
+<p><strong>Четыре обязательных поля (CANONICAL — из spec документа):</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Поле</th><th>Описание</th><th>Источник данных</th></tr></thead><tbody><tr><td>1</td><td><strong>Сумма личного стейкинга</strong></td><td>Депозит партнёра в WellexVault в $</td><td>WellexVault on-chain</td></tr><tr><td>2</td><td><strong>Совокупный оборот партнёров</strong></td><td>Сумма PV всей структуры за 30 дней</td><td>Partner Service</td></tr><tr><td>3</td><td><strong>Количество активных партнёров</strong></td><td>Партнёры со стейкингом или активностью за 30 дней</td><td>Partner Service</td></tr><tr><td>4</td><td><strong>До следующего ранга</strong></td><td>Недостающий PV для перехода на следующий ранг</td><td>Rank Engine</td></tr></tbody></table>
+<p><strong>Логика «активного партнёра»:</strong> партнёр считается активным при наличии личного стейкинга ≥ $50 OR ≥1 реферала за последние 30 дней.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51b-d3js-network-tree--visual-indicators-canonical">5.1b D3.js Network Tree — Visual Indicators (CANONICAL)<a href="#51b-d3js-network-tree--visual-indicators-canonical" class="hash-link" aria-label="Прямая ссылка на 5.1b D3.js Network Tree — Visual Indicators (CANONICAL)" title="Прямая ссылка на 5.1b D3.js Network Tree — Visual Indicators (CANONICAL)" translate="no">​</a></h3>
+<p>Интерактивное дерево партнёрской сети реализовано на <strong>D3.js</strong> с полным набором визуальных индикаторов. Это ключевое конкурентное преимущество Wellex — real-time on-chain данные в visual UI.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-цветовая-кодировка-нод">A. Цветовая кодировка нод<a href="#a-цветовая-кодировка-нод" class="hash-link" aria-label="Прямая ссылка на A. Цветовая кодировка нод" title="Прямая ссылка на A. Цветовая кодировка нод" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Цвет ноды</th><th>Условие</th><th>Бизнес-смысл</th></tr></thead><tbody><tr><td>🟢 <strong>Зелёный</strong> <code>#4CAF50</code></td><td>Активный стейкинг ≥$50 + вход в систему за последние 7 дней</td><td>Партнёр полностью активен</td></tr><tr><td>🟡 <strong>Жёлтый</strong> <code>#FFC107</code></td><td>Зарегистрирован, нет активного стейкинга</td><td>Партнёр требует активации</td></tr><tr><td>🔴 <strong>Красный</strong> <code>#F44336</code></td><td>Последний вход &gt;30 дней назад</td><td>Партнёр в риске оттока</td></tr><tr><td>⚪ <strong>Серый</strong> <code>#9E9E9E</code></td><td>Зарегистрирован, нет активности &gt;60 дней</td><td>Неактивный партнёр</td></tr></tbody></table>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="b-специальные-outline-индикаторы-поверх-цвета">B. Специальные outline-индикаторы (поверх цвета)<a href="#b-специальные-outline-индикаторы-поверх-цвета" class="hash-link" aria-label="Прямая ссылка на B. Специальные outline-индикаторы (поверх цвета)" title="Прямая ссылка на B. Специальные outline-индикаторы (поверх цвета)" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Outline</th><th>Условие</th><th>Визуал</th></tr></thead><tbody><tr><td>💎 <strong>Diamond</strong> (electric blue <code>#00B8FF</code>, 3px)</td><td>WVI партнёра &gt; 80</td><td>Бриллиантовый контур — wellness-элита</td></tr><tr><td>🔥 <strong>Gold glow</strong> (<code>#FFD700</code>, пульсация)</td><td>Партнёр в процессе ранкового upgrade (≥80% до следующего ранга)</td><td>Золотой свет — on track for promotion</td></tr><tr><td>⚠️ <strong>Orange dashed</strong> (<code>#FF6F00</code>, 2px dash)</td><td>WVI &lt; 40 (ниже Partner WVI Lite floor)</td><td>Требует внимания коуча</td></tr></tbody></table>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="c-размер-ноды--пропорционально-pv">C. Размер ноды — пропорционально PV<a href="#c-размер-ноды--пропорционально-pv" class="hash-link" aria-label="Прямая ссылка на C. Размер ноды — пропорционально PV" title="Прямая ссылка на C. Размер ноды — пропорционально PV" translate="no">​</a></h4>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">Node radius = clamp(16, 48, base_radius × (PV_partner / PV_max_in_tree))</span><br></span></code></pre></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>PV партнёра</th><th>Радиус ноды</th></tr></thead><tbody><tr><td>0 – $999</td><td>16px (min)</td></tr><tr><td>$1K – $9,999</td><td>20–28px</td></tr><tr><td>$10K – $49,999</td><td>28–36px</td></tr><tr><td>$50K – $199,999</td><td>36–44px</td></tr><tr><td>$200K+</td><td>48px (max)</td></tr></tbody></table>
+<p><strong>Цель:</strong> крупные партнёры визуально доминируют в дереве без скролла.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="d-tooltip-при-hover-без-клика">D. Tooltip при hover (без клика)<a href="#d-tooltip-при-hover-без-клика" class="hash-link" aria-label="Прямая ссылка на D. Tooltip при hover (без клика)" title="Прямая ссылка на D. Tooltip при hover (без клика)" translate="no">​</a></h4>
+<p>При наведении на любую ноду — tooltip появляется мгновенно (delay: 0ms):</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌──────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  @ethan_wells   🔷 Leader        │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  WVI: 74 · ×1.15 multiplier      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  PV/мес: $127,400                │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Активных партнёров: 23          │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Последний вход: 2 дня назад     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└──────────────────────────────────┘</span><br></span></code></pre></div></div>
+<p><strong>Поля tooltip (фиксированные):</strong> имя + ранг + WVI + PV (объём/мес) + дней с последнего входа.
+Tooltip <strong>не требует клика</strong> — максимальная скорость навигации по дереву.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="e-клик-по-ноде--partner-profile-popup">E. Клик по ноде → Partner Profile Popup<a href="#e-клик-по-ноде--partner-profile-popup" class="hash-link" aria-label="Прямая ссылка на E. Клик по ноде → Partner Profile Popup" title="Прямая ссылка на E. Клик по ноде → Partner Profile Popup" translate="no">​</a></h4>
+<p>Полноэкранный popup с 4 обязательными полями (см. §5.1a). Tooltip остаётся видимым под popup.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="f-анимации">F. Анимации<a href="#f-анимации" class="hash-link" aria-label="Прямая ссылка на F. Анимации" title="Прямая ссылка на F. Анимации" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Анимация</th><th>Условие</th><th>Эффект</th></tr></thead><tbody><tr><td>🫀 <strong>Пульсация</strong> (scale 1→1.08→1, 2s loop)</td><td>Партнёр неактивен &gt;14 дней</td><td>Красная нода пульсирует — AI alert</td></tr><tr><td>✨ <strong>Shine sweep</strong> (CSS gradient pass, 3s loop)</td><td>Gold outline — ранковый upgrade в процессе</td><td>Блик пробегает по золотому контуру</td></tr><tr><td>🔵 <strong>Entry bounce</strong></td><td>Новый партнёр появился в дереве (WebSocket push)</td><td>Нода появляется с bounce-анимацией</td></tr><tr><td>📍 <strong>Zoom-to-node</strong></td><td>Нажатие на партнёра из AI Alert</td><td>D3 плавно масштабирует дерево, центрируя выбранную ноду</td></tr></tbody></table>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="g-ai-alerts-panel--интеграция-с-деревом">G. AI Alerts Panel — интеграция с деревом<a href="#g-ai-alerts-panel--интеграция-с-деревом" class="hash-link" aria-label="Прямая ссылка на G. AI Alerts Panel — интеграция с деревом" title="Прямая ссылка на G. AI Alerts Panel — интеграция с деревом" translate="no">​</a></h4>
+<p>Слева от дерева — вертикальная панель AI-алертов. Каждый алерт кликабелен → zoom-to-node в D3:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  🤖 AI Network Alerts           │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├─────────────────────────────────┤</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  🔴 @ethan_k — 22 дня без входа │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Риск оттока · [Написать]       │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│─────────────────────────────────│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  🔥 @sofia_r — 82% до Elite     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Поддержи → upgrade за 8 дней   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│─────────────────────────────────│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  🟡 @james_w — нет стейкинга    │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Потенциал $3,200/мес · [Скрипт]│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│─────────────────────────────────│</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  💎 @charlotte — WVI 88, топ    │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Пригласи в Leadership Pool     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────┘</span><br></span></code></pre></div></div>
+<p><strong>Алерт-логика (AI-генерируется):</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тип алерта</th><th>Триггер</th><th>Рекомендуемое действие</th></tr></thead><tbody><tr><td>🔴 Риск оттока</td><td>Нет входа &gt;14 дней</td><td>Написать персональное сообщение (AI готовит скрипт)</td></tr><tr><td>🔥 Ранговый upgrade</td><td>≥80% PV для следующего ранга</td><td>Сообщение с мотивацией + конкретная цель</td></tr><tr><td>🟡 Без стейкинга</td><td>Зарегистрирован &gt;7 дней, $0 стейкинг</td><td>Онбординг-скрипт + калькулятор дохода</td></tr><tr><td>💎 WVI-элита</td><td>WVI партнёра &gt;80</td><td>Предложить Leadership Pool + менторство</td></tr><tr><td>⚠️ WVI drop</td><td>WVI партнёра упал &gt;10 за неделю</td><td>Wellness-поддержка через APP</td></tr></tbody></table>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51c-drill-down-navigation">5.1c Drill-Down Navigation<a href="#51c-drill-down-navigation" class="hash-link" aria-label="Прямая ссылка на 5.1c Drill-Down Navigation" title="Прямая ссылка на 5.1c Drill-Down Navigation" translate="no">​</a></h3>
+<p>Дерево поддерживает <strong>неограниченную глубину</strong> с ленивой загрузкой:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">Root (Вы)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain"> └── Level 1 (загружены все)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">      └── Level 2 (загружены при раскрытии Level 1)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">           └── Level 3+ (lazy load — при клике на родительскую ноду)</span><br></span></code></pre></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td>Начальная глубина</td><td>3 уровня (отображаются сразу)</td></tr><tr><td>Максимальная глубина</td><td>10 уровней (весь план)</td></tr><tr><td>Lazy load</td><td>Уровни 4–10 загружаются по требованию</td></tr><tr><td>Контракт API</td><td><code>GET /partner/tree?depth=3&amp;expand=nodeId</code></td></tr><tr><td>WebSocket</td><td>Real-time обновления статуса нод без перезагрузки</td></tr></tbody></table>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51d-competitive-benchmark-network-tree">5.1d Competitive Benchmark: Network Tree<a href="#51d-competitive-benchmark-network-tree" class="hash-link" aria-label="Прямая ссылка на 5.1d Competitive Benchmark: Network Tree" title="Прямая ссылка на 5.1d Competitive Benchmark: Network Tree" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Функция</th><th style="text-align:center">Wellex</th><th style="text-align:center">Herbalife</th><th style="text-align:center">USANA</th><th style="text-align:center">PM International</th></tr></thead><tbody><tr><td>Real-time данные (WebSocket)</td><td style="text-align:center">✅</td><td style="text-align:center">❌ (monthly)</td><td style="text-align:center">❌ (monthly)</td><td style="text-align:center">❌ (bi-weekly)</td></tr><tr><td>On-chain стейкинг в popup</td><td style="text-align:center">✅</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td></tr><tr><td>AI-алерты по партнёрам</td><td style="text-align:center">✅ AI Agent</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td></tr><tr><td>Drill-down глубина</td><td style="text-align:center">✅ 10 уровней</td><td style="text-align:center">ограничен</td><td style="text-align:center">3 уровня</td><td style="text-align:center">2 уровня</td></tr><tr><td>WVI партнёра виден</td><td style="text-align:center">✅</td><td style="text-align:center">N/A</td><td style="text-align:center">N/A</td><td style="text-align:center">N/A</td></tr><tr><td>Цветовая кодировка статуса</td><td style="text-align:center">✅ 4 цвета</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td></tr><tr><td>Анимация нод</td><td style="text-align:center">✅ (пульсация, glow)</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td></tr><tr><td>Tooltip без клика</td><td style="text-align:center">✅</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td></tr><tr><td>Размер ноды ∝ объём</td><td style="text-align:center">✅ (PV-proportional)</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td><td style="text-align:center">❌</td></tr></tbody></table>
+<p><strong>Вывод BigFour-уровня:</strong> Wellex — единственная MLM-платформа с on-chain real-time network intelligence, интегрированной wellness-аналитикой на уровне партнёра и AI-driven proactive alerts. Конкуренты работают с monthly batch data и статичными деревьями.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="52-ai-контент-генератор">5.2 AI-контент генератор<a href="#52-ai-контент-генератор" class="hash-link" aria-label="Прямая ссылка на 5.2 AI-контент генератор" title="Прямая ссылка на 5.2 AI-контент генератор" translate="no">​</a></h3>
+<p>Встроенный инструмент для создания партнёрского контента:</p>
+<ul>
+<li class="">Промпт → AI генерирует пост / скрипт / story</li>
+<li class="">Кнопки: [📋 Копировать] [🔄 Другой вариант] [🌐 Перевести]</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-модуль-вебинарные-комнаты--webinar-rooms--v20">6. Модуль: Вебинарные комнаты (🎥 Webinar Rooms) — v2.0<a href="#6-модуль-вебинарные-комнаты--webinar-rooms--v20" class="hash-link" aria-label="Прямая ссылка на 6. Модуль: Вебинарные комнаты (🎥 Webinar Rooms) — v2.0" title="Прямая ссылка на 6. Модуль: Вебинарные комнаты (🎥 Webinar Rooms) — v2.0" translate="no">​</a></h2>
+<blockquote>
+<p>Командные вебинары + внешние участники без аккаунта + конверсионная воронка в прямом эфире</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="61-типы-комнат">6.1 Типы комнат<a href="#61-типы-комнат" class="hash-link" aria-label="Прямая ссылка на 6.1 Типы комнат" title="Прямая ссылка на 6.1 Типы комнат" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тип</th><th>Аудитория</th><th>Вход</th></tr></thead><tbody><tr><td><strong>Командный</strong></td><td>Вся структура партнёра (все уровни)</td><td>Авто-приглашение</td></tr><tr><td><strong>Открытый</strong></td><td>Внутренние + внешние по публичной ссылке</td><td>Без аккаунта Wellex</td></tr><tr><td><strong>Invite-only</strong></td><td>По персональному приглашению</td><td>Обязательна</td></tr><tr><td><strong>Платный</strong></td><td>Все, кто купил доступ</td><td>Платная</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="62-командный-вебинар">6.2 Командный вебинар<a href="#62-командный-вебинар" class="hash-link" aria-label="Прямая ссылка на 6.2 Командный вебинар" title="Прямая ссылка на 6.2 Командный вебинар" translate="no">​</a></h3>
+<ul>
+<li class="">Кнопка «Командный вебинар» → авто-рассылка всей структуре (фильтры: ранг / активность / регион)</li>
+<li class="">Push / email / in-app уведомление: за 24ч + 1ч + 5 мин</li>
+<li class="">Участники с аккаунтом → вход без отдельной регистрации</li>
+<li class="">После: список «кто не пришёл» → AI генерирует recap-сообщение</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="63-внешние-участники-без-аккаунта-wellex">6.3 Внешние участники (без аккаунта Wellex)<a href="#63-внешние-участники-без-аккаунта-wellex" class="hash-link" aria-label="Прямая ссылка на 6.3 Внешние участники (без аккаунта Wellex)" title="Прямая ссылка на 6.3 Внешние участники (без аккаунта Wellex)" translate="no">​</a></h3>
+<ul>
+<li class="">Публичная страница: <code>wellex.ai/webinar/{username}/{slug}</code></li>
+<li class="">Регистрация: имя + email → pre-account (TTL 30 дней) → реферал ведущего автоматически</li>
+<li class="">UTM-трекинг по источнику (Telegram / Instagram / WhatsApp / direct)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="64-live-conversion-tools">6.4 Live Conversion Tools<a href="#64-live-conversion-tools" class="hash-link" aria-label="Прямая ссылка на 6.4 Live Conversion Tools" title="Прямая ссылка на 6.4 Live Conversion Tools" translate="no">​</a></h3>
+<p>Ведущий нажимает <code>[Показать CTA]</code> → у всех участников появляется блок:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌──────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  🚀 Хочешь такие же результаты?              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Присоединись к Wellex — браслет бесплатно   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  при подписке $19/мес · Yield от WVI         │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                                              │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  [🎯 Зарегистрироваться — бесплатно]         │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│  Уже есть аккаунт? [Войти]                   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└──────────────────────────────────────────────┘</span><br></span></code></pre></div></div>
+<p><strong>6 типов CTA:</strong> Присоединиться / Стейкинг / Coaching 1:1 / Скачать материалы / Задать вопрос / Подписаться на канал</p>
+<p><strong>Счётчик конверсий (только ведущий):</strong> кликнули / зарегистрировались / уже партнёры — в реальном времени</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="65-live-интерфейс-ведущего">6.5 Live-интерфейс ведущего<a href="#65-live-интерфейс-ведущего" class="hash-link" aria-label="Прямая ссылка на 6.5 Live-интерфейс ведущего" title="Прямая ссылка на 6.5 Live-интерфейс ведущего" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">🔴 LIVE  «Итоги марта»  Участников: 35 + 12 внешних</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">─────────────────────────────────────────────────────</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">[Видео ведущего]          │ 💬 Чат [Все / Команда]</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">                          │ @alex_k: 🔥</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">[Демонстрация экрана]     │ Гость12: когда стейкинг?</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">                          │ 🤖 AI: [предложить ответ]</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">──────────────────────────────────────────────────────</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">[🎯 CTA] [🗳 Опрос] [📁 Материалы] [👥 Участники] [⏹]</span><br></span></code></pre></div></div>
+<p><strong>Панель участников:</strong> «Команда» (ранг+WVI) | «Внешние» (имя + статус конверсии)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="66-монетизация-вебинаров">6.6 Монетизация вебинаров<a href="#66-монетизация-вебинаров" class="hash-link" aria-label="Прямая ссылка на 6.6 Монетизация вебинаров" title="Прямая ссылка на 6.6 Монетизация вебинаров" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Модель</th><th style="text-align:center">Комиссия платформы</th></tr></thead><tbody><tr><td>Бесплатный (лид-магнит)</td><td style="text-align:center">0%</td></tr><tr><td>Платный билет</td><td style="text-align:center">10%</td></tr><tr><td>Replay доступ</td><td style="text-align:center">10%</td></tr><tr><td>Coaching 1:1</td><td style="text-align:center">15%</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="67-follow-up-воронка-авто-через-15-мин">6.7 Follow-up воронка (авто, через 15 мин)<a href="#67-follow-up-воронка-авто-через-15-мин" class="hash-link" aria-label="Прямая ссылка на 6.7 Follow-up воронка (авто, через 15 мин)" title="Прямая ссылка на 6.7 Follow-up воронка (авто, через 15 мин)" translate="no">​</a></h3>
+<ul>
+<li class="">Команде: запись + ссылка на чат</li>
+<li class="">Внешним (не рег.): email с CTA «Присоединиться к Wellex»</li>
+<li class="">Внешним (рег.): Welcome Pack → стейкинг калькулятор → командный чат</li>
+</ul>
+<p><strong>Конверсионная аналитика:</strong> регистрации → live → &gt;80% просмотр → CTA клик → аккаунт → стейкинг</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-модуль-partner-ecosystem-hub--ecosystem">7. Модуль: Partner Ecosystem Hub (💰 Ecosystem)<a href="#7-модуль-partner-ecosystem-hub--ecosystem" class="hash-link" aria-label="Прямая ссылка на 7. Модуль: Partner Ecosystem Hub (💰 Ecosystem)" title="Прямая ссылка на 7. Модуль: Partner Ecosystem Hub (💰 Ecosystem)" translate="no">​</a></h2>
+<blockquote>
+<p>Центральный штаб партнёра. Три вопроса с ответами: сколько зарабатываю → что мешает → что делать сейчас.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="71-income-dashboard-реальное-время">7.1 Income Dashboard (реальное время)<a href="#71-income-dashboard-реальное-время" class="hash-link" aria-label="Прямая ссылка на 7.1 Income Dashboard (реальное время)" title="Прямая ссылка на 7.1 Income Dashboard (реальное время)" translate="no">​</a></h3>
+<ul>
+<li class="">Суммарный доход/мес + AI-прогноз до конца месяца</li>
+<li class=""><strong>8 потоков дохода live:</strong> прямые рефералы / командные бонусы / matching / ранговый / WVI Performance / Leadership Pool / Fast Start / Вебинарный</li>
+<li class="">Клик на поток → детальный breakdown (от кого / когда / за что)</li>
+<li class=""><strong>Income Unlock Panel:</strong> AI показывает незактивированные потоки и сколько денег теряется</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="72-ai-income-advisor-gpt-4o">7.2 AI Income Advisor (GPT-4o)<a href="#72-ai-income-advisor-gpt-4o" class="hash-link" aria-label="Прямая ссылка на 7.2 AI Income Advisor (GPT-4o)" title="Прямая ссылка на 7.2 AI Income Advisor (GPT-4o)" translate="no">​</a></h3>
+<p><strong>Ежедневный брифинг (08:00 по TZ):</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">🤖 Доброе утро, @sofia_r!</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">📊 Вчера: PV +$2,340 · Новых: 2 · Активных: 23/31</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">💡 3 приоритета сегодня:</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  1. @ethan_k не входил 22 дня → [Написать скрипт]</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  2. До Elite: $8,200 PV за 11 дней → [План]</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  3. Вебинар завтра 18:00 — 47 зарег. → [Подготовиться]</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">→ Прогноз: +$1,100 к концу месяца</span><br></span></code></pre></div></div>
+<p><strong>Режимы:</strong> «Что делать» / «Вырасти ×2» (план 30/60/90 дн) / «Кризис» (доход упал &gt;20%) / «Симуляция» / «Скрипты»</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="73-инструменты-развития-партнёров">7.3 Инструменты развития партнёров<a href="#73-инструменты-развития-партнёров" class="hash-link" aria-label="Прямая ссылка на 7.3 Инструменты развития партнёров" title="Прямая ссылка на 7.3 Инструменты развития партнёров" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>AI Onboarding:</strong> новый реферал → авто 7-дневный план активации</li>
+<li class=""><strong>Activation Campaigns:</strong> AI генерирует 5–7 сообщений → рассылка команде</li>
+<li class=""><strong>Partner Milestone Tracker:</strong> прогресс каждого прямого реферала (первый стейкинг / $1K PV / первый вебинар)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="74-ecosystem-leaderboard">7.4 Ecosystem Leaderboard<a href="#74-ecosystem-leaderboard" class="hash-link" aria-label="Прямая ссылка на 7.4 Ecosystem Leaderboard" title="Прямая ссылка на 7.4 Ecosystem Leaderboard" translate="no">​</a></h3>
+<ul>
+<li class="">Топ-10 по доходу / росту сети / вебинарной аудитории</li>
+<li class="">Своя позиция + delta</li>
+<li class="">Кнопка «Обогнать следующего» → AI-план конкретных действий</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-модуль-community--chat--community">8. Модуль: Community &amp; Chat (💬 Community)<a href="#8-модуль-community--chat--community" class="hash-link" aria-label="Прямая ссылка на 8. Модуль: Community &amp; Chat (💬 Community)" title="Прямая ссылка на 8. Модуль: Community &amp; Chat (💬 Community)" translate="no">​</a></h2>
+<blockquote>
+<p>Встроенный мессенджер-экосистема. Командный чат, группы, монетизируемые сообщества.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="81-типы-пространств">8.1 Типы пространств<a href="#81-типы-пространств" class="hash-link" aria-label="Прямая ссылка на 8.1 Типы пространств" title="Прямая ссылка на 8.1 Типы пространств" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тип</th><th>Кто создаёт</th><th>Доступ</th></tr></thead><tbody><tr><td>Командный чат</td><td>Авто при ранге Leader</td><td>Вся структура</td></tr><tr><td>Публичный канал</td><td>Любой (broadcast)</td><td>Все</td></tr><tr><td>Приватная группа</td><td>Leader+</td><td>По приглашению</td></tr><tr><td>Платная группа</td><td>Leader+</td><td>$5–$500/мес</td></tr><tr><td>1:1 сообщения</td><td>Любой → в своей сети</td><td>Прямое</td></tr><tr><td>Вебинарный чат</td><td>К вебинарной комнате</td><td>Участники</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="82-командный-чат-авто">8.2 Командный чат (авто)<a href="#82-командный-чат-авто" class="hash-link" aria-label="Прямая ссылка на 8.2 Командный чат (авто)" title="Прямая ссылка на 8.2 Командный чат (авто)" translate="no">​</a></h3>
+<ul>
+<li class="">Создаётся при достижении ранга Leader</li>
+<li class="">Рефералы добавляются автоматически при регистрации</li>
+<li class="">AI еженедельный дайджест команды (каждый понедельник)</li>
+<li class="">Milestone уведомления: «🎉 @john_d сделал первый стейкинг!»</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="83-функциональность-чата">8.3 Функциональность чата<a href="#83-функциональность-чата" class="hash-link" aria-label="Прямая ссылка на 8.3 Функциональность чата" title="Прямая ссылка на 8.3 Функциональность чата" translate="no">​</a></h3>
+<p><strong>Сообщения:</strong> текст / фото / видео / голос (транскрипция Whisper) / документы / реф. ссылка (одним кликом)</p>
+<p><strong>AI в чате:</strong></p>
+<ul>
+<li class=""><code>/ai summarize</code> — суммари последних 50 сообщений</li>
+<li class=""><code>/ai script @user</code> — персональный скрипт для участника</li>
+<li class="">Smart Reply: 3 варианта ответа на входящее</li>
+</ul>
+<p><strong>Compliance-фильтр:</strong> авто-скрытие сообщений с гарантиями дохода / MLM-нарушениями</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="84-api">8.4 API<a href="#84-api" class="hash-link" aria-label="Прямая ссылка на 8.4 API" title="Прямая ссылка на 8.4 API" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">GET/POST /api/v1/community/spaces</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">GET/POST /api/v1/community/spaces/{id}/messages</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">WebSocket: ws://wellex.ai/ws/community/{space_id}</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-модуль-ai-агенты--ai-agents">9. Модуль: AI-Агенты (🤖 AI Agents)<a href="#9-модуль-ai-агенты--ai-agents" class="hash-link" aria-label="Прямая ссылка на 9. Модуль: AI-Агенты (🤖 AI Agents)" title="Прямая ссылка на 9. Модуль: AI-Агенты (🤖 AI Agents)" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Агент</th><th>Функция</th><th>Доступ</th></tr></thead><tbody><tr><td><strong>AI Wallet Agent</strong></td><td>Авто-оптимизация WellexVault, ребалансировка, compound — полностью автоматически</td><td>Все пользователи</td></tr><tr><td><strong>Growth Agent</strong></td><td>Рекомендации по продвижению, целевая аудитория</td><td>Все партнёры</td></tr><tr><td><strong>Analytics Agent</strong></td><td>Воронка, прогноз дохода, когортный анализ</td><td>Продвинутые пользователи</td></tr><tr><td><strong>Content Agent</strong></td><td>Генерация постов, видео-скриптов</td><td>Все партнёры</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-модуль-аналитика--analytics">7. Модуль: Аналитика (📊 Analytics)<a href="#7-модуль-аналитика--analytics" class="hash-link" aria-label="Прямая ссылка на 7. Модуль: Аналитика (📊 Analytics)" title="Прямая ссылка на 7. Модуль: Аналитика (📊 Analytics)" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Виджет</th><th>Тип графика</th><th>Данные</th></tr></thead><tbody><tr><td>WVI History</td><td>Line chart</td><td>WVI daily / weekly / monthly</td></tr><tr><td>Monthly Yield Trend</td><td>Area chart</td><td>Monthly Yield за 12 мес</td></tr><tr><td>Yield Cumulative</td><td>Stacked area</td><td>Yield из WellexVault</td></tr><tr><td>Компоненты WVI</td><td>Radar chart</td><td>Эмоции / Восстановление / Физическая нагрузка</td></tr><tr><td>Корреляции</td><td>Scatter plot</td><td>WVI vs. yield</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="экспорт-данных">Экспорт данных<a href="#экспорт-данных" class="hash-link" aria-label="Прямая ссылка на Экспорт данных" title="Прямая ссылка на Экспорт данных" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Формат</th><th>Назначение</th></tr></thead><tbody><tr><td>Формат</td><td>Назначение</td></tr><tr><td>--------</td><td>-----------</td></tr><tr><td><strong>CSV</strong></td><td>Анализ данных, бухгалтерия</td></tr><tr><td><strong>PDF</strong></td><td>Налоговый документ, отчёт партнёра</td></tr><tr><td><strong>JSON</strong></td><td>API-интеграция, разработчики</td></tr><tr><td><strong>Health Export</strong></td><td>Apple Health / Google Fit</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="csv--структура-полей">CSV — структура полей<a href="#csv--структура-полей" class="hash-link" aria-label="Прямая ссылка на CSV — структура полей" title="Прямая ссылка на CSV — структура полей" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">date,type,amount_usdc,network,tx_hash,fee_usdc,wvi,yield_rate,status</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">2026-03-01,DEPOSIT,1000.00,polygon,0xabc123,0.50,72,12.0%,confirmed</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">2026-03-01,YIELD,40.00,polygon,0xdef456,0.10,72,12.0%,confirmed</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">2026-03-15,WITHDRAWAL,500.00,arbitrum,0xghi789,0.30,74,12.0%,confirmed</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="pdf--разделы-налогового-отчёта">PDF — разделы налогового отчёта<a href="#pdf--разделы-налогового-отчёта" class="hash-link" aria-label="Прямая ссылка на PDF — разделы налогового отчёта" title="Прямая ссылка на PDF — разделы налогового отчёта" translate="no">​</a></h3>
+<p>▸ Период: [дата от] — [дата до]
+▸ Сводка: общий депозит, total yield, total withdrawn
+▸ Таблица транзакций с on-chain ссылками
+▸ Yield breakdown по месяцам
+▸ WVI среднее за период
+▸ Партнёрские бонусы (если есть)
+▸ Дисклеймер: &quot;Это не налоговая консультация. Уточните у налогового советника.&quot;
+▸ Верификация: QR-код для проверки подлинности документа</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-wvi-виджет-в-web">8. WVI-виджет в WEB<a href="#8-wvi-виджет-в-web" class="hash-link" aria-label="Прямая ссылка на 8. WVI-виджет в WEB" title="Прямая ссылка на 8. WVI-виджет в WEB" translate="no">​</a></h2>
+<p>Хотя APP является основной платформой для wellness, WEB отображает <strong>WVI-виджет</strong> для контекста:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌──────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ 🏥 Wellex Vitality   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Index                │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ┌────┐               │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ 72 │ /100          │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └────┘               │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ 🧠 62  😴 78  🏃 75  │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│                      │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Monthly Yield: 12%   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Скачайте APP для     │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ полного wellness →   │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└──────────────────────┘</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-модуль-админ-панель-️-admin">9. Модуль: Админ-панель (🛡️ Admin)<a href="#9-модуль-админ-панель-️-admin" class="hash-link" aria-label="Прямая ссылка на 9. Модуль: Админ-панель (🛡️ Admin)" title="Прямая ссылка на 9. Модуль: Админ-панель (🛡️ Admin)" translate="no">​</a></h2>
+<blockquote>
+<p>Доступна только для администраторов</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Функция</th><th>Описание</th></tr></thead><tbody><tr><td>Пользователи</td><td>Поиск, профиль, баланс, история транзакций, fraud score</td></tr><tr><td>Real-time метрики</td><td>DAU, MAU, TVL, revenue, retention</td></tr><tr><td>Алерты</td><td>Fraud-события, TVL-аномалии, системные инциденты</td></tr><tr><td>Конфигурация</td><td>Feature flags, параметры Monthly Yield, Yield Pool</td></tr><tr><td>Audit log</td><td>Полный журнал действий администраторов</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-responsive-design">10. Responsive Design<a href="#10-responsive-design" class="hash-link" aria-label="Прямая ссылка на 10. Responsive Design" title="Прямая ссылка на 10. Responsive Design" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Breakpoint</th><th>Layout</th></tr></thead><tbody><tr><td>Mobile (&lt; 768px)</td><td>Stack, 1 col</td></tr><tr><td>Tablet (768–1024px)</td><td>2 col</td></tr><tr><td>Desktop (1024–1440px)</td><td>Sidebar + content</td></tr><tr><td>Wide (&gt; 1440px)</td><td>Sidebar + 3 col</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-технический-стек">11. Технический стек<a href="#11-технический-стек" class="hash-link" aria-label="Прямая ссылка на 11. Технический стек" title="Прямая ссылка на 11. Технический стек" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Компонент</th><th>Технология</th></tr></thead><tbody><tr><td>Frontend</td><td>React 18 + TypeScript + Vite</td></tr><tr><td>UI</td><td>Tailwind CSS + glass-morphism</td></tr><tr><td>State management</td><td>TanStack Query v5</td></tr><tr><td>Charts</td><td>Recharts + D3.js</td></tr><tr><td>Backend API</td><td>FastAPI (Python 3.12)</td></tr><tr><td>Авторизация</td><td>JWT + OAuth 2.0 + WalletConnect (EIP-4361)</td></tr><tr><td>Real-time</td><td>WebSocket + SSE fallback</td></tr><tr><td>Blockchain</td><td>Ethers.js v6 + ERC-4337 (multi-chain)</td></tr><tr><td>On-Ramp / Off-Ramp</td><td>Встроенный провайдер (карта, локальные методы)</td></tr><tr><td>Поддерживаемые сети</td><td>EVM: ETH · Polygon · BSC · Arbitrum · Optimism · Base · Avalanche + Tron + Solana</td></tr><tr><td>Cross-chain</td><td>LayerZero / Across bridges · 1inch / 0x / ParaSwap (DEX aggregation)</td></tr></tbody></table>
+<hr>
+<blockquote>
+<p><strong>Защита депозитов:</strong> все yield-операции защищены Dynamic Yield Cap и AI Wallet Agent. Единое покрытие WellexVault — <strong>100%</strong>. <em>→ <a class="" href="/wellex-docs/06_YIELD_PROTOCOL">06_YIELD_PROTOCOL.md</a></em></p>
+</blockquote>
+<p><em>→ Смежные документы: <a class="" href="/wellex-docs/04_APP_UX">04_APP_UX.md</a> (APP) · <a class="" href="/wellex-docs/06_YIELD_PROTOCOL">06_YIELD_PROTOCOL.md</a> (yield) · <a class="" href="/wellex-docs/09_PARTNER_PROGRAM">09_PARTNER_PROGRAM.md</a> (партнёрская программа)</em></p>
+<p><em>Wellex © 2026 · Confidential</em></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Страница документа"><a class="pagination-nav__link pagination-nav__link--prev" href="/wellex-docs/04_APP_UX"><div class="pagination-nav__sublabel">Предыдущая страница</div><div class="pagination-nav__label">04 · WELLNESS APP (iOS / Android)</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wellex-docs/08_HARDWARE"><div class="pagination-nav__sublabel">Следующая страница</div><div class="pagination-nav__label">08 · WELLEX BAND — Hardware Platform</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-обзор" class="table-of-contents__link toc-highlight">1. Обзор</a><ul><li><a href="#архитектурное-разделение-app--web" class="table-of-contents__link toc-highlight">Архитектурное разделение APP ↔ WEB</a></li><li><a href="#модули-web-дашборда" class="table-of-contents__link toc-highlight">Модули WEB-дашборда</a></li></ul></li><li><a href="#2-регистрация--вход-в-web" class="table-of-contents__link toc-highlight">2. Регистрация / Вход в WEB</a><ul><li><a href="#способ-1-email-вход-из-app-или-напрямую" class="table-of-contents__link toc-highlight">Способ 1: Email-вход (из APP или напрямую)</a></li><li><a href="#способ-2-web3-wallet" class="table-of-contents__link toc-highlight">Способ 2: WEB3 Wallet</a></li></ul></li><li><a href="#3-модуль-кошелёк--wallet" class="table-of-contents__link toc-highlight">3. Модуль: Кошелёк (💰 Wallet)</a><ul><li><a href="#31-виджеты" class="table-of-contents__link toc-highlight">3.1 Виджеты</a></li><li><a href="#32-функции" class="table-of-contents__link toc-highlight">3.2 Функции</a></li><li><a href="#33-multi-chain-wallet-ui" class="table-of-contents__link toc-highlight">3.3 Multi-Chain Wallet UI</a></li><li><a href="#34-on-ramp--off-ramp-ui" class="table-of-contents__link toc-highlight">3.4 On-Ramp / Off-Ramp UI</a></li><li><a href="#35-пример-содержимого" class="table-of-contents__link toc-highlight">3.5 Пример содержимого</a></li></ul></li><li><a href="#4-модуль-стейкинг--staking" class="table-of-contents__link toc-highlight">4. Модуль: Стейкинг (📈 Staking)</a><ul><li><a href="#41-wellexvault--единый-vault" class="table-of-contents__link toc-highlight">4.1 WellexVault — единый vault</a></li><li><a href="#42-yield-в-зависимости-от-wvi" class="table-of-contents__link toc-highlight">4.2 Yield в зависимости от WVI</a></li><li><a href="#43-lock-up-по-сумме-депозита" class="table-of-contents__link toc-highlight">4.3 Lock-up по сумме депозита</a></li><li><a href="#44-интерфейс" class="table-of-contents__link toc-highlight">4.4 Интерфейс</a></li></ul></li><li><a href="#5-модуль-партнёрская-сеть--network" class="table-of-contents__link toc-highlight">5. Модуль: Партнёрская сеть (🌐 Network)</a><ul><li><a href="#51-виджеты" class="table-of-contents__link toc-highlight">5.1 Виджеты</a></li><li><a href="#51a-партнёрский-профиль-popup-при-клике-на-партнёра" class="table-of-contents__link toc-highlight">5.1a Партнёрский профиль (popup при клике на партнёра)</a></li><li><a href="#51b-d3js-network-tree--visual-indicators-canonical" class="table-of-contents__link toc-highlight">5.1b D3.js Network Tree — Visual Indicators (CANONICAL)</a></li><li><a href="#51c-drill-down-navigation" class="table-of-contents__link toc-highlight">5.1c Drill-Down Navigation</a></li><li><a href="#51d-competitive-benchmark-network-tree" class="table-of-contents__link toc-highlight">5.1d Competitive Benchmark: Network Tree</a></li><li><a href="#52-ai-контент-генератор" class="table-of-contents__link toc-highlight">5.2 AI-контент генератор</a></li></ul></li><li><a href="#6-модуль-вебинарные-комнаты--webinar-rooms--v20" class="table-of-contents__link toc-highlight">6. Модуль: Вебинарные комнаты (🎥 Webinar Rooms) — v2.0</a><ul><li><a href="#61-типы-комнат" class="table-of-contents__link toc-highlight">6.1 Типы комнат</a></li><li><a href="#62-командный-вебинар" class="table-of-contents__link toc-highlight">6.2 Командный вебинар</a></li><li><a href="#63-внешние-участники-без-аккаунта-wellex" class="table-of-contents__link toc-highlight">6.3 Внешние участники (без аккаунта Wellex)</a></li><li><a href="#64-live-conversion-tools" class="table-of-contents__link toc-highlight">6.4 Live Conversion Tools</a></li><li><a href="#65-live-интерфейс-ведущего" class="table-of-contents__link toc-highlight">6.5 Live-интерфейс ведущего</a></li><li><a href="#66-монетизация-вебинаров" class="table-of-contents__link toc-highlight">6.6 Монетизация вебинаров</a></li><li><a href="#67-follow-up-воронка-авто-через-15-мин" class="table-of-contents__link toc-highlight">6.7 Follow-up воронка (авто, через 15 мин)</a></li></ul></li><li><a href="#7-модуль-partner-ecosystem-hub--ecosystem" class="table-of-contents__link toc-highlight">7. Модуль: Partner Ecosystem Hub (💰 Ecosystem)</a><ul><li><a href="#71-income-dashboard-реальное-время" class="table-of-contents__link toc-highlight">7.1 Income Dashboard (реальное время)</a></li><li><a href="#72-ai-income-advisor-gpt-4o" class="table-of-contents__link toc-highlight">7.2 AI Income Advisor (GPT-4o)</a></li><li><a href="#73-инструменты-развития-партнёров" class="table-of-contents__link toc-highlight">7.3 Инструменты развития партнёров</a></li><li><a href="#74-ecosystem-leaderboard" class="table-of-contents__link toc-highlight">7.4 Ecosystem Leaderboard</a></li></ul></li><li><a href="#8-модуль-community--chat--community" class="table-of-contents__link toc-highlight">8. Модуль: Community &amp; Chat (💬 Community)</a><ul><li><a href="#81-типы-пространств" class="table-of-contents__link toc-highlight">8.1 Типы пространств</a></li><li><a href="#82-командный-чат-авто" class="table-of-contents__link toc-highlight">8.2 Командный чат (авто)</a></li><li><a href="#83-функциональность-чата" class="table-of-contents__link toc-highlight">8.3 Функциональность чата</a></li><li><a href="#84-api" class="table-of-contents__link toc-highlight">8.4 API</a></li></ul></li><li><a href="#9-модуль-ai-агенты--ai-agents" class="table-of-contents__link toc-highlight">9. Модуль: AI-Агенты (🤖 AI Agents)</a></li><li><a href="#7-модуль-аналитика--analytics" class="table-of-contents__link toc-highlight">7. Модуль: Аналитика (📊 Analytics)</a><ul><li><a href="#экспорт-данных" class="table-of-contents__link toc-highlight">Экспорт данных</a></li><li><a href="#csv--структура-полей" class="table-of-contents__link toc-highlight">CSV — структура полей</a></li><li><a href="#pdf--разделы-налогового-отчёта" class="table-of-contents__link toc-highlight">PDF — разделы налогового отчёта</a></li></ul></li><li><a href="#8-wvi-виджет-в-web" class="table-of-contents__link toc-highlight">8. WVI-виджет в WEB</a></li><li><a href="#9-модуль-админ-панель-️-admin" class="table-of-contents__link toc-highlight">9. Модуль: Админ-панель (🛡️ Admin)</a></li><li><a href="#10-responsive-design" class="table-of-contents__link toc-highlight">10. Responsive Design</a></li><li><a href="#11-технический-стек" class="table-of-contents__link toc-highlight">11. Технический стек</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Документация</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/00_INTRO">Введение</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/19_WHITEPAPER_v3">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/12_ROADMAP">Roadmap</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Продукт</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/08_HARDWARE">Wellex Band</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/06_YIELD_PROTOCOL">Yield Protocol</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/07_AI_SYSTEM">AI System</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Партнёрам</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/09_PARTNER_PROGRAM">Partner Program</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/31_B2B_PLAYBOOK">B2B Playbook</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/23_SALES_PROGRAM">Sales Program</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Wellex © 2026 · Web3 Wellness Protocol · v5.0</div></div></div></footer></div>
+</body>
+</html>

@@ -1,0 +1,1163 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-25_TECH_REQUIREMENTS" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">25 · TECHNICAL REQUIREMENTS | Wellex</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://buffer.terymarius.com/wellex-docs/en/25_TECH_REQUIREMENTS"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="ru"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="25 · TECHNICAL REQUIREMENTS | Wellex"><meta data-rh="true" name="description" content="Wellex v5.0 · 05.03.2026"><meta data-rh="true" property="og:description" content="Wellex v5.0 · 05.03.2026"><link data-rh="true" rel="icon" href="/wellex-docs/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://buffer.terymarius.com/wellex-docs/en/25_TECH_REQUIREMENTS"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/25_TECH_REQUIREMENTS" hreflang="ru"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/en/25_TECH_REQUIREMENTS" hreflang="en"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/25_TECH_REQUIREMENTS" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"25 · TECHNICAL REQUIREMENTS","item":"https://buffer.terymarius.com/wellex-docs/en/25_TECH_REQUIREMENTS"}]}</script><link rel="stylesheet" href="/wellex-docs/en/assets/css/styles.6eb3a0fa.css">
+<script src="/wellex-docs/en/assets/js/runtime~main.cf77969d.js" defer="defer"></script>
+<script src="/wellex-docs/en/assets/js/main.1cbe59be.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/wellex-docs/en/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#0d1927;color:rgba(212,168,67,0.9)" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">✦ Wellex v5.0 — Platform Specification &nbsp;·&nbsp; Updated March 2026</div><button type="button" aria-label="Close" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wellex-docs/en/"><div class="navbar__logo"><img src="/wellex-docs/en/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/wellex-docs/en/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">WELLEX</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/en/00_INDEX">Documentation</a><a class="navbar__item navbar__link" href="/wellex-docs/en/19_WHITEPAPER_v3">Whitepaper</a><a class="navbar__item navbar__link" href="/wellex-docs/en/01_EXECUTIVE_SUMMARY">Executive Summary</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>🇬🇧 English</a><ul class="dropdown__menu"><li><a href="/wellex-docs/25_TECH_REQUIREMENTS" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="ru">🇷🇺 Русский</a></li><li><a href="/wellex-docs/en/25_TECH_REQUIREMENTS" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="en">🇬🇧 English</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wellex-docs/en/00_INDEX"><span title="WELLEX — PUBLIC DOCUMENTATION v5.0" class="linkLabel_WmDU">WELLEX — PUBLIC DOCUMENTATION v5.0</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wellex-docs/en/00_INTRO"><span title="📖 Введение" class="categoryLinkLabel_W154">📖 Введение</span></a><button aria-label="Collapse sidebar category &#x27;📖 Введение&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/00_INTRO"><span title="Introduction" class="linkLabel_WmDU">Introduction</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/01_EXECUTIVE_SUMMARY"><span title="01 · WELLEX — EXECUTIVE SUMMARY" class="linkLabel_WmDU">01 · WELLEX — EXECUTIVE SUMMARY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/02_PRODUCT_VISION"><span title="02 · PRODUCT VISION" class="linkLabel_WmDU">02 · PRODUCT VISION</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/en/19_WHITEPAPER_v3"><span title="📄 Whitepaper" class="categoryLinkLabel_W154">📄 Whitepaper</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/19_WHITEPAPER_v3"><span title="WELLEX — Whitepaper" class="linkLabel_WmDU">WELLEX — Whitepaper</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/en/03_WELLNESS_SCORE"><span title="💎 Продукт" class="categoryLinkLabel_W154">💎 Продукт</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/03_WELLNESS_SCORE"><span title="03 · WELLEX VITALITY INDEX (WVI)" class="linkLabel_WmDU">03 · WELLEX VITALITY INDEX (WVI)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/04_APP_UX"><span title="04 · WELLNESS APP (iOS / Android)" class="linkLabel_WmDU">04 · WELLNESS APP (iOS / Android)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/05_DASHBOARD"><span title="05 · WEB DASHBOARD" class="linkLabel_WmDU">05 · WEB DASHBOARD</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/08_HARDWARE"><span title="08 · WELLEX BAND — Hardware Platform" class="linkLabel_WmDU">08 · WELLEX BAND — Hardware Platform</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/21_GAMIFICATION"><span title="21 · GAMIFICATION" class="linkLabel_WmDU">21 · GAMIFICATION</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/27_EMOTIONAL_MINING"><span title="27 · EMOTIONAL MINING" class="linkLabel_WmDU">27 · EMOTIONAL MINING</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/32_DAY_IN_THE_LIFE"><span title="32 · &quot;DAY IN THE LIFE&quot; — USER JOURNEY DOCUMENT" class="linkLabel_WmDU">32 · &quot;DAY IN THE LIFE&quot; — USER JOURNEY DOCUMENT</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/06_YIELD_PROTOCOL"><span title="💰 Доходность" class="categoryLinkLabel_W154">💰 Доходность</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/09_PARTNER_PROGRAM"><span title="🤝 Партнёрам &amp; B2B" class="categoryLinkLabel_W154">🤝 Партнёрам &amp; B2B</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/wellex-docs/en/07_AI_SYSTEM"><span title="🔬 Технологии" class="categoryLinkLabel_W154">🔬 Технологии</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/07_AI_SYSTEM"><span title="07 · AI SYSTEM" class="linkLabel_WmDU">07 · AI SYSTEM</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/en/17_TECH_ARCHITECTURE"><span title="17 · TECHNICAL ARCHITECTURE" class="linkLabel_WmDU">17 · TECHNICAL ARCHITECTURE</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/wellex-docs/en/25_TECH_REQUIREMENTS"><span title="25 · TECHNICAL REQUIREMENTS" class="linkLabel_WmDU">25 · TECHNICAL REQUIREMENTS</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/11_GO_TO_MARKET"><span title="📈 Стратегия &amp; Рост" class="categoryLinkLabel_W154">📈 Стратегия &amp; Рост</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/15_RISKS"><span title="🛡️ Compliance &amp; Риски" class="categoryLinkLabel_W154">🛡️ Compliance &amp; Риски</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/en/18_FUTURE_FEATURES"><span title="🔮 Будущее" class="categoryLinkLabel_W154">🔮 Будущее</span></a></div></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/wellex-docs/en/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">🔬 Технологии</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">25 · TECHNICAL REQUIREMENTS</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>25 · TECHNICAL REQUIREMENTS</h1></header>
+<p><strong>Version:</strong> 5.0
+<strong>Date:</strong> 05.03.2026
+<strong>Status:</strong> Canonical
+<strong>Key update:</strong> Dual authentication (Email + Web3 Wallet); APP / WEB separation</p>
+<blockquote>
+<p>⚠️ Technical specs describe infrastructure for yield distribution. Target Yield is not a guarantee — actual yield depends on DeFi market conditions.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="contents">Contents<a href="#contents" class="hash-link" aria-label="Direct link to Contents" title="Direct link to Contents" translate="no">​</a></h2>
+<ol>
+<li class=""><a href="#1-registration--authentication" class="">Registration &amp; Authentication</a></li>
+<li class=""><a href="#2-authorisation--session-management" class="">Authorisation &amp; Session Management</a></li>
+<li class=""><a href="#3-wallet--payments" class="">Wallet &amp; Payments</a></li>
+<li class=""><a href="#4-staking-web-only" class="">Staking (WEB only)</a></li>
+<li class=""><a href="#5-mlm-network-web-only" class="">MLM Network (WEB only)</a></li>
+<li class=""><a href="#6-bracelet--health-data-pipeline" class="">Bracelet &amp; Health Data Pipeline</a></li>
+<li class=""><a href="#7-subscription" class="">Subscription</a></li>
+<li class=""><a href="#8-kycaml" class="">KYC/AML</a></li>
+<li class=""><a href="#9-dashboard-app-vs-web" class="">Dashboard: APP vs WEB</a></li>
+<li class=""><a href="#11-security--privacy" class="">Security &amp; Privacy</a></li>
+<li class=""><a href="#12-community-app-only" class="">Community (APP only)</a></li>
+<li class=""><a href="#13-notifications" class="">Notifications</a></li>
+<li class=""><a href="#14-localisation" class="">Localisation</a></li>
+<li class=""><a href="#15-api-architecture" class="">API Architecture</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-registration--authentication">1. Registration &amp; Authentication<a href="#1-registration--authentication" class="hash-link" aria-label="Direct link to 1. Registration &amp; Authentication" title="Direct link to 1. Registration &amp; Authentication" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-dual-login-model">1.1 Dual Login Model<a href="#11-dual-login-model" class="hash-link" aria-label="Direct link to 1.1 Dual Login Model" title="Direct link to 1.1 Dual Login Model" translate="no">​</a></h3>
+<p>The platform supports two independent registration paths: <strong>Email-first</strong> (primary for APP) and <strong>Web3-first</strong> (for crypto users).</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="path-1-email-first-primary-for-app">Path 1: Email-first (primary for APP)<a href="#path-1-email-first-primary-for-app" class="hash-link" aria-label="Direct link to Path 1: Email-first (primary for APP)" title="Direct link to Path 1: Email-first (primary for APP)" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>1.1.1</td><td>Registration via Email + password</td></tr><tr><td>1.1.2</td><td>Social login: Apple ID (Sign in with Apple), Google (OAuth 2.0)</td></tr><tr><td>1.1.3</td><td>On registration, a Web3 wallet is <strong>automatically</strong> created (ERC-4337 Account Abstraction)</td></tr><tr><td>1.1.4</td><td>Blockchain is completely hidden from the user</td></tr><tr><td>1.1.5</td><td>Web3 wallet is used for transactions on the WEB platform</td></tr><tr><td>1.1.6</td><td>Gasless transactions via paymaster (Polygon)</td></tr></tbody></table>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="path-2-web3-wallet-first-for-crypto-users">Path 2: Web3 Wallet-first (for crypto users)<a href="#path-2-web3-wallet-first-for-crypto-users" class="hash-link" aria-label="Direct link to Path 2: Web3 Wallet-first (for crypto users)" title="Direct link to Path 2: Web3 Wallet-first (for crypto users)" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>1.2.1</td><td>&quot;Connect Wallet&quot; button on WEB platform</td></tr><tr><td>1.2.2</td><td>WalletConnect v2 integration: MetaMask, Trust Wallet, Coinbase Wallet, etc.</td></tr><tr><td>1.2.3</td><td>Verification via <strong>EIP-4361</strong> message signature (Sign-In with Ethereum)</td></tr><tr><td>1.2.4</td><td>After wallet connection — <strong>mandatory email entry</strong> to create account</td></tr><tr><td>1.2.5</td><td>Email used for access recovery, notifications, and APP linking</td></tr><tr><td>1.2.6</td><td>If email already registered — offer to link wallet to existing account</td></tr></tbody></table>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="single-account">Single Account<a href="#single-account" class="hash-link" aria-label="Direct link to Single Account" title="Direct link to Single Account" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>1.3.1</td><td>Both registration paths lead to a <strong>single account</strong> in the system</td></tr><tr><td>1.3.2</td><td>One account = one email + one or more Web3 wallets</td></tr><tr><td>1.3.3</td><td>User can use APP, WEB, or both platforms simultaneously</td></tr><tr><td>1.3.4</td><td>Maximum 3 external Web3 wallets per account</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-required-registration-fields">1.2 Required Registration Fields<a href="#12-required-registration-fields" class="hash-link" aria-label="Direct link to 1.2 Required Registration Fields" title="Direct link to 1.2 Required Registration Fields" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Field</th><th style="text-align:center">Email-first</th><th style="text-align:center">Web3-first</th></tr></thead><tbody><tr><td>1</td><td>Email</td><td style="text-align:center">✅</td><td style="text-align:center">✅ (after wallet connection)</td></tr><tr><td>2</td><td>Password</td><td style="text-align:center">✅</td><td style="text-align:center">❌ (login via wallet signature)</td></tr><tr><td>3</td><td>First name</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>4</td><td>Last name</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>5</td><td>Date of birth</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>6</td><td>Country/region</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>7</td><td>Wallet address</td><td style="text-align:center">❌ (auto-created)</td><td style="text-align:center">✅ (from connected wallet)</td></tr><tr><td>8</td><td>Referral code</td><td style="text-align:center">Optional</td><td style="text-align:center">Optional</td></tr><tr><td>9</td><td>Terms of Service</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>10</td><td>GDPR consent</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="13-email-confirmation">1.3 Email Confirmation<a href="#13-email-confirmation" class="hash-link" aria-label="Direct link to 1.3 Email Confirmation" title="Direct link to 1.3 Email Confirmation" translate="no">​</a></h3>
+<p>OTP: 6 digits · Valid 15 minutes · Maximum 3 attempts</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="14-two-factor-authentication-2fa">1.4 Two-Factor Authentication (2FA)<a href="#14-two-factor-authentication-2fa" class="hash-link" aria-label="Direct link to 1.4 Two-Factor Authentication (2FA)" title="Direct link to 1.4 Two-Factor Authentication (2FA)" translate="no">​</a></h3>
+<p>Supported methods: TOTP, SMS, backup codes</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="15-social-login">1.5 Social Login<a href="#15-social-login" class="hash-link" aria-label="Direct link to 1.5 Social Login" title="Direct link to 1.5 Social Login" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>1.5.1</td><td>Providers: Google (OAuth 2.0), Apple ID (Sign in with Apple)</td></tr><tr><td>1.5.2</td><td><strong>Available in APP only</strong> (not WEB)</td></tr><tr><td>1.5.3</td><td>On first login — automatic account + Web3 wallet creation</td></tr><tr><td>1.5.4</td><td>Additional prompt: date of birth and country</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="16-rate-limiting">1.6 Rate Limiting<a href="#16-rate-limiting" class="hash-link" aria-label="Direct link to 1.6 Rate Limiting" title="Direct link to 1.6 Rate Limiting" translate="no">​</a></h3>
+<p>Standard request limits for brute-force protection</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="acceptance-criteria--registration">Acceptance Criteria — Registration<a href="#acceptance-criteria--registration" class="hash-link" aria-label="Direct link to Acceptance Criteria — Registration" title="Direct link to Acceptance Criteria — Registration" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-1.1: Email registration creates account + Web3 wallet automatically</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-1.2: Web3 Wallet connects via WalletConnect; EIP-4361 signature verifies ownership</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-1.3: After Web3 connection, email entry is mandatory</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-1.4: Single account works in both APP and WEB</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-1.5: Social login via Apple/Google in APP creates a full account</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-authorisation--session-management">2. Authorisation &amp; Session Management<a href="#2-authorisation--session-management" class="hash-link" aria-label="Direct link to 2. Authorisation &amp; Session Management" title="Direct link to 2. Authorisation &amp; Session Management" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-login-methods">2.1 Login Methods<a href="#21-login-methods" class="hash-link" aria-label="Direct link to 2.1 Login Methods" title="Direct link to 2.1 Login Methods" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Method</th><th>Platform</th><th>Process</th></tr></thead><tbody><tr><td><strong>Email + password</strong></td><td>APP + WEB</td><td>Standard form + 2FA</td></tr><tr><td><strong>Social login</strong></td><td>APP</td><td>Apple ID / Google → auto-login</td></tr><tr><td><strong>Web3 wallet</strong></td><td>WEB</td><td>Connect wallet → EIP-4361 signature → auto-login</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="22-session-management">2.2 Session Management<a href="#22-session-management" class="hash-link" aria-label="Direct link to 2.2 Session Management" title="Direct link to 2.2 Session Management" translate="no">​</a></h3>
+<ul>
+<li class="">JWT: Access Token — 15 minutes, Refresh Token — 30 days</li>
+<li class="">Token rotation on refresh</li>
+<li class="">Automatic session compromise detection</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="23-device-management">2.3 Device Management<a href="#23-device-management" class="hash-link" aria-label="Direct link to 2.3 Device Management" title="Direct link to 2.3 Device Management" translate="no">​</a></h3>
+<p>List of authorised devices, remote session revocation</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="24-biometric-login-app">2.4 Biometric Login (APP)<a href="#24-biometric-login-app" class="hash-link" aria-label="Direct link to 2.4 Biometric Login (APP)" title="Direct link to 2.4 Biometric Login (APP)" translate="no">​</a></h3>
+<p>Face ID / Touch ID / Fingerprint</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-wallet--payments">3. Wallet &amp; Payments<a href="#3-wallet--payments" class="hash-link" aria-label="Direct link to 3. Wallet &amp; Payments" title="Direct link to 3. Wallet &amp; Payments" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="31-dual-wallet-model">3.1 Dual Wallet Model<a href="#31-dual-wallet-model" class="hash-link" aria-label="Direct link to 3.1 Dual Wallet Model" title="Direct link to 3.1 Dual Wallet Model" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Type</th><th>Creation</th><th>Management</th></tr></thead><tbody><tr><td><strong>Auto-created (MPC)</strong></td><td>On Email registration</td><td>Hidden from user; gasless transactions</td></tr><tr><td><strong>External (connected)</strong></td><td>On Web3 login</td><td>User manages independently</td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>3.1.1</td><td>Auto-created: MPC wallet (Fireblocks/Dfns), 2-of-3 key share scheme</td></tr><tr><td>3.1.2</td><td>External: WalletConnect v2, EIP-4361 verification</td></tr><tr><td>3.1.3</td><td>Maximum 3 external wallets per account</td></tr><tr><td>3.1.4</td><td>All transactions gasless for auto-created (ERC-2771 + Relayer)</td></tr><tr><td>3.1.5</td><td>External wallet: gas paid by user (or Wellex subsidises)</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="32-card-on-ramp-multi-provider">3.2 Card On-Ramp (Multi-provider)<a href="#32-card-on-ramp-multi-provider" class="hash-link" aria-label="Direct link to 3.2 Card On-Ramp (Multi-provider)" title="Direct link to 3.2 Card On-Ramp (Multi-provider)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>3.2.1</td><td>Integration: Provider A SDK (Primary), Provider B SDK (Secondary), Provider C SDK (Tertiary)</td></tr><tr><td>3.2.2</td><td>Supported methods: Visa/MC, Apple Pay, Google Pay, SEPA, PIX</td></tr><tr><td>3.2.3</td><td>Auto-routing: aggregator selects provider by best rate in region</td></tr><tr><td>3.2.4</td><td>KYC tiers: Tier 1 ($500/month, minimal KYC), Tier 2 ($5K/month, full KYC), Tier 3 ($5K+, EDD)</td></tr><tr><td>3.2.5</td><td>USDC credited to user&#x27;s Safe{Wallet} automatically</td></tr><tr><td>3.2.6</td><td>Optional auto-deposit to WellexVault after on-ramp</td></tr><tr><td>3.2.7</td><td>Fallback: if Provider A unavailable → Provider B → Provider C</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-multi-evm-support">3.3 Multi-EVM Support<a href="#33-multi-evm-support" class="hash-link" aria-label="Direct link to 3.3 Multi-EVM Support" title="Direct link to 3.3 Multi-EVM Support" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>3.3.1</td><td>Supported networks: ETH, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche + Tron + Solana</td></tr><tr><td>3.3.2</td><td>Cross-chain bridge: LayerZero (primary), Across (secondary)</td></tr><tr><td>3.3.3</td><td>DEX swap: 1inch Fusion API (primary), 0x Swap API (fallback), ParaSwap (tertiary)</td></tr><tr><td>3.3.4</td><td>Unified aggregated balance across all networks in UI</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3437">3.4–3.7<a href="#3437" class="hash-link" aria-label="Direct link to 3.4–3.7" title="Direct link to 3.4–3.7" translate="no">​</a></h3>
+<p>Recovery Flow, transaction history — per standard specification</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-staking-web-only">4. Staking (WEB only)<a href="#4-staking-web-only" class="hash-link" aria-label="Direct link to 4. Staking (WEB only)" title="Direct link to 4. Staking (WEB only)" translate="no">​</a></h2>
+<blockquote>
+<p><strong>Critical restriction:</strong> staking is completely excluded from APP. Available exclusively via the WEB platform.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-app-user-display">4.1 APP: User Display<a href="#41-app-user-display" class="hash-link" aria-label="Direct link to 4.1 APP: User Display" title="Direct link to 4.1 APP: User Display" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>4.1.1</td><td>APP displays <strong>only Monthly Yield as a percentage</strong> (for users with staking)</td></tr><tr><td>4.1.2</td><td>APP displays <strong>&quot;—&quot;</strong> (for users without staking)</td></tr><tr><td>4.1.3</td><td>On tap of &quot;—&quot; → popup &quot;Learn More&quot; → deep link to WEB</td></tr><tr><td>4.1.4</td><td><strong>APP excludes:</strong> $ amounts, balance, deposit/withdraw, income calculator</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-web-full-staking-functionality">4.2 WEB: Full Staking Functionality<a href="#42-web-full-staking-functionality" class="hash-link" aria-label="Direct link to 4.2 WEB: Full Staking Functionality" title="Direct link to 4.2 WEB: Full Staking Functionality" translate="no">​</a></h3>
+<p>WellexVault (single ERC-4626), Lock-up by amount ($0–999 → 0d, $1K–9,999 → 30d, $10K+ → 90d), Auto-compound ($129) — per standard specification [06_YIELD_PROTOCOL.md]</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-mlm-network-web-only">5. MLM Network (WEB only)<a href="#5-mlm-network-web-only" class="hash-link" aria-label="Direct link to 5. MLM Network (WEB only)" title="Direct link to 5. MLM Network (WEB only)" translate="no">​</a></h2>
+<blockquote>
+<p><strong>Critical restriction:</strong> MLM structure is completely excluded from APP.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>5.1</td><td>APP <strong>does not display</strong> MLM tree, partner bonuses, or referral links</td></tr><tr><td>5.2</td><td>All partner features — <strong>WEB only</strong></td></tr><tr><td>5.3</td><td>WVI from APP affects WVI Performance Bonus in WEB (the only integration point)</td></tr></tbody></table>
+<p>Remaining MLM mechanics (ranks, bonuses, compression) — per standard specification</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-bracelet--health-data-pipeline">6. Bracelet &amp; Health Data Pipeline<a href="#6-bracelet--health-data-pipeline" class="hash-link" aria-label="Direct link to 6. Bracelet &amp; Health Data Pipeline" title="Direct link to 6. Bracelet &amp; Health Data Pipeline" translate="no">​</a></h2>
+<p>Per standard specification (no changes)</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-subscription">7. Subscription<a href="#7-subscription" class="hash-link" aria-label="Direct link to 7. Subscription" title="Direct link to 7. Subscription" translate="no">​</a></h2>
+<p>$19/month, billing, grace period — per standard specification</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-kycaml">8. KYC/AML<a href="#8-kycaml" class="hash-link" aria-label="Direct link to 8. KYC/AML" title="Direct link to 8. KYC/AML" translate="no">​</a></h2>
+<p>Sumsub SDK, 3 verification levels — per standard specification</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-dashboard-app-vs-web">9. Dashboard: APP vs WEB<a href="#9-dashboard-app-vs-web" class="hash-link" aria-label="Direct link to 9. Dashboard: APP vs WEB" title="Direct link to 9. Dashboard: APP vs WEB" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="app--screens">APP — Screens<a href="#app--screens" class="hash-link" aria-label="Direct link to APP — Screens" title="Direct link to APP — Screens" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Screen</th><th>Content</th></tr></thead><tbody><tr><td>1</td><td>🏠 Home</td><td>WVI (0–100), Monthly Yield %, streak, AI recommendation, mini chart</td></tr><tr><td>2</td><td>📊 Metrics</td><td>3 WVI components, charts, trends, AI insights</td></tr><tr><td>3</td><td>👥 Community</td><td>Groups, challenges, leaderboards, social feed, friends</td></tr><tr><td>4</td><td>🤖 AI Assistant</td><td>AI Coach (video/audio/text), forecasts, reports</td></tr><tr><td>5</td><td>⚙️ Settings</td><td>Profile, bracelet, subscription, &quot;→ WEB version&quot; button</td></tr></tbody></table>
+<blockquote>
+<p><strong>APP excludes:</strong> staking, wallet, MLM, finance, $ amounts.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="web--modules">WEB — Modules<a href="#web--modules" class="hash-link" aria-label="Direct link to WEB — Modules" title="Direct link to WEB — Modules" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Module</th><th>Content</th></tr></thead><tbody><tr><td>1</td><td>💰 Wallet</td><td>Balance, yield, deposit/withdraw, history</td></tr><tr><td>2</td><td>📈 Staking</td><td>WellexVault (single), Monthly Yield in $, lock-up, calculator</td></tr><tr><td>3</td><td>🌐 Network</td><td>MLM tree, bonuses, ranks, promo materials</td></tr><tr><td>4</td><td>🤖 AI Agents</td><td>Wallet Agent, Growth Agent, Analytics</td></tr><tr><td>5</td><td>📊 Analytics</td><td>WVI + yield history, forecasts, export</td></tr><tr><td>6</td><td>🏥 WVI Widget</td><td>Mini WVI + link to APP</td></tr><tr><td>7</td><td>🛡️ Admin</td><td>Admin panel (staff only)</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-security--privacy">11. Security &amp; Privacy<a href="#11-security--privacy" class="hash-link" aria-label="Direct link to 11. Security &amp; Privacy" title="Direct link to 11. Security &amp; Privacy" translate="no">​</a></h2>
+<p>Encryption, GDPR, TEE, audits — per standard specification</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-community-app-only">12. Community (APP only)<a href="#12-community-app-only" class="hash-link" aria-label="Direct link to 12. Community (APP only)" title="Direct link to 12. Community (APP only)" translate="no">​</a></h2>
+<blockquote>
+<p><strong>Functionality available exclusively in APP.</strong></p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Requirement</th></tr></thead><tbody><tr><td>12.1</td><td>Wellness Groups: create, join, up to 500 members</td></tr><tr><td>12.2</td><td>Team Challenges: team WVI competitions</td></tr><tr><td>12.3</td><td>1v1 Duels: 7-day WVI duels</td></tr><tr><td>12.4</td><td>Leaderboards: Global, Regional, Friends, Group</td></tr><tr><td>12.5</td><td>Social Feed: achievements, milestones, reactions</td></tr><tr><td>12.6</td><td>Discovery: AI group recommendations by interests and geolocation</td></tr><tr><td>12.7</td><td>Privacy: granular opt-in for each feature</td></tr><tr><td>12.8</td><td>Moderation: ML spam filter + manual moderation + &quot;Report&quot; button</td></tr><tr><td>12.9</td><td>Community <strong>not available</strong> in WEB</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="acceptance-criteria--community">Acceptance Criteria — Community<a href="#acceptance-criteria--community" class="hash-link" aria-label="Direct link to Acceptance Criteria — Community" title="Direct link to Acceptance Criteria — Community" translate="no">​</a></h3>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-12.1: User creates a group and invites members</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-12.2: Team challenge tracks the team&#x27;s average WVI</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-12.3: 1v1 duel lasts 7 days and determines a winner</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-12.4: Leaderboards update in real time</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-12.5: Social feed displays friends&#x27; achievements</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> AC-12.6: Discovery recommends relevant groups</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="13-notifications">13. Notifications<a href="#13-notifications" class="hash-link" aria-label="Direct link to 13. Notifications" title="Direct link to 13. Notifications" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="app-push--in-app">APP Push / In-app<a href="#app-push--in-app" class="hash-link" aria-label="Direct link to APP Push / In-app" title="Direct link to APP Push / In-app" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Event</th><th style="text-align:center">Push</th><th style="text-align:center">In-app</th></tr></thead><tbody><tr><td>1</td><td>WVI update</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>2</td><td>AI recommendation</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>3</td><td>Challenge update</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>4</td><td>Friend achievement</td><td style="text-align:center">—</td><td style="text-align:center">✅</td></tr><tr><td>5</td><td>Streak reminder</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>6</td><td>Monthly Yield change (for stakers)</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>7</td><td>Bracelet battery</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>8</td><td>Security alert</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="web-email--in-app">WEB Email / In-app<a href="#web-email--in-app" class="hash-link" aria-label="Direct link to WEB Email / In-app" title="Direct link to WEB Email / In-app" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Event</th><th style="text-align:center">Email</th><th style="text-align:center">In-app</th></tr></thead><tbody><tr><td>1</td><td>Staking reward credited</td><td style="text-align:center">—</td><td style="text-align:center">✅</td></tr><tr><td>2</td><td>MLM bonus</td><td style="text-align:center">—</td><td style="text-align:center">✅</td></tr><tr><td>3</td><td>New referral</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>4</td><td>Rank upgrade</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>5</td><td>Subscription billing</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr><tr><td>6</td><td>Withdrawal processed</td><td style="text-align:center">✅</td><td style="text-align:center">✅</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="14-localisation--multi-language-support">14. Localisation &amp; Multi-Language Support<a href="#14-localisation--multi-language-support" class="hash-link" aria-label="Direct link to 14. Localisation &amp; Multi-Language Support" title="Direct link to 14. Localisation &amp; Multi-Language Support" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="supported-languages-launch--roadmap">Supported Languages (Launch + Roadmap)<a href="#supported-languages-launch--roadmap" class="hash-link" aria-label="Direct link to Supported Languages (Launch + Roadmap)" title="Direct link to Supported Languages (Launch + Roadmap)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Language</th><th>Code</th><th>Region</th><th>Priority</th><th>Timeline</th></tr></thead><tbody><tr><td>English</td><td>EN</td><td>Global (default)</td><td>🔴 Launch</td><td>Day 1</td></tr><tr><td>Russian</td><td>RU</td><td>CIS, MENA</td><td>🔴 Launch</td><td>Day 1</td></tr><tr><td>Spanish</td><td>ES</td><td>LATAM</td><td>🔴 Launch</td><td>Day 1</td></tr><tr><td>Portuguese</td><td>PT</td><td>Brazil, Portugal</td><td>🔴 Launch</td><td>Day 1</td></tr><tr><td>Indonesian</td><td>ID</td><td>SEA</td><td>🟡 Month 2</td><td>M2</td></tr><tr><td>Arabic</td><td>AR</td><td>MENA</td><td>🟡 Month 2</td><td>M2</td></tr><tr><td>Turkish</td><td>TR</td><td>Turkey, MENA</td><td>🟡 Month 3</td><td>M3</td></tr><tr><td>Vietnamese</td><td>VI</td><td>SEA</td><td>🟢 Phase 2</td><td>Q3 2026</td></tr><tr><td>Thai</td><td>TH</td><td>SEA</td><td>🟢 Phase 2</td><td>Q3 2026</td></tr><tr><td>Uzbek</td><td>UZ</td><td>CIS</td><td>🟢 Phase 2</td><td>Q3 2026</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="localisation-architecture">Localisation Architecture<a href="#localisation-architecture" class="hash-link" aria-label="Direct link to Localisation Architecture" title="Direct link to Localisation Architecture" translate="no">​</a></h3>
+<p>▸ i18n framework: i18next (React/WEB) + React Native i18n (APP)
+▸ Strings stored in JSON files by language: <code>/locales/{lang}/translation.json</code>
+▸ Auto-detect language by IP + browser locale → fallback EN
+▸ User can switch manually (Settings → Language)
+▸ RTL support: Arabic → automatic layout flip
+▸ Numbers and currency: formatted by locale (Intl.NumberFormat)
+▸ Dates: ISO 8601 on server → local format on client</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-gets-localised">What Gets Localised<a href="#what-gets-localised" class="hash-link" aria-label="Direct link to What Gets Localised" title="Direct link to What Gets Localised" translate="no">​</a></h3>
+<p>▸ All UI (buttons, labels, error messages)
+▸ Push notifications
+▸ Email notifications (onboarding, yield alerts, community)
+▸ AI Coach recommendations (GPT-4o with system prompt in target language)
+▸ Partner Academy materials (5 languages: RU, EN, ES, PT, ID)
+▸ Legal disclaimers (adapted to user&#x27;s jurisdiction)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-is-not-localised-remains-en">What Is NOT Localised (remains EN)<a href="#what-is-not-localised-remains-en" class="hash-link" aria-label="Direct link to What Is NOT Localised (remains EN)" title="Direct link to What Is NOT Localised (remains EN)" translate="no">​</a></h3>
+<p>▸ Blockchain hashes and technical identifiers
+▸ Error codes (for tech support)
+▸ Admin panel (EN only)</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="15-api-architecture">15. API Architecture<a href="#15-api-architecture" class="hash-link" aria-label="Direct link to 15. API Architecture" title="Direct link to 15. API Architecture" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="app-api-endpoints">APP API Endpoints<a href="#app-api-endpoints" class="hash-link" aria-label="Direct link to APP API Endpoints" title="Direct link to APP API Endpoints" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Group</th><th>Endpoints</th></tr></thead><tbody><tr><td>Auth</td><td><code>POST /auth/register</code> · <code>POST /auth/login</code> · <code>POST /auth/refresh</code></td></tr><tr><td>Health</td><td><code>POST /health/sync</code> · <code>GET /health/metrics</code> · <code>GET /health/wvi</code> · <code>GET /health/emotions</code></td></tr><tr><td>Community</td><td><code>GET /community/groups</code> · <code>POST /community/groups</code> · <code>GET /community/challenges</code> · <code>POST /community/duels</code></td></tr><tr><td>Leaderboards</td><td><code>GET /leaderboards/{type}</code></td></tr><tr><td>AI</td><td><code>POST /ai/chat</code> · <code>GET /ai/recommendations</code></td></tr><tr><td>User</td><td><code>GET /users/me</code> · <code>PATCH /users/me</code></td></tr><tr><td>Notifications</td><td><code>GET /notifications</code> · <code>PATCH /notifications/settings</code></td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="web-api-endpoints">WEB API Endpoints<a href="#web-api-endpoints" class="hash-link" aria-label="Direct link to WEB API Endpoints" title="Direct link to WEB API Endpoints" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Group</th><th>Endpoints</th></tr></thead><tbody><tr><td>Auth</td><td><code>POST /auth/wallet-connect</code> · <code>POST /auth/wallet-verify</code></td></tr><tr><td>Wallet</td><td><code>GET /wallet</code> · <code>GET /wallet/transactions</code> · <code>POST /wallet/withdraw</code></td></tr><tr><td>Staking</td><td><code>POST /staking/stake</code> · <code>POST /staking/unstake</code> · <code>GET /staking/positions</code> · <code>GET /staking/rewards</code></td></tr><tr><td>MLM</td><td><code>GET /network/tree</code> · <code>GET /network/stats</code> · <code>GET /network/bonuses</code></td></tr><tr><td>Subscription</td><td><code>POST /subscription/create</code> · <code>DELETE /subscription/cancel</code></td></tr><tr><td>KYC</td><td><code>POST /kyc/start</code> · <code>GET /kyc/status</code></td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shared-endpoints">Shared Endpoints<a href="#shared-endpoints" class="hash-link" aria-label="Direct link to Shared Endpoints" title="Direct link to Shared Endpoints" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Group</th><th>Endpoints</th></tr></thead><tbody><tr><td>WVI</td><td><code>GET /wvi/current</code> · <code>GET /wvi/history</code> · <code>GET /wvi/monthly-rate</code></td></tr><tr><td>Export</td><td><code>GET /export/csv?from=&amp;to=</code> · <code>GET /export/pdf?from=&amp;to=</code> · <code>GET /export/json</code></td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="16-webhooks--developer-api">16. Webhooks &amp; Developer API<a href="#16-webhooks--developer-api" class="hash-link" aria-label="Direct link to 16. Webhooks &amp; Developer API" title="Direct link to 16. Webhooks &amp; Developer API" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="161-webhooks--real-time-events">16.1 Webhooks — Real-time Events<a href="#161-webhooks--real-time-events" class="hash-link" aria-label="Direct link to 16.1 Webhooks — Real-time Events" title="Direct link to 16.1 Webhooks — Real-time Events" translate="no">​</a></h3>
+<p>Wellex sends webhook notifications to a partner&#x27;s URL on key events:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Event</th><th>Payload</th><th>When</th></tr></thead><tbody><tr><td><code>yield.credited</code></td><td>amount, wvi, rate, tx_hash, timestamp</td><td>On yield credit</td></tr><tr><td><code>deposit.confirmed</code></td><td>amount, network, tx_hash, lock_until</td><td>After deposit confirmation</td></tr><tr><td><code>withdrawal.completed</code></td><td>amount, network, tx_hash, timestamp</td><td>After withdrawal</td></tr><tr><td><code>partner.referred</code></td><td>partner_id, rank, timestamp</td><td>New partner in structure</td></tr><tr><td><code>partner.rank_upgrade</code></td><td>partner_id, old_rank, new_rank</td><td>Partner rank upgrade</td></tr><tr><td><code>partner.inactive</code></td><td>partner_id, days_inactive</td><td>Partner inactive &gt;14 days</td></tr><tr><td><code>wvi.threshold</code></td><td>old_wvi, new_wvi, new_rate</td><td>WVI threshold crossed</td></tr><tr><td><code>bracelet.disconnected</code></td><td>device_id, last_sync</td><td>Bracelet not synced &gt;24h</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="162-webhook-security">16.2 Webhook Security<a href="#162-webhook-security" class="hash-link" aria-label="Direct link to 16.2 Webhook Security" title="Direct link to 16.2 Webhook Security" translate="no">​</a></h3>
+<p>▸ Signature on every event: <code>X-Wellex-Signature: HMAC-SHA256(secret, payload)</code>
+▸ Retry logic: 3 attempts with exponential backoff (1m, 5m, 30m)
+▸ Timeout: 10 seconds for response
+▸ Expected response: HTTP 200. Otherwise — retry.
+▸ Webhook logs: 30-day history in WEB Dashboard → Settings → Webhooks</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="163-webhook-registration">16.3 Webhook Registration<a href="#163-webhook-registration" class="hash-link" aria-label="Direct link to 16.3 Webhook Registration" title="Direct link to 16.3 Webhook Registration" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">POST /webhooks</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">{</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  &quot;url&quot;: &quot;https://your-app.com/wellex-hook&quot;,</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  &quot;events&quot;: [&quot;yield.credited&quot;, &quot;partner.rank_upgrade&quot;],</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">  &quot;secret&quot;: &quot;your_signing_secret&quot;</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">}</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="164-developer-api--public-endpoints">16.4 Developer API — Public Endpoints<a href="#164-developer-api--public-endpoints" class="hash-link" aria-label="Direct link to 16.4 Developer API — Public Endpoints" title="Direct link to 16.4 Developer API — Public Endpoints" translate="no">​</a></h3>
+<p>For B2B integrations (corporate wellness, partner platforms):</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Endpoint</th><th>Method</th><th>Purpose</th><th>Auth</th></tr></thead><tbody><tr><td><code>/v1/wvi/{user_id}</code></td><td>GET</td><td>User&#x27;s current WVI</td><td>API Key</td></tr><tr><td><code>/v1/yield/rate?wvi=72</code></td><td>GET</td><td>Yield rate for WVI</td><td>API Key</td></tr><tr><td><code>/v1/partner/tree/{partner_id}</code></td><td>GET</td><td>Structure tree (3 levels)</td><td>API Key + OAuth</td></tr><tr><td><code>/v1/partner/stats/{partner_id}</code></td><td>GET</td><td>Partner statistics</td><td>API Key + OAuth</td></tr><tr><td><code>/v1/health/check</code></td><td>GET</td><td>Platform status</td><td>Public</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="165-api-authentication">16.5 API Authentication<a href="#165-api-authentication" class="hash-link" aria-label="Direct link to 16.5 API Authentication" title="Direct link to 16.5 API Authentication" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">Authorization: Bearer {api_key}</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">X-Wellex-Version: 2026-03-01</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Content-Type: application/json</span><br></span></code></pre></div></div>
+<p>API Keys created in WEB Dashboard → Settings → Developer → API Keys.
+Rate limit: 1,000 req/min per API Key. Exceeded → HTTP 429.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="166-sdks">16.6 SDKs<a href="#166-sdks" class="hash-link" aria-label="Direct link to 16.6 SDKs" title="Direct link to 16.6 SDKs" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Platform</th><th>Package</th><th>Status</th></tr></thead><tbody><tr><td>JavaScript / Node.js</td><td><code>npm install @wellex/sdk</code></td><td>Launch</td></tr><tr><td>Python</td><td><code>pip install wellex-sdk</code></td><td>Launch</td></tr><tr><td>iOS (Swift)</td><td>Swift Package Manager</td><td>Launch</td></tr><tr><td>Android (Kotlin)</td><td>Gradle dependency</td><td>Launch</td></tr><tr><td>React Native</td><td><code>npm install @wellex/react-native</code></td><td>Month 2</td></tr></tbody></table>
+<p>Documentation: <code>developers.wellex.ai</code> (internal, opens after launch)</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="appendix-tech-stack">Appendix: Tech Stack<a href="#appendix-tech-stack" class="hash-link" aria-label="Direct link to Appendix: Tech Stack" title="Direct link to Appendix: Tech Stack" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Layer</th><th>Technology</th></tr></thead><tbody><tr><td>Mobile (APP)</td><td>SwiftUI (iOS) + Kotlin / Jetpack Compose (Android)</td></tr><tr><td>Web (WEB)</td><td>React 18 + TypeScript + Vite</td></tr><tr><td>Backend</td><td>FastAPI (Python 3.12)</td></tr><tr><td>Database</td><td>PostgreSQL + Redis + TimescaleDB</td></tr><tr><td>Blockchain</td><td>Multi-EVM (ETH, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche) + Tron + Solana, Solidity 0.8.x, ERC-4626, ERC-4337</td></tr><tr><td>Wallet</td><td>Safe{Wallet} + Safe Protocol Kit</td></tr><tr><td>Auth</td><td>JWT + OAuth 2.0 + EIP-4361 (SIWE)</td></tr><tr><td>KYC</td><td>Sumsub SDK</td></tr><tr><td>Push</td><td>FCM + APNs</td></tr><tr><td>Email</td><td>SendGrid</td></tr><tr><td>Monitoring</td><td>Grafana + Prometheus + Sentry</td></tr><tr><td>CI/CD</td><td>GitHub Actions + Docker + Kubernetes</td></tr></tbody></table>
+<hr>
+<p><em>© 2026 Wellex. Confidential.</em></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/wellex-docs/en/17_TECH_ARCHITECTURE"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">17 · TECHNICAL ARCHITECTURE</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wellex-docs/en/11_GO_TO_MARKET"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">11 · GO-TO-MARKET STRATEGY</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#contents" class="table-of-contents__link toc-highlight">Contents</a></li><li><a href="#1-registration--authentication" class="table-of-contents__link toc-highlight">1. Registration &amp; Authentication</a><ul><li><a href="#11-dual-login-model" class="table-of-contents__link toc-highlight">1.1 Dual Login Model</a></li><li><a href="#12-required-registration-fields" class="table-of-contents__link toc-highlight">1.2 Required Registration Fields</a></li><li><a href="#13-email-confirmation" class="table-of-contents__link toc-highlight">1.3 Email Confirmation</a></li><li><a href="#14-two-factor-authentication-2fa" class="table-of-contents__link toc-highlight">1.4 Two-Factor Authentication (2FA)</a></li><li><a href="#15-social-login" class="table-of-contents__link toc-highlight">1.5 Social Login</a></li><li><a href="#16-rate-limiting" class="table-of-contents__link toc-highlight">1.6 Rate Limiting</a></li><li><a href="#acceptance-criteria--registration" class="table-of-contents__link toc-highlight">Acceptance Criteria — Registration</a></li></ul></li><li><a href="#2-authorisation--session-management" class="table-of-contents__link toc-highlight">2. Authorisation &amp; Session Management</a><ul><li><a href="#21-login-methods" class="table-of-contents__link toc-highlight">2.1 Login Methods</a></li><li><a href="#22-session-management" class="table-of-contents__link toc-highlight">2.2 Session Management</a></li><li><a href="#23-device-management" class="table-of-contents__link toc-highlight">2.3 Device Management</a></li><li><a href="#24-biometric-login-app" class="table-of-contents__link toc-highlight">2.4 Biometric Login (APP)</a></li></ul></li><li><a href="#3-wallet--payments" class="table-of-contents__link toc-highlight">3. Wallet &amp; Payments</a><ul><li><a href="#31-dual-wallet-model" class="table-of-contents__link toc-highlight">3.1 Dual Wallet Model</a></li><li><a href="#32-card-on-ramp-multi-provider" class="table-of-contents__link toc-highlight">3.2 Card On-Ramp (Multi-provider)</a></li><li><a href="#33-multi-evm-support" class="table-of-contents__link toc-highlight">3.3 Multi-EVM Support</a></li><li><a href="#3437" class="table-of-contents__link toc-highlight">3.4–3.7</a></li></ul></li><li><a href="#4-staking-web-only" class="table-of-contents__link toc-highlight">4. Staking (WEB only)</a><ul><li><a href="#41-app-user-display" class="table-of-contents__link toc-highlight">4.1 APP: User Display</a></li><li><a href="#42-web-full-staking-functionality" class="table-of-contents__link toc-highlight">4.2 WEB: Full Staking Functionality</a></li></ul></li><li><a href="#5-mlm-network-web-only" class="table-of-contents__link toc-highlight">5. MLM Network (WEB only)</a></li><li><a href="#6-bracelet--health-data-pipeline" class="table-of-contents__link toc-highlight">6. Bracelet &amp; Health Data Pipeline</a></li><li><a href="#7-subscription" class="table-of-contents__link toc-highlight">7. Subscription</a></li><li><a href="#8-kycaml" class="table-of-contents__link toc-highlight">8. KYC/AML</a></li><li><a href="#9-dashboard-app-vs-web" class="table-of-contents__link toc-highlight">9. Dashboard: APP vs WEB</a><ul><li><a href="#app--screens" class="table-of-contents__link toc-highlight">APP — Screens</a></li><li><a href="#web--modules" class="table-of-contents__link toc-highlight">WEB — Modules</a></li></ul></li><li><a href="#11-security--privacy" class="table-of-contents__link toc-highlight">11. Security &amp; Privacy</a></li><li><a href="#12-community-app-only" class="table-of-contents__link toc-highlight">12. Community (APP only)</a><ul><li><a href="#acceptance-criteria--community" class="table-of-contents__link toc-highlight">Acceptance Criteria — Community</a></li></ul></li><li><a href="#13-notifications" class="table-of-contents__link toc-highlight">13. Notifications</a><ul><li><a href="#app-push--in-app" class="table-of-contents__link toc-highlight">APP Push / In-app</a></li><li><a href="#web-email--in-app" class="table-of-contents__link toc-highlight">WEB Email / In-app</a></li></ul></li><li><a href="#14-localisation--multi-language-support" class="table-of-contents__link toc-highlight">14. Localisation &amp; Multi-Language Support</a><ul><li><a href="#supported-languages-launch--roadmap" class="table-of-contents__link toc-highlight">Supported Languages (Launch + Roadmap)</a></li><li><a href="#localisation-architecture" class="table-of-contents__link toc-highlight">Localisation Architecture</a></li><li><a href="#what-gets-localised" class="table-of-contents__link toc-highlight">What Gets Localised</a></li><li><a href="#what-is-not-localised-remains-en" class="table-of-contents__link toc-highlight">What Is NOT Localised (remains EN)</a></li></ul></li><li><a href="#15-api-architecture" class="table-of-contents__link toc-highlight">15. API Architecture</a><ul><li><a href="#app-api-endpoints" class="table-of-contents__link toc-highlight">APP API Endpoints</a></li><li><a href="#web-api-endpoints" class="table-of-contents__link toc-highlight">WEB API Endpoints</a></li><li><a href="#shared-endpoints" class="table-of-contents__link toc-highlight">Shared Endpoints</a></li></ul></li><li><a href="#16-webhooks--developer-api" class="table-of-contents__link toc-highlight">16. Webhooks &amp; Developer API</a><ul><li><a href="#161-webhooks--real-time-events" class="table-of-contents__link toc-highlight">16.1 Webhooks — Real-time Events</a></li><li><a href="#162-webhook-security" class="table-of-contents__link toc-highlight">16.2 Webhook Security</a></li><li><a href="#163-webhook-registration" class="table-of-contents__link toc-highlight">16.3 Webhook Registration</a></li><li><a href="#164-developer-api--public-endpoints" class="table-of-contents__link toc-highlight">16.4 Developer API — Public Endpoints</a></li><li><a href="#165-api-authentication" class="table-of-contents__link toc-highlight">16.5 API Authentication</a></li><li><a href="#166-sdks" class="table-of-contents__link toc-highlight">16.6 SDKs</a></li></ul></li><li><a href="#appendix-tech-stack" class="table-of-contents__link toc-highlight">Appendix: Tech Stack</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Документация</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/00_INTRO">Введение</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/19_WHITEPAPER_v3">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/12_ROADMAP">Roadmap</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Продукт</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/08_HARDWARE">Wellex Band</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/06_YIELD_PROTOCOL">Yield Protocol</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/07_AI_SYSTEM">AI System</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Партнёрам</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/09_PARTNER_PROGRAM">Partner Program</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/31_B2B_PLAYBOOK">B2B Playbook</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/en/23_SALES_PROGRAM">Sales Program</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Wellex © 2026 · Confidential · Tier-0 Big4 Standard</div></div></div></footer></div>
+</body>
+</html>

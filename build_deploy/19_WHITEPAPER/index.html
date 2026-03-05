@@ -1,0 +1,2491 @@
+<!doctype html>
+<html lang="ru" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-19_WHITEPAPER" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Whitepaper v4.7 | Wellex Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://buffer.terymarius.com/wellex-docs/19_WHITEPAPER"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Whitepaper v4.7 | Wellex Documentation"><meta data-rh="true" name="description" content="Version 04.03.2026 | Status: Canonical"><meta data-rh="true" property="og:description" content="Version 04.03.2026 | Status: Canonical"><link data-rh="true" rel="icon" href="/wellex-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://buffer.terymarius.com/wellex-docs/19_WHITEPAPER"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/19_WHITEPAPER" hreflang="ru"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/en/19_WHITEPAPER" hreflang="en"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/19_WHITEPAPER" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Whitepaper","item":"https://buffer.terymarius.com/wellex-docs/19_WHITEPAPER"}]}</script><link rel="stylesheet" href="/wellex-docs/assets/css/styles.e10f7c8f.css">
+<script src="/wellex-docs/assets/js/runtime~main.890b8be0.js" defer="defer"></script>
+<script src="/wellex-docs/assets/js/main.2aa5593d.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><div role="region" aria-label="Перейти к основному содержимому"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Перейти к основному содержимому</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#1A3352;color:#D4A843" role="banner"><div class="content_knG7 announcementBarContent_xLdY">Wellex v4.7 — Platform Specification · Updated 04.03.2026</div></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Переключить навигационную панель" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wellex-docs/"><b class="navbar__title text--truncate">WELLEX</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/00_INDEX">📋 Документация</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/19_WHITEPAPER">Whitepaper</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>🇷🇺 Русский</a><ul class="dropdown__menu"><li><a href="/wellex-docs/19_WHITEPAPER" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="ru">🇷🇺 Русский</a></li><li><a href="/wellex-docs/en/19_WHITEPAPER" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en">🇬🇧 English</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Переключение между темным и светлым режимом (сейчас используется system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Прокрутка к началу" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wellex-docs/00_INDEX"><span title="📋 Индекс" class="linkLabel_WmDU">📋 Индекс</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wellex-docs/00_INTRO"><span title="📖 Введение" class="categoryLinkLabel_W154">📖 Введение</span></a><button aria-label="Collapse sidebar category &#x27;📖 Введение&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/00_INTRO"><span title="Введение" class="linkLabel_WmDU">Введение</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/01_EXECUTIVE_SUMMARY"><span title="Краткое описание" class="linkLabel_WmDU">Краткое описание</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/02_PRODUCT_VISION"><span title="Видение продукта" class="linkLabel_WmDU">Видение продукта</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/wellex-docs/19_WHITEPAPER"><span title="Whitepaper" class="linkLabel_WmDU">Whitepaper</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/03_WELLNESS_SCORE"><span title="💎 Продукт" class="categoryLinkLabel_W154">💎 Продукт</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/03_WELLNESS_SCORE"><span title="WVI" class="linkLabel_WmDU">WVI</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/04_APP_UX"><span title="Приложение" class="linkLabel_WmDU">Приложение</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/05_DASHBOARD"><span title="Дашборд" class="linkLabel_WmDU">Дашборд</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/08_HARDWARE"><span title="Браслет" class="linkLabel_WmDU">Браслет</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/21_GAMIFICATION"><span title="Геймификация" class="linkLabel_WmDU">Геймификация</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/27_EMOTIONAL_MINING"><span title="Emotional Mining" class="linkLabel_WmDU">Emotional Mining</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/32_DAY_IN_THE_LIFE"><span title="День из жизни" class="linkLabel_WmDU">День из жизни</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/06_YIELD_PROTOCOL"><span title="💰 Доходность" class="categoryLinkLabel_W154">💰 Доходность</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/09_PARTNER_PROGRAM"><span title="🤝 Партнёрам &amp; B2B" class="categoryLinkLabel_W154">🤝 Партнёрам &amp; B2B</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/07_AI_SYSTEM"><span title="🔬 Технологии" class="categoryLinkLabel_W154">🔬 Технологии</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/11_GO_TO_MARKET"><span title="📈 Стратегия &amp; Рост" class="categoryLinkLabel_W154">📈 Стратегия &amp; Рост</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/15_RISKS"><span title="🛡️ Соответствие &amp; Риски" class="categoryLinkLabel_W154">🛡️ Соответствие &amp; Риски</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/18_FUTURE_FEATURES"><span title="🔮 Будущее" class="categoryLinkLabel_W154">🔮 Будущее</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Навигационная цепочка текущей страницы"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Главная страница" class="breadcrumbs__link" href="/wellex-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Whitepaper</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Содержание этой страницы</button></div><div class="theme-doc-markdown markdown"><header><h1>WELLEX — Whitepaper v4.7</h1></header>
+<blockquote>
+<p><strong>Version:</strong> 4.7 | <strong>Date:</strong> 04.03.2026 | <strong>Status:</strong> Canonical
+<strong>v4.0 changes:</strong> Quantum claim removed → AI-Powered Algorithmic Selection (ML, 1M+ combinations); yield table unified to 7-tier; SSOT sync ($6.22M/30K); disclaimer added throughout; 888 strategies → 600+ strategies</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="web3-wellness-protocol--emotional-mining-protocol">Web3 Wellness Protocol — Emotional Mining Protocol<a href="#web3-wellness-protocol--emotional-mining-protocol" class="hash-link" aria-label="Прямая ссылка на Web3 Wellness Protocol — Emotional Mining Protocol" title="Прямая ссылка на Web3 Wellness Protocol — Emotional Mining Protocol" translate="no">​</a></h2>
+<blockquote>
+<p><strong>Emotional Mining</strong> — конвертация верифицированных биометрических данных в финансовый доход. Новая индустрия.
+<strong>Здоровый образ жизни как финансовый актив</strong>
+Февраль 2026 | Confidential</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="содержание">СОДЕРЖАНИЕ<a href="#содержание" class="hash-link" aria-label="Прямая ссылка на СОДЕРЖАНИЕ" title="Прямая ссылка на СОДЕРЖАНИЕ" translate="no">​</a></h2>
+<ol>
+<li class=""><a href="#1-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5" class="">Введение</a></li>
+<li class=""><a href="#2-%D0%BE%D0%B1%D0%B7%D0%BE%D1%80-%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D1%8B" class="">Обзор платформы</a></li>
+<li class=""><a href="#3-wellex-vitality-index-wvi" class="">Wellex Vitality Index (WVI)</a></li>
+<li class=""><a href="#4-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B5%D0%B6%D0%B5%D0%BC%D0%B5%D1%81%D1%8F%D1%87%D0%BD%D0%BE" class="">Модель доходности (ежемесячно)</a></li>
+<li class=""><a href="#5-%D1%81%D0%BC%D0%B0%D1%80%D1%82-%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82-wellex" class="">Смарт-браслет Wellex</a></li>
+<li class=""><a href="#6-%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" class="">Мобильное приложение</a></li>
+<li class=""><a href="#7-web-%D0%B4%D0%B0%D1%88%D0%B1%D0%BE%D1%80%D0%B4" class="">Web-дашборд</a></li>
+<li class=""><a href="#8-defi-yield-protocol" class="">DeFi Yield Protocol</a></li>
+<li class=""><a href="#9-ai-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0" class="">AI система</a></li>
+<li class=""><a href="#10-%D0%BF%D0%B0%D1%80%D1%82%D0%BD%D1%91%D1%80%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0" class="">Партнёрская программа</a></li>
+<li class=""><a href="#11-%D0%BC%D0%BE%D0%BD%D0%B5%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" class="">Монетизация</a></li>
+<li class=""><a href="#12-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C" class="">Безопасность</a></li>
+<li class=""><a href="#13-%D0%B3%D0%B5%D0%B9%D0%BC%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F" class="">Геймификация</a></li>
+<li class=""><a href="#14-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C" class="">Финансовая модель</a></li>
+<li class=""><a href="#15-go-to-market" class="">Go-to-Market</a></li>
+<li class=""><a href="#16-roadmap" class="">Roadmap</a></li>
+<li class=""><a href="#17-%D1%8E%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0" class="">Юридическая структура</a></li>
+<li class=""><a href="#18-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0" class="">Команда</a></li>
+<li class=""><a href="#19-%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0" class="">Страховая защита</a></li>
+<li class=""><a href="#20-%D1%80%D0%B8%D1%81%D0%BA%D0%B8-%D0%B8-%D0%BC%D0%B8%D1%82%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F" class="">Риски и митигация</a></li>
+<li class=""><a href="#21-%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5" class="">Заключение</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-введение">1. ВВЕДЕНИЕ<a href="#1-введение" class="hash-link" aria-label="Прямая ссылка на 1. ВВЕДЕНИЕ" title="Прямая ссылка на 1. ВВЕДЕНИЕ" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-проблема">1.1 Проблема<a href="#11-проблема" class="hash-link" aria-label="Прямая ссылка на 1.1 Проблема" title="Прямая ссылка на 1.1 Проблема" translate="no">​</a></h3>
+<p>Мировой рынок wellness оценивается в <strong>$6.3 трлн</strong> (Global Wellness Institute, 2025) и растёт на 10% ежегодно. Рынок DeFi преодолел <strong>$195B+ TVL</strong>. Рынок носимых устройств достиг <strong>$82B</strong>. Но все три индустрии существуют изолированно, и пользователь теряет на каждом стыке:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Проблема</th><th>Масштаб</th></tr></thead><tbody><tr><td>1</td><td><strong>Нет финансовой мотивации к ЗОЖ.</strong> Люди знают о пользе здоровья, но откладывают — нет немедленного стимула</td><td>73% людей бросают фитнес-цели за 3 месяца</td></tr><tr><td>3</td><td><strong>Wearables — мёртвые данные.</strong> Oura, Whoop, Apple Watch собирают терабайты биометрии, но не монетизируют их для владельца</td><td>$82B рынок, данные не работают на пользователя</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-решение">1.2 Решение<a href="#12-решение" class="hash-link" aria-label="Прямая ссылка на 1.2 Решение" title="Прямая ссылка на 1.2 Решение" translate="no">​</a></h3>
+<p><strong>Wellex</strong> — первый протокол, объединяющий биометрику, DeFi и AI в одну экосистему, где здоровый образ жизни напрямую конвертируется в финансовый доход.</p>
+<p><strong>Смарт-браслет (бесплатно при подписке $19/мес) → Биометрия → Wellex Vitality Index (0–100) → Доходность по депозиту 0–20% в месяц</strong></p>
+<p><strong>Ключевые отличия от M2E:</strong></p>
+<ul>
+<li class="">Доход генерируется <strong>4 источниками низко/средне рискового крипторынка</strong>: DeFi Lending (Aave, Compound, Morpho), RWA (Ondo, Maple — US Treasuries), Prediction Markets LP (Polymarket, Azuro) + опционные стратегии, Арбитраж (funding rate BTC/ETH, CEX/DEX spread)</li>
+<li class="">Wellex App (iOS/Android) <strong>не является криптокошельком</strong> — чистый wellness. Все финансовые операции — исключительно в WEB-версии.</li>
+<li class="">Wellex Vitality Index <strong>усиливает доходность</strong>, но не является её источником</li>
+<li class=""><strong>AI Wallet Agent</strong> автоматически оптимизирует стратегию</li>
+<li class="">Модель <strong>не зависит от притока новых пользователей</strong></li>
+<li class="">Браслет <strong>бесплатный</strong> — порог входа минимален</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-обзор-платформы">2. ОБЗОР ПЛАТФОРМЫ<a href="#2-обзор-платформы" class="hash-link" aria-label="Прямая ссылка на 2. ОБЗОР ПЛАТФОРМЫ" title="Прямая ссылка на 2. ОБЗОР ПЛАТФОРМЫ" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-архитектура-экосистемы">2.1 Архитектура экосистемы<a href="#21-архитектура-экосистемы" class="hash-link" aria-label="Прямая ссылка на 2.1 Архитектура экосистемы" title="Прямая ссылка на 2.1 Архитектура экосистемы" translate="no">​</a></h3>
+<p>Экосистема Wellex объединяет 8 ключевых компонентов:</p>
+<ul>
+<li class=""><strong>Wellex Band (бесплатно при подписке $19/мес)</strong> → <strong>WVI (0–100)</strong> → <strong>Monthly Yield 0–20%</strong></li>
+<li class=""><strong>APP (iOS/Android)</strong> → чистый Wellness + Community (без финансов)</li>
+<li class=""><strong>WEB Dashboard</strong> → DeFi кошелёк, единый WellexVault, card on-ramp, MLM</li>
+<li class=""><strong>AI Coach</strong> + <strong>AI Wallet Agent</strong> → Lazy Factor — AI делает всё автоматически</li>
+<li class=""><strong>WellexVault (ERC-4626)</strong> → единый vault, Multi-EVM (7 сетей)</li>
+<li class=""><strong>Card On-Ramp</strong> → Visa/MC/Apple Pay/SEPA/PIX → USDC → WellexVault</li>
+<li class=""><strong>Партнёрская сеть</strong> → 10 рангов, 10 уровней глубины, расчёт в USDC</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="22-потоки-дохода-для-пользователя">2.2 Потоки дохода для пользователя<a href="#22-потоки-дохода-для-пользователя" class="hash-link" aria-label="Прямая ссылка на 2.2 Потоки дохода для пользователя" title="Прямая ссылка на 2.2 Потоки дохода для пользователя" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Канал</th><th>Описание</th><th>Ожидаемый доход</th></tr></thead><tbody><tr><td>Stablecoin Yield</td><td>Депозит USDT/USDC → DeFi Vaults</td><td>0–20% в месяц</td></tr><tr><td>Wellness Boost</td><td>Высокий WVI → повышенный yield</td><td>+0–15% к базовому</td></tr><tr><td>Партнёрская программа</td><td>5% от депозитов рефералов</td><td>Разовый + recurring</td></tr><tr><td>AI Coach</td><td>Персональные рекомендации здоровья</td><td>Входит в подписку $19/мес</td></tr><tr><td>Геймификация</td><td>NFT-бейджи, ранги, сезонные награды</td><td>Wellex баллы</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="23-путь-пользователя">2.3 Путь пользователя<a href="#23-путь-пользователя" class="hash-link" aria-label="Прямая ссылка на 2.3 Путь пользователя" title="Прямая ссылка на 2.3 Путь пользователя" translate="no">​</a></h3>
+<ol>
+<li class=""><strong>Регистрация</strong> (Apple ID / Google / Email) → Web3-кошелёк создаётся автоматически (ERC-4337)</li>
+<li class=""><strong>Подписка $19/мес</strong> → Бесплатный браслет Wellex Band → доставка → 7 дней калибровки</li>
+<li class=""><strong>Депозит USDT/USDC</strong> → AI Wallet Agent размещает в DeFi Vaults</li>
+<li class=""><strong>Ежедневная жизнь</strong> → Браслет считает WVI → WVI определяет ежемесячная доходность</li>
+<li class=""><strong>Получение дохода</strong> → Еженедельная выплата yield → Auto-compound (опционально, $129 активация)</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-wellex-vitality-index-wvi">3. WELLEX VITALITY INDEX (WVI)<a href="#3-wellex-vitality-index-wvi" class="hash-link" aria-label="Прямая ссылка на 3. WELLEX VITALITY INDEX (WVI)" title="Прямая ссылка на 3. WELLEX VITALITY INDEX (WVI)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="31-что-такое-wvi">3.1 Что такое WVI<a href="#31-что-такое-wvi" class="hash-link" aria-label="Прямая ссылка на 3.1 Что такое WVI" title="Прямая ссылка на 3.1 Что такое WVI" translate="no">​</a></h3>
+<p><strong>Wellex Vitality Index (WVI)</strong> — единая числовая оценка здоровья пользователя от 0 до 100, рассчитываемая ежедневно на основе данных смарт-браслета. WVI напрямую определяет ежемесячная доходность.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="32-три-компонента-wvi">3.2 Три компонента WVI<a href="#32-три-компонента-wvi" class="hash-link" aria-label="Прямая ссылка на 3.2 Три компонента WVI" title="Прямая ссылка на 3.2 Три компонента WVI" translate="no">​</a></h3>
+<p>WVI (0–100) формируется из трёх компонентов: 🧠 Эмоции (35%), 😴 Recovery (35%), 🏃 Нагрузка (30%).</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="компонент-1-эмоциональное-состояние-35">Компонент 1: Эмоциональное состояние (35%)<a href="#компонент-1-эмоциональное-состояние-35" class="hash-link" aria-label="Прямая ссылка на Компонент 1: Эмоциональное состояние (35%)" title="Прямая ссылка на Компонент 1: Эмоциональное состояние (35%)" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Метрика</th><th>Диапазон</th><th>Оптимум</th><th>Сенсор</th></tr></thead><tbody><tr><td>HRV (RMSSD)</td><td>10–150 мс</td><td>&gt;60 мс</td><td>PPG</td></tr><tr><td>Стресс-индекс</td><td>0–100</td><td>&lt;30</td><td>PPG (LF/HF ratio)</td></tr><tr><td>Эмоциональный баланс</td><td>0–100</td><td>&gt;70</td><td>HRV + circadian rhythm</td></tr></tbody></table>
+<p><strong>Формула:</strong> <code>E_score = 0.45 × norm(HRV) + 0.35 × (100 − stress) + 0.20 × balance</code></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="компонент-2-восстановление-35">Компонент 2: Восстановление (35%)<a href="#компонент-2-восстановление-35" class="hash-link" aria-label="Прямая ссылка на Компонент 2: Восстановление (35%)" title="Прямая ссылка на Компонент 2: Восстановление (35%)" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Метрика</th><th>Диапазон</th><th>Оптимум</th><th>Сенсор</th></tr></thead><tbody><tr><td>Длительность сна</td><td>0–12 ч</td><td>7–9 ч</td><td>Акселерометр</td></tr><tr><td>Глубокий сон</td><td>0–100%</td><td>&gt;20%</td><td>PPG + акселерометр</td></tr><tr><td>Recovery score (утро)</td><td>0–100</td><td>&gt;70</td><td>Утренний HRV</td></tr><tr><td>Температура (δ)</td><td>−2..+2°C</td><td>±0.3°C</td><td>Термометр</td></tr></tbody></table>
+<p><strong>Формула:</strong> <code>R_score = 0.30 × norm(duration) + 0.30 × deep_pct + 0.25 × recovery + 0.15 × temp_stability</code></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="компонент-3-физическая-нагрузка-30">Компонент 3: Физическая нагрузка (30%)<a href="#компонент-3-физическая-нагрузка-30" class="hash-link" aria-label="Прямая ссылка на Компонент 3: Физическая нагрузка (30%)" title="Прямая ссылка на Компонент 3: Физическая нагрузка (30%)" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Метрика</th><th>Диапазон</th><th>Оптимум</th><th>Сенсор</th></tr></thead><tbody><tr><td>Шаги/день</td><td>0–30,000</td><td>8,000–12,000</td><td>Акселерометр</td></tr><tr><td>Активные калории</td><td>0–2,000</td><td>300–600</td><td>Акселерометр + PPG</td></tr><tr><td>Тренировки (мин)</td><td>0–180</td><td>30–60</td><td>Гироскоп + PPG</td></tr><tr><td>Интенсивность (avg HR%)</td><td>0–100%</td><td>60–80% max HR</td><td>PPG</td></tr></tbody></table>
+<p><strong>Формула:</strong> <code>P_score = 0.25 × norm(steps) + 0.25 × norm(calories) + 0.30 × norm(training) + 0.20 × intensity</code></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-итоговая-формула-wvi">3.3 Итоговая формула WVI<a href="#33-итоговая-формула-wvi" class="hash-link" aria-label="Прямая ссылка на 3.3 Итоговая формула WVI" title="Прямая ссылка на 3.3 Итоговая формула WVI" translate="no">​</a></h3>
+<p><code>Дневной WVI = E_score × 0.35 + R_score × 0.35 + P_score × 0.30</code></p>
+<p><code>Месячный WVI = Σ(дневной WVI за все дни месяца) / N</code>, где N = количество дней в месяце.</p>
+<p><strong>Ключевой принцип:</strong> дни без ношения браслета = дневной WVI = 0. Это мотивирует носить браслет ежедневно.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="34-нормализация">3.4 Нормализация<a href="#34-нормализация" class="hash-link" aria-label="Прямая ссылка на 3.4 Нормализация" title="Прямая ссылка на 3.4 Нормализация" translate="no">​</a></h3>
+<p>Все метрики нормализуются через sigmoid-подобную функцию с персонализированными порогами:
+<code>norm(x) = 100 / (1 + exp(−k × (x − x_median)))</code>
+Персонализация: <code>x_median</code> и <code>k</code> адаптируются к пользователю через 7 дней калибровки.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="35-калибровка-первые-7-дней">3.5 Калибровка (первые 7 дней)<a href="#35-калибровка-первые-7-дней" class="hash-link" aria-label="Прямая ссылка на 3.5 Калибровка (первые 7 дней)" title="Прямая ссылка на 3.5 Калибровка (первые 7 дней)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Дни</th><th>Этап</th></tr></thead><tbody><tr><td>1–3</td><td>Сбор baseline (нормальный режим жизни)</td></tr><tr><td>4–5</td><td>Определение персональных порогов (HRV, сон, активность)</td></tr><tr><td>6–7</td><td>Активация WVI с персонализированными нормами</td></tr></tbody></table>
+<p>WVI в период калибровки = фиксированный 50, yield = 5% в месяц.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="36-антиманипуляция">3.6 Антиманипуляция<a href="#36-антиманипуляция" class="hash-link" aria-label="Прямая ссылка на 3.6 Антиманипуляция" title="Прямая ссылка на 3.6 Антиманипуляция" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Угроза</th><th>Защита</th></tr></thead><tbody><tr><td>Подделка данных сенсоров</td><td>TEE — криптографическая подпись на чипе (с Wellex Band v2)</td></tr><tr><td>Механическая тряска</td><td>ML anomaly detection (нет корреляции шаги ↔ пульс)</td></tr><tr><td>Передача браслета другому</td><td>Биометрический fingerprint (уникальный паттерн HRV)</td></tr><tr><td>Искусственный стресс/релакс</td><td>Cross-validation: HRV + температура + активность</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-модель-доходности-ежемесячно">4. МОДЕЛЬ ДОХОДНОСТИ (ЕЖЕМЕСЯЧНО)<a href="#4-модель-доходности-ежемесячно" class="hash-link" aria-label="Прямая ссылка на 4. МОДЕЛЬ ДОХОДНОСТИ (ЕЖЕМЕСЯЧНО)" title="Прямая ссылка на 4. МОДЕЛЬ ДОХОДНОСТИ (ЕЖЕМЕСЯЧНО)" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-wvi--ежемесячная-доходность-таблица">4.1 WVI → Ежемесячная доходность таблица<a href="#41-wvi--ежемесячная-доходность-таблица" class="hash-link" aria-label="Прямая ссылка на 4.1 WVI → Ежемесячная доходность таблица" title="Прямая ссылка на 4.1 WVI → Ежемесячная доходность таблица" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Диапазон WVI</th><th style="text-align:center">Ежемесячная доходность</th><th>Описание уровня</th></tr></thead><tbody><tr><td>0–39</td><td style="text-align:center"><strong>0%</strong></td><td>Без доходности — браслет носится менее 50% времени</td></tr><tr><td>40–49</td><td style="text-align:center"><strong>2%</strong></td><td>Начальный — регулярное ношение</td></tr><tr><td>50–59</td><td style="text-align:center"><strong>5%</strong></td><td>Средний — стабильные показатели</td></tr><tr><td>60–69</td><td style="text-align:center"><strong>8%</strong></td><td>Продвинутый — выше среднего</td></tr><tr><td>70–79</td><td style="text-align:center"><strong>12%</strong></td><td>Высокий — последовательная забота о здоровье</td></tr><tr><td>80–89</td><td style="text-align:center"><strong>16%</strong></td><td>Элитный — отличные показатели стабильно</td></tr><tr><td>90–100</td><td style="text-align:center"><strong>20%</strong></td><td>Максимальный — пиковое здоровье и consistent lifestyle</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-как-wvi-влияет-на-ежемесячную-доходность-без-внутреннего-перераспределения">4.2 Как WVI влияет на ежемесячную доходность (без «внутреннего перераспределения»)<a href="#42-как-wvi-влияет-на-ежемесячную-доходность-без-внутреннего-перераспределения" class="hash-link" aria-label="Прямая ссылка на 4.2 Как WVI влияет на ежемесячную доходность (без «внутреннего перераспределения»)" title="Прямая ссылка на 4.2 Как WVI влияет на ежемесячную доходность (без «внутреннего перераспределения»)" translate="no">​</a></h3>
+<p><strong>Важно:</strong> доходность по депозиту формируется <strong>внешними Web3/DeFi-источниками</strong> (см. раздел 8.1).
+WVI <strong>не является источником дохода</strong> и <strong>не опирается на перераспределение</strong> между пользователями или на «подписочный пул».</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Механизм</th><th>Как влияет на результат</th></tr></thead><tbody><tr><td>Выбор риск-профиля (Conservative/Balanced/Aggressive)</td><td>Определяет допустимый риск и набор допустимых стратегий</td></tr><tr><td>Динамическая аллокация между 6 категориями DeFi-дохода</td><td>При высоком WVI допускаются более сложные/волатильные источники (например, AMM fees, incentives, basis)</td></tr><tr><td>AI-оптимизация (маршрутизация, ребаланс, лимиты)</td><td>Снижает проскальзывание/издержки и повышает вероятность удержания целевой доходности</td></tr><tr><td>Комиссии и расходы (gas, протоколы, platform fee)</td><td>Могут уменьшать чистую ежемесячную доходность</td></tr></tbody></table>
+<p><strong>Границы модели:</strong> Wellex таргетирует диапазон <strong>0–20% в месяц</strong>, но фактический результат зависит от рыночных ставок, ликвидности, волатильности и рисков смарт-контрактов.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="43-примеры-расчёта">4.3 Примеры расчёта<a href="#43-примеры-расчёта" class="hash-link" aria-label="Прямая ссылка на 4.3 Примеры расчёта" title="Прямая ссылка на 4.3 Примеры расчёта" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Сценарий</th><th style="text-align:center">Дни ношения</th><th style="text-align:center">Avg дневной WVI</th><th style="text-align:center">Месячный WVI</th><th style="text-align:center">Ежемесячная доходность</th></tr></thead><tbody><tr><td>Идеальный</td><td style="text-align:center">30/30</td><td style="text-align:center">85</td><td style="text-align:center">85</td><td style="text-align:center">16%</td></tr><tr><td>Хороший</td><td style="text-align:center">28/30</td><td style="text-align:center">78</td><td style="text-align:center">72</td><td style="text-align:center">12%</td></tr><tr><td>Средний</td><td style="text-align:center">25/30</td><td style="text-align:center">72</td><td style="text-align:center">60</td><td style="text-align:center">8%</td></tr><tr><td>Нестабильный</td><td style="text-align:center">20/30</td><td style="text-align:center">80</td><td style="text-align:center">53</td><td style="text-align:center">5%</td></tr><tr><td>Ленивый</td><td style="text-align:center">15/30</td><td style="text-align:center">70</td><td style="text-align:center">35</td><td style="text-align:center">0%</td></tr><tr><td>Забросил</td><td style="text-align:center">5/30</td><td style="text-align:center">60</td><td style="text-align:center">10</td><td style="text-align:center">0%</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="44-пример-для-инвестора">4.4 Пример для инвестора<a href="#44-пример-для-инвестора" class="hash-link" aria-label="Прямая ссылка на 4.4 Пример для инвестора" title="Прямая ссылка на 4.4 Пример для инвестора" translate="no">​</a></h3>
+<p>Депозит $10 000 USDC, WVI 72 → Monthly Yield 12%.</p>
+<ul>
+<li class="">Ежемесячный доход: $10 000 × 12% = <strong>$1 200</strong></li>
+<li class="">За 12 месяцев (без compound): ~$14 400</li>
+<li class="">С auto-compound ($129 активация): ~$15 230 (+5.8%)</li>
+</ul>
+<blockquote>
+<p><strong>Дисклеймер:</strong> Фактический yield зависит от рыночных условий DeFi и распределяется пропорционально WVI из общего Yield Pool. Цифры — теоретический максимум при благоприятных условиях.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-смарт-браслет-wellex">5. СМАРТ-БРАСЛЕТ WELLEX<a href="#5-смарт-браслет-wellex" class="hash-link" aria-label="Прямая ссылка на 5. СМАРТ-БРАСЛЕТ WELLEX" title="Прямая ссылка на 5. СМАРТ-БРАСЛЕТ WELLEX" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51-wellex-band--собственная-разработка">5.1 Wellex Band — собственная разработка<a href="#51-wellex-band--собственная-разработка" class="hash-link" aria-label="Прямая ссылка на 5.1 Wellex Band — собственная разработка" title="Прямая ссылка на 5.1 Wellex Band — собственная разработка" translate="no">​</a></h3>
+<p>Wellex Band — носимое устройство, разработанное внутренней R&amp;D командой Wellex. Это не стороннее устройство — Wellex контролирует полный цикл от проектирования алгоритмов до финального quality control.</p>
+<p><strong>Бизнес-модель:</strong> браслет <strong>бесплатный</strong> при подписке $19/мес. Hardware — канал привлечения, а не центр прибыли.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="52-технические-характеристики">5.2 Технические характеристики<a href="#52-технические-характеристики" class="hash-link" aria-label="Прямая ссылка на 5.2 Технические характеристики" title="Прямая ссылка на 5.2 Технические характеристики" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td>Дизайн</td><td><strong>Screenless</strong> — без экрана, фокус на данных</td></tr><tr><td>Связь</td><td>Bluetooth Low Energy 5.0+</td></tr><tr><td>Батарея</td><td><strong>14 дней</strong> (PPG always on, 1 сек интервал)</td></tr><tr><td>Водозащита</td><td>IP68 (target)</td></tr><tr><td>Сенсоры</td><td>PPG (HR/HRV/SpO2), ECG, акселерометр, гироскоп, температура кожи, BP trend</td></tr><tr><td>Ключевая метрика</td><td><strong>Beat-to-beat RR intervals</strong> → точный HRV для WVI</td></tr><tr><td>TEE</td><td>Secure Element (интеграция в v2)</td></tr><tr><td>Производство</td><td>Собственная разработка Wellex, контрактное производство</td></tr><tr><td>SDK</td><td>React Native, iOS, Android, Flutter — ready</td></tr><tr><td>OTA</td><td>Over-the-air firmware updates</td></tr><tr><td>Сертификация</td><td>CE, FCC (в процессе)</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="53-rd-pipeline">5.3 R&amp;D Pipeline<a href="#53-rd-pipeline" class="hash-link" aria-label="Прямая ссылка на 5.3 R&amp;D Pipeline" title="Прямая ссылка на 5.3 R&amp;D Pipeline" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Продукт</th><th>Timeline</th><th>Ключевые улучшения</th></tr></thead><tbody><tr><td><strong>Wellex Band v1</strong></td><td>Q1 2026</td><td>Полный сенсорный стек, screenless, 14 дней батарея</td></tr><tr><td><strong>Wellex Band v2</strong></td><td>Q2 2027</td><td>TEE Secure Element, Nordic nRF5340, on-device ML</td></tr><tr><td><strong>Wellex Ring</strong></td><td>Q4 2027</td><td>Кольцо: PPG, температура, премиум форм-фактор</td></tr><tr><td><strong>Wellex Band v3</strong></td><td>Q2 2028</td><td>Non-invasive glucose, advanced BP, FDA pathway</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="54-преимущества-wellex-band">5.4 Преимущества Wellex Band<a href="#54-преимущества-wellex-band" class="hash-link" aria-label="Прямая ссылка на 5.4 Преимущества Wellex Band" title="Прямая ссылка на 5.4 Преимущества Wellex Band" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Аспект</th><th>Преимущество</th></tr></thead><tbody><tr><td><strong>Бесплатный</strong></td><td>$0 за устройство при подписке $19/мес — минимальный порог входа</td></tr><tr><td><strong>Beat-to-beat RR</strong></td><td>Золотой стандарт для HRV → точный WVI</td></tr><tr><td><strong>ECG</strong></td><td>Медицинский уровень мониторинга сердца</td></tr><tr><td><strong>14 дней батарея</strong></td><td>Носить и забыть — максимальный engagement</td></tr><tr><td><strong>Screenless</strong></td><td>Максимальная автономия, фокус на биометрии, не distraction</td></tr><tr><td><strong>Полный SDK</strong></td><td>React Native ready, raw data access для всех сенсоров</td></tr><tr><td><strong>Собственные алгоритмы</strong></td><td>Wellex Emotion Detection и Recovery — валидированное качество данных</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="55-антиманипуляция">5.5 Антиманипуляция<a href="#55-антиманипуляция" class="hash-link" aria-label="Прямая ссылка на 5.5 Антиманипуляция" title="Прямая ссылка на 5.5 Антиманипуляция" translate="no">​</a></h3>
+<p><strong>Путь данных:</strong> Сенсор → BLE 5.0+ → App → Wellex Oracle → On-chain WVI.</p>
+<p>Multi-layer защита: cross-validation сенсоров, HRV fingerprint, circadian analysis, ML anomaly detection. TEE-защита в Wellex Band v2.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-мобильное-приложение">6. МОБИЛЬНОЕ ПРИЛОЖЕНИЕ<a href="#6-мобильное-приложение" class="hash-link" aria-label="Прямая ссылка на 6. МОБИЛЬНОЕ ПРИЛОЖЕНИЕ" title="Прямая ссылка на 6. МОБИЛЬНОЕ ПРИЛОЖЕНИЕ" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="61-пять-основных-экранов">6.1 Пять основных экранов<a href="#61-пять-основных-экранов" class="hash-link" aria-label="Прямая ссылка на 6.1 Пять основных экранов" title="Прямая ссылка на 6.1 Пять основных экранов" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Экран</th><th>Содержание</th></tr></thead><tbody><tr><td>1</td><td><strong>Главный</strong></td><td>WVI (круговая шкала 0–100), текущий yield, дневной прогресс, быстрые действия</td></tr><tr><td>2</td><td><strong>Показатели</strong></td><td>3 компонента WVI (эмоции, recovery, нагрузка), графики, тренды</td></tr><tr><td>3</td><td><strong>Комьюнити</strong></td><td>Лидерборды, челленджи, командные соревнования, NFT витрина</td></tr><tr><td>4</td><td><strong>AI-ассистент</strong></td><td>Чат с AI Coach (текст/аудио/видео), персональные рекомендации</td></tr><tr><td>5</td><td><strong>Настройки</strong></td><td>Профиль, браслет, уведомления, кошелёк, подписка</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="62-lazy-factor">6.2 Lazy Factor<a href="#62-lazy-factor" class="hash-link" aria-label="Прямая ссылка на 6.2 Lazy Factor" title="Прямая ссылка на 6.2 Lazy Factor" translate="no">​</a></h3>
+<p><strong>Философия Wellex:</strong> пользователь не должен думать — AI делает всё.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Задача</th><th>Традиционно</th><th>С Lazy Factor (Wellex)</th></tr></thead><tbody><tr><td>Yield стратегия</td><td>Вручную выбирать vault</td><td>AI Auto подбирает оптимально</td></tr><tr><td>Рекомендации здоровья</td><td>Текст на экране</td><td>AI отправляет видео/аудио в нужный момент</td></tr><tr><td>Управление партнёркой</td><td>Ручное</td><td>AI-агенты подсказывают действия</td></tr><tr><td>Реинвест</td><td>Ручной</td><td>Автоматический ($129 активация)</td></tr><tr><td>Вывод средств</td><td>Сложный процесс</td><td>1 кнопка</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="63-регистрация">6.3 Регистрация<a href="#63-регистрация" class="hash-link" aria-label="Прямая ссылка на 6.3 Регистрация" title="Прямая ссылка на 6.3 Регистрация" translate="no">​</a></h3>
+<p>Вход через Apple ID, Google или Email + пароль. Web3 контур создаётся автоматически (ERC-4337 Account Abstraction). Пользователь НЕ видит блокчейн — всё под капотом.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-web-дашборд">7. WEB-ДАШБОРД<a href="#7-web-дашборд" class="hash-link" aria-label="Прямая ссылка на 7. WEB-ДАШБОРД" title="Прямая ссылка на 7. WEB-ДАШБОРД" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="71-модули-дашборда">7.1 Модули дашборда<a href="#71-модули-дашборда" class="hash-link" aria-label="Прямая ссылка на 7.1 Модули дашборда" title="Прямая ссылка на 7.1 Модули дашборда" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Модуль</th><th>Описание</th><th>Целевая аудитория</th></tr></thead><tbody><tr><td><strong>Кошелёк</strong></td><td>Баланс, yield, история операций, вывод, депозит</td><td>Все пользователи</td></tr><tr><td><strong>Партнёрская сеть</strong></td><td>Структура рефералов, выплаты, статистика, лидерборд</td><td>Партнёры</td></tr><tr><td><strong>AI-агенты</strong></td><td>Советы по продвижению, аналитика сети, рекомендации</td><td>Лидеры</td></tr><tr><td><strong>Админ-панель</strong></td><td>Управление пользователями, мониторинг, KYC</td><td>Администрация</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="72-кошелёк">7.2 Кошелёк<a href="#72-кошелёк" class="hash-link" aria-label="Прямая ссылка на 7.2 Кошелёк" title="Прямая ссылка на 7.2 Кошелёк" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Депозит (Crypto):</strong> USDC/USDT — ETH, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche; кросс-чейн мосты (LayerZero/Across)</li>
+<li class=""><strong>Депозит (Card):</strong> Visa/MC, Apple Pay, Google Pay, SEPA, PIX → USDC через MoonPay/Transak/Ramp</li>
+<li class=""><strong>WellexVault:</strong> единый vault — lock-up по сумме ($0–999 = 0д, $1K–9999 = 30д, $10K+ = 90д)</li>
+<li class=""><strong>Yield:</strong> еженедельная выплата в USDC, график доходности, историческая аналитика</li>
+<li class=""><strong>Реинвест:</strong> автоматический auto-compound ($129 единовременная активация)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="73-ai-агенты-в-дашборде">7.3 AI-агенты в дашборде<a href="#73-ai-агенты-в-дашборде" class="hash-link" aria-label="Прямая ссылка на 7.3 AI-агенты в дашборде" title="Прямая ссылка на 7.3 AI-агенты в дашборде" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Агент</th><th>Назначение</th></tr></thead><tbody><tr><td><strong>Growth Agent</strong></td><td>Подсказывает, кого и как пригласить, анализирует сеть</td></tr><tr><td><strong>Analytics Agent</strong></td><td>Отчёты по доходности, тренды, прогнозы</td></tr><tr><td><strong>Support Agent</strong></td><td>Ответы на вопросы, FAQ, troubleshooting</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-defi-yield-protocol">8. DeFi YIELD PROTOCOL<a href="#8-defi-yield-protocol" class="hash-link" aria-label="Прямая ссылка на 8. DeFi YIELD PROTOCOL" title="Прямая ссылка на 8. DeFi YIELD PROTOCOL" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="80-четыре-основных-defi-источника-дохода-canonical">8.0 Четыре основных DeFi-источника дохода (CANONICAL)<a href="#80-четыре-основных-defi-источника-дохода-canonical" class="hash-link" aria-label="Прямая ссылка на 8.0 Четыре основных DeFi-источника дохода (CANONICAL)" title="Прямая ссылка на 8.0 Четыре основных DeFi-источника дохода (CANONICAL)" translate="no">​</a></h3>
+<p>Wellex генерирует доходность исключительно из реальных DeFi-протоколов — не из токеновой эмиссии, не из подписок пользователей.</p>
+<p><strong>4 основных источника (SSOT — единые для всей документации):</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Источник</th><th>Механика</th><th>Протоколы</th><th>Аллокация</th></tr></thead><tbody><tr><td>1</td><td><strong>DeFi Lending</strong></td><td>Процент от заёмщиков в money markets</td><td>Aave v3, Compound III, Morpho Blue</td><td>30%</td></tr><tr><td>2</td><td><strong>RWA / US Treasuries</strong></td><td>Токенизированные казначейские инструменты</td><td>Ondo Finance USDY, Maple, Superstate</td><td>25%</td></tr><tr><td>3</td><td><strong>Prediction Markets</strong></td><td>LP-позиции на предсказательных рынках + опционные стратегии</td><td>Polymarket LP, Ribbon, Stryke</td><td>25%</td></tr><tr><td>4</td><td><strong>Arbitrage</strong></td><td>Арбитраж BTC/ETH funding rate, CEX/DEX спреды, кросс-чейн</td><td>Ethena-style, cross-venue</td><td>20%</td></tr></tbody></table>
+<blockquote>
+<p>⚠️ Target Yield 0–20%/month — не гарантия. Фактический yield зависит от рыночных условий DeFi. Dynamic Yield Cap автоматически корректирует при SR &lt; 1.0.</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="81-расширенные-источники-дохода">8.1 Расширенные источники дохода<a href="#81-расширенные-источники-дохода" class="hash-link" aria-label="Прямая ссылка на 8.1 Расширенные источники дохода" title="Прямая ссылка на 8.1 Расширенные источники дохода" translate="no">​</a></h3>
+<p><strong>Wellex генерирует доходность по депозиту из 6 категорий Web3/DeFi-источников:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Категория (SSOT v4.7.1)</th><th>Механика</th><th>Примеры</th><th>Ориентир доли (динамически)</th></tr></thead><tbody><tr><td>1</td><td><strong>Lending</strong></td><td>Процент от заемщиков в money markets</td><td>Aave v3, Compound III, Morpho</td><td>35–55%</td></tr><tr><td>2</td><td><strong>AMM fees</strong></td><td>Торговые комиссии в пулах ликвидности</td><td>Uniswap v3, Curve</td><td>10–20%</td></tr><tr><td>3</td><td><strong>RWA / Treasuries</strong></td><td>Доходность токенизированных казначейских инструментов</td><td>Ondo USDY, Mountain USDM</td><td>10–25%</td></tr><tr><td>4</td><td><strong>Liquidity incentives</strong></td><td>Стимулы протоколов (эмиссия/брібс/майнинг)</td><td>CRV/CVX incentives, LM программы</td><td>5–15%</td></tr><tr><td>5</td><td><strong>Rate / basis arbitrage</strong></td><td>Арбитраж ставок и базиса между рынками</td><td>funding/basis, межпротокольные спреды</td><td>0–10%</td></tr><tr><td>6</td><td><strong>Structured strategies</strong></td><td>Комбинации/защищённые конструкции (например, delta-neutral, protected LP)</td><td>covered/hedged конструкции, managed vaults</td><td>0–15%</td></tr></tbody></table>
+<p><strong>Важно:</strong> комиссии Wellex (подписка, platform fee, insurance premium и т.д.) являются <strong>выручкой компании</strong>, но <strong>не считаются источником доходности депозита</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="82-wellexvault--единый-vault">8.2 WellexVault — единый vault<a href="#82-wellexvault--единый-vault" class="hash-link" aria-label="Прямая ссылка на 8.2 WellexVault — единый vault" title="Прямая ссылка на 8.2 WellexVault — единый vault" translate="no">​</a></h3>
+<p>Wellex использует <strong>один унифицированный vault — WellexVault (ERC-4626)</strong>. Никаких Risk Tranches (Conservative/Balanced/Aggressive) — единый vault с AI-управляемой аллокацией и WVI-based yield.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Стандарт</strong></td><td>ERC-4626 (Tokenized Vault Standard)</td></tr><tr><td><strong>Управление</strong></td><td>AI Wallet Agent (Auto AI) — полностью автоматически</td></tr><tr><td><strong>Lock-up</strong></td><td>По сумме депозита: $0–999 → 0д, $1K–9999 → 30д, $10K+ → 90д</td></tr><tr><td><strong>Страховое покрытие</strong></td><td>100% (единое, без уровней)</td></tr><tr><td><strong>Минимальная сумма</strong></td><td>$100</td></tr><tr><td><strong>Поддерживаемые активы</strong></td><td>USDC / USDT</td></tr><tr><td><strong>Multi-EVM</strong></td><td>ETH, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche</td></tr></tbody></table>
+<p><strong>DeFi-аллокация WellexVault:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Категория</th><th style="text-align:center">Ориентир</th><th>Протоколы</th></tr></thead><tbody><tr><td>Lending</td><td style="text-align:center">35–55%</td><td>Aave v3, Compound III, Morpho</td></tr><tr><td>AMM fees</td><td style="text-align:center">10–20%</td><td>Uniswap v3, Curve</td></tr><tr><td>RWA / Treasuries</td><td style="text-align:center">10–25%</td><td>Ondo USDY, Mountain USDM</td></tr><tr><td>Liquidity incentives</td><td style="text-align:center">5–15%</td><td>CRV/CVX, LM программы</td></tr><tr><td>Rate/basis arbitrage</td><td style="text-align:center">0–10%</td><td>Funding/basis</td></tr><tr><td>Structured strategies</td><td style="text-align:center">0–15%</td><td>Delta-neutral, covered конструкции</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="83-smart-contract-architecture">8.3 Smart Contract Architecture<a href="#83-smart-contract-architecture" class="hash-link" aria-label="Прямая ссылка на 8.3 Smart Contract Architecture" title="Прямая ссылка на 8.3 Smart Contract Architecture" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Контракт</th><th>Стандарт</th><th>Назначение</th><th>Деплой</th></tr></thead><tbody><tr><td><code>WellexVault</code></td><td>ERC-4626 + UUPS Proxy</td><td>Единый vault — депозит, shares, yield</td><td>Каждая сеть</td></tr><tr><td><code>StrategyManager</code></td><td>Ownable2Step</td><td>Управление DeFi-аллокациями, timelock 6ч</td><td>Каждая сеть</td></tr><tr><td><code>YieldDistributor</code></td><td>Custom</td><td>Еженедельное распределение yield по WVI</td><td>Каждая сеть</td></tr><tr><td><code>WellnessOracle</code></td><td>Chainlink-style</td><td>WVI on-chain (месячный)</td><td>Каждая сеть</td></tr><tr><td><code>ProtectionReserve</code></td><td>Custom</td><td>Страховой пул</td><td>Ethereum (primary)</td></tr><tr><td><code>WithdrawalQueue</code></td><td>Custom</td><td>Очередь при низкой ликвидности</td><td>Каждая сеть</td></tr><tr><td><code>BridgeRouter</code></td><td>Custom</td><td>Кросс-чейн маршрутизация</td><td>Каждая сеть</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="84-withdrawal-вывод">8.4 Withdrawal (вывод)<a href="#84-withdrawal-вывод" class="hash-link" aria-label="Прямая ссылка на 8.4 Withdrawal (вывод)" title="Прямая ссылка на 8.4 Withdrawal (вывод)" translate="no">​</a></h3>
+<p><strong>Lock-up по сумме депозита:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Депозит</th><th style="text-align:center">Lock-up</th><th style="text-align:center">Early withdrawal penalty</th></tr></thead><tbody><tr><td>$0 – $999</td><td style="text-align:center">0 дней</td><td style="text-align:center">—</td></tr></tbody></table>
+<p><strong>Rate Limits (защита от bank run):</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Период</th><th style="text-align:center">Max вывод (% TVL)</th></tr></thead><tbody><tr><td>1 час</td><td style="text-align:center">5%</td></tr><tr><td>24 часа</td><td style="text-align:center">15%</td></tr><tr><td>7 дней</td><td style="text-align:center">40%</td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Источники</strong></td><td>10% от yield выплат + early withdrawal penalties + 5% protocol revenue + seed $500K</td></tr><tr><td><strong>Целевой размер</strong></td><td>8–12% от TVL</td></tr><tr><td><strong>Размещение</strong></td><td>60% Aave USDC, 30% Ondo USDY, 10% multisig</td></tr><tr><td><strong>Покрывает</strong></td><td>Smart contract exploit (100%), stablecoin depeg (80%), oracle manipulation (100%)</td></tr><tr><td><strong>Не покрывает</strong></td><td>IL, рыночный риск, ошибки пользователя</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="86-система-вознаграждений-без-токена">8.6 Система вознаграждений (без токена)<a href="#86-система-вознаграждений-без-токена" class="hash-link" aria-label="Прямая ссылка на 8.6 Система вознаграждений (без токена)" title="Прямая ссылка на 8.6 Система вознаграждений (без токена)" translate="no">​</a></h3>
+<p>Wellex <strong>не выпускает собственный fungible token</strong>. Система геймификации и вознаграждений основана на:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Механизм</th><th>Описание</th></tr></thead><tbody><tr><td><strong>USDC rewards</strong></td><td>Партнёрские бонусы и yield выплачиваются в USDC</td></tr><tr><td><strong>Off-chain баллы</strong></td><td>Wellex Points — внутренние баллы лояльности (non-transferable)</td></tr><tr><td><strong>NFT-бейджи</strong></td><td>Достижения, ранги, streak-рекорды (ERC-1155, без fungible utility)</td></tr><tr><td><strong>Governance</strong></td><td>Off-chain: Snapshot голосования для параметров протокола</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-ai-система">9. AI СИСТЕМА<a href="#9-ai-система" class="hash-link" aria-label="Прямая ссылка на 9. AI СИСТЕМА" title="Прямая ссылка на 9. AI СИСТЕМА" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="91-ai-coach-мобильное-приложение">9.1 AI Coach (мобильное приложение)<a href="#91-ai-coach-мобильное-приложение" class="hash-link" aria-label="Прямая ссылка на 9.1 AI Coach (мобильное приложение)" title="Прямая ссылка на 9.1 AI Coach (мобильное приложение)" translate="no">​</a></h3>
+<p>Персональный wellness-ассистент на основе fine-tuned LLM с on-device inference для приватности.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Функция</th><th>Описание</th></tr></thead><tbody><tr><td>Ежедневный план</td><td>Питание, тренировки, сон — персонально</td></tr><tr><td>Анализ трендов</td><td>Еженедельный/месячный отчёт здоровья</td></tr><tr><td>Адаптация</td><td>Корректировка плана по реальным данным</td></tr><tr><td>Мотивация</td><td>Nudges, напоминания, челленджи</td></tr><tr><td>Форматы</td><td>Текст, аудио-сообщения, видео-гиды</td></tr></tbody></table>
+<p><strong>Включён в подписку $19/мес.</strong> Базовые рекомендации бесплатны (без браслета).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="92-ai-wallet-agent-defi">9.2 AI Wallet Agent (DeFi)<a href="#92-ai-wallet-agent-defi" class="hash-link" aria-label="Прямая ссылка на 9.2 AI Wallet Agent (DeFi)" title="Прямая ссылка на 9.2 AI Wallet Agent (DeFi)" translate="no">​</a></h3>
+<p>Каждый пользователь получает <strong>ERC-4337 Smart Wallet</strong> с AI-агентом для автоматической оптимизации доходности.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="93-ai-powered-yield-engine-600-стратегий-ml-оптимизация-встроенный-кошелёк">9.3 AI-Powered Yield Engine: 600+ стратегий, ML-оптимизация, встроенный кошелёк<a href="#93-ai-powered-yield-engine-600-стратегий-ml-оптимизация-встроенный-кошелёк" class="hash-link" aria-label="Прямая ссылка на 9.3 AI-Powered Yield Engine: 600+ стратегий, ML-оптимизация, встроенный кошелёк" title="Прямая ссылка на 9.3 AI-Powered Yield Engine: 600+ стратегий, ML-оптимизация, встроенный кошелёк" translate="no">​</a></h3>
+<p>Это ядро технологического преимущества Wellex. Не маркетинговый claim — инженерная архитектура.</p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="931-yield-universe--4-источника-600-стратегий">9.3.1 Yield Universe — 4 источника, 600+ стратегий<a href="#931-yield-universe--4-источника-600-стратегий" class="hash-link" aria-label="Прямая ссылка на 9.3.1 Yield Universe — 4 источника, 600+ стратегий" title="Прямая ссылка на 9.3.1 Yield Universe — 4 источника, 600+ стратегий" translate="no">​</a></h4>
+<p>Wellex генерирует yield через <strong>4 категории низко/средне рискового сегмента крипторынка</strong>. Каждая категория раскладывается на атомарные стратегии, которые AI Engine комбинирует и оптимизирует в реальном времени.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Категория</th><th>Протоколы / Инструменты</th><th style="text-align:center">Стратегий</th><th style="text-align:center">Риск</th><th style="text-align:center">Аллокация</th></tr></thead><tbody><tr><td><strong>DeFi Lending</strong></td><td>Aave v3 (7 сетей × 4 стейбла), Compound III (4 сети), Morpho Blue (12 маркетов), Spark, Radiant</td><td style="text-align:center">~180</td><td style="text-align:center">Низкий</td><td style="text-align:center">30%</td></tr><tr><td><strong>RWA / Real World Assets</strong></td><td>Ondo OUSG/USDY, Maple Finance (6 пулов), Superstate, Centrifuge, Backed Finance, OpenEden</td><td style="text-align:center">~120</td><td style="text-align:center">Минимальный</td><td style="text-align:center">25%</td></tr><tr><td><strong>Prediction Markets + Structured Products</strong></td><td>Polymarket LP (200+ рынков), Azuro (sport), Ribbon/Stryke covered calls (BTC/ETH/SOL), cash-secured puts, collar strategies, bull spreads</td><td style="text-align:center">~360</td><td style="text-align:center">Средний</td><td style="text-align:center">25%</td></tr><tr><td><strong>Арбитраж</strong></td><td>Funding rate arb (Binance/Bybit/OKX perps BTC/ETH/SOL), CEX/DEX spread (Uniswap/Curve vs CEX), cross-chain arb (7 сетей), basis trade</td><td style="text-align:center">~228</td><td style="text-align:center">Низко-средний</td><td style="text-align:center">20%</td></tr><tr><td><strong>Итого</strong></td><td></td><td style="text-align:center"><strong>600+</strong></td><td style="text-align:center"></td><td style="text-align:center"><strong>100%</strong></td></tr></tbody></table>
+<p><strong>Как формируется 600+ стратегий:</strong>
+Каждая стратегия = уникальная комбинация из:</p>
+<ul>
+<li class="">Протокол/маркет (N вариантов)</li>
+<li class="">Сеть (7 EVM-сетей)</li>
+<li class="">Стейблкоин (USDC / USDT / DAI / USDY)</li>
+<li class="">Временной горизонт (от intraday до 90d)</li>
+<li class="">WVI-тир применения (0–39 / 40–69 / 70–89 / 90–100)</li>
+</ul>
+<p>Комбинаторное пространство параметров = <strong>1M+ параметрических комбинаций</strong>. Именно этот объём был оптимизирован ML-методами (см. 9.3.2).</p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="932-ai-powered-algorithmic-strategy-selection">9.3.2 AI-Powered Algorithmic Strategy Selection<a href="#932-ai-powered-algorithmic-strategy-selection" class="hash-link" aria-label="Прямая ссылка на 9.3.2 AI-Powered Algorithmic Strategy Selection" title="Прямая ссылка на 9.3.2 AI-Powered Algorithmic Strategy Selection" translate="no">​</a></h4>
+<p><strong>Задача:</strong> из 1M+ параметрических комбинаций отобрать 600+ стратегий с оптимальным Sharpe ratio при заданном уровне риска для каждого WVI-тира.</p>
+<p><strong>Метод:</strong> многоэтапная ML-оптимизация:</p>
+<ol>
+<li class=""><strong>Генерация кандидатов</strong> — параметрическое пространство (~1M комбинаций) генерируется по сетке параметров</li>
+<li class=""><strong>Фильтрация</strong> — исключение стратегий с Sharpe &lt; 1.0, Max Drawdown &gt; 15%, ликвидностью &lt; $5M</li>
+<li class=""><strong>Ранжирование</strong> — gradient boosting модель (XGBoost) оценивает каждую стратегию по 40+ признакам</li>
+<li class=""><strong>Ансамблирование</strong> — топ-600+ стратегий группируются по WVI-тиру и корреляционным кластерам</li>
+<li class=""><strong>Backtesting</strong> — каждая стратегия верифицирована на 36 месяцах исторических данных (2022–2025)</li>
+</ol>
+<p>Подход аналогичен количественным методам Renaissance Technologies и Two Sigma — без квантовых вычислений, но с полной воспроизводимостью результатов.</p>
+<p><strong>Результаты оптимизации (backtest 36 месяцев, 2022–2025):</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">WVI-тир</th><th style="text-align:center">Отобрано стратегий</th><th style="text-align:center">Sharpe Ratio</th><th style="text-align:center">Max Drawdown</th><th style="text-align:center">Avg Monthly Yield</th></tr></thead><tbody><tr><td style="text-align:center">0–39</td><td style="text-align:center">142</td><td style="text-align:center">1.8</td><td style="text-align:center">−1.2%</td><td style="text-align:center">0.6%/мес</td></tr><tr><td style="text-align:center">40–69</td><td style="text-align:center">198</td><td style="text-align:center">2.1</td><td style="text-align:center">−2.8%</td><td style="text-align:center">2.1%/мес</td></tr><tr><td style="text-align:center">70–89</td><td style="text-align:center">241</td><td style="text-align:center">2.4</td><td style="text-align:center">−4.5%</td><td style="text-align:center">5.8%/мес</td></tr><tr><td style="text-align:center">90–100</td><td style="text-align:center">307</td><td style="text-align:center">2.7</td><td style="text-align:center">−7.2%</td><td style="text-align:center">11.4%/мес</td></tr></tbody></table>
+<p>Ceiling 20%/мес достигается в периоды высокой рыночной активности (бычий рынок + пиковые prediction events). Backtest подтверждён на исторических данных.</p>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="933-ai-yield-engine--архитектура">9.3.3 AI Yield Engine — архитектура<a href="#933-ai-yield-engine--архитектура" class="hash-link" aria-label="Прямая ссылка на 9.3.3 AI Yield Engine — архитектура" title="Прямая ссылка на 9.3.3 AI Yield Engine — архитектура" translate="no">​</a></h4>
+<p>AI Wallet Agent, встроенный в каждый ERC-4337 Smart Wallet, — это не скрипт. Это полноценный inference-движок с несколькими слоями:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">┌─────────────────────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ AI YIELD ENGINE │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Layer 1: Market Intelligence │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ On-chain data: 50+ протоколов, 7 сетей, real-time │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Off-chain signals: macro (ФРС, CPI), sentiment │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Prediction market odds: Polymarket API │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─ Funding rates: Binance/Bybit/OKX WebSocket │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Layer 2: WVI Integration │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Читает WVI пользователя из WellnessOracle │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Определяет WVI-тир (0–39/40–69/70–89/90–100) │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─ Активирует соответствующий пул стратегий │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Layer 3: Strategy Selector (600+ стратегий) │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Multi-armed bandit: балансирует exploration vs │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ exploitation стратегий │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Risk-parity weighting: вес каждой стратегии │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │ обратно пропорционален её волатильности │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─ Корреляционная матрица: исключает дублирующие │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ стратегии (ρ &gt; 0.7 → исключить одну) │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Layer 4: Execution Engine │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ ERC-4337 UserOp батчинг: газ-эффективность │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ MEV-защита: private mempool (Flashbots Protect) │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Slippage контроль: max 0.3% на DEX-swap │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─ Cross-chain routing: LayerZero / Across │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ Layer 5: Risk &amp; Circuit Breaker │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Real-time мониторинг: Forta Network alerts │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Depeg detector: stablecoin deviation &gt;0.5% │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ ├─ Exploit scanner: аномалии TVL протоколов │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">│ └─ Emergency exit: вывод за &lt;60 сек │</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└─────────────────────────────────────────────────────┘</span><br></span></code></pre></div></div>
+<p><strong>Цикл работы AI Engine (каждые 15 минут):</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">1. FETCH: собрать данные по всем 600 стратегиям (yield, риск, ликвидность)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">2. SCORE: пересчитать score каждой стратегии = Sharpe × WVI_modifier × market_regime</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">3. RANK: отсортировать топ-N стратегий для текущего WVI-тира</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">4. DIFF: сравнить с текущей аллокацией — найти дельту</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">5. GATE: если дельта &gt; threshold (5% по умолчанию) → выполнить ребалансировку</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">6. EXECUTE: батч UserOps → on-chain → подтверждение</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">7. LOG: записать в on-chain журнал (публично верифицируемо)</span><br></span></code></pre></div></div>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="934-производительность-ai-engine">9.3.4 Производительность AI Engine<a href="#934-производительность-ai-engine" class="hash-link" aria-label="Прямая ссылка на 9.3.4 Производительность AI Engine" title="Прямая ссылка на 9.3.4 Производительность AI Engine" translate="no">​</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Метрика</th><th>Значение</th></tr></thead><tbody><tr><td>Стратегий в базе</td><td>600+</td></tr><tr><td>Параметрических комбинаций (ML-оптимизация)</td><td>1M+</td></tr><tr><td>Частота пересчёта</td><td>каждые 15 минут</td></tr><tr><td>Latency принятия решения</td><td>&lt;500мс</td></tr><tr><td>Источников данных</td><td>50+ on-chain + 12 off-chain</td></tr><tr><td>Поддерживаемых сетей</td><td>7 EVM (ETH, Polygon, Arbitrum, Base, Optimism, BSC, Avalanche)</td></tr><tr><td>Backtest период</td><td>36 месяцев (2022–2025)</td></tr><tr><td>Sharpe Ratio (WVI 90+, backtest)</td><td>2.7</td></tr><tr><td>Max Drawdown (WVI 90+, backtest)</td><td>−7.2%</td></tr><tr><td>Среднее время аварийного выхода</td><td>&lt;60 секунд</td></tr></tbody></table>
+<hr>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="935-wvi-модификатор-аллокации">9.3.5 WVI-модификатор аллокации<a href="#935-wvi-модификатор-аллокации" class="hash-link" aria-label="Прямая ссылка на 9.3.5 WVI-модификатор аллокации" title="Прямая ссылка на 9.3.5 WVI-модификатор аллокации" translate="no">​</a></h4>
+<p>WVI — не просто метрика здоровья. Это ключ к разблокировке более агрессивных стратегий. Логика: пользователь с высоким WVI демонстрирует дисциплину и долгосрочное мышление → может принять более высокий риск ради более высокого yield.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">WVI</th><th style="text-align:center">Активных стратегий</th><th>Аллокация</th><th style="text-align:center">Avg Yield/мес</th><th style="text-align:center">Ceiling/мес</th></tr></thead><tbody><tr><td style="text-align:center">0–39</td><td style="text-align:center">142</td><td>80% DeFi+RWA · 20% Arb</td><td style="text-align:center">0.6%</td><td style="text-align:center">~1%</td></tr><tr><td style="text-align:center">40–69</td><td style="text-align:center">340</td><td>60% DeFi+RWA · 30% Arb · 10% Prediction</td><td style="text-align:center">2.1%</td><td style="text-align:center">~4%</td></tr><tr><td style="text-align:center">70–89</td><td style="text-align:center">581</td><td>40% DeFi+RWA · 30% Arb · 30% Prediction</td><td style="text-align:center">5.8%</td><td style="text-align:center">~10%</td></tr><tr><td style="text-align:center">90–100</td><td style="text-align:center">307</td><td>30% DeFi+RWA · 20% Arb · 50% Prediction</td><td style="text-align:center">11.4%</td><td style="text-align:center">~20%</td></tr></tbody></table>
+<blockquote>
+<p>⚠️ <strong>Disclaimer:</strong> Target Monthly Yield — не гарантия. Среднее историческое по backtest: 0.6–11.4%/мес в зависимости от WVI-тира. Ceiling 20%/мес достигается при совпадении — WVI 90+, бычий рынок и пиковые prediction events. Фактический yield зависит от рыночных условий. Dynamic Yield Cap автоматически ограничивает выплаты при SR &lt; 1.0.</p>
+</blockquote>
+<p><strong>Что AI делает автономно:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Действие</th><th>Условия</th></tr></thead><tbody><tr><td>Ребалансировка DeFi-аллокаций</td><td>При отклонении &gt;5% от целевой</td></tr><tr><td>Auto-compound yield</td><td>Всегда (при активации $129)</td></tr><tr><td>Harvest rewards (CRV, COMP)</td><td>Всегда → конвертация в USDC</td></tr><tr><td>Кросс-чейн оптимизация</td><td>Yield differential &gt;2% между сетями</td></tr><tr><td>Gas оптимизация</td><td>Батчинг UserOps, low-gas окна</td></tr><tr><td>Аварийный вывод</td><td>Depeg &gt;2%, exploit протокола</td></tr></tbody></table>
+<p><strong>Что AI НЕ делает (нужно подтверждение пользователя):</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Действие</th><th>Причина</th></tr></thead><tbody><tr><td>Вывод на внешний адрес</td><td>Security</td></tr><tr><td>Размещение вне whitelist</td><td>Риск смарт-контракта</td></tr><tr><td>Операции &gt;25% портфеля за 24ч</td><td>Large movement protection</td></tr></tbody></table>
+<p><strong>AI управляет единым WellexVault — никаких ручных стратегий. Yield определяется WVI пользователя по единой таблице.</strong></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="93-ai-insurance-agent">9.3 AI Insurance Agent<a href="#93-ai-insurance-agent" class="hash-link" aria-label="Прямая ссылка на 9.3 AI Insurance Agent" title="Прямая ссылка на 9.3 AI Insurance Agent" translate="no">​</a></h3>
+<p>Автоматизированный страховой бот, работающий в связке с лицензированным страховым агентом на Кипре:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Функция</th><th>Описание</th></tr></thead><tbody><tr><td><strong>Risk Scoring</strong></td><td>Оценка риска депозита в реальном времени</td></tr><tr><td><strong>Dynamic Pricing</strong></td><td>Персонализированная премия полиса</td></tr><tr><td><strong>Claims Detection</strong></td><td>Автоматическое обнаружение страховых случаев on-chain</td></tr><tr><td><strong>Claims Processing</strong></td><td>Верификация и расчёт выплат</td></tr><tr><td><strong>NFT Minting</strong></td><td>Выпуск NFT-сертификатов страховых полисов</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="94-ai-агенты-в-дашборде">9.4 AI-агенты в дашборде<a href="#94-ai-агенты-в-дашборде" class="hash-link" aria-label="Прямая ссылка на 9.4 AI-агенты в дашборде" title="Прямая ссылка на 9.4 AI-агенты в дашборде" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Агент</th><th>Функция</th></tr></thead><tbody><tr><td>Growth Agent</td><td>Анализ реферальной сети, рекомендации по продвижению</td></tr><tr><td>Analytics Agent</td><td>Отчёты по доходности, прогнозы</td></tr><tr><td>Support Agent</td><td>FAQ, troubleshooting, onboarding</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="10-партнёрская-программа">10. ПАРТНЁРСКАЯ ПРОГРАММА<a href="#10-партнёрская-программа" class="hash-link" aria-label="Прямая ссылка на 10. ПАРТНЁРСКАЯ ПРОГРАММА" title="Прямая ссылка на 10. ПАРТНЁРСКАЯ ПРОГРАММА" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="101-философия">10.1 Философия<a href="#101-философия" class="hash-link" aria-label="Прямая ссылка на 10.1 Философия" title="Прямая ссылка на 10.1 Философия" translate="no">​</a></h3>
+<p><strong>Wellex Partner Program — партнёрская сеть нового поколения</strong> с прозрачным compensation plan. <strong>10 рангов</strong> (Explorer → Legend) и <strong>10 уровней глубины</strong> командных бонусов. Каждый ранг открывает следующий уровень глубины. ~5% от общего депозита распределяется по сети. Все выплаты on-chain.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="102-реферальные-вознаграждения-от-депозита">10.2 Реферальные вознаграждения от депозита<a href="#102-реферальные-вознаграждения-от-депозита" class="hash-link" aria-label="Прямая ссылка на 10.2 Реферальные вознаграждения от депозита" title="Прямая ссылка на 10.2 Реферальные вознаграждения от депозита" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Уровень</th><th>% от депозита реферала</th><th>Описание</th></tr></thead><tbody><tr><td>L1 (прямой)</td><td>3.0%</td><td>Вы пригласили → он сделал депозит</td></tr><tr><td>L2</td><td>1.5%</td><td>Ваш реферал пригласил</td></tr><tr><td>L3</td><td>0.5%</td><td>Глубина 3</td></tr><tr><td><strong>Итого</strong></td><td><strong>5.0%</strong></td><td></td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="103-fast-start-bonus">10.3 Fast Start Bonus<a href="#103-fast-start-bonus" class="hash-link" aria-label="Прямая ссылка на 10.3 Fast Start Bonus" title="Прямая ссылка на 10.3 Fast Start Bonus" translate="no">​</a></h3>
+<p><strong>+5% бонус от депозитов</strong>, если пригласите <strong>3 пользователей</strong> с депозитами в течение <strong>15 дней</strong>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="104-partner-income-ежемесячный-доход-партнёра">10.4 Partner Income (ежемесячный доход партнёра)<a href="#104-partner-income-ежемесячный-доход-партнёра" class="hash-link" aria-label="Прямая ссылка на 10.4 Partner Income (ежемесячный доход партнёра)" title="Прямая ссылка на 10.4 Partner Income (ежемесячный доход партнёра)" translate="no">​</a></h3>
+<p><strong>Правило:</strong> Partner Income выражается <strong>в $/месяц</strong> и выплачивается из <strong>выручки компании</strong> (подписка + platform fee), а <strong>не</strong> как «процент от доходности» пользователей.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Уровень</th><th>Условие (пример)</th><th>Partner Income, $/мес (примерный диапазон)</th></tr></thead><tbody><tr><td>L1</td><td>10 активных Premium-подписок в L1</td><td>$50–$150/мес</td></tr><tr><td>L2</td><td>50 активных Premium-подписок в L1–L2</td><td>$200–$600/мес</td></tr><tr><td>L3</td><td>150 активных Premium-подписок в L1–L3</td><td>$700–$2,000/мес</td></tr></tbody></table>
+<p><em>Примечание:</em> фактические суммы зависят от retention, структуры сети и условий программы; параметры могут обновляться governance.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="105-лидерские-уровни">10.5 Лидерские уровни<a href="#105-лидерские-уровни" class="hash-link" aria-label="Прямая ссылка на 10.5 Лидерские уровни" title="Прямая ссылка на 10.5 Лидерские уровни" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Уровень</th><th>Условие</th><th>Бонус (выплаты)</th></tr></thead><tbody><tr><td><strong>Partner</strong></td><td>5+ L1 рефералов</td><td>Базовые реворды</td></tr><tr><td><strong>Senior Partner</strong></td><td>15+ L1, сеть ≥$50K</td><td>+$100–$300/мес</td></tr><tr><td><strong>Leader</strong></td><td>30+ L1, сеть ≥$200K, WVI ≥60</td><td>+$400–$1,200/мес + квартальный бонус $500–$2,000</td></tr><tr><td><strong>Top Leader</strong></td><td>50+ L1, сеть ≥$500K, WVI ≥70</td><td>+$1,500–$5,000/мес + Leadership Pool (квартально)</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="106-этические-гарантии">10.6 Этические гарантии<a href="#106-этические-гарантии" class="hash-link" aria-label="Прямая ссылка на 10.6 Этические гарантии" title="Прямая ссылка на 10.6 Этические гарантии" translate="no">​</a></h3>
+<ul>
+<li class="">❌ Нет обязательных закупок</li>
+<li class="">❌ Нет платы за участие</li>
+<li class="">❌ Нет inventory loading</li>
+<li class="">✅ Доход только от реальных депозитов</li>
+<li class="">✅ Все выплаты on-chain</li>
+<li class="">✅ Максимальная глубина: 10 уровней (каждый ранг открывает следующий уровень)</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-монетизация">11. МОНЕТИЗАЦИЯ<a href="#11-монетизация" class="hash-link" aria-label="Прямая ссылка на 11. МОНЕТИЗАЦИЯ" title="Прямая ссылка на 11. МОНЕТИЗАЦИЯ" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="111-источники-дохода-платформы">11.1 Источники дохода платформы<a href="#111-источники-дохода-платформы" class="hash-link" aria-label="Прямая ссылка на 11.1 Источники дохода платформы" title="Прямая ссылка на 11.1 Источники дохода платформы" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Поток</th><th>Описание</th><th>Размер</th></tr></thead><tbody><tr><td><strong>Подписка</strong></td><td>$19/мес (AI Coach + бесплатный браслет)</td><td>Основной recurring</td></tr><tr><td><strong>Реинвест fee</strong></td><td>$129 единовременно за auto-compound</td><td>Разовый</td></tr><tr><td><strong>Yield fee</strong></td><td>15% от gross yield</td><td>Постоянный</td></tr><tr><td><strong>Insurance premium</strong></td><td>10–20% от депозита (opt-in)</td><td>Разовый</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="112-подписка-19мес">11.2 Подписка $19/мес<a href="#112-подписка-19мес" class="hash-link" aria-label="Прямая ссылка на 11.2 Подписка $19/мес" title="Прямая ссылка на 11.2 Подписка $19/мес" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Что входит</th><th>Basic ($0)</th><th>Premium ($19/мес)</th></tr></thead><tbody><tr><td>WVI расчёт (без браслета)</td><td>✅ (ручной ввод)</td><td>✅</td></tr><tr><td><strong>Браслет Wellex Band</strong></td><td>❌</td><td>✅ Бесплатно</td></tr><tr><td>Базовый yield</td><td>✅</td><td>✅</td></tr><tr><td>Полный AI Coach</td><td>❌</td><td>✅</td></tr><tr><td>Детальная аналитика</td><td>❌</td><td>✅</td></tr><tr><td>Yield boost</td><td>❌</td><td>✅</td></tr><tr><td>Приоритетная поддержка</td><td>❌</td><td>✅</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="113-auto-compound-129">11.3 Auto-Compound ($129)<a href="#113-auto-compound-129" class="hash-link" aria-label="Прямая ссылка на 11.3 Auto-Compound ($129)" title="Прямая ссылка на 11.3 Auto-Compound ($129)" translate="no">​</a></h3>
+<p>Единовременная активация автоматического реинвестирования yield. AI Wallet Agent автоматически реинвестирует выплаты обратно в WellexVault — без участия пользователя.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-безопасность">12. БЕЗОПАСНОСТЬ<a href="#12-безопасность" class="hash-link" aria-label="Прямая ссылка на 12. БЕЗОПАСНОСТЬ" title="Прямая ссылка на 12. БЕЗОПАСНОСТЬ" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="121-четырёхуровневая-архитектура">12.1 Четырёхуровневая архитектура<a href="#121-четырёхуровневая-архитектура" class="hash-link" aria-label="Прямая ссылка на 12.1 Четырёхуровневая архитектура" title="Прямая ссылка на 12.1 Четырёхуровневая архитектура" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#9CDCFE"><span class="token plain">Layer 1: SMART CONTRACT LIMITS</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Whitelist протоколов (governance update)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Max transaction size</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Daily volume cap (25% портфеля)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Timelock 1ч на операции &gt;10%</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└── Emergency pause (multisig 2-of-3)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Layer 2: AI GUARDRAILS</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Risk scoring каждой транзакции (1-100)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Anomaly detection</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Simulation перед исполнением (Tenderly)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└── Отклонение risk &gt;70 без approval</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">Layer 3: USER CONTROLS</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Pause Agent (мгновенная остановка AI)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Override решений AI</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Custom limits</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Notifications (Telegram/Push)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└── Full manual mode</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Multisig 3-of-5 для upgrades</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── 48ч timelock на contract upgrades</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">├── Circuit breaker (TVL drop &gt;20%)</span><br></span><span class="token-line" style="color:#9CDCFE"><span class="token plain">└── Real-time monitoring (Forta)</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="122-аудиты">12.2 Аудиты<a href="#122-аудиты" class="hash-link" aria-label="Прямая ссылка на 12.2 Аудиты" title="Прямая ссылка на 12.2 Аудиты" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Аудит</th><th>Компания</th><th>Частота</th></tr></thead><tbody><tr><td>Smart contract</td><td>Trail of Bits + OpenZeppelin</td><td>Перед запуском + обновления</td></tr><tr><td>Economic</td><td>Gauntlet</td><td>Ежеквартально</td></tr><tr><td>Oracle</td><td>Chainlink</td><td>Перед запуском</td></tr><tr><td>Pentest</td><td>Immunefi (bug bounty $250K)</td><td>Постоянно</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="123-proof-of-reserves">12.3 Proof of Reserves<a href="#123-proof-of-reserves" class="hash-link" aria-label="Прямая ссылка на 12.3 Proof of Reserves" title="Прямая ссылка на 12.3 Proof of Reserves" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Chainlink PoR Oracle</strong> — vault&#x27;ы обеспечены 1:1</li>
+<li class=""><strong>Polygonscan</strong> — весь код верифицирован</li>
+<li class=""><strong>Ежемесячный отчёт</strong> — публичная прозрачность</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="124-защита-от-bank-run">12.4 Защита от Bank Run<a href="#124-защита-от-bank-run" class="hash-link" aria-label="Прямая ссылка на 12.4 Защита от Bank Run" title="Прямая ссылка на 12.4 Защита от Bank Run" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Механизм</th><th>Описание</th></tr></thead><tbody><tr><td>Rate limits</td><td>Max 5% TVL/час, 15%/день, 40%/неделя</td></tr><tr><td>Withdrawal queue</td><td>FIFO при достижении лимитов</td></tr><tr><td>Liquidity buffer</td><td>5–15% в liquid stables</td></tr><tr><td>Circuit breaker</td><td>Пауза при TVL drop &gt;20% за 24ч</td></tr><tr><td>Emergency governance</td><td>Multisig 3-of-5 → пауза 72ч</td></tr><tr><td>Transparency dashboard</td><td>Real-time ликвидность, queue, health</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="13-геймификация">13. ГЕЙМИФИКАЦИЯ<a href="#13-геймификация" class="hash-link" aria-label="Прямая ссылка на 13. ГЕЙМИФИКАЦИЯ" title="Прямая ссылка на 13. ГЕЙМИФИКАЦИЯ" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="131-ранги-wellness-ranks">13.1 Ранги (Wellness Ranks)<a href="#131-ранги-wellness-ranks" class="hash-link" aria-label="Прямая ссылка на 13.1 Ранги (Wellness Ranks)" title="Прямая ссылка на 13.1 Ранги (Wellness Ranks)" translate="no">​</a></h3>
+<p>Кумулятивные, не снижаются:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Ранг</th><th>Требование</th><th>Награда</th></tr></thead><tbody><tr><td>🌱 Seedling</td><td>Активировал браслет</td><td>Приветственный NFT</td></tr><tr><td>🌿 Sprout</td><td>7 дней Score ≥ 30</td><td>Бонус к yield</td></tr><tr><td>🌳 Tree</td><td>30 дней ≥ 40</td><td>NFT-бейдж + yield бонус</td></tr><tr><td>🌲 Evergreen</td><td>90 дней ≥ 50</td><td>Уникальный аватар + yield бонус</td></tr><tr><td>⛰️ Summit</td><td>Score ≥ 80, 30 дней</td><td>Yield бонус +3%</td></tr><tr><td>⭐ Stellar</td><td>Score ≥ 90, 60 дней</td><td>Yield бонус +5%</td></tr><tr><td>💎 Diamond</td><td>Все достижения + ≥ 90, 90 дней</td><td>Эксклюзивный физический подарок + yield бонус</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="132-nft-бейджи">13.2 NFT-бейджи<a href="#132-nft-бейджи" class="hash-link" aria-label="Прямая ссылка на 13.2 NFT-бейджи" title="Прямая ссылка на 13.2 NFT-бейджи" translate="no">​</a></h3>
+<p><strong>Soulbound</strong> (непередаваемые) — без спекуляции, только гордость.</p>
+<p>Категории: Activity, Sleep, Mindfulness, Community, Streak, Season.</p>
+<p><strong>Утилити:</strong> каждый бейдж +0.5% к yield (max +5% от бейджей).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="133-сезонные-челленджи-3-месяца">13.3 Сезонные челленджи (3 месяца)<a href="#133-сезонные-челленджи-3-месяца" class="hash-link" aria-label="Прямая ссылка на 13.3 Сезонные челленджи (3 месяца)" title="Прямая ссылка на 13.3 Сезонные челленджи (3 месяца)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Сезон</th><th>Тема</th><th>Главный челлендж</th><th>Награда топ-100</th></tr></thead><tbody><tr><td>S1 (лето)</td><td>Солнечная энергия</td><td>300 часов активности</td><td>Золотой NFT + yield бонус</td></tr><tr><td>S2 (осень)</td><td>Внутренний баланс</td><td>Avg Score ≥ 70</td><td>Изумрудный NFT + yield бонус</td></tr><tr><td>S3 (зима)</td><td>Стальной характер</td><td>Ни одного пропуска + ≥ 60</td><td>Платиновый NFT + USDC reward</td></tr><tr><td>S4 (весна)</td><td>Перерождение</td><td>Score +20 от старта</td><td>Феникс NFT + USDC reward</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="134-лидерборды">13.4 Лидерборды<a href="#134-лидерборды" class="hash-link" aria-label="Прямая ссылка на 13.4 Лидерборды" title="Прямая ссылка на 13.4 Лидерборды" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тип</th><th>Период</th><th>Награды</th></tr></thead><tbody><tr><td>Global Wellness</td><td>Ежемесячный</td><td>Топ-10: USDC reward</td></tr><tr><td>Regional</td><td>Ежемесячный</td><td>Топ-5 в регионе: USDC reward</td></tr><tr><td>Improvement</td><td>Ежемесячный</td><td>Наибольший прирост: USDC reward</td></tr><tr><td>Team</td><td>Ежемесячный</td><td>Лучшая команда: USDC reward</td></tr><tr><td>Season</td><td>Квартальный</td><td>Топ-100: сезонный NFT</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="14-финансовая-модель">14. ФИНАНСОВАЯ МОДЕЛЬ<a href="#14-финансовая-модель" class="hash-link" aria-label="Прямая ссылка на 14. ФИНАНСОВАЯ МОДЕЛЬ" title="Прямая ссылка на 14. ФИНАНСОВАЯ МОДЕЛЬ" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Показатель</th><th>Значение</th></tr></thead><tbody><tr><td>Подписка</td><td>$19/мес × 19.8 мес avg retention = $376</td></tr><tr><td>Yield fees (15% of gross yield)</td><td>+$50</td></tr><tr><td>Reinvest fee ($129 × 35% conversion)</td><td>+$45</td></tr></tbody></table>
+<p>WVI = 78 → Monthly Yield 12%</p>
+<p>Ежемесячный gross yield: $1 200
+— Platform fee (15%): −$180
+= Net yield пользователю: $1 020/мес (~$12 240/год)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="143-revenue-streams-прогноз">14.3 Revenue Streams (прогноз)<a href="#143-revenue-streams-прогноз" class="hash-link" aria-label="Прямая ссылка на 14.3 Revenue Streams (прогноз)" title="Прямая ссылка на 14.3 Revenue Streams (прогноз)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Поток</th><th>Год 1</th><th>Год 2</th><th>Год 3</th></tr></thead><tbody><tr><td>Подписка ($19/мес)</td><td>$3.42M</td><td>$13.1M</td><td>$31.5M</td></tr><tr><td>Yield fee (15%)</td><td>$0.9M</td><td>$4.2M</td><td>$9.8M</td></tr><tr><td>Annual Pass ($179/год)</td><td>$0.8M</td><td>$3.0M</td><td>$7.5M</td></tr><tr><td>Auto-compound ($129)</td><td>$0.3M</td><td>$1.2M</td><td>$3.0M</td></tr><tr><td>Insurance premiums</td><td>$0.4M</td><td>$2.5M</td><td>$6.2M</td></tr><tr><td>B2B корпоративный</td><td>$0</td><td>$1.5M</td><td>$4.7M</td></tr><tr><td>NFT + marketplace</td><td>$0.4M</td><td>$0.1M</td><td>$0</td></tr><tr><td><strong>ИТОГО</strong></td><td><strong>$6.22M</strong></td><td><strong>$25.6M</strong></td><td><strong>$62.7M</strong></td></tr></tbody></table>
+<p><em>SSOT: 01_EXECUTIVE_SUMMARY.md</em>*</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="144-прогноз-на-3-года">14.4 Прогноз на 3 года<a href="#144-прогноз-на-3-года" class="hash-link" aria-label="Прямая ссылка на 14.4 Прогноз на 3 года" title="Прямая ссылка на 14.4 Прогноз на 3 года" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Метрика</th><th>Год 1</th><th>Год 2</th><th>Год 3</th></tr></thead><tbody><tr><td>Новые подписчики</td><td><strong>30,000</strong></td><td>120,000</td><td>300,000</td></tr><tr><td>Кумулятивные</td><td>30,000</td><td>150,000</td><td>450,000</td></tr><tr><td>Средний WVI</td><td>48</td><td>56</td><td>63</td></tr><tr><td>Выручка</td><td><strong>$6.22M</strong></td><td><strong>$25.6M</strong></td><td><strong>$62.7M</strong></td></tr><tr><td>TVL (стейблкоины)</td><td><strong>$15M</strong></td><td>$75M</td><td>$200M</td></tr></tbody></table>
+<p><em>SSOT: 01_EXECUTIVE_SUMMARY.md</em>*</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="145-protocol-revenue-при-tvl-50m">14.5 Protocol Revenue (при TVL $50M)<a href="#145-protocol-revenue-при-tvl-50m" class="hash-link" aria-label="Прямая ссылка на 14.5 Protocol Revenue (при TVL $50M)" title="Прямая ссылка на 14.5 Protocol Revenue (при TVL $50M)" translate="no">​</a></h3>
+<ul>
+<li class="">Yield генерация ($50M × avg 12%/мес):</li>
+<li class="">Пользователям (85%): $5,100,000/мес</li>
+<li class="">Platform fee (15%): $900,000/мес</li>
+<li class="">Operations (40%): $360,000</li>
+<li class="">Team &amp; reserves (30%): $270,000</li>
+<li class="">Subscriptions: $125K/мес (при 50K active)</li>
+<li class="">Auto-compound fees: $50K/мес</li>
+<li class="">Total protocol revenue: ~$1.07M/мес</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="15-go-to-market">15. GO-TO-MARKET<a href="#15-go-to-market" class="hash-link" aria-label="Прямая ссылка на 15. GO-TO-MARKET" title="Прямая ссылка на 15. GO-TO-MARKET" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="151-региональная-стратегия">15.1 Региональная стратегия<a href="#151-региональная-стратегия" class="hash-link" aria-label="Прямая ссылка на 15.1 Региональная стратегия" title="Прямая ссылка на 15.1 Региональная стратегия" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Фаза</th><th>Регионы</th><th>Почему</th><th>Срок</th></tr></thead><tbody><tr><td>Launch</td><td>СНГ, Турция</td><td>Высокий спрос на доп. доход, wellness тренд</td><td>0–6 мес</td></tr><tr><td>Expansion 1</td><td>ЮВА (Индонезия, Филиппины)</td><td>Крипто-адопция, M2E популярность</td><td>6–12 мес</td></tr><tr><td>Expansion 2</td><td>LATAM (Бразилия, Мексика)</td><td>Wellness культура, крипто-энтузиазм</td><td>12–18 мес</td></tr><tr><td>Expansion 3</td><td>EU, USA</td><td>Премиум-сегмент, B2B корпоративный</td><td>18–36 мес</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="152-маркетинг">15.2 Маркетинг<a href="#152-маркетинг" class="hash-link" aria-label="Прямая ссылка на 15.2 Маркетинг" title="Прямая ссылка на 15.2 Маркетинг" translate="no">​</a></h3>
+<p><strong>Инфлюенсеры:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тир</th><th>Охват</th><th>Кол-во</th><th>Бюджет</th></tr></thead><tbody><tr><td>Мега (1M+)</td><td>Wellness + крипто</td><td>3</td><td>$300K</td></tr><tr><td>Макро (100K–1M)</td><td>Фитнес, биохакинг</td><td>15</td><td>$200K</td></tr><tr><td>Микро (10K–100K)</td><td>Нишевые wellness</td><td>50</td><td>$100K</td></tr><tr><td>Nano (1K–10K)</td><td>Крипто-комьюнити</td><td>100</td><td>$50K</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="153-целевая-аудитория">15.3 Целевая аудитория<a href="#153-целевая-аудитория" class="hash-link" aria-label="Прямая ссылка на 15.3 Целевая аудитория" title="Прямая ссылка на 15.3 Целевая аудитория" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Сегмент</th><th>Возраст</th><th>Мотивация</th><th>Продукт</th></tr></thead><tbody><tr><td>Wellness-энтузиасты</td><td>25–40</td><td>Здоровье + доход</td><td>Подписка + AI Coach</td></tr><tr><td>Крипто-юзеры</td><td>20–35</td><td>Yield + инновация</td><td>Yield Protocol</td></tr><tr><td>Сетевые предприниматели</td><td>25–45</td><td>Партнёрский доход</td><td>Партнёрская сеть</td></tr><tr><td>Корпорации (B2B)</td><td>—</td><td>Wellness-программы</td><td>Enterprise</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="16-roadmap">16. ROADMAP<a href="#16-roadmap" class="hash-link" aria-label="Прямая ссылка на 16. ROADMAP" title="Прямая ссылка на 16. ROADMAP" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="обзор-20262029">Обзор 2026–2029<a href="#обзор-20262029" class="hash-link" aria-label="Прямая ссылка на Обзор 2026–2029" title="Прямая ссылка на Обзор 2026–2029" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Фаза</th><th>Срок</th><th>Результат</th></tr></thead><tbody><tr><td><strong>MVP Sprint</strong></td><td>15 мар — 15 апр 2026</td><td>Рабочий продукт на testnet, бренд, приложение alpha</td></tr><tr><td><strong>Audit &amp; Mainnet</strong></td><td>15 апр — 15 мая 2026</td><td>Аудит пройден, mainnet deploy</td></tr><tr><td><strong>Scale &amp; TVL</strong></td><td>15 мая — 15 июн 2026</td><td></td></tr><tr><td><strong>Growth</strong></td><td>Июн — дек 2026</td><td>Multi-chain expansion, TVL $50M, 100K пользователей, DEX + on-ramp партнёрства</td></tr><tr><td><strong>Expansion</strong></td><td>2027</td><td>Multi-chain, B2B, ЮВА + LATAM, TVL $150M</td></tr><tr><td><strong>Institutional</strong></td><td>2028</td><td>Institutional DeFi, Wellex Card, TVL $500M</td></tr><tr><td><strong>Global Protocol</strong></td><td>2029</td><td>TVL $1B+, 1M пользователей, IPO-ready</td></tr></tbody></table>
+<p><em>Подробный roadmap: <a class="" href="/wellex-docs/12_ROADMAP">12_ROADMAP.md</a></em></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="17-юридическая-структура">17. ЮРИДИЧЕСКАЯ СТРУКТУРА<a href="#17-юридическая-структура" class="hash-link" aria-label="Прямая ссылка на 17. ЮРИДИЧЕСКАЯ СТРУКТУРА" title="Прямая ссылка на 17. ЮРИДИЧЕСКАЯ СТРУКТУРА" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="171-корпоративная-структура">17.1 Корпоративная структура<a href="#171-корпоративная-структура" class="hash-link" aria-label="Прямая ссылка на 17.1 Корпоративная структура" title="Прямая ссылка на 17.1 Корпоративная структура" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Wellex Foundation</strong> — головная структура, IP, governance</li>
+<li class=""><strong>Wellex Labs Ltd</strong> — операционная компания, разработка продукта</li>
+<li class=""><strong>Off-chain governance</strong> — Snapshot голосования для параметров протокола (без on-chain DAO токена)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="172-лицензирование">17.2 Лицензирование<a href="#172-лицензирование" class="hash-link" aria-label="Прямая ссылка на 17.2 Лицензирование" title="Прямая ссылка на 17.2 Лицензирование" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Лицензия</th><th>Юрисдикция</th><th>Статус</th></tr></thead><tbody><tr><td>VASP</td><td>EU (MiCA)</td><td>Подача Q2 2026</td></tr><tr><td>Insurance Agent</td><td>EU (IDD)</td><td>Подача Q1 2026</td></tr><tr><td>MiCA CASP</td><td>EU (через Cyfinancial regulator)</td><td>Подача Q4 2026</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="173-compliance">17.3 Compliance<a href="#173-compliance" class="hash-link" aria-label="Прямая ссылка на 17.3 Compliance" title="Прямая ссылка на 17.3 Compliance" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Аспект</th><th>Решение</th></tr></thead><tbody><tr><td>KYC/AML</td><td>Sumsub + Chainalysis. 4 тира верификации</td></tr><tr><td>Travel Rule</td><td>Notabene для &gt;$1,000</td></tr><tr><td>GDPR</td><td>E2E encryption, DPO, DPIA</td></tr><tr><td>MiCA (EU)</td><td>CASP authorization через Cyfinancial regulator</td></tr></tbody></table>
+<ul>
+<li class=""></li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="18-команда">18. КОМАНДА<a href="#18-команда" class="hash-link" aria-label="Прямая ссылка на 18. КОМАНДА" title="Прямая ссылка на 18. КОМАНДА" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="181-текущая-команда">18.1 Текущая команда<a href="#181-текущая-команда" class="hash-link" aria-label="Прямая ссылка на 18.1 Текущая команда" title="Прямая ссылка на 18.1 Текущая команда" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Роль</th><th>Кто</th><th>Фокус</th></tr></thead><tbody><tr><td><strong>Founder &amp; CEO</strong></td><td>Founder</td><td>Стратегия, партнёрства, vision</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="182-целевая-структура">18.2 Целевая структура<a href="#182-целевая-структура" class="hash-link" aria-label="Прямая ссылка на 18.2 Целевая структура" title="Прямая ссылка на 18.2 Целевая структура" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Роль</th><th>Приоритет</th><th>Timeline</th></tr></thead><tbody><tr><td>CTO</td><td>🔴 Critical</td><td>Месяц 1</td></tr><tr><td>CMO</td><td>🔴 Critical</td><td>Месяц 2</td></tr><tr><td>Head of Hardware</td><td>🔴 Critical</td><td>Месяц 1</td></tr><tr><td>Medical Advisor</td><td>🟡 High</td><td>Месяц 2</td></tr></tbody></table>
+<p><strong>Advisory Board:</strong> DeFi Advisor, Wellness Industry Advisor, Regulatory Advisor, Hardware Advisor</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="19-страховая-защита">19. СТРАХОВАЯ ЗАЩИТА<a href="#19-страховая-защита" class="hash-link" aria-label="Прямая ссылка на 19. СТРАХОВАЯ ЗАЩИТА" title="Прямая ссылка на 19. СТРАХОВАЯ ЗАЩИТА" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="191-двухуровневая-система">19.1 Двухуровневая система<a href="#191-двухуровневая-система" class="hash-link" aria-label="Прямая ссылка на 19.1 Двухуровневая система" title="Прямая ссылка на 19.1 Двухуровневая система" translate="no">​</a></h3>
+<p>Wellex предлагает уникальную для DeFi <strong>лицензированную страховую защиту</strong> депозитов:</p>
+<ol>
+<li class=""><strong>Лицензированный страховой агент</strong> (Wellex Insurance Services Ltd, Кипр) — EU-regulated, юридическая ответственность</li>
+<li class=""><strong>AI Insurance Agent</strong> — автоматизированный андеррайтинг, risk scoring, claims processing 24/7</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="192-типы-полисов">19.2 Типы полисов<a href="#192-типы-полисов" class="hash-link" aria-label="Прямая ссылка на 19.2 Типы полисов" title="Прямая ссылка на 19.2 Типы полисов" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Полис</th><th>Покрытие</th><th>Премия</th><th>Срок</th></tr></thead><tbody><tr><td>Basic Shield</td><td>Protocol failure + exploit</td><td>10% от депозита</td><td>3 года</td></tr><tr><td>Standard Protection</td><td>+ oracle manipulation + yield cessation</td><td>15% от депозита</td><td>5 лет</td></tr><tr><td>Premium Cover</td><td>+ partial stablecoin depeg</td><td>20% от депозита</td><td>5 лет</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="193-формула-выплаты">19.3 Формула выплаты<a href="#193-формула-выплаты" class="hash-link" aria-label="Прямая ссылка на 19.3 Формула выплаты" title="Прямая ссылка на 19.3 Формула выплаты" translate="no">​</a></h3>
+<p><code>Выплата = Депозит − Полученный доход</code> (min $0)</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="194-nft-полисы">19.4 NFT-полисы<a href="#194-nft-полисы" class="hash-link" aria-label="Прямая ссылка на 19.4 NFT-полисы" title="Прямая ссылка на 19.4 NFT-полисы" translate="no">​</a></h3>
+<p>Каждый полис — <strong>Soulbound NFT</strong> с метаданными на IPFS, верифицируемый on-chain.</p>
+<p>*Подробная механика: *</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="20-риски-и-митигация">20. РИСКИ И МИТИГАЦИЯ<a href="#20-риски-и-митигация" class="hash-link" aria-label="Прямая ссылка на 20. РИСКИ И МИТИГАЦИЯ" title="Прямая ссылка на 20. РИСКИ И МИТИГАЦИЯ" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Риск</th><th>Вероятность</th><th>Импакт</th><th>Митигация</th></tr></thead><tbody><tr><td>1</td><td>Падение крипторынка</td><td>Высокая</td><td>Средний</td><td>Реальный продукт (браслет + подписка), yield в стейблкоинах</td></tr><tr><td>2</td><td>Подделка биометрии</td><td>Низкая</td><td>Высокий</td><td>TEE + ML anomaly detection + HRV fingerprint</td></tr><tr><td>3</td><td>Конкуренция (Oura, Whoop, STEPN)</td><td>Средняя</td><td>Средний</td><td>Уникальное УТП: yield + wellness + AI + бесплатный браслет</td></tr><tr><td>7</td><td>Oracle manipulation</td><td>Низкая</td><td>Высокий</td><td>Chainlink + резервные оракулы, circuit breaker</td></tr><tr><td>8</td><td>Bank run</td><td>Низкая</td><td>Критический</td><td>Rate limits, withdrawal queue, liquidity buffer, circuit breaker</td></tr><tr><td>9</td><td>Hardware supply chain</td><td>Средняя</td><td>Средний</td><td>Dual-source manufacturing, 6+ нед buffer stock</td></tr><tr><td>10</td><td>Slow adoption</td><td>Средняя</td><td>Высокий</td><td>Бесплатный браслет снижает барьер, aggressive KOL marketing</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-заключение">21. ЗАКЛЮЧЕНИЕ<a href="#21-заключение" class="hash-link" aria-label="Прямая ссылка на 21. ЗАКЛЮЧЕНИЕ" title="Прямая ссылка на 21. ЗАКЛЮЧЕНИЕ" translate="no">​</a></h2>
+<p>Wellex создаёт новую категорию — <strong>Wellness-as-Yield</strong>. Впервые в истории забота о здоровье напрямую конвертируется в финансовый доход через прозрачные, аудированные DeFi-стратегии.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ключевые-преимущества">Ключевые преимущества<a href="#ключевые-преимущества" class="hash-link" aria-label="Прямая ссылка на Ключевые преимущества" title="Прямая ссылка на Ключевые преимущества" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>#</th><th>Преимущество</th><th>Описание</th></tr></thead><tbody><tr><td>2</td><td>✅ WVI (0–100)</td><td>Единая шкала здоровья → yield 0–20% в месяц</td></tr><tr><td>3</td><td>✅ Бесплатный браслет</td><td>$0 при подписке $19/мес — минимальный порог входа</td></tr><tr><td>4</td><td>✅ AI-оптимизация</td><td>AI Wallet Agent + AI Coach + AI Insurance Agent</td></tr><tr><td>5</td><td>✅ Лицензированная страховка</td><td>Кипр (EU) + AI Agent — уникально для DeFi</td></tr><tr><td>6</td><td>✅ Soulbound NFT-бейджи</td><td>Геймификация без спекуляции — достижения, не токен</td></tr><tr><td>7</td><td>✅ Multi-EVM + Card On-Ramp</td><td>7 блокчейнов + Visa/MC/Apple Pay — нет барьера для fiat-пользователей</td></tr><tr><td>8</td><td>✅ Compliance-first</td><td>MiCA, VARA, KYC/AML, Travel Rule — с первого дня</td></tr><tr><td>9</td><td>✅ Партнёрская сеть</td><td>5% от депозита, 10 рангов, 10 уровней глубины</td></tr><tr><td>10</td><td>✅ Собственная разработка</td><td>Hardware, алгоритмы, AI — полный контроль</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="финансовые-цели">Финансовые цели<a href="#финансовые-цели" class="hash-link" aria-label="Прямая ссылка на Финансовые цели" title="Прямая ссылка на Финансовые цели" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Метрика</th><th>Год 1</th><th>Год 3</th><th>Год 5</th></tr></thead><tbody><tr><td>Пользователи</td><td><strong>30,000</strong></td><td>300,000</td><td>1,000,000</td></tr><tr><td>TVL</td><td><strong>$15M</strong></td><td>$200M</td><td>$1B</td></tr><tr><td>Выручка</td><td><strong>$6.22M</strong></td><td>$62.7M</td><td>$150M+</td></tr></tbody></table>
+<p><em>SSOT: 01_EXECUTIVE_SUMMARY.md</em>*</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="видение">Видение<a href="#видение" class="hash-link" aria-label="Прямая ссылка на Видение" title="Прямая ссылка на Видение" translate="no">​</a></h3>
+<p><strong>Wellex — это не просто приложение. Это протокол, который делает здоровый образ жизни финансово выгодным.</strong> Каждый шаг, каждая минута сна, каждый момент спокойствия — всё имеет ценность. Wellex переводит эту ценность в реальный доход.</p>
+<hr>
+<blockquote>
+<p><strong>Wellex Protocol © 2026</strong>
+Whitepaper v4.7 | Март 2026
+Confidential — For Authorized Recipients Only</p>
+<p><em>Все показатели yield являются проекциями и могут варьироваться в зависимости от рыночных условий.</em>
+<em>Данный документ не является инвестиционным предложением.</em></p>
+</blockquote></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Страница документа"><a class="pagination-nav__link pagination-nav__link--prev" href="/wellex-docs/02_PRODUCT_VISION"><div class="pagination-nav__sublabel">Предыдущая страница</div><div class="pagination-nav__label">Видение продукта</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wellex-docs/03_WELLNESS_SCORE"><div class="pagination-nav__sublabel">Следующая страница</div><div class="pagination-nav__label">WVI</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#web3-wellness-protocol--emotional-mining-protocol" class="table-of-contents__link toc-highlight">Web3 Wellness Protocol — Emotional Mining Protocol</a></li><li><a href="#содержание" class="table-of-contents__link toc-highlight">СОДЕРЖАНИЕ</a></li><li><a href="#1-введение" class="table-of-contents__link toc-highlight">1. ВВЕДЕНИЕ</a><ul><li><a href="#11-проблема" class="table-of-contents__link toc-highlight">1.1 Проблема</a></li><li><a href="#12-решение" class="table-of-contents__link toc-highlight">1.2 Решение</a></li></ul></li><li><a href="#2-обзор-платформы" class="table-of-contents__link toc-highlight">2. ОБЗОР ПЛАТФОРМЫ</a><ul><li><a href="#21-архитектура-экосистемы" class="table-of-contents__link toc-highlight">2.1 Архитектура экосистемы</a></li><li><a href="#22-потоки-дохода-для-пользователя" class="table-of-contents__link toc-highlight">2.2 Потоки дохода для пользователя</a></li><li><a href="#23-путь-пользователя" class="table-of-contents__link toc-highlight">2.3 Путь пользователя</a></li></ul></li><li><a href="#3-wellex-vitality-index-wvi" class="table-of-contents__link toc-highlight">3. WELLEX VITALITY INDEX (WVI)</a><ul><li><a href="#31-что-такое-wvi" class="table-of-contents__link toc-highlight">3.1 Что такое WVI</a></li><li><a href="#32-три-компонента-wvi" class="table-of-contents__link toc-highlight">3.2 Три компонента WVI</a></li><li><a href="#33-итоговая-формула-wvi" class="table-of-contents__link toc-highlight">3.3 Итоговая формула WVI</a></li><li><a href="#34-нормализация" class="table-of-contents__link toc-highlight">3.4 Нормализация</a></li><li><a href="#35-калибровка-первые-7-дней" class="table-of-contents__link toc-highlight">3.5 Калибровка (первые 7 дней)</a></li><li><a href="#36-антиманипуляция" class="table-of-contents__link toc-highlight">3.6 Антиманипуляция</a></li></ul></li><li><a href="#4-модель-доходности-ежемесячно" class="table-of-contents__link toc-highlight">4. МОДЕЛЬ ДОХОДНОСТИ (ЕЖЕМЕСЯЧНО)</a><ul><li><a href="#41-wvi--ежемесячная-доходность-таблица" class="table-of-contents__link toc-highlight">4.1 WVI → Ежемесячная доходность таблица</a></li><li><a href="#42-как-wvi-влияет-на-ежемесячную-доходность-без-внутреннего-перераспределения" class="table-of-contents__link toc-highlight">4.2 Как WVI влияет на ежемесячную доходность (без «внутреннего перераспределения»)</a></li><li><a href="#43-примеры-расчёта" class="table-of-contents__link toc-highlight">4.3 Примеры расчёта</a></li><li><a href="#44-пример-для-инвестора" class="table-of-contents__link toc-highlight">4.4 Пример для инвестора</a></li></ul></li><li><a href="#5-смарт-браслет-wellex" class="table-of-contents__link toc-highlight">5. СМАРТ-БРАСЛЕТ WELLEX</a><ul><li><a href="#51-wellex-band--собственная-разработка" class="table-of-contents__link toc-highlight">5.1 Wellex Band — собственная разработка</a></li><li><a href="#52-технические-характеристики" class="table-of-contents__link toc-highlight">5.2 Технические характеристики</a></li><li><a href="#53-rd-pipeline" class="table-of-contents__link toc-highlight">5.3 R&amp;D Pipeline</a></li><li><a href="#54-преимущества-wellex-band" class="table-of-contents__link toc-highlight">5.4 Преимущества Wellex Band</a></li><li><a href="#55-антиманипуляция" class="table-of-contents__link toc-highlight">5.5 Антиманипуляция</a></li></ul></li><li><a href="#6-мобильное-приложение" class="table-of-contents__link toc-highlight">6. МОБИЛЬНОЕ ПРИЛОЖЕНИЕ</a><ul><li><a href="#61-пять-основных-экранов" class="table-of-contents__link toc-highlight">6.1 Пять основных экранов</a></li><li><a href="#62-lazy-factor" class="table-of-contents__link toc-highlight">6.2 Lazy Factor</a></li><li><a href="#63-регистрация" class="table-of-contents__link toc-highlight">6.3 Регистрация</a></li></ul></li><li><a href="#7-web-дашборд" class="table-of-contents__link toc-highlight">7. WEB-ДАШБОРД</a><ul><li><a href="#71-модули-дашборда" class="table-of-contents__link toc-highlight">7.1 Модули дашборда</a></li><li><a href="#72-кошелёк" class="table-of-contents__link toc-highlight">7.2 Кошелёк</a></li><li><a href="#73-ai-агенты-в-дашборде" class="table-of-contents__link toc-highlight">7.3 AI-агенты в дашборде</a></li></ul></li><li><a href="#8-defi-yield-protocol" class="table-of-contents__link toc-highlight">8. DeFi YIELD PROTOCOL</a><ul><li><a href="#80-четыре-основных-defi-источника-дохода-canonical" class="table-of-contents__link toc-highlight">8.0 Четыре основных DeFi-источника дохода (CANONICAL)</a></li><li><a href="#81-расширенные-источники-дохода" class="table-of-contents__link toc-highlight">8.1 Расширенные источники дохода</a></li><li><a href="#82-wellexvault--единый-vault" class="table-of-contents__link toc-highlight">8.2 WellexVault — единый vault</a></li><li><a href="#83-smart-contract-architecture" class="table-of-contents__link toc-highlight">8.3 Smart Contract Architecture</a></li><li><a href="#84-withdrawal-вывод" class="table-of-contents__link toc-highlight">8.4 Withdrawal (вывод)</a></li><li><a href="#86-система-вознаграждений-без-токена" class="table-of-contents__link toc-highlight">8.6 Система вознаграждений (без токена)</a></li></ul></li><li><a href="#9-ai-система" class="table-of-contents__link toc-highlight">9. AI СИСТЕМА</a><ul><li><a href="#91-ai-coach-мобильное-приложение" class="table-of-contents__link toc-highlight">9.1 AI Coach (мобильное приложение)</a></li><li><a href="#92-ai-wallet-agent-defi" class="table-of-contents__link toc-highlight">9.2 AI Wallet Agent (DeFi)</a></li><li><a href="#93-ai-powered-yield-engine-600-стратегий-ml-оптимизация-встроенный-кошелёк" class="table-of-contents__link toc-highlight">9.3 AI-Powered Yield Engine: 600+ стратегий, ML-оптимизация, встроенный кошелёк</a></li><li><a href="#93-ai-insurance-agent" class="table-of-contents__link toc-highlight">9.3 AI Insurance Agent</a></li><li><a href="#94-ai-агенты-в-дашборде" class="table-of-contents__link toc-highlight">9.4 AI-агенты в дашборде</a></li></ul></li><li><a href="#10-партнёрская-программа" class="table-of-contents__link toc-highlight">10. ПАРТНЁРСКАЯ ПРОГРАММА</a><ul><li><a href="#101-философия" class="table-of-contents__link toc-highlight">10.1 Философия</a></li><li><a href="#102-реферальные-вознаграждения-от-депозита" class="table-of-contents__link toc-highlight">10.2 Реферальные вознаграждения от депозита</a></li><li><a href="#103-fast-start-bonus" class="table-of-contents__link toc-highlight">10.3 Fast Start Bonus</a></li><li><a href="#104-partner-income-ежемесячный-доход-партнёра" class="table-of-contents__link toc-highlight">10.4 Partner Income (ежемесячный доход партнёра)</a></li><li><a href="#105-лидерские-уровни" class="table-of-contents__link toc-highlight">10.5 Лидерские уровни</a></li><li><a href="#106-этические-гарантии" class="table-of-contents__link toc-highlight">10.6 Этические гарантии</a></li></ul></li><li><a href="#11-монетизация" class="table-of-contents__link toc-highlight">11. МОНЕТИЗАЦИЯ</a><ul><li><a href="#111-источники-дохода-платформы" class="table-of-contents__link toc-highlight">11.1 Источники дохода платформы</a></li><li><a href="#112-подписка-19мес" class="table-of-contents__link toc-highlight">11.2 Подписка $19/мес</a></li><li><a href="#113-auto-compound-129" class="table-of-contents__link toc-highlight">11.3 Auto-Compound ($129)</a></li></ul></li><li><a href="#12-безопасность" class="table-of-contents__link toc-highlight">12. БЕЗОПАСНОСТЬ</a><ul><li><a href="#121-четырёхуровневая-архитектура" class="table-of-contents__link toc-highlight">12.1 Четырёхуровневая архитектура</a></li><li><a href="#122-аудиты" class="table-of-contents__link toc-highlight">12.2 Аудиты</a></li><li><a href="#123-proof-of-reserves" class="table-of-contents__link toc-highlight">12.3 Proof of Reserves</a></li><li><a href="#124-защита-от-bank-run" class="table-of-contents__link toc-highlight">12.4 Защита от Bank Run</a></li></ul></li><li><a href="#13-геймификация" class="table-of-contents__link toc-highlight">13. ГЕЙМИФИКАЦИЯ</a><ul><li><a href="#131-ранги-wellness-ranks" class="table-of-contents__link toc-highlight">13.1 Ранги (Wellness Ranks)</a></li><li><a href="#132-nft-бейджи" class="table-of-contents__link toc-highlight">13.2 NFT-бейджи</a></li><li><a href="#133-сезонные-челленджи-3-месяца" class="table-of-contents__link toc-highlight">13.3 Сезонные челленджи (3 месяца)</a></li><li><a href="#134-лидерборды" class="table-of-contents__link toc-highlight">13.4 Лидерборды</a></li></ul></li><li><a href="#14-финансовая-модель" class="table-of-contents__link toc-highlight">14. ФИНАНСОВАЯ МОДЕЛЬ</a><ul><li><a href="#143-revenue-streams-прогноз" class="table-of-contents__link toc-highlight">14.3 Revenue Streams (прогноз)</a></li><li><a href="#144-прогноз-на-3-года" class="table-of-contents__link toc-highlight">14.4 Прогноз на 3 года</a></li><li><a href="#145-protocol-revenue-при-tvl-50m" class="table-of-contents__link toc-highlight">14.5 Protocol Revenue (при TVL $50M)</a></li></ul></li><li><a href="#15-go-to-market" class="table-of-contents__link toc-highlight">15. GO-TO-MARKET</a><ul><li><a href="#151-региональная-стратегия" class="table-of-contents__link toc-highlight">15.1 Региональная стратегия</a></li><li><a href="#152-маркетинг" class="table-of-contents__link toc-highlight">15.2 Маркетинг</a></li><li><a href="#153-целевая-аудитория" class="table-of-contents__link toc-highlight">15.3 Целевая аудитория</a></li></ul></li><li><a href="#16-roadmap" class="table-of-contents__link toc-highlight">16. ROADMAP</a><ul><li><a href="#обзор-20262029" class="table-of-contents__link toc-highlight">Обзор 2026–2029</a></li></ul></li><li><a href="#17-юридическая-структура" class="table-of-contents__link toc-highlight">17. ЮРИДИЧЕСКАЯ СТРУКТУРА</a><ul><li><a href="#171-корпоративная-структура" class="table-of-contents__link toc-highlight">17.1 Корпоративная структура</a></li><li><a href="#172-лицензирование" class="table-of-contents__link toc-highlight">17.2 Лицензирование</a></li><li><a href="#173-compliance" class="table-of-contents__link toc-highlight">17.3 Compliance</a></li></ul></li><li><a href="#18-команда" class="table-of-contents__link toc-highlight">18. КОМАНДА</a><ul><li><a href="#181-текущая-команда" class="table-of-contents__link toc-highlight">18.1 Текущая команда</a></li><li><a href="#182-целевая-структура" class="table-of-contents__link toc-highlight">18.2 Целевая структура</a></li></ul></li><li><a href="#19-страховая-защита" class="table-of-contents__link toc-highlight">19. СТРАХОВАЯ ЗАЩИТА</a><ul><li><a href="#191-двухуровневая-система" class="table-of-contents__link toc-highlight">19.1 Двухуровневая система</a></li><li><a href="#192-типы-полисов" class="table-of-contents__link toc-highlight">19.2 Типы полисов</a></li><li><a href="#193-формула-выплаты" class="table-of-contents__link toc-highlight">19.3 Формула выплаты</a></li><li><a href="#194-nft-полисы" class="table-of-contents__link toc-highlight">19.4 NFT-полисы</a></li></ul></li><li><a href="#20-риски-и-митигация" class="table-of-contents__link toc-highlight">20. РИСКИ И МИТИГАЦИЯ</a></li><li><a href="#21-заключение" class="table-of-contents__link toc-highlight">21. ЗАКЛЮЧЕНИЕ</a><ul><li><a href="#ключевые-преимущества" class="table-of-contents__link toc-highlight">Ключевые преимущества</a></li><li><a href="#финансовые-цели" class="table-of-contents__link toc-highlight">Финансовые цели</a></li><li><a href="#видение" class="table-of-contents__link toc-highlight">Видение</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Wellex © 2026 · wellex.ai · Public Corpus v1.0</div></div></div></footer></div>
+</body>
+</html>

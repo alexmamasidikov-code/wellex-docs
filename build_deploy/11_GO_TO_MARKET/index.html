@@ -1,0 +1,1060 @@
+<!doctype html>
+<html lang="ru" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-11_GO_TO_MARKET" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">11 · GO-TO-MARKET STRATEGY | Wellex</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://buffer.terymarius.com/wellex-docs/11_GO_TO_MARKET"><meta data-rh="true" property="og:locale" content="ru"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="ru"><meta data-rh="true" name="docsearch:language" content="ru"><meta data-rh="true" name="robots" content="noindex, nofollow"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="11 · GO-TO-MARKET STRATEGY | Wellex"><meta data-rh="true" name="description" content="Wellex v5.0 · 05.03.2026"><meta data-rh="true" property="og:description" content="Wellex v5.0 · 05.03.2026"><link data-rh="true" rel="icon" href="/wellex-docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://buffer.terymarius.com/wellex-docs/11_GO_TO_MARKET"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/11_GO_TO_MARKET" hreflang="ru"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/en/11_GO_TO_MARKET" hreflang="en"><link data-rh="true" rel="alternate" href="https://buffer.terymarius.com/wellex-docs/11_GO_TO_MARKET" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"11 · GO-TO-MARKET STRATEGY","item":"https://buffer.terymarius.com/wellex-docs/11_GO_TO_MARKET"}]}</script><link rel="stylesheet" href="/wellex-docs/assets/css/styles.6eb3a0fa.css">
+<script src="/wellex-docs/assets/js/runtime~main.935a43e7.js" defer="defer"></script>
+<script src="/wellex-docs/assets/js/main.f7525e97.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><link rel="preload" as="image" href="/wellex-docs/img/logo.svg"><div role="region" aria-label="Перейти к основному содержимому"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Перейти к основному содержимому</a></div><div class="theme-announcement-bar announcementBar_mb4j" style="background-color:#0d1927;color:rgba(212,168,67,0.9)" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY">✦ Wellex v5.0 — Platform Specification &nbsp;·&nbsp; Updated March 2026</div><button type="button" aria-label="Закрыть" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Переключить навигационную панель" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/wellex-docs/"><div class="navbar__logo"><img src="/wellex-docs/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/wellex-docs/img/logo.svg" alt="Wellex" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">WELLEX</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/wellex-docs/00_INDEX">Документация</a><a class="navbar__item navbar__link" href="/wellex-docs/19_WHITEPAPER_v3">Whitepaper</a><a class="navbar__item navbar__link" href="/wellex-docs/01_EXECUTIVE_SUMMARY">Executive Summary</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" class="iconLanguage_nlXk"><path fill="currentColor" d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path></svg>🇷🇺 Русский</a><ul class="dropdown__menu"><li><a href="/wellex-docs/11_GO_TO_MARKET" target="_self" rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang="ru">🇷🇺 Русский</a></li><li><a href="/wellex-docs/en/11_GO_TO_MARKET" target="_self" rel="noopener noreferrer" class="dropdown__link" lang="en">🇬🇧 English</a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type="button" disabled="" title="system mode" aria-label="Переключение между темным и светлым режимом (сейчас используется system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Прокрутка к началу" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG menuWithAnnouncementBar_GW3s"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/wellex-docs/00_INDEX"><span title="WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0" class="linkLabel_WmDU">WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/wellex-docs/00_INTRO"><span title="📖 Введение" class="categoryLinkLabel_W154">📖 Введение</span></a><button aria-label="Collapse sidebar category &#x27;📖 Введение&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/00_INTRO"><span title="Введение" class="linkLabel_WmDU">Введение</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/01_EXECUTIVE_SUMMARY"><span title="01 · WELLEX — EXECUTIVE SUMMARY" class="linkLabel_WmDU">01 · WELLEX — EXECUTIVE SUMMARY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/02_PRODUCT_VISION"><span title="02 · PRODUCT VISION" class="linkLabel_WmDU">02 · PRODUCT VISION</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/19_WHITEPAPER_v3"><span title="📄 Whitepaper" class="categoryLinkLabel_W154">📄 Whitepaper</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/19_WHITEPAPER_v3"><span title="WELLEX — Whitepaper" class="linkLabel_WmDU">WELLEX — Whitepaper</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/wellex-docs/03_WELLNESS_SCORE"><span title="💎 Продукт" class="categoryLinkLabel_W154">💎 Продукт</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/03_WELLNESS_SCORE"><span title="03 · WELLEX VITALITY INDEX (WVI)" class="linkLabel_WmDU">03 · WELLEX VITALITY INDEX (WVI)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/04_APP_UX"><span title="04 · WELLNESS APP (iOS / Android)" class="linkLabel_WmDU">04 · WELLNESS APP (iOS / Android)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/05_DASHBOARD"><span title="05 · WEB DASHBOARD" class="linkLabel_WmDU">05 · WEB DASHBOARD</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/08_HARDWARE"><span title="08 · WELLEX BAND — Hardware Platform" class="linkLabel_WmDU">08 · WELLEX BAND — Hardware Platform</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/21_GAMIFICATION"><span title="21 · GAMIFICATION" class="linkLabel_WmDU">21 · GAMIFICATION</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/27_EMOTIONAL_MINING"><span title="27 · EMOTIONAL MINING" class="linkLabel_WmDU">27 · EMOTIONAL MINING</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/32_DAY_IN_THE_LIFE"><span title="32 · «ДЕНЬ ИЗ ЖИЗНИ» — USER JOURNEY DOCUMENT" class="linkLabel_WmDU">32 · «ДЕНЬ ИЗ ЖИЗНИ» — USER JOURNEY DOCUMENT</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/06_YIELD_PROTOCOL"><span title="💰 Доходность" class="categoryLinkLabel_W154">💰 Доходность</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/09_PARTNER_PROGRAM"><span title="🤝 Партнёрам &amp; B2B" class="categoryLinkLabel_W154">🤝 Партнёрам &amp; B2B</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/07_AI_SYSTEM"><span title="🔬 Технологии" class="categoryLinkLabel_W154">🔬 Технологии</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/wellex-docs/11_GO_TO_MARKET"><span title="📈 Стратегия &amp; Рост" class="categoryLinkLabel_W154">📈 Стратегия &amp; Рост</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/wellex-docs/11_GO_TO_MARKET"><span title="11 · GO-TO-MARKET STRATEGY" class="linkLabel_WmDU">11 · GO-TO-MARKET STRATEGY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/12_ROADMAP"><span title="12 · ROADMAP 2026–2029" class="linkLabel_WmDU">12 · ROADMAP 2026–2029</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/20_GROWTH_IDEAS"><span title="20 · GROWTH IDEAS" class="linkLabel_WmDU">20 · GROWTH IDEAS</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/29_TAGLINE_AND_MESSAGING"><span title="29 · WELLEX — TAGLINE &amp; CORE MESSAGING" class="linkLabel_WmDU">29 · WELLEX — TAGLINE &amp; CORE MESSAGING</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/33_APP_STORE_STRATEGY"><span title="33 · APP STORE STRATEGY" class="linkLabel_WmDU">33 · APP STORE STRATEGY</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/wellex-docs/34_K_FACTOR_MATH"><span title="34 · K-FACTOR MATHEMATICS" class="linkLabel_WmDU">34 · K-FACTOR MATHEMATICS</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/15_RISKS"><span title="🛡️ Compliance &amp; Риски" class="categoryLinkLabel_W154">🛡️ Compliance &amp; Риски</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/wellex-docs/18_FUTURE_FEATURES"><span title="🔮 Будущее" class="categoryLinkLabel_W154">🔮 Будущее</span></a></div></li></ul></nav><button type="button" title="Свернуть сайдбар" aria-label="Свернуть сайдбар" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Навигационная цепочка текущей страницы"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Главная страница" class="breadcrumbs__link" href="/wellex-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">📈 Стратегия &amp; Рост</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">11 · GO-TO-MARKET STRATEGY</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">Содержание этой страницы</button></div><div class="theme-doc-markdown markdown"><header><h1>11 · GO-TO-MARKET STRATEGY</h1></header>
+<blockquote>
+<p><strong>Version:</strong> 5.0 | <strong>Date:</strong> 05.03.2026 | <strong>Status:</strong> Canonical
+<strong>Category:</strong> Business
+<strong>SSOT for:</strong> GTM phases, regional strategy, KOL plan
+<strong>Dependencies:</strong> 09_PARTNER_PROGRAM, 23_SALES_PROGRAM, 28_MLM_MARKETING_PLAN</p>
+</blockquote>
+<blockquote>
+<p>Launch March 2026 · 3 phases · Dubai → CIS → MENA → SEA · KPI · Channel Strategy</p>
+<p>⚠️ All yield/income references in marketing materials are Target Yield — not guarantees. Include Income Disclosure Statement link in all partner-facing content.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tldr">TL;DR<a href="#tldr" class="hash-link" aria-label="Прямая ссылка на TL;DR" title="Прямая ссылка на TL;DR" translate="no">​</a></h2>
+<ul>
+<li class="">Dubai as launch hub + CIS parallel launch — March 2026</li>
+<li class="">Trust Ladder: Free WVI → Bracelet-only → Full Yield (3 steps before asking for deposits)</li>
+<li class="">100 Founding Ambassadors activated before public launch</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="executive-summary">Executive Summary<a href="#executive-summary" class="hash-link" aria-label="Прямая ссылка на Executive Summary" title="Прямая ссылка на Executive Summary" translate="no">​</a></h2>
+<p>Wellex выходит на рынок в марте 2026 года с фокусом на <strong>Dubai как стартовый хаб</strong> при параллельном запуске в СНГ. Стратегия рассчитана на 36 месяцев с целевой аудиторией <strong>1M+ пользователей</strong> к концу Phase 3.</p>
+<p>Каналы роста: органический рост через партнёрскую сеть (MLM) + платный performance marketing + инфлюенсеры + B2B корпоративный сегмент.</p>
+<p><strong>Ключевое предложение:</strong></p>
+<ul>
+<li class="">Бесплатный wellness-браслет при подписке $19/мес</li>
+<li class="">Monthly Yield 0–20% на депозит</li>
+<li class="">Партнёрская программа: 10 рангов, 10 уровней глубины</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-фазы-запуска">1. Фазы запуска<a href="#1-фазы-запуска" class="hash-link" aria-label="Прямая ссылка на 1. Фазы запуска" title="Прямая ссылка на 1. Фазы запуска" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-1-launch--seed-март--август-2026">Phase 1: Launch &amp; Seed (Март – Август 2026)<a href="#phase-1-launch--seed-март--август-2026" class="hash-link" aria-label="Прямая ссылка на Phase 1: Launch &amp; Seed (Март – Август 2026)" title="Прямая ссылка на Phase 1: Launch &amp; Seed (Март – Август 2026)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Регионы</strong></td><td>🇷🇺🇰🇿🇺🇿 СНГ + 🇦🇪 Dubai + 🇪🇺 EU</td></tr><tr><td><strong>Цель</strong></td><td>10 000 активных пользователей, TVL $5M</td></tr><tr><td><strong>Фокус</strong></td><td>Product-market fit, формирование MLM-ядра, community building</td></tr><tr><td><strong>Бюджет маркетинга</strong></td><td>$350K</td></tr></tbody></table>
+<p><strong>Обоснование приоритетных рынков:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Регион</th><th>Обоснование</th></tr></thead><tbody><tr><td><strong>Dubai</strong></td><td>Crypto-friendly юрисдикция, HNW-аудитория, wellness-хаб, нулевое налогообложение, развитый нетворкинг</td></tr><tr><td><strong>СНГ</strong></td><td>Высокий спрос на дополнительный доход, развитые MLM-сообщества, wellness-тренд, 250M русскоязычных пользователей</td></tr></tbody></table>
+<p><strong>Ключевые милестоны Phase 1:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">Неделя</th><th>Милестоун</th><th>KPI</th></tr></thead><tbody><tr><td style="text-align:center">W1–2</td><td>Soft launch (closed beta, 500 пользователей)</td><td>NPS &gt; 50, activation &gt; 90%</td></tr><tr><td style="text-align:center">W3–4</td><td>Public launch: Dubai + СНГ</td><td>1 000 пользователей</td></tr><tr><td style="text-align:center">W5–8</td><td>KOL-кампания «30 дней с Wellex»</td><td>3 000 пользователей</td></tr><tr><td style="text-align:center">W9–12</td><td>Разгон партнёрской сети</td><td>5 000 пользователей</td></tr><tr><td style="text-align:center">W13–20</td><td>Органический рост + paid</td><td>10 000 пользователей</td></tr><tr><td style="text-align:center">W20–24</td><td>Первый сезон геймификации</td><td>Retention &gt; 60%</td></tr></tbody></table>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-2-expansion-сентябрь-2026--февраль-2027">Phase 2: Expansion (Сентябрь 2026 – Февраль 2027)<a href="#phase-2-expansion-сентябрь-2026--февраль-2027" class="hash-link" aria-label="Прямая ссылка на Phase 2: Expansion (Сентябрь 2026 – Февраль 2027)" title="Прямая ссылка на Phase 2: Expansion (Сентябрь 2026 – Февраль 2027)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Регионы</strong></td><td>🇹🇷 Турция + 🇸🇦🇧🇭🇶🇦 MENA</td></tr><tr><td><strong>Цель</strong></td><td>50 000 пользователей, TVL $25M</td></tr><tr><td><strong>Фокус</strong></td><td>Гео-экспансия, B2B корпоративный, продуктовые улучшения</td></tr><tr><td><strong>Бюджет маркетинга</strong></td><td>$800K</td></tr></tbody></table>
+<p><strong>Развёртывание в MENA:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Страна</th><th>Стратегия</th><th style="text-align:center">Ожидаемые пользователи</th></tr></thead><tbody><tr><td>Турция</td><td>Локальные KOL + MLM-лидеры с нутра-рынка</td><td style="text-align:center">8 000</td></tr><tr><td>Саудовская Аравия</td><td>Vision 2030 wellness + HNW-сегмент</td><td style="text-align:center">5 000</td></tr><tr><td>Бахрейн / Катар</td><td>Crypto hubs + B2B корпоративный</td><td style="text-align:center">2 000</td></tr></tbody></table>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-3-scale-март-2027--март-2028">Phase 3: Scale (Март 2027 – Март 2028)<a href="#phase-3-scale-март-2027--март-2028" class="hash-link" aria-label="Прямая ссылка на Phase 3: Scale (Март 2027 – Март 2028)" title="Прямая ссылка на Phase 3: Scale (Март 2027 – Март 2028)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Параметр</th><th>Значение</th></tr></thead><tbody><tr><td><strong>Регионы</strong></td><td>🇮🇩🇵🇭🇻🇳 ЮВА + 🇧🇷🇲🇽 LATAM</td></tr><tr><td><strong>Цель</strong></td><td>500 000 пользователей, TVL $200M</td></tr><tr><td><strong>Фокус</strong></td><td>Mass market, App Store органика, B2B масштаб, data monetization</td></tr><tr><td><strong>Бюджет маркетинга</strong></td><td>$2M</td></tr></tbody></table>
+<p><strong>ЮВА — приоритетный рынок масштабирования:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Фактор</th><th>Значение</th></tr></thead><tbody><tr><td>Crypto-adoption</td><td>Топ-5 мирового P2P-объёма (Вьетнам #1, Филиппины #2)</td></tr><tr><td>Культура M2E</td><td>Регион происхождения STEPN</td></tr><tr><td>Ценовой порог</td><td>$19/мес — значимая подписка; депозиты $200–5 000</td></tr><tr><td>Mobile-first</td><td>95%+ smartphone penetration</td></tr><tr><td>MLM-культура</td><td>Сильная: Amway, Herbalife, Nu Skin активно работают в регионе</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-channel-strategy">2. Channel Strategy<a href="#2-channel-strategy" class="hash-link" aria-label="Прямая ссылка на 2. Channel Strategy" title="Прямая ссылка на 2. Channel Strategy" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-маркетинг-микс">2.1 Маркетинг-микс<a href="#21-маркетинг-микс" class="hash-link" aria-label="Прямая ссылка на 2.1 Маркетинг-микс" title="Прямая ссылка на 2.1 Маркетинг-микс" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Канал</th><th style="text-align:center">Доля привлечений</th><th>Механика</th></tr></thead><tbody><tr><td><strong>Organic</strong></td><td style="text-align:center">40%</td><td>SEO/ASO, контент, community, PR, реферальный цикл</td></tr><tr><td><strong>Paid</strong></td><td style="text-align:center">25%</td><td>Meta, Google, X, Telegram, YouTube, TikTok Ads</td></tr><tr><td><strong>MLM Network</strong></td><td style="text-align:center">35%</td><td>Партнёрская сеть: 10 рангов, обучение, инструменты, ивенты</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="22-органические-каналы">2.2 Органические каналы<a href="#22-органические-каналы" class="hash-link" aria-label="Прямая ссылка на 2.2 Органические каналы" title="Прямая ссылка на 2.2 Органические каналы" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Канал</th><th>Формат / частота</th><th>KPI (M6)</th></tr></thead><tbody><tr><td><strong>YouTube</strong></td><td>«30 дней с Wellex», кейсы, обзоры — 3 видео/нед</td><td>50 000 просмотров/мес</td></tr><tr><td><strong>TikTok / Reels</strong></td><td>WVI Challenge, быстрые кейсы — 2 видео/день</td><td>200 000 просмотров/мес</td></tr><tr><td><strong>X (Twitter)</strong></td><td>Yield-данные, обновления, thought leadership — 5 постов/день</td><td>20 000 подписчиков</td></tr><tr><td><strong>Telegram</strong></td><td>Community, лидерборды, daily tips, бот — 24/7</td><td>15 000 подписчиков</td></tr><tr><td><strong>Instagram</strong></td><td>Lifestyle, визуалы, Stories — 1 пост + 5 Stories/день</td><td>30 000 подписчиков</td></tr><tr><td><strong>Подкаст</strong></td><td>«The Wellness Protocol» — еженедельные интервью</td><td>5 000 прослушиваний/эп</td></tr><tr><td><strong>SEO / Blog</strong></td><td>Wellness + DeFi + passive income — 3 статьи/нед</td><td>30 000 organic/мес</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="23-платные-каналы">2.3 Платные каналы<a href="#23-платные-каналы" class="hash-link" aria-label="Прямая ссылка на 2.3 Платные каналы" title="Прямая ссылка на 2.3 Платные каналы" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Канал</th><th>Таргетинг</th><th style="text-align:center">Бюджет/мес</th><th style="text-align:center">CPA</th></tr></thead><tbody><tr><td><strong>Meta Ads</strong></td><td>Lookalike: покупатели Oura/Whoop, wellness interests</td><td style="text-align:center">$20K</td><td style="text-align:center">$28</td></tr><tr><td><strong>Google Ads</strong></td><td>«wellness passive income», «health earn money»</td><td style="text-align:center">$12K</td><td style="text-align:center">$32</td></tr><tr><td><strong>X Ads</strong></td><td>Crypto / DeFi enthusiasts</td><td style="text-align:center">$8K</td><td style="text-align:center">$22</td></tr><tr><td><strong>Telegram Ads</strong></td><td>Crypto + wellness каналы</td><td style="text-align:center">$6K</td><td style="text-align:center">$18</td></tr><tr><td><strong>YouTube Ads</strong></td><td>Pre-roll на wellness / biohacking каналах</td><td style="text-align:center">$10K</td><td style="text-align:center">$35</td></tr><tr><td><strong>TikTok Ads</strong></td><td>18–35, фитнес, health, side hustle</td><td style="text-align:center">$8K</td><td style="text-align:center">$25</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="24-mlm-network">2.4 MLM Network<a href="#24-mlm-network" class="hash-link" aria-label="Прямая ссылка на 2.4 MLM Network" title="Прямая ссылка на 2.4 MLM Network" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Элемент</th><th>Описание</th></tr></thead><tbody><tr><td><strong>Рекрутинг лидеров</strong></td><td>Привлечение опытных лидеров из Herbalife, Amway, Oriflame</td></tr><tr><td><strong>Wellex Academy</strong></td><td>12 видеоуроков + еженедельные вебинары</td></tr><tr><td><strong>Инструменты</strong></td><td>AI Partner Assistant, промо-материалы, скрипты</td></tr><tr><td><strong>Ивенты</strong></td><td>Ежемесячные онлайн-встречи + квартальные офлайн (Dubai)</td></tr><tr><td><strong>Поощрения</strong></td><td>Бонусы за ранговый рост, командные поездки, публичное признание</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="25-influencer-strategy">2.5 Influencer Strategy<a href="#25-influencer-strategy" class="hash-link" aria-label="Прямая ссылка на 2.5 Influencer Strategy" title="Прямая ссылка на 2.5 Influencer Strategy" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тир</th><th>Охват</th><th style="text-align:center">Кол-во</th><th>Формат</th><th style="text-align:center">Бюджет Phase 1</th></tr></thead><tbody><tr><td>🔴 Мега (1M+)</td><td>Wellness + crypto</td><td style="text-align:center">3</td><td>6-мес амбассадорство</td><td style="text-align:center">$150K</td></tr><tr><td>🟡 Макро (100K–1M)</td><td>Фитнес, биохакинг</td><td style="text-align:center">15</td><td>«30 дней с Wellex»</td><td style="text-align:center">$150K</td></tr><tr><td>🟢 Микро (10K–100K)</td><td>Нишевый wellness</td><td style="text-align:center">50</td><td>Affiliate + продукт</td><td style="text-align:center">$50K</td></tr><tr><td>🔵 Nano (1K–10K)</td><td>Crypto community</td><td style="text-align:center">100</td><td>Только реферальная ссылка</td><td style="text-align:center">Affiliate only</td></tr></tbody></table>
+<p><strong>KOL-форматы:</strong></p>
+<ol>
+<li class=""><strong>«30 дней с Wellex»</strong> — инфлюенсер носит браслет, ежедневно демонстрирует WVI, yield, рекомендации AI Coach.</li>
+<li class=""><strong>WVI Challenge</strong> — вирусный формат: «Подними WVI до 90 за 30 дней» (#WellexChallenge).</li>
+<li class=""><strong>Income Reveal</strong> — реальные кейсы заработка через yield + партнёрскую программу.</li>
+<li class=""><strong>Unboxing Day</strong> — 50+ синхронных unboxing-видео в день публичного запуска.</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-kpi-по-фазам">3. KPI по фазам<a href="#3-kpi-по-фазам" class="hash-link" aria-label="Прямая ссылка на 3. KPI по фазам" title="Прямая ссылка на 3. KPI по фазам" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-1-kpis-m1m6">Phase 1 KPIs (M1–M6)<a href="#phase-1-kpis-m1m6" class="hash-link" aria-label="Прямая ссылка на Phase 1 KPIs (M1–M6)" title="Прямая ссылка на Phase 1 KPIs (M1–M6)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>KPI</th><th style="text-align:center">M1</th><th style="text-align:center">M3</th><th style="text-align:center">M6</th><th>Метод измерения</th></tr></thead><tbody><tr><td>Активные пользователи</td><td style="text-align:center">1 000</td><td style="text-align:center">4 000</td><td style="text-align:center">10 000</td><td>App analytics</td></tr><tr><td>TVL</td><td style="text-align:center">$500K</td><td style="text-align:center">$2M</td><td style="text-align:center">$5M</td><td>On-chain</td></tr><tr><td>Активные партнёры</td><td style="text-align:center">200</td><td style="text-align:center">800</td><td style="text-align:center">2 000</td><td>Partner dashboard</td></tr><tr><td>MRR (подписки)</td><td style="text-align:center">$19K</td><td style="text-align:center">$76K</td><td style="text-align:center">$190K</td><td>Billing system</td></tr><tr><td>Activation rate</td><td style="text-align:center">&gt; 85%</td><td style="text-align:center">&gt; 88%</td><td style="text-align:center">&gt; 90%</td><td>Браслет активирован &lt; 7 дней</td></tr><tr><td>Retention (M1)</td><td style="text-align:center">&gt; 80%</td><td style="text-align:center">&gt; 75%</td><td style="text-align:center">&gt; 70%</td><td>Когортный анализ</td></tr><tr><td>NPS</td><td style="text-align:center">&gt; 45</td><td style="text-align:center">&gt; 50</td><td style="text-align:center">&gt; 55</td><td>In-app survey</td></tr><tr><td>DAU / MAU</td><td style="text-align:center">&gt; 50%</td><td style="text-align:center">&gt; 55%</td><td style="text-align:center">&gt; 60%</td><td>App analytics</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-2-kpis-m7m12">Phase 2 KPIs (M7–M12)<a href="#phase-2-kpis-m7m12" class="hash-link" aria-label="Прямая ссылка на Phase 2 KPIs (M7–M12)" title="Прямая ссылка на Phase 2 KPIs (M7–M12)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>KPI</th><th style="text-align:center">M9</th><th style="text-align:center">M12</th></tr></thead><tbody><tr><td>Активные пользователи</td><td style="text-align:center">25 000</td><td style="text-align:center">50 000</td></tr><tr><td>TVL</td><td style="text-align:center">$15M</td><td style="text-align:center">$30M</td></tr><tr><td>MRR</td><td style="text-align:center">$475K</td><td style="text-align:center">$950K</td></tr><tr><td>B2B клиентов</td><td style="text-align:center">5</td><td style="text-align:center">15</td></tr><tr><td>Гео-рынков</td><td style="text-align:center">5</td><td style="text-align:center">8</td></tr><tr><td>Retention (M6)</td><td style="text-align:center">&gt; 55%</td><td style="text-align:center">&gt; 60%</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-3-kpis-m13m36">Phase 3 KPIs (M13–M36)<a href="#phase-3-kpis-m13m36" class="hash-link" aria-label="Прямая ссылка на Phase 3 KPIs (M13–M36)" title="Прямая ссылка на Phase 3 KPIs (M13–M36)" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>KPI</th><th style="text-align:center">M18</th><th style="text-align:center">M24</th><th style="text-align:center">M36</th></tr></thead><tbody><tr><td>Активные пользователи</td><td style="text-align:center">150 000</td><td style="text-align:center">300 000</td><td style="text-align:center">1 000 000+</td></tr><tr><td>TVL</td><td style="text-align:center">$100M</td><td style="text-align:center">$250M</td><td style="text-align:center">$1B</td></tr><tr><td>ARR</td><td style="text-align:center">$20M</td><td style="text-align:center">$50M</td><td style="text-align:center">$150M+</td></tr><tr><td>B2B клиентов</td><td style="text-align:center">50</td><td style="text-align:center">150</td><td style="text-align:center">500</td></tr><tr><td>Гео-рынков</td><td style="text-align:center">12</td><td style="text-align:center">18</td><td style="text-align:center">30+</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-стратегические-партнёрства">4. Стратегические партнёрства<a href="#4-стратегические-партнёрства" class="hash-link" aria-label="Прямая ссылка на 4. Стратегические партнёрства" title="Прямая ссылка на 4. Стратегические партнёрства" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-матрица-партнёрств">4.1 Матрица партнёрств<a href="#41-матрица-партнёрств" class="hash-link" aria-label="Прямая ссылка на 4.1 Матрица партнёрств" title="Прямая ссылка на 4.1 Матрица партнёрств" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Тип партнёра</th><th>Ценность для Wellex</th><th>Ценность для партнёра</th><th style="text-align:center">Фаза</th></tr></thead><tbody><tr><td><strong>Фитнес-сети</strong> (World Class, Gold&#x27;s Gym)</td><td>10 000+ потенциальных пользователей на сеть</td><td>Retention членов, digital wellness</td><td style="text-align:center">Phase 1</td></tr><tr><td><strong>Страховые</strong> (Allianz, AXA)</td><td>Скидки для пользователей, B2B2C</td><td>Снижение рисков на основе биометрических данных</td><td style="text-align:center">Phase 2</td></tr><tr><td><strong>Корпорации</strong> (IT, банки)</td><td>B2B revenue, $99/сотрудник/мес</td><td>Корпоративный wellness, снижение больничных</td><td style="text-align:center">Phase 1–2</td></tr><tr><td><strong>Crypto-биржи</strong> (Bybit, OKX)</td><td>Fiat on-ramp, ко-маркетинг</td><td>Уникальный use case, новые пользователи</td><td style="text-align:center">Phase 1</td></tr><tr><td><strong>DeFi-протоколы</strong> (Aave, Pendle)</td><td>Источники yield, TVL routing</td><td>Рост TVL, новый нарратив</td><td style="text-align:center">Phase 1</td></tr><tr><td><strong>Wellness-бренды</strong> (AG1, Whoop)</td><td>Co-branding, cross-sell</td><td>Совместная аудитория</td><td style="text-align:center">Phase 2</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-приоритетные-партнёрства-phase-1">4.2 Приоритетные партнёрства Phase 1<a href="#42-приоритетные-партнёрства-phase-1" class="hash-link" aria-label="Прямая ссылка на 4.2 Приоритетные партнёрства Phase 1" title="Прямая ссылка на 4.2 Приоритетные партнёрства Phase 1" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Партнёр</th><th>Тип</th><th style="text-align:center">Статус</th><th>Ожидаемый эффект</th></tr></thead><tbody><tr><td>3 Мега-KOL (Wellness)</td><td>Амбассадорство</td><td style="text-align:center">В проработке</td><td>50 000 охват, 2 000 новых пользователей</td></tr><tr><td>5 Crypto-сообществ</td><td>Community partnership</td><td style="text-align:center">В проработке</td><td>30 000 охват</td></tr><tr><td>2 Фитнес-сети Dubai</td><td>B2B pilot</td><td style="text-align:center">LOI подписан</td><td>500 пользователей</td></tr><tr><td>1 Корпоративный клиент (pilot)</td><td>B2B wellness</td><td style="text-align:center">В проработке</td><td>200 пользователей</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-контент-стратегия">5. Контент-стратегия<a href="#5-контент-стратегия" class="hash-link" aria-label="Прямая ссылка на 5. Контент-стратегия" title="Прямая ссылка на 5. Контент-стратегия" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="51-контент-пирамида">5.1 Контент-пирамида<a href="#51-контент-пирамида" class="hash-link" aria-label="Прямая ссылка на 5.1 Контент-пирамида" title="Прямая ссылка на 5.1 Контент-пирамида" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Уровень</th><th>Частота</th><th>Описание</th><th>Примеры</th></tr></thead><tbody><tr><td><strong>HERO</strong></td><td>1 раз/мес</td><td>Масштабные кампании</td><td>«30 дней с Wellex» сезоны, launch event</td></tr><tr><td><strong>HUB</strong></td><td>3 раза/нед</td><td>Регулярный контент</td><td>Обзоры, кейсы доходов, AI-демо</td></tr><tr><td><strong>HYGIENE</strong></td><td>Ежедневно</td><td>Постоянный поток</td><td>Tips, WVI updates, мотивация, мемы</td></tr></tbody></table>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="52-ключевые-нарративы">5.2 Ключевые нарративы<a href="#52-ключевые-нарративы" class="hash-link" aria-label="Прямая ссылка на 5.2 Ключевые нарративы" title="Прямая ссылка на 5.2 Ключевые нарративы" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Нарратив</th><th>Аудитория</th><th>Основной посыл</th></tr></thead><tbody><tr><td><strong>«Здоровье = деньги»</strong></td><td>Широкий mainstream</td><td>Носи браслет → получай доход</td></tr><tr><td><strong>«Passive Income 2.0»</strong></td><td>Crypto / finance</td><td>Yield 0–20% monthly от здорового образа жизни</td></tr><tr><td><strong>«AI заботится о тебе»</strong></td><td>Tech-savvy</td><td>Персональный AI-коуч 24/7</td></tr><tr><td><strong>«Построй бизнес»</strong></td><td>MLM / предприниматели</td><td>10 рангов, доход до $150 000+/мес (ранг Legend)</td></tr><tr><td><strong>«Будущее wellness»</strong></td><td>B2B / партнёры</td><td>Платформа объединяет здоровье, финансы и AI</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-pr-стратегия">6. PR-стратегия<a href="#6-pr-стратегия" class="hash-link" aria-label="Прямая ссылка на 6. PR-стратегия" title="Прямая ссылка на 6. PR-стратегия" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Фаза</th><th>Издания</th><th>Формат</th><th style="text-align:center">Бюджет</th></tr></thead><tbody><tr><td>Pre-launch (Фев 2026)</td><td>CoinDesk, CoinTelegraph, The Block</td><td>Тизер, эксклюзивный preview</td><td style="text-align:center">$30K</td></tr><tr><td>Launch (Мар 2026)</td><td>Forbes, TechCrunch, Bloomberg</td><td>Product launch, история основателей</td><td style="text-align:center">$50K</td></tr><tr><td>Growth (M3–M6)</td><td>Wired, MIT Technology Review</td><td>Deep dive: WVI Science, yield model</td><td style="text-align:center">$30K</td></tr><tr><td>B2B (M6–M12)</td><td>HBR, McKinsey Health Insights</td><td>Кейс корпоративного wellness</td><td style="text-align:center">$20K</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-launch-week--детальный-план-март-2026">7. Launch Week — детальный план (Март 2026)<a href="#7-launch-week--детальный-план-март-2026" class="hash-link" aria-label="Прямая ссылка на 7. Launch Week — детальный план (Март 2026)" title="Прямая ссылка на 7. Launch Week — детальный план (Март 2026)" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th style="text-align:center">День</th><th>Активность</th></tr></thead><tbody><tr><td style="text-align:center">D−7</td><td>Снятие эмбарго: публикации в CoinDesk и Forbes</td></tr><tr><td style="text-align:center">D−3</td><td>Тизер-видео (TikTok, YouTube, X)</td></tr><tr><td style="text-align:center">D−1</td><td>AMA с основателями в Telegram / Discord</td></tr><tr><td style="text-align:center"><strong>D0</strong></td><td><strong>Публичный запуск: app live, WEB-платформа открыта, посты KOL</strong></td></tr><tr><td style="text-align:center">D0</td><td>Unboxing Day: 50+ синхронных видео от KOL</td></tr><tr><td style="text-align:center">D+1</td><td>Старт «30 дней с Wellex» Challenge (#WellexChallenge)</td></tr><tr><td style="text-align:center">D+3</td><td>Первый community leaderboard</td></tr><tr><td style="text-align:center">D+7</td><td>Пресс-релиз с метриками первой недели</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-бюджет-маркетинга">8. Бюджет маркетинга<a href="#8-бюджет-маркетинга" class="hash-link" aria-label="Прямая ссылка на 8. Бюджет маркетинга" title="Прямая ссылка на 8. Бюджет маркетинга" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="phase-1-m1m6-350k">Phase 1 (M1–M6): $350K<a href="#phase-1-m1m6-350k" class="hash-link" aria-label="Прямая ссылка на Phase 1 (M1–M6): $350K" title="Прямая ссылка на Phase 1 (M1–M6): $350K" translate="no">​</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Статья</th><th style="text-align:right">Бюджет</th><th style="text-align:center">Доля</th></tr></thead><tbody><tr><td>KOL / Influencers</td><td style="text-align:right">$150K</td><td style="text-align:center">43%</td></tr><tr><td>Performance (paid ads)</td><td style="text-align:right">$100K</td><td style="text-align:center">29%</td></tr><tr><td>PR / media</td><td style="text-align:right">$40K</td><td style="text-align:center">11%</td></tr><tr><td>Производство контента</td><td style="text-align:right">$30K</td><td style="text-align:center">9%</td></tr><tr><td>Events / meetups</td><td style="text-align:right">$20K</td><td style="text-align:center">6%</td></tr><tr><td>Инструменты и аналитика</td><td style="text-align:right">$10K</td><td style="text-align:center">3%</td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Фаза</th><th style="text-align:center">Целевой Payback period</th></tr></thead><tbody><tr><td>Phase 1</td><td style="text-align:center">&lt; 2 мес</td></tr><tr><td>Phase 2</td><td style="text-align:center">&lt; 1.5 мес</td></tr><tr><td>Phase 3</td><td style="text-align:center">&lt; 1 мес</td></tr></tbody></table>
+<hr>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="trust-ladder--3-ступени-до-полного-запуска-yield">Trust Ladder — 3 ступени до полного запуска yield<a href="#trust-ladder--3-ступени-до-полного-запуска-yield" class="hash-link" aria-label="Прямая ссылка на Trust Ladder — 3 ступени до полного запуска yield" title="Прямая ссылка на Trust Ladder — 3 ступени до полного запуска yield" translate="no">​</a></h2>
+<p>Ключевая проблема нового DeFi-продукта: никто не доверяет yield, пока нет истории. Trust Ladder решает это системно.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Ступень</th><th>Период</th><th>Что делаем</th><th>Результат</th></tr></thead><tbody><tr><td><strong>1. Free WVI</strong></td><td>M1–M2</td><td>Бесплатная регистрация, ручной ввод данных здоровья (без браслета), WVI в demo-режиме</td><td>10K+ регистраций, первые данные</td></tr><tr><td><strong>2. Bracelet Only</strong></td><td>M2–M3</td><td>Браслет + подписка $19/мес, WVI реальный, но yield = demo (&quot;сколько бы ты заработал&quot;)</td><td>5K подписчиков, proof of product</td></tr></tbody></table>
+<p><strong>Психология:</strong> пользователь видит &quot;мог бы заработать $240 за 2 месяца&quot; — мощнейший триггер для депозита в M3.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="100-founding-ambassadors--армия-trust-builders">100 Founding Ambassadors — армия trust-builders<a href="#100-founding-ambassadors--армия-trust-builders" class="hash-link" aria-label="Прямая ссылка на 100 Founding Ambassadors — армия trust-builders" title="Прямая ссылка на 100 Founding Ambassadors — армия trust-builders" translate="no">​</a></h2>
+<p><strong>Программа запускается за 60 дней до Full Yield (Ступень 3).</strong></p>
+<p><strong>Состав 100 амбассадоров:</strong></p>
+<ul>
+<li class="">30 wellness-инфлюенсеров (5K–50K followers)</li>
+<li class="">30 крипто/DeFi блогеров</li>
+<li class="">20 MLM-лидеров (10K+ сетей)</li>
+<li class="">20 биохакеров / фитнес-коучей</li>
+</ul>
+<p><strong>Каждый получает:</strong></p>
+<ul>
+<li class="">Браслет за 60 дней до публичного запуска</li>
+<li class="">Ранний доступ к APP</li>
+<li class="">Guaranteed ранг Explorer (без требований)</li>
+<li class="">Soulbound NFT &quot;Founding Ambassador&quot; + пожизненный +1% к yield</li>
+<li class="">$500 маркетинговый бюджет на контент</li>
+</ul>
+<p><strong>Обязательства:</strong></p>
+<ul>
+<li class="">4 поста/мес с хэштегом #EmotionalMining</li>
+<li class="">1 видеообзор браслета</li>
+<li class="">Участие в еженедельном Ambassador Chat</li>
+</ul>
+<p><strong>Результат:</strong> 100 × avg 15K reach = 1.5M органических импрессий до запуска.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="wellex-60-day-challenge--pre-launch-viral-campaign">Wellex 60-Day Challenge — pre-launch viral campaign<a href="#wellex-60-day-challenge--pre-launch-viral-campaign" class="hash-link" aria-label="Прямая ссылка на Wellex 60-Day Challenge — pre-launch viral campaign" title="Прямая ссылка на Wellex 60-Day Challenge — pre-launch viral campaign" translate="no">​</a></h2>
+<p><strong>Концепция:</strong> 60 дней до открытия yield — 1 000 пользователей носят браслет, накапливают WVI, видят demo yield.</p>
+<p><strong>Механика:</strong></p>
+<ul>
+<li class="">Регистрация: бесплатно, браслет в аренду (или купить $99, возврат при подписке M3)</li>
+<li class="">Таблица лидеров по WVI публичная</li>
+<li class="">Demo yield виден каждый день: &quot;Сегодня ты бы заработал $8.40&quot;</li>
+<li class="">Топ-100 по WVI к концу 60 дней → $10K призовой фонд (USDC)</li>
+<li class="">Все участники → автоматически первые в списке для Full Yield</li>
+</ul>
+<p><strong>Медиа-нарратив:</strong> &quot;100 человек носили браслет 60 дней. Вот их результаты.&quot; → CoinDesk, Decrypt, Forbes Crypto.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="wellex-event-series--постоянный-контент-двигатель">Wellex Event Series — постоянный контент-двигатель<a href="#wellex-event-series--постоянный-контент-двигатель" class="hash-link" aria-label="Прямая ссылка на Wellex Event Series — постоянный контент-двигатель" title="Прямая ссылка на Wellex Event Series — постоянный контент-двигатель" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Формат</th><th style="text-align:center">Частота</th><th>Платформа</th><th>Аудитория</th><th>Цель</th></tr></thead><tbody><tr><td><strong>Wellex Live</strong></td><td style="text-align:center">Еженедельно</td><td>Twitter/X Spaces</td><td>Крипто-комьюнити</td><td>Q&amp;A, Yield Update, новости</td></tr><tr><td><strong>Wellness Wednesdays</strong></td><td style="text-align:center">Еженедельно</td><td>Instagram Live</td><td>Wellness-аудитория</td><td>Образование, WVI, AI Coach</td></tr><tr><td><strong>Partner Meetups</strong></td><td style="text-align:center">Ежемесячно</td><td>Офлайн, 10 городов</td><td>MLM-лидеры</td><td>Рекрутинг, trust, income stories</td></tr><tr><td><strong>Wellex Summit</strong></td><td style="text-align:center">2x/год</td><td>Гибридный</td><td>Все сегменты</td><td>Keynote, roadmap, Awards, NFT drop</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="diamond-rush--mlm-launch-event">Diamond Rush — MLM launch event<a href="#diamond-rush--mlm-launch-event" class="hash-link" aria-label="Прямая ссылка на Diamond Rush — MLM launch event" title="Прямая ссылка на Diamond Rush — MLM launch event" translate="no">​</a></h2>
+<p><strong>Условия:</strong> первые 500 партнёров, набравших ≥10 рефералов за 30 дней после Full Yield → автоматический ранг Achiever + $500 бонус.</p>
+<p><strong>Бюджет:</strong> 500 × $500 = $250K. <strong>ROI:</strong> каждый Achiever генерирует avg $200–500/мес PV = $1–2.5M PV/мес от 500 лидеров.</p>
+<p><strong>FOMO-механика:</strong> публичный счётчик &quot;Осталось мест: 347 из 500&quot; обновляется в реальном времени.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="leader-migration-package">Leader Migration Package<a href="#leader-migration-package" class="hash-link" aria-label="Прямая ссылка на Leader Migration Package" title="Прямая ссылка на Leader Migration Package" translate="no">​</a></h2>
+<p><strong>Цель:</strong> переманить 50 топ-лидеров из Herbalife, USANA, PM International, Amway.</p>
+<p><strong>Пакет:</strong></p>
+<ul>
+<li class="">Персональный онбординг с Account Manager</li>
+<li class="">Fast-track до ранга Leader (30 дней вместо стандартных 60–90)</li>
+<li class="">Эксклюзивный NFT &quot;Proven Leader&quot;</li>
+<li class="">+5% бонус ко всем выплатам первые 90 дней</li>
+<li class="">Прямой доступ к CEO на ежемесячном Leader Call</li>
+</ul>
+<p><strong>Таргетинг:</strong> LinkedIn + отраслевые конференции MLM + direct outreach через имеющихся партнёров.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="country-captain-program">Country Captain Program<a href="#country-captain-program" class="hash-link" aria-label="Прямая ссылка на Country Captain Program" title="Прямая ссылка на Country Captain Program" translate="no">​</a></h2>
+<p><strong>Механика:</strong> первый партнёр в любой стране, набравший 100+ рефералов → Country Captain пожизненно.</p>
+<p><strong>Бонусы Country Captain:</strong></p>
+<ul>
+<li class="">+2% от всех депозитов в своей стране (пожизненно, on-chain)</li>
+<li class="">NFT &quot;Country Captain [Страна]&quot;</li>
+<li class="">Место в Advisory Board</li>
+<li class="">Участие в ежеквартальном Strategy Call с CEO</li>
+</ul>
+<p><strong>Цель:</strong> покрыть 20 стран за 6 месяцев после Full Yield.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="#changelog" class="hash-link" aria-label="Прямая ссылка на Changelog" title="Прямая ссылка на Changelog" translate="no">​</a></h2>
+<p>▸ v1.0 — Initial GTM (Feb 2026)
+▸ v2.0 — Trust Ladder, Diamond Rush, Country Captain added (Mar 2026)
+▸ <strong>v4.0</strong> — v4 header + TL;DR added, Trust Ladder confirmed as Section 1, 100 Ambassadors programme integrated</p>
+<hr>
+<p><em>→ Related: <a class="" href="/wellex-docs/09_PARTNER_PROGRAM">09_PARTNER_PROGRAM.md</a> · <a class="" href="/wellex-docs/12_ROADMAP">12_ROADMAP.md</a> · <a class="" href="/wellex-docs/23_SALES_PROGRAM">23_SALES_PROGRAM.md</a></em></p>
+<p><em>Wellex © 2026 · Confidential</em></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Страница документа"><a class="pagination-nav__link pagination-nav__link--prev" href="/wellex-docs/25_TECH_REQUIREMENTS"><div class="pagination-nav__sublabel">Предыдущая страница</div><div class="pagination-nav__label">25 · TECHNICAL REQUIREMENTS</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wellex-docs/12_ROADMAP"><div class="pagination-nav__sublabel">Следующая страница</div><div class="pagination-nav__label">12 · ROADMAP 2026–2029</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#tldr" class="table-of-contents__link toc-highlight">TL;DR</a></li><li><a href="#executive-summary" class="table-of-contents__link toc-highlight">Executive Summary</a></li><li><a href="#1-фазы-запуска" class="table-of-contents__link toc-highlight">1. Фазы запуска</a><ul><li><a href="#phase-1-launch--seed-март--август-2026" class="table-of-contents__link toc-highlight">Phase 1: Launch &amp; Seed (Март – Август 2026)</a></li><li><a href="#phase-2-expansion-сентябрь-2026--февраль-2027" class="table-of-contents__link toc-highlight">Phase 2: Expansion (Сентябрь 2026 – Февраль 2027)</a></li><li><a href="#phase-3-scale-март-2027--март-2028" class="table-of-contents__link toc-highlight">Phase 3: Scale (Март 2027 – Март 2028)</a></li></ul></li><li><a href="#2-channel-strategy" class="table-of-contents__link toc-highlight">2. Channel Strategy</a><ul><li><a href="#21-маркетинг-микс" class="table-of-contents__link toc-highlight">2.1 Маркетинг-микс</a></li><li><a href="#22-органические-каналы" class="table-of-contents__link toc-highlight">2.2 Органические каналы</a></li><li><a href="#23-платные-каналы" class="table-of-contents__link toc-highlight">2.3 Платные каналы</a></li><li><a href="#24-mlm-network" class="table-of-contents__link toc-highlight">2.4 MLM Network</a></li><li><a href="#25-influencer-strategy" class="table-of-contents__link toc-highlight">2.5 Influencer Strategy</a></li></ul></li><li><a href="#3-kpi-по-фазам" class="table-of-contents__link toc-highlight">3. KPI по фазам</a><ul><li><a href="#phase-1-kpis-m1m6" class="table-of-contents__link toc-highlight">Phase 1 KPIs (M1–M6)</a></li><li><a href="#phase-2-kpis-m7m12" class="table-of-contents__link toc-highlight">Phase 2 KPIs (M7–M12)</a></li><li><a href="#phase-3-kpis-m13m36" class="table-of-contents__link toc-highlight">Phase 3 KPIs (M13–M36)</a></li></ul></li><li><a href="#4-стратегические-партнёрства" class="table-of-contents__link toc-highlight">4. Стратегические партнёрства</a><ul><li><a href="#41-матрица-партнёрств" class="table-of-contents__link toc-highlight">4.1 Матрица партнёрств</a></li><li><a href="#42-приоритетные-партнёрства-phase-1" class="table-of-contents__link toc-highlight">4.2 Приоритетные партнёрства Phase 1</a></li></ul></li><li><a href="#5-контент-стратегия" class="table-of-contents__link toc-highlight">5. Контент-стратегия</a><ul><li><a href="#51-контент-пирамида" class="table-of-contents__link toc-highlight">5.1 Контент-пирамида</a></li><li><a href="#52-ключевые-нарративы" class="table-of-contents__link toc-highlight">5.2 Ключевые нарративы</a></li></ul></li><li><a href="#6-pr-стратегия" class="table-of-contents__link toc-highlight">6. PR-стратегия</a></li><li><a href="#7-launch-week--детальный-план-март-2026" class="table-of-contents__link toc-highlight">7. Launch Week — детальный план (Март 2026)</a></li><li><a href="#8-бюджет-маркетинга" class="table-of-contents__link toc-highlight">8. Бюджет маркетинга</a><ul><li><a href="#phase-1-m1m6-350k" class="table-of-contents__link toc-highlight">Phase 1 (M1–M6): $350K</a></li></ul></li><li><a href="#trust-ladder--3-ступени-до-полного-запуска-yield" class="table-of-contents__link toc-highlight">Trust Ladder — 3 ступени до полного запуска yield</a></li><li><a href="#100-founding-ambassadors--армия-trust-builders" class="table-of-contents__link toc-highlight">100 Founding Ambassadors — армия trust-builders</a></li><li><a href="#wellex-60-day-challenge--pre-launch-viral-campaign" class="table-of-contents__link toc-highlight">Wellex 60-Day Challenge — pre-launch viral campaign</a></li><li><a href="#wellex-event-series--постоянный-контент-двигатель" class="table-of-contents__link toc-highlight">Wellex Event Series — постоянный контент-двигатель</a></li><li><a href="#diamond-rush--mlm-launch-event" class="table-of-contents__link toc-highlight">Diamond Rush — MLM launch event</a></li><li><a href="#leader-migration-package" class="table-of-contents__link toc-highlight">Leader Migration Package</a></li><li><a href="#country-captain-program" class="table-of-contents__link toc-highlight">Country Captain Program</a></li><li><a href="#changelog" class="table-of-contents__link toc-highlight">Changelog</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Документация</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/00_INTRO">Введение</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/19_WHITEPAPER_v3">Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/12_ROADMAP">Roadmap</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Продукт</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/08_HARDWARE">Wellex Band</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/06_YIELD_PROTOCOL">Yield Protocol</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/07_AI_SYSTEM">AI System</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Партнёрам</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/09_PARTNER_PROGRAM">Partner Program</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/31_B2B_PLAYBOOK">B2B Playbook</a></li><li class="footer__item"><a class="footer__link-item" href="/wellex-docs/23_SALES_PROGRAM">Sales Program</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Wellex © 2026 · Web3 Wellness Protocol · v5.0</div></div></div></footer></div>
+</body>
+</html>
