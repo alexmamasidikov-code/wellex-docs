@@ -2,12 +2,12 @@
 id: 32_DAY_IN_THE_LIFE
 title: '32 · "DAY IN THE LIFE" — USER JOURNEY DOCUMENT'
 sidebar_position: 32
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 32 · "DAY IN THE LIFE" — USER JOURNEY DOCUMENT
 
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Marketing / Product
 > **SSOT for:** User journey narratives, onboarding copy, KOL content briefs
 > **Dependencies:** 04_APP_UX, 03_WELLNESS_SCORE, 06_YIELD_PROTOCOL, 09_PARTNER_PROGRAM
