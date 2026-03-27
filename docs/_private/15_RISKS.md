@@ -1,7 +1,7 @@
 # 15 · РИСКИ И МИТИГАЦИЯ
 
 > Системные риски · DeFi · Smart Contract · MLM · Биометрия · Stablecoin · Bridge · Card On-Ramp · Regulatory
-> Версия: 2.0 | 01.03.2026 | Confidential
+> Версия: 6.0 | 12.03.2026 | Confidential
 
 ---
 
