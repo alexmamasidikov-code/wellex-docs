@@ -2,13 +2,13 @@
 id: 00_INTRO
 title: "Introduction"
 sidebar_position: 1
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 
 # Wellex — Documentation v5.0
 
-> **Version:** 5.0 · **Date:** 05.03.2026 · **Status:** Public
+> **Version:** 6.0 · **Date:** 05.03.2026 · **Status:** Public
 
 Welcome to the public documentation corpus of Wellex — the Web3 Wellness Protocol.
 
