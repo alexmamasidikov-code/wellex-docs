@@ -304,7 +304,7 @@ Multi-layer защита: cross-validation сенсоров, HRV fingerprint, ci
 | Yield стратегия | Вручную выбирать vault | AI Auto подбирает оптимально |
 | Рекомендации здоровья | Текст на экране | AI отправляет видео/аудио в нужный момент |
 | Управление партнёркой | Ручное | AI-агенты подсказывают действия |
-| Реинвест | Ручной | Автоматический ($129 активация) |
+| Реинвест | Ручной (min $100/мес) | Автоматический ($129 активация, разово) |
 | Вывод средств | Сложный процесс | 1 кнопка |
 
 ### 6.3 Регистрация
@@ -330,7 +330,8 @@ Multi-layer защита: cross-validation сенсоров, HRV fingerprint, ci
 - **Депозит (Card):** Visa/MC, Apple Pay, Google Pay, SEPA, PIX → авто-конверт в USDC
 - **WellexVault:** единый vault — lock-up по сумме ($0–999 = 0д, $1K–9999 = 30д, $10K+ = 90д)
 - **Yield:** еженедельная выплата в USDC, график доходности, историческая аналитика
-- **Реинвест:** автоматический auto-compound ($129 единовременная активация)
+- **Реинвест ручной:** min $100, max 1 раз в месяц
+- **Auto-compound:** $129 единовременная активация (опционально)
 
 ### 7.3 AI-агенты в дашборде
 
@@ -911,7 +912,7 @@ WVI = 78 → Monthly Yield 12%
 | **MVP Sprint** | 15 мар — 15 апр 2026 | Рабочий продукт на testnet, бренд, приложение alpha |
 | **Audit & Mainnet** | 15 апр — 15 мая 2026 | Аудит пройден, mainnet deploy |
 | **Scale & TVL** | 15 мая — 15 июн 2026 | 
-| **Growth** | Июн — дек 2026 | Multi-chain expansion, TVL $50M, 100K пользователей, DEX + on-ramp партнёрства |
+| **Growth** | Июн — дек 2026 | Multi-chain expansion, TVL target $50M (base: $15M), 100K пользователей, DEX + on-ramp партнёрства |
 | **Expansion** | 2027 | Multi-chain, B2B, ЮВА + LATAM, TVL $150M |
 | **Institutional** | 2028 | Institutional DeFi, Wellex Card, TVL $500M |
 | **Global Protocol** | 2029 | TVL $1B+, 1M пользователей, IPO-ready |
