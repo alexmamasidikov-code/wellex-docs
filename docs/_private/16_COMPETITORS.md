@@ -5,6 +5,8 @@
 
 ---
 
+> **Версия:** 6.0 | **Дата:** 12.03.2026 | **Статус:** Confidential
+
 ## 1. WELLEX vs Wellness Wearables
 
 | Параметр | WELLEX | Whoop | Oura | Apple Watch | Fitbit |
