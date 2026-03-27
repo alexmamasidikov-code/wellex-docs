@@ -7,7 +7,7 @@ description: "Wellex v5.0 · 05.03.2026"
 
 # 01 · WELLEX — EXECUTIVE SUMMARY
 
-> **Version:** 5.1 | **Date:** 05.03.2026 | **Status:** Canonical Pitch
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical Pitch
 > **Audience:** Partners · Press · Ecosystem
 > **SSOT for:** Public pitch, key thesis
 > **Dependencies:** 06_YIELD_PROTOCOL (yield) · 09_PARTNER_PROGRAM (MLM) · 27_EMOTIONAL_MINING (concept)
