@@ -2,12 +2,12 @@
 id: 01_EXECUTIVE_SUMMARY
 title: "01 · Резюме для инвесторов"
 sidebar_position: 1
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 01 · WELLEX — EXECUTIVE SUMMARY
 
-> **Версия:** 6.0 | **Дата:** 12.03.2026 | **Статус:** Canonical Pitch
+> **Версия:** 6.1 | **Дата:** 27.03.2026 | **Статус:** Canonical Pitch
 > **Аудитория:** Партнёры · Пресса · Аудитория
 > **SSOT для:** Публичный питч, ключевые тезисы
 > **Зависимости:** 06_YIELD_PROTOCOL (yield) · 09_PARTNER_PROGRAM (MLM) · 27_EMOTIONAL_MINING (концепция)
