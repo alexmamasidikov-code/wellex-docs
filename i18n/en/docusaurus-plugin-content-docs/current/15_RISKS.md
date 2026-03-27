@@ -2,13 +2,13 @@
 id: 15_RISKS
 title: "15 · RISKS & MITIGATION"
 sidebar_position: 15
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 15 · RISKS & MITIGATION
 
 > Systemic risks · DeFi · Smart Contract · MLM · Biometrics · Stablecoin · Bridge · Card On-Ramp · Regulatory
-> Version: 6.0 | 05.03.2026 | Confidential
+> Version: 6.1 | 05.03.2026 | Confidential
 >
 > ⚠️ All yield and revenue projections in risk scenarios are targets — not guarantees. This document analyzes downside risks explicitly.
 
