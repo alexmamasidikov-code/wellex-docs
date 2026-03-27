@@ -2,12 +2,12 @@
 id: 00_INDEX
 title: "WELLEX — PUBLIC DOCUMENTATION v5.0"
 sidebar_position: 0
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # WELLEX — PUBLIC DOCUMENTATION v5.0
 
-> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Public
+> **Version:** 6.1 | **Date:** 05.03.2026 | **Status:** Public
 > Language: English | Русская версия: /public/ru/
 
 ---
