@@ -2,12 +2,12 @@
 id: 12_ROADMAP
 title: "12 · ROADMAP 2026–2029"
 sidebar_position: 12
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 12 · ROADMAP 2026–2029
 
-> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Business
 > **SSOT for:** Strategic timeline, quarterly milestones, KPI targets
 
