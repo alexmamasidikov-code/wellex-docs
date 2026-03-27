@@ -2,12 +2,12 @@
 id: 27_EMOTIONAL_MINING
 title: "27 · Emotional Mining"
 sidebar_position: 27
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 27 · EMOTIONAL MINING
 
-> **Version:** 6.0 | **Date:** 12.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 27.03.2026 | **Status:** Canonical
 > **Category:** Strategy
 > **SSOT for:** Emotional Mining definition, brand concept, industry thesis
 > **Dependencies:** 01_EXECUTIVE_SUMMARY (pitch), 03_WELLNESS_SCORE (WVI), 19_WHITEPAPER_v3 (full spec)
