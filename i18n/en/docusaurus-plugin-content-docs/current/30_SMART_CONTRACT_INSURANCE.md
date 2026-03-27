@@ -2,12 +2,12 @@
 id: 30_SMART_CONTRACT_INSURANCE
 title: "30 · SMART CONTRACT INSURANCE"
 sidebar_position: 30
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 30 · SMART CONTRACT INSURANCE
 
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Product / Risk
 > **SSOT for:** Smart contract coverage strategy, DeFi insurance architecture
 > **Dependencies:** 06_YIELD_PROTOCOL (WellexVault), 15_RISKS, 22_INSURANCE_FUND
