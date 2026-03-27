@@ -2,12 +2,12 @@
 id: 36_CHALLENGES
 title: "36 · Челленджи"
 sidebar_position: 36
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
-<!-- v6.0 | Opus | 2026-03-16 | Wellex Canon | Challenges -->
+<!-- v6.1 | Opus | 2026-03-16 | Wellex Canon | Challenges -->
 
-> **Версия:** 6.0 | **Дата:** 16.03.2026 | **Статус:** Канонический
+> **Версия:** 6.1 | **Дата:** 16.03.2026 | **Статус:** Канонический
 > **Зависимости:** 03_WELLNESS_SCORE (WVI), 21_GAMIFICATION (ранги), 08_HARDWARE (браслет), 27_EMOTIONAL_MINING (Emotional Mining™)
 
 # 36 · ЧЕЛЛЕНДЖИ — WELLEX CHALLENGE ENGINE
@@ -117,4 +117,4 @@ WVI Boost: +3–5 очков в период участия.
 
 > ⚠️ Функции геймификации могут ссылаться на WVI-уровни, связанные с Target Yield. Yield не гарантирован.
 
-*Wellex © 2026 · wellex.ai · v6.0*
+*Wellex © 2026 · wellex.ai · v6.1*
