@@ -2,13 +2,13 @@
 id: 25_TECH_REQUIREMENTS
 title: "25 · Технические требования"
 sidebar_position: 25
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 25 · TECHNICAL REQUIREMENTS
 
-**Версия:** 6.0
-**Дата:** 12.03.2026
+**Версия:** 6.1
+**Дата:** 27.03.2026
 **Статус:** Canonical
 **Ключевые обновления v6.0:**
 - AI Yield Engine: 800+ стратегий, 8 потоков, 1M+ параметрических комбинаций
