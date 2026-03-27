@@ -2,13 +2,13 @@
 id: 18_FUTURE_FEATURES
 title: "18 · Будущие функции"
 sidebar_position: 18
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 18 · FUTURE FEATURES — MEGA-ROADMAP
 
 > 6 Mega-features · Y2–Y4 · TAM + Revenue Potential + Dependencies
-> Version: 6.0 | 12.03.2026 | Confidential
+> Version: 6.1 | 12.03.2026 | Confidential
 >
 > ⚠️ All projections are forward-looking estimates. Actual results depend on market conditions, execution, and regulatory environment.
 
