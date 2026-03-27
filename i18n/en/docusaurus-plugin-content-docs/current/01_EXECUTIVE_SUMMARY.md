@@ -2,7 +2,7 @@
 id: 01_EXECUTIVE_SUMMARY
 title: "01 · WELLEX — EXECUTIVE SUMMARY"
 sidebar_position: 1
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 01 · WELLEX — EXECUTIVE SUMMARY
