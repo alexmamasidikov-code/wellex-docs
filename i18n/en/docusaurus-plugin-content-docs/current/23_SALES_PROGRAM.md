@@ -2,12 +2,12 @@
 id: 23_SALES_PROGRAM
 title: "23 · SALES PROGRAM"
 sidebar_position: 23
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 23 · SALES PROGRAM
 
-> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Business
 
 > Sales scripts · Objection handling · Partner onboarding · Training materials
