@@ -372,7 +372,7 @@ Wellex uses a **single unified vault — WellexVault (ERC-4626)**. No Risk Tranc
 | **Management** | AI Wallet Agent (Auto AI) — fully automatic |
 | **Lock-up** | By deposit: $0–999 → 0d, $1K–9999 → 30d, $10K+ → 90d |
 | **Insurance coverage** | 100% (unified, no tiers) |
-| **Minimum** | $100 |
+| **Minimum** | $50 (Micro-Starter) |
 | **Assets** | USDC / USDT |
 | **Multi-EVM** | ETH, Polygon, BSC, Arbitrum, Optimism, Base, Avalanche |
 
