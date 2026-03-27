@@ -2,12 +2,12 @@
 id: 25_TECH_REQUIREMENTS
 title: "25 · TECHNICAL REQUIREMENTS"
 sidebar_position: 25
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 25 · TECHNICAL REQUIREMENTS
 
-**Version:** 6.0
+**Version:** 6.1
 **Date:** 05.03.2026
 **Status:** Canonical
 **Key update:** Dual authentication (Email + Web3 Wallet); APP / WEB separation
