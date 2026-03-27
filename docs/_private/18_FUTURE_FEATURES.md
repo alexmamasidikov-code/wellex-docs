@@ -1,7 +1,7 @@
 # 18 · FUTURE FEATURES — MEGA-ROADMAP
 
 > 6 Мега-фич · Y2–Y4 · TAM + Revenue Potential + Dependencies
-> Версия: 2.0 | 01.03.2026 | Confidential
+> Версия: 6.0 | 12.03.2026 | Confidential
 
 ---
 
