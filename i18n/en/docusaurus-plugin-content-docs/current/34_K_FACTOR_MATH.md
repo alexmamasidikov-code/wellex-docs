@@ -2,12 +2,12 @@
 id: 34_K_FACTOR_MATH
 title: "34 · K-FACTOR MATHEMATICS"
 sidebar_position: 34
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 34 · K-FACTOR MATHEMATICS
 
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Growth
 > **SSOT for:** Viral coefficient math, growth loops modeling, referral economics
 > **Dependencies:** 09_PARTNER_PROGRAM, 20_GROWTH_IDEAS, 11_GO_TO_MARKET
