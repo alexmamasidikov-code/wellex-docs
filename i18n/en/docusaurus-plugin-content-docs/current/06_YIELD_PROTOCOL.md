@@ -2,12 +2,12 @@
 id: 06_YIELD_PROTOCOL
 title: "06 · DeFi YIELD PROTOCOL"
 sidebar_position: 6
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 06 · DeFi YIELD PROTOCOL
 
-> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Protocol
 > **SSOT for:** Yield sources, WVI→yield mapping, Dynamic Yield Cap, WellexVault mechanics, AI Yield Agent
 > **Dependencies:** 03_WELLNESS_SCORE (WVI), 22_INSURANCE_FUND (protection), 17_TECH_ARCHITECTURE (contracts)
