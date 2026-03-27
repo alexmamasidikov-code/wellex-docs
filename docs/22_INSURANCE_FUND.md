@@ -2,13 +2,13 @@
 id: 22_INSURANCE_FUND
 title: "22 · Страховой фонд"
 sidebar_position: 22
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 22 · МЕХАНИЗМЫ ЗАЩИТЫ ПЛАТФОРМЫ
 
 > Архитектура защиты депозитов и выплат доходности Wellex.
-> Версия: 6.0 | 12.03.2026 | Public
+> Версия: 6.1 | 12.03.2026 | Public
 
 ---
 
