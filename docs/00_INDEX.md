@@ -127,7 +127,8 @@ Wellex — wellness-протокол нового поколения, объед
 
 ### v6.0 (12.03.2026) — Текущая версия
 - ✅ Claim с первого дня начисления доходности (директива Alexander)
-- ✅ Reinvest min $100, max 1 раз в месяц (директива Alexander)
+- ✅ Reinvest ручной: min $100, max 1 раз в месяц (директива Alexander)
+- ✅ Auto-compound: $129 единовременная активация (отдельная функция)
 - ✅ RAB бонус активирован
 - ✅ Удалён «квантовый» claim → AI-Powered Algorithmic Selection (800+ стратегий, ML)
 - ✅ QA аудит 506 тестов — 96.6% pass rate
