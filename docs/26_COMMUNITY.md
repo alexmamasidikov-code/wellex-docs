@@ -2,13 +2,13 @@
 id: 26_COMMUNITY
 title: "26 · Сообщество"
 sidebar_position: 26
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 26 · COMMUNITY
 
 > Полная спецификация Community-раздела в APP · WHOOP Teams + Strava Clubs + Oura model · Social Wellness
-> Версия: 6.0 | 12.03.2026 | Confidential
+> Версия: 6.1 | 12.03.2026 | Confidential
 >
 > ⚠️ Community features may reference WVI tiers linked to Target Yield. Yield is not guaranteed — depends on DeFi market conditions.
 
