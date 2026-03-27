@@ -2,12 +2,12 @@
 id: 09_PARTNER_PROGRAM
 title: "09 · WELLEX PARTNER PROGRAM"
 sidebar_position: 9
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 09 · WELLEX PARTNER PROGRAM
 
-> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Business
 > **SSOT for:** Compensation plan, ranks, income streams, partner mechanics
 > **Dependencies:** 04_APP_UX (WVI display), 05_DASHBOARD (WEB partner tools), 11_GO_TO_MARKET (launch strategy), 28_MLM_MARKETING_PLAN (campaign)
