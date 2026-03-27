@@ -1,7 +1,7 @@
 # 13 · LEGAL FRAMEWORK
 
 > MiCA (EU) · VARA (Dubai) · SEC considerations · MLM Compliance · Card On-Ramp KYC · GDPR + LGPD · Запрещённые юрисдикции
-> Версия: 2.0 | 01.03.2026 | Confidential
+> Версия: 6.0 | 12.03.2026 | Confidential
 
 ---
 
