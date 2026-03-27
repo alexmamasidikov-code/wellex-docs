@@ -241,10 +241,12 @@ WVI — ежедневный балл 0–100 из трёх биометриче
 | **AI Система** | AI Coach (wellness) · AI Wallet Agent (финансы) · AI Insurance Agent (риски) · AI Partner Agent (MLM) |
 | **WellexVault** | ERC-4626 vault · USDC/USDT · Multi-EVM (7 сетей) · Card on-ramp: Visa/MC/Apple Pay/SEPA/PIX |
 
-**Депозитные тиры:**
-▸ Micro-Starter: $50–$999 · без lock-up · yield с Дня 1
-▸ Standard: $100–$9,999 · 30-дневный lock-up
-▸ Premium: $10,000+ · 90-дневный lock-up
+**WellexVault — единый стейкинг (нет пакетов, нет тиров):**
+▸ Один унифицированный vault для всех. Доходность 0–20%/мес динамически по WVI.
+▸ Lock-up зависит только от суммы депозита:
+▸ $50–$999 → без lock-up · вывод свободный · штраф 0%
+▸ $1,000–$9,999 → lock-up 30 дней · штраф 2% при раннем выводе
+▸ $10,000+ → lock-up 90 дней · штраф 5% при раннем выводе
 
 ---
 
