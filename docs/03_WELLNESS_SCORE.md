@@ -2,12 +2,12 @@
 id: 03_WELLNESS_SCORE
 title: "03 · Wellness Score (WVI)"
 sidebar_position: 3
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
 # 03 · WELLEX VITALITY INDEX (WVI)
 
-> **Версия:** 5.0 | **Дата:** 05.03.2026 | **Статус:** Canonical
+> **Версия:** 6.0 | **Дата:** 12.03.2026 | **Статус:** Canonical
 > **Категория:** Протокол
 > **SSOT для:** формула WVI, биометрические компоненты, таблица уровней доходности
 > **Зависимости:** 06_YIELD_PROTOCOL (доходность), 04_APP_UX (отображение), 25_TECH_REQUIREMENTS (спецификации)

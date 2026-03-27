@@ -2,12 +2,12 @@
 id: 21_GAMIFICATION
 title: "21 · Геймификация"
 sidebar_position: 21
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
 # 21 · GAMIFICATION
 
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.0 | **Date:** 12.03.2026 | **Status:** Canonical
 > **Category:** Product
 > **SSOT for:** Achievement system, gamification mechanics, Living NFT
 > **Dependencies:** 04_APP_UX (display), 26_COMMUNITY (community layer), 03_WELLNESS_SCORE (WVI)

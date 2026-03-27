@@ -72,6 +72,18 @@ const sidebars: SidebarsConfig = {
       ],
     },
 
+    // ─── 🎮 Геймификация и челленджи ─────────────────────────────
+    {
+      type: 'category',
+      label: '🎮 Геймификация',
+      items: [
+        '21_GAMIFICATION',
+        '36_CHALLENGES',
+        '26_COMMUNITY',
+        '34_K_FACTOR_MATH',
+      ],
+    },
+
     // ─── 🔬 Технологии ─────────────────────────────────────────
     {
       type: 'category',

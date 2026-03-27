@@ -2,18 +2,18 @@
 id: 25_TECH_REQUIREMENTS
 title: "25 · Технические требования"
 sidebar_position: 25
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
 # 25 · TECHNICAL REQUIREMENTS
 
-**Версия:** 5.0
-**Дата:** 05.03.2026
+**Версия:** 6.0
+**Дата:** 12.03.2026
 **Статус:** Canonical
-**Ключевые обновления v5.0:**
+**Ключевые обновления v6.0:**
 - AI Yield Engine: 800+ стратегий, 8 потоков, 1M+ параметрических комбинаций
 - WellexVault: единый ERC-4626, Multi-EVM 7 сетей + Tron + Solana
-- Ранги v5.0: Explorer → Builder → Achiever → Manager → Director → Leader → Ambassador → Master → Champion → Legend
+- Ранги v6.0: Explorer → Builder → Achiever → Manager → Director → Leader → Ambassador → Master → Champion → Legend
 - Iron Rules: no provider names, один тариф $19/мес, no tokens
 - Card On-Ramp: провайдеры скрыты от пользователя, auto-routing за сценой
 
@@ -324,7 +324,7 @@ WellexVault (единый ERC-4626), Lock-up по сумме ($0–999 → 0д, 
 > **Критическое ограничение:** MLM-структура полностью исключена из APP.
 > **SSOT:** [09_PARTNER_PROGRAM.md](09_PARTNER_PROGRAM.md) · [28_MLM_MARKETING_PLAN.md](28_MLM_MARKETING_PLAN.md)
 
-### 6.1 Ранги v5.0 (10 рангов, каноническая цепочка)
+### 6.1 Ранги v6.0 (10 рангов, каноническая цепочка)
 
 | # | Ранг | Мин. рефералов | Мин. PV | Уровней глубины |
 |---|------|:--------------:|:-------:|:---------------:|

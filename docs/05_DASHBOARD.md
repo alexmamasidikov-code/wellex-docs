@@ -2,11 +2,11 @@
 id: 05_DASHBOARD
 title: "05 · Web Dashboard"
 sidebar_position: 5
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
 # 05 · WEB DASHBOARD
-> **Версия:** 5.0 | **Дата:** 05.03.2026 | **Статус:** Public
+> **Версия:** 6.0 | **Дата:** 12.03.2026 | **Статус:** Public
 
 
 > Веб-платформа Wellex: управление участием, партнёрской сетью, AI-агенты, аналитика

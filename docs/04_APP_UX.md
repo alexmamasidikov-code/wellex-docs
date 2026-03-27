@@ -2,11 +2,11 @@
 id: 04_APP_UX
 title: "04 · Wellness App (iOS / Android)"
 sidebar_position: 4
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
 # 04 · WELLNESS APP (iOS / Android)
-> **Версия:** 5.0 | **Дата:** 05.03.2026 | **Статус:** Public
+> **Версия:** 6.0 | **Дата:** 12.03.2026 | **Статус:** Public
 
 
 > Мобильное приложение Wellex: чистый wellness, комьюнити WHOOP-модели, Monthly Yield-отображение. Без стейкинга, без MLM, без финансовых операций.

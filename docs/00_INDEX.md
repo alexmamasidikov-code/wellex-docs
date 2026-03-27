@@ -1,13 +1,13 @@
 ---
 id: 00_INDEX
-title: "WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0"
+title: "WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v6.0"
 sidebar_position: 0
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
-# WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v5.0
+# WELLEX — ПУБЛИЧНАЯ ДОКУМЕНТАЦИЯ v6.0
 
-> **Версия:** 5.0 | **Дата:** 05.03.2026 | **Статус:** Public
+> **Версия:** 6.0 | **Дата:** 12.03.2026 | **Статус:** Public
 > Язык: Русский | English version: /public/en/
 
 ---
@@ -63,7 +63,7 @@ Wellex — wellness-протокол нового поколения, объед
 | [02 · Product Vision](02_PRODUCT_VISION.md) | Полная архитектура APP/WEB, стратегия на 3 года |
 | [03 · Wellness Score (WVI)](03_WELLNESS_SCORE.md) | WVI — индекс здоровья, формула расчёта |
 | [04 · App UX](04_APP_UX.md) | Мобильное приложение: функции, экраны, UX |
-| [05 · Dashboard v5.0](05_DASHBOARD.md) | WEB-платформа: финансовый дашборд, партнёрские инструменты |
+| [05 · Dashboard v6.0](05_DASHBOARD.md) | WEB-платформа: финансовый дашборд, партнёрские инструменты |
 | [07 · AI System](07_AI_SYSTEM.md) | AI Coach, AI Yield Engine, AI Wallet |
 | [08 · Wellex Band](08_HARDWARE.md) | Wellex Band: сенсоры, технические характеристики |
 | [17 · Tech Architecture](17_TECH_ARCHITECTURE.md) | Блокчейн, смарт-контракты, безопасность |
@@ -96,6 +96,7 @@ Wellex — wellness-протокол нового поколения, объед
 | [12 · Roadmap](12_ROADMAP.md) | Roadmap продукта |
 | [20 · Growth Ideas](20_GROWTH_IDEAS.md) | Стратегии роста, growth hacking |
 | [21 · Gamification](21_GAMIFICATION.md) | Геймификация, достижения, NFT |
+| [36 · Challenges](36_CHALLENGES.md) | Challenge Engine, виртуальные маршруты, дуэли |
 | [26 · Community](26_COMMUNITY.md) | Комьюнити, программы лояльности |
 | [27 · Emotional Mining](27_EMOTIONAL_MINING.md) | Emotional Mining: концепция и механика |
 | [29 · Tagline & Messaging](29_TAGLINE_AND_MESSAGING.md) | Tagline, messaging, позиционирование |
@@ -109,7 +110,7 @@ Wellex — wellness-протокол нового поколения, объед
 |----------|----------|
 | [Введение](00_INTRO.md) | Введение в документацию |
 | [Риски & Compliance](15_RISKS.md) | Публичный обзор рисков |
-| [Whitepaper v5.0](19_WHITEPAPER_v3.md) | Полный whitepaper v5.0 |
+| [Whitepaper v6.0](19_WHITEPAPER_v3.md) | Полный whitepaper v6.0 |
 
 ---
 
@@ -122,9 +123,28 @@ Wellex — wellness-протокол нового поколения, объед
 
 ---
 
+## Журнал изменений
+
+### v6.0 (12.03.2026) — Текущая версия
+- ✅ Claim с первого дня начисления доходности (директива Alexander)
+- ✅ Reinvest min $100, max 1 раз в месяц (директива Alexander)
+- ✅ RAB бонус активирован
+- ✅ Удалён «квантовый» claim → AI-Powered Algorithmic Selection (800+ стратегий, ML)
+- ✅ QA аудит 506 тестов — 96.6% pass rate
+- ✅ EN/RU синхронизация всего корпуса
+- ✅ Добавлен 36_CHALLENGES (Challenge Engine, World Walk, Duels)
+
+### v5.0 (04.03.2026)
+- 8 потоков доходности, 800+ AI-стратегий
+- AnyChain (+Tron/Solana), on/off-ramp
+- Webinars v2.0, Partner Ecosystem Hub, Community & Chat
+- D3 tree v3.0, Fraud Detection v3.0
+
+---
+
 ## Версионирование
 
-Все документы: **v5.0 | 05.03.2026**
+Все документы: **v6.0 | 12.03.2026**
 
 Стандарт данных:
 - Ранги: Explorer 🧭 → Builder 🔧 → Achiever 🏅 → Manager 📊 → Director 💎 → Leader 🛡️ → Ambassador 🌐 → Master 👁️ → Champion 👑 → Legend 🔱

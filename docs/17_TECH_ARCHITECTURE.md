@@ -2,11 +2,11 @@
 id: 17_TECH_ARCHITECTURE
 title: "17 · Техническая архитектура"
 sidebar_position: 17
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
 # 17 · TECHNICAL ARCHITECTURE
-> **Версия:** 5.0 | **Дата:** 05.03.2026 | **Статус:** Public
+> **Версия:** 6.0 | **Дата:** 12.03.2026 | **Статус:** Public
 
 
 > Multi-EVM · Microservices · AWS Cloud · Card On-Ramp · Single Vault · Bridges · DEX Aggregator · Safe{Wallet} · CI/CD · Monitoring

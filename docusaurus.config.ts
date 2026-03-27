@@ -128,7 +128,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Wellex © ${new Date().getFullYear()} · Web3 Wellness Protocol · v5.0`,
+      copyright: `Wellex © ${new Date().getFullYear()} · Web3 Wellness Protocol · v6.0`,
     },
     prism: {
       theme: prismThemes.vsDark,

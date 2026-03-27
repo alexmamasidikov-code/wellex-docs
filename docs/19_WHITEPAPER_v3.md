@@ -1,8 +1,8 @@
 ---
 id: 19_WHITEPAPER_v3
-title: "Whitepaper v5.0"
+title: "Whitepaper v6.0"
 sidebar_position: 19
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
 # WELLEX — Whitepaper
@@ -363,7 +363,7 @@ Wellex генерирует доходность исключительно из
 
 **Wellex генерирует доходность по депозиту из 6 категорий Web3/DeFi-источников:**
 
-| # | Категория (SSOT v5.0) | Механика | Примеры | Ориентир доли (динамически) |
+| # | Категория (SSOT v6.0) | Механика | Примеры | Ориентир доли (динамически) |
 |---|---|---|---|---|
 | 1 | **Lending** | Процент от заемщиков в money markets | Aave v3, Compound III, Morpho | 35–55% |
 | 2 | **AMM fees** | Торговые комиссии в пулах ликвидности | Uniswap v3, Curve | 10–20% |
@@ -1043,7 +1043,7 @@ Wellex работает на пересечении трёх рынков общ
 ---
 
 > **Wellex Protocol © 2026**
-> Whitepaper v5.0 | Март 2026
+> Whitepaper v6.0 | Март 2026
 > Confidential — For Authorized Recipients Only
 >
 > *Все показатели yield являются проекциями и могут варьироваться в зависимости от рыночных условий.*

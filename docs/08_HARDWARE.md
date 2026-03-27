@@ -2,11 +2,11 @@
 id: 08_HARDWARE
 title: "08 · Wellex Band — Браслет"
 sidebar_position: 8
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 12.03.2026"
 ---
 
 # 08 · WELLEX BAND — Hardware Platform
-> **Версия:** 5.0 | **Дата:** 05.03.2026 | **Статус:** Public
+> **Версия:** 6.0 | **Дата:** 12.03.2026 | **Статус:** Public
 
 
 > Screenless биометрический браслет собственной разработки · Medical-grade датчики · Бесплатно при подписке $19/мес
