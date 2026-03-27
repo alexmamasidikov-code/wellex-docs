@@ -2,11 +2,11 @@
 id: 02_PRODUCT_VISION
 title: "02 · PRODUCT VISION"
 sidebar_position: 2
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 02 · PRODUCT VISION
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Public
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Public
 
 
 > Complete vision of the Wellex platform: Emotional Mining, dual APP/WEB architecture, Multi-EVM, Card On-Ramp, WHOOP-model community, 3-year strategy
