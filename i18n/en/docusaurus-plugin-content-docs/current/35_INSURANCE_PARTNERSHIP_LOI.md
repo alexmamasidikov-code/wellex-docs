@@ -2,12 +2,12 @@
 id: 35_INSURANCE_PARTNERSHIP_LOI
 title: "35 · INSURANCE PARTNERSHIP — LETTER OF INTENT (TEMPLATE)"
 sidebar_position: 35
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 35 · INSURANCE PARTNERSHIP — LETTER OF INTENT (TEMPLATE)
 
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Business / Legal
 > **SSOT for:** Insurance partnership framework, LOI template, co-branded product structure
 > **Dependencies:** 22_INSURANCE_FUND, 30_SMART_CONTRACT_INSURANCE, 31_B2B_PLAYBOOK
