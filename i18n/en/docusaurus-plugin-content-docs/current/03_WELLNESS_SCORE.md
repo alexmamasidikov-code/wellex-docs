@@ -2,12 +2,12 @@
 id: 03_WELLNESS_SCORE
 title: "03 · WELLEX VITALITY INDEX (WVI)"
 sidebar_position: 3
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 03 · WELLEX VITALITY INDEX (WVI)
 
-> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Protocol
 > **SSOT for:** WVI formula, biometric components, yield tier table
 > **Dependencies:** 06_YIELD_PROTOCOL (yield), 04_APP_UX (display), 25_TECH_REQUIREMENTS (specs)
