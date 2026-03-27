@@ -2,12 +2,12 @@
 id: 11_GO_TO_MARKET
 title: "11 · Go-to-Market Стратегия"
 sidebar_position: 11
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 11 · GO-TO-MARKET STRATEGY
 
-> **Version:** 6.0 | **Date:** 12.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 27.03.2026 | **Status:** Canonical
 > **Category:** Business
 > **SSOT for:** GTM phases, regional strategy, KOL plan
 > **Dependencies:** 09_PARTNER_PROGRAM, 23_SALES_PROGRAM, 28_MLM_MARKETING_PLAN
