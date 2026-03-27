@@ -2,12 +2,12 @@
 id: 29_TAGLINE_AND_MESSAGING
 title: "29 · WELLEX — TAGLINE & CORE MESSAGING"
 sidebar_position: 29
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 29 · WELLEX — TAGLINE & CORE MESSAGING
 
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Marketing
 > **SSOT for:** Brand tagline, core messaging, headline copy
 > **Dependencies:** 02_PRODUCT_VISION (Emotional Mining), 01_EXECUTIVE_SUMMARY (key metrics)
