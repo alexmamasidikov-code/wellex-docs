@@ -2,13 +2,13 @@
 id: 28_MLM_MARKETING_PLAN
 title: "28 · MLM MARKETING PLAN"
 sidebar_position: 28
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 28 · MLM MARKETING PLAN
 
 > Full marketing strategy for the partner network · 90-day launch · Scripts · Objection handling · Regional adaptation
-> Version: 6.0 | 05.03.2026 | Confidential
+> Version: 6.1 | 05.03.2026 | Confidential
 
 ---
 
