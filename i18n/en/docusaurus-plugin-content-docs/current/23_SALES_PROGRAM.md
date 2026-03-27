@@ -2,12 +2,12 @@
 id: 23_SALES_PROGRAM
 title: "23 · SALES PROGRAM"
 sidebar_position: 23
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 23 · SALES PROGRAM
 
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Business
 
 > Sales scripts · Objection handling · Partner onboarding · Training materials
@@ -171,7 +171,7 @@ Referrals: 718 → new cycle
 | 3 | **"Where does 5–20% Monthly Yield come from?"** | "Yield is generated through DeFi protocols: Aave, Curve, Pendle. It's real returns from lending and liquidity provision — not thin air and not from new members. The higher your WVI, the larger your share of the pool." |
 | 4 | **"I already have an Apple Watch"** | "Apple Watch doesn't pay for health. Wellex is the only product that converts healthy habits into real income. And the bracelet is free — nothing to lose." |
 | 5 | **"I don't want to recruit anyone"** | "You don't have to! 80% of users are just users. $19/month subscription → free bracelet → Monthly Yield 5–20% on deposits. The partner programme is optional." |
-| 6 | **"No money for a deposit"** | "A deposit isn't required to start. Subscribe for $19/month, get the bracelet, improve your health. When you're ready — deposit any amount from $100 and start earning." |
+| 6 | **"No money for a deposit"** | "A deposit isn't required to start. Subscribe for $19/month, get the bracelet, improve your health. When you're ready — deposit any amount from $50 and start earning." |
 | 7 | **"I don't understand crypto"** | "You don't need to. The app does everything for you: top up by card, automatic yield, withdraw to card. Like a bank deposit, but more profitable." |
 | 8 | **"I need to think about it"** | "Of course! While you think — I'll send a 3-minute video with real user case studies. Remember: 30-day refund if you don't like it." |
 | 9 | **"Why haven't I heard of this?"** | "Wellex launches in March 2026. You're finding out among the first — early users always earn more. First partners get a +1% yield bonus for life." |
@@ -266,7 +266,7 @@ After receiving the bracelet:
 
 **Inputs:**
 - Subscription: $19/month
-- Deposit: from $100
+- Deposit: from $50
 - Your WVI: 0–100 (slider)
 
 **Output:**
