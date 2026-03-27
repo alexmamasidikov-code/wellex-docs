@@ -2,12 +2,12 @@
 id: 22_INSURANCE_FUND
 title: "22 · INSURANCE FUND & AI INSURANCE AGENT"
 sidebar_position: 22
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 22 · INSURANCE FUND & AI INSURANCE AGENT
 
-> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Protocol
 > **SSOT for:** Insurance Fund mechanics, coverage terms, AI Insurance Agent
 > **Dependencies:** 06_YIELD_PROTOCOL (Dynamic Cap trigger), 17_TECH_ARCHITECTURE (smart contracts)
