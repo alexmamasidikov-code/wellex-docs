@@ -232,9 +232,12 @@ WVI is the "hash rate" of Emotional Mining — a daily score 0–100 from three 
 | **WellexVault** | ERC-4626 vault · USDC/USDT · Multi-EVM (7 chains) · Card on-ramp: Visa/MC/Apple Pay/SEPA/PIX |
 
 **Deposit tiers:**
-▸ Micro-Starter: $50–$999 · 0-day lock-up · yield from Day 1
-▸ Standard: $100–$9,999 · 30-day lock-up
-▸ Premium: $10,000+ · 90-day lock-up
+**WellexVault — single staking (no packages, no tiers):**
+▸ One unified vault for all users. Yield 0–20%/month dynamically based on WVI.
+▸ Lock-up depends only on deposit amount:
+▸ $50–$999 → no lock-up · free withdrawal · 0% penalty
+▸ $1,000–$9,999 → 30-day lock-up · 2% early withdrawal penalty
+▸ $10,000+ → 90-day lock-up · 5% early withdrawal penalty
 
 ---
 
