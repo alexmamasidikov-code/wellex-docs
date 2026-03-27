@@ -2,11 +2,11 @@
 id: 07_AI_SYSTEM
 title: "07 · AI SYSTEM"
 sidebar_position: 7
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 07 · AI SYSTEM
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Public
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Public
 
 
 > ML architecture · Training pipeline · AI Coach · AI Wallet Agent · AI Insurance Agent · Predictive analytics
