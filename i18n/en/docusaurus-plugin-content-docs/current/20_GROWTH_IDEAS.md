@@ -2,11 +2,11 @@
 id: 20_GROWTH_IDEAS
 title: "20 · GROWTH IDEAS"
 sidebar_position: 20
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 20 · GROWTH IDEAS
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Public
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Public
 
 
 > Viral loops · Referral mechanics · Community building · Ambassador program · B2B · Data monetization
