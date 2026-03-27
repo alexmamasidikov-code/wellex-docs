@@ -2,7 +2,7 @@
 id: 19_WHITEPAPER_v3
 title: "WELLEX — Whitepaper v5.0"
 sidebar_position: 19
-description: "Wellex v6.1 · 05.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # WELLEX — Whitepaper
