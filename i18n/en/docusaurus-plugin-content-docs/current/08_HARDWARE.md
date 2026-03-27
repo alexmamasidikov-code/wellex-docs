@@ -2,11 +2,11 @@
 id: 08_HARDWARE
 title: "08 · WELLEX BAND — Hardware Platform"
 sidebar_position: 8
-description: "Wellex v5.0 · 05.03.2026"
+description: "Wellex v6.0 · 05.03.2026"
 ---
 
 # 08 · WELLEX BAND — Hardware Platform
-> **Version:** 5.0 | **Date:** 05.03.2026 | **Status:** Public
+> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Public
 
 
 > Screenless biometric bracelet, proprietary design · Medical-grade sensors · Free with $19/mo subscription
