@@ -2,12 +2,12 @@
 id: 31_B2B_PLAYBOOK
 title: "31 · B2B Playbook"
 sidebar_position: 31
-description: "Wellex v6.0 · 12.03.2026"
+description: "Wellex v6.1 · 27.03.2026"
 ---
 
 # 31 · B2B PLAYBOOK — CORPORATE WELLNESS
 
-> **Version:** 6.0 | **Date:** 12.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 27.03.2026 | **Status:** Canonical
 > **Category:** Business
 > **SSOT for:** B2B go-to-market, vertical strategy, corporate onboarding
 > **Dependencies:** 11_GO_TO_MARKET, 23_SALES_PROGRAM, 09_PARTNER_PROGRAM
