@@ -2,12 +2,12 @@
 id: 33_APP_STORE_STRATEGY
 title: "33 · APP STORE STRATEGY"
 sidebar_position: 33
-description: "Wellex v6.0 · 05.03.2026"
+description: "Wellex v6.1 · 05.03.2026"
 ---
 
 # 33 · APP STORE STRATEGY
 
-> **Version:** 6.0 | **Date:** 05.03.2026 | **Status:** Canonical
+> **Version:** 6.1 | **Date:** 05.03.2026 | **Status:** Canonical
 > **Category:** Growth / Product
 > **SSOT for:** ASO, App Store / Google Play listing, review strategy, organic mobile acquisition
 > **Dependencies:** 04_APP_UX, 11_GO_TO_MARKET, 29_TAGLINE_AND_MESSAGING
